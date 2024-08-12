@@ -1,0 +1,184 @@
+<!DOCTYPE html> <html><head>
+		<title>2. 보안 원칙</title>
+		<base href="..\..\..\..\..\../">
+		<meta id="root-path" root-path="..\..\..\..\..\../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="Obsidian Vault - 2. 보안 원칙">
+		<meta property="og:title" content="2. 보안 원칙">
+		<meta property="og:description" content="Obsidian Vault - 2. 보안 원칙">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="a-a-tech-blog/정보보안/tryhackme/jr-penetration-tester/침투-테스트/kor/2.-보안-원칙.html">
+		<meta property="og:image" content="lib\media\pasted-image-20240812105418.png">
+		<meta property="og:site_name" content="Obsidian Vault">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="lib/scripts/pixi.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/other-plugins.css"></noscript><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="2. 보안 원칙">2. 
+보안 원칙
+</h1><div><p dir="auto"><span alt="Pasted image 20240812105418.png" src="Pasted image 20240812105418.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20240812105418.png" src="lib/media/pasted-image-20240812105418.png"></span></p></div><div><p dir="auto"><a data-tooltip-position="top" aria-label="A_A-s-Tech-Blog/Obsidian_Remote/정보보안/tryhackme/Jr Penetration Tester/보안 소개/Kor/1." data-href="A_A-s-Tech-Blog/Obsidian_Remote/정보보안/tryhackme/Jr Penetration Tester/보안 소개/Kor/1." href="A_A-s-Tech-Blog/Obsidian_Remote/정보보안/tryhackme/Jr Penetration Tester/보안 소개/Kor/1." class="internal-link" target="_self" rel="noopener">1.</a></p></div><div>
+    <div class="container heading-wrapper">
+        <h1 dir="auto" class="heading" id="보안_원칙">보안 원칙</h1>
+        
+        <h2 dir="auto" class="heading" id="1._소개">1. 소개</h2>
+        <p dir="auto">데이터를 보호하고 남용으로부터 시스템을 보호하는 정보 보안의 원칙</p>
+        
+        <h2 dir="auto" class="heading" id="2._보안의_원칙">2. 보안의 원칙</h2>
+        <p dir="auto">기밀성, 무결성 및 가용성(CIA),  세 가지로 구성된 이 모델은 오늘날 빠르게 업계 표준이 되었습니다. 이 모델은 적용되는 데이터의 가치와 비즈니스에서 필요한 결정을 내리는데 도움이 됩니다.</p>
+        
+        <h3 dir="auto" class="heading" id="보안의_원칙의_세_가지_요소">보안의 원칙의 세 가지 요소</h3><div class="heading-children"></div></div></div><div><pre><code>    &lt;h4&gt;기밀성&lt;/h4&gt;
+    
+    &lt;p&gt;기밀성은 무단 액세스 및 오용으로부터 데이터를 보호하는 것입니다. 조직은 항상 어떤 형태의 민감한 데이터를 시스템에 저장합니다. 기밀성을 제공하는 것은 의도하지 않은 누군가로부터 이 데이터를 보호하는 것과 같습니다. 즉 허용된 누군가 이외에 데이터에 접근하는 것을 막아야 합니다. &lt;/p&gt;
+    
+    &lt;h4&gt;무결성&lt;/h4&gt;
+    
+    &lt;p&gt;무결성은 보안의 삼 요소 중에서 승인된 변경이 없는 한 데이터가 언제나 무결한상태를 유지하는 것입니다. 부주의한 접근 및 이용, 정보 시스템의 오류, 무단 접근 및 이용 등으로 인해 정보가 변경될 수 있습니다.  보안 원칙에서는 정보를 수정하지 않고 저장되거나, 전송 및 사용하는 동안 정보가 변경되지 않은 상태로 유지될 때 무결성이 충족되는 것으로 판단합니다. 이를 위해서는 권한이 없는 사람이 데이터를 변경할 수 없도록 조치를 취해야 합니다(예: 기밀 위반).&lt;/p&gt;
+    
+    &lt;h4&gt;가용성&lt;/h4&gt;
+    &lt;p&gt;데이터가 유용하려면 언제든 사용자가 데이터를 사용할 수 있고 액세스할 수 있어야 합니다. 가용성은 그러한 요소입니다. &lt;/p&gt;
+    
+    &lt;h2&gt;3. 특권의 원칙&lt;/h2&gt;
+    &lt;p&gt;개인이 필요로 하는 정보 기술 시스템에 대한 다양한 액세스 수준을 관리하고 올바르게 정의하는 것이 중요합니다.&lt;/p&gt;
+    &lt;p&gt;개인에게 제공되는 액세스 수준은 두 가지 기본 요소에 따라 결정됩니다:&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li&gt;조직 내 개인의 역할/기능&lt;/li&gt;
+        &lt;li&gt;시스템에 저장되는 정보의 민감도&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;개인의 액세스 권한을 할당하고 관리하는 데 두 가지 주요 개념이 사용되며, PIM(Privileged Identity Management) 및 PAM(Privileged Access Management)이 사용됩니다.&lt;/p&gt;
+    &lt;p&gt;처음에는 이 두 개념이 같은 것처럼 보일 수 있습니다. 그러나 그 둘은 서로 다릅니다. PIM은 조직 내의 사용자 역할을 시스템의 액세스 역할로 변환하는 데 사용됩니다. 반면 PAM은 무엇보다도 시스템의 액세스가 갖는 권한 관리입니다.&lt;/p&gt;
+    &lt;p&gt;권한 및 액세스 제어를 논의할 때 필수적인 것은 최소 권한의 원칙입니다. 간단히 말해, 사용자에게는 최소한의 권한만 부여되어야 하며, 의무를 수행하는 데 절대적으로 필요한 권한만 부여되어야 합니다.&lt;/p&gt;
+    &lt;p&gt;PAM은 액세스 할당 이상의 기능을 통합합니다. 또한 비밀번호 관리, 정책 감사, 시스템이 직면하는 공격 표면 감소와 같은 보안 정책 시행을 포함합니다.&lt;/p&gt;
+    
+    &lt;h2&gt;4. 보안 모델&lt;/h2&gt;
+    &lt;p&gt;보안 모델에 대해 자세히 논의하기 전에 CIA의 세 가지 요소인 기밀성, 무결성 및 가용성을 생각해 봅시다. &lt;/p&gt;
+    &lt;p&gt;보안 모델에 따르면 정보를 저장하는 모든 시스템 또는 기술을 정보 시스템이라고 하며, 이 작업에서 시스템 및 장치를 참조하는 방법입니다.&lt;/p&gt;
+    &lt;p&gt;CIA 3요소의 세 가지 요소를 달성하는 데 사용되는 인기 있고 효과적인 몇 가지 보안 모델을 살펴보겠습니다.&lt;/p&gt;
+    
+    &lt;h3&gt;Bell-La Padula 모델&lt;/h3&gt;
+    &lt;p&gt;Bell-La Padula 모델은 기밀성을 달성하는 데 사용됩니다. 이 모델에는 모든 사람의 책임/역할이 잘 정의되어 있는 조직의 계층 구조와 같은 몇 가지 가정이 있습니다.&lt;/p&gt;
+    &lt;p&gt;이 모델은 엄격하게 알 필요가 있는 데이터(객체라고 함)에 대한 액세스 권한을 부여하여 작동합니다. 이 모델은 "쓰기 금지, 읽기 금지" 규칙을 사용합니다. 필요한 사람이 필요한 데이터에 접근 가능한 모델입니다. &lt;/p&gt;
+    &lt;table&gt;
+        &lt;tr&gt;
+            &lt;th&gt;장점&lt;/th&gt;
+            &lt;th&gt;단점&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;이 모델의 정책은 실제 조직 계층에 적용될 수 있으며 그 반대도 가능합니다.&lt;/td&gt;
+            &lt;td&gt;사용자가 개체에 액세스할 수 없더라도 개체의 존재에 대해 알게 되므로 완전한 기밀이 아닙니다.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;구현 및 이해가 간단하고 성공적인 것으로 입증되었습니다.&lt;/td&gt;
+            &lt;td&gt;이 모델은 조직 내의 많은 신뢰에 의존합니다.&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+    
+    &lt;h3&gt;Biba 모델&lt;/h3&gt;
+    &lt;p&gt;Biba 모델은 틀림없이 Bell-La Padula 모델과 동일하지만 CIA의 무결성을 위한 것입니다.&lt;/p&gt;
+    &lt;p&gt;이 모델은  데이터 및 사용자에게 "기록하지 않고 읽지 않음"으로 요약할 수 있는 규칙을 적용합니다. 이 규칙은 주체가 해당 권한 수준 이하의 정보에 내용을 작성하거나 쓸 수 있지만 해당 수준 위의 데이터만 읽을 수 있음을 의미합니다.&lt;/p&gt;
+    &lt;table&gt;
+        &lt;tr&gt;
+            &lt;th&gt;장점&lt;/th&gt;
+            &lt;th&gt;단점&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;이 모델은 구현이 간단합니다.&lt;/td&gt;
+            &lt;td&gt;여러 수준의 액세스 및 개체가 있습니다. 보안 제어를 적용할 때 보안 수준을 쉽게 간과할 수 있습니다.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;기밀성과 데이터 무결성을 모두 해결하여 Bell-La Padula 모델의 한계를 해결합니다.&lt;/td&gt;
+            &lt;td&gt;종종 비즈니스 내에서 지연이 발생합니다. 예를 들어 의사는 이 모델이 적용된 병원에서 간호사가 작성한 메모를 읽을 수 없습니다. 그래서 종종 지연이 발생합니다.&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;p&gt;Biba 모델은 기밀성보다 무결성이 더 중요한 조직이나 상황에서 사용됩니다. 예를 들어 소프트웨어 개발에서 개발자는 작업에 필요한 코드에만 액세스할 수 있습니다. 데이터베이스 등과 같은 중요한 정보에 액세스할 필요가 없을 수도 있습니다.&lt;/p&gt;
+    
+    &lt;h2&gt;5. 위협 모델링 및 사고 대응&lt;/h2&gt;
+    &lt;p&gt;위협 모델링은 조직의 정보 기술 인프라 및 서비스에 있는 보안 프로토콜을 검토, 개선 및 테스트하는 프로세스입니다.&lt;/p&gt;
+    &lt;p&gt;위협 모델링 프로세스의 중요한 단계는 애플리케이션 또는 시스템이 직면할 수 있는 가능성 있는 위협, 시스템 또는 애플리케이션이 취약할 수 있는 취약성을 식별하는 것입니다.&lt;/p&gt;
+    &lt;p&gt;위협 모델링 프로세스는 직원과 고객을 위해 작업장에서 수행되는 위험 평가와 매우 비슷합니다. 원칙과 같습니다.&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li&gt;준비&lt;/li&gt;
+        &lt;li&gt;식별&lt;/li&gt;
+        &lt;li&gt;완화&lt;/li&gt;
+        &lt;li&gt;검토&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;이를 돕기 위해 STRIDE(스푸핑, 데이터 변조, 부인 위협, 정보 공개, 서비스 거부 및 권한 상승) 및 PASTA(공격 시뮬레이션 및 프로세스를 위한 프로세스)와 같은 프레임워크가 있습니다. 아래에서 STRIDE에 대해 자세히 설명하겠습니다. 1999년 두 명의 Microsoft 보안 연구원이 작성한 STRIDE는 오늘날에도 큰 영향을 끼치고 있습니다. STRIDE에는 6가지 주요 원칙이 포함되어 있습니다.&lt;/p&gt;
+    
+    &lt;table&gt;
+        &lt;tr&gt;
+            &lt;th&gt;원칙&lt;/th&gt;
+            &lt;th&gt;설명&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;스푸핑&lt;/td&gt;
+            &lt;td&gt;이 원칙에서는 시스템에 액세스하는 요청 및 사용자를 인증해야 합니다. 스푸핑에는 자신을 다른 사람으로 잘못 식별하는 악의적인 당사자가 포함됩니다. 액세스 키(예: API 키) 또는 암호화를 통한 서명은 이 위협을 해결하는 데 도움이 됩니다.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;탬퍼링&lt;/td&gt;
+            &lt;td&gt;시스템 또는 애플리케이션에 변조 방지 조치를 제공함으로써 데이터에 무결성을 제공하는 데 도움이 됩니다. 액세스하는 데이터는 완전하고 정확하게 유지되어야 합니다. 식료품점에서 식품을 보존하기 위해 밀봉하는 것과 같은 원래입니다.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;부인&lt;/td&gt;
+            &lt;td&gt;이 원칙은 추적할 시스템 또는 응용 프로그램에 대한 활동 로깅과 같은 서비스 사용을 지시합니다.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;정보 공개&lt;/td&gt;
+            &lt;td&gt;여러 사용자의 정보를 처리하는 애플리케이션 또는 서비스는 소유자와 관련된 정보만 표시되도록 적절하게 구성해야 합니다.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;서비스 거부&lt;/td&gt;
+            &lt;td&gt;애플리케이션과 서비스는 시스템 리소스를 사용하므로 애플리케이션/서비스의 남용으로 인해 전체 시스템이 다운되지 않도록 조치를 취해야 합니다.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;권한 승격&lt;/td&gt;
+            &lt;td&gt;이것은 애플리케이션이나 서비스에 대한 최악의 시나리오입니다. 이는 사용자가 더 높은 수준, 즉 관리자의 권한으로 권한을 에스컬레이션할 수 있음을 의미합니다. 이 시나리오는 종종 추가 악용 또는 정보 공개로 이어집니다. 이는 보안 사고에서 많은 비중을 차지하곤 합니다.&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+    
+    &lt;p&gt;보안 위반을 인시던트(사고)라고 합니다. 모든 엄격한 위협 모델과 안전한 시스템 설계에도 불구하고 사고는 발생합니다. 위협을 해결하고 수정하기 위해 취한 조치를 사고 대응(IR)이라고 하며 사이버 보안의 전체 경력 경로입니다.&lt;/p&gt;
+    &lt;p&gt; 이에 대한 사고 대응 프로세스등은 CISA와 같은 보안 자격증에서 자주 출제되곤 합니다.&lt;/p&gt;
+    &lt;p&gt;인시던트는 긴급도 및 영향 등급을 사용하여 분류됩니다. 긴급성은 직면한 공격의 유형, 영향을 받는 시스템에 의해 영향이 결정되는 위치 및 비즈니스 운영에 미치는 영향에 따라 결정됩니다.&lt;/p&gt;
+    &lt;p&gt;사고는 시스템 및/또는 현재 사고에 대한 기술적 지식을 갖춘 직원 그룹으로 미리 구성된 컴퓨터 보안 사고 대응 팀(CSIRT)에 의해 대응됩니다. 인시던트를 성공적으로 해결하기 위해 이러한 단계는 종종 아래 표에 나열된 인시던트 대응의 6단계라고 합니다.&lt;/p&gt;
+    
+    &lt;table&gt;
+        &lt;tr&gt;
+            &lt;th&gt;행동&lt;/th&gt;
+            &lt;th&gt;설명&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;준비&lt;/td&gt;
+            &lt;td&gt;보안 사고를 처리하기 위한 자원과 계획이 마련되어 있습니까?&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;신분증&lt;/td&gt;
+            &lt;td&gt;우리가 대응할 수 있도록 위협과 위협 행위자가 올바르게 식별되었습니까?&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;방지&lt;/td&gt;
+            &lt;td&gt;다른 시스템이나 사용자가 영향을 받지 않도록 위협/보안 사고를 억제할 수 있습니까?&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;근절&lt;/td&gt;
+            &lt;td&gt;활성 위협을 제거합니다.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;회복&lt;/td&gt;
+            &lt;td&gt;영향을 받는 시스템에 대한 전체 검토를 수행하여 정상적인 운영으로 비즈니스를 되돌립니다.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;교훈&lt;/td&gt;
+            &lt;td&gt;사건에서 무엇을 알 수 있습니까? 즉, 피싱 이메일로 인한 것이라면 피싱 이메일을 감지하도록 직원을 더 잘 교육해야 합니다.&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/div&gt;
+</code><button class="copy-code-button">복사</button></pre></div><div>
+</div><div class="mod-footer"></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button is-collapsed" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="a-a-tech-blog\정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\2.-보안-원칙.html#2. 보안 원칙"><div class="tree-item-contents heading-link" heading-name="2. 
+보안 원칙
+"><span class="tree-item-title">2. 
+보안 원칙
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="a-a-tech-blog\정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\2.-보안-원칙.html#보안_원칙"><div class="tree-item-contents heading-link" heading-name="보안 원칙"><span class="tree-item-title">보안 원칙</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="2"><a class="tree-link" href="a-a-tech-blog\정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\2.-보안-원칙.html#1._소개"><div class="tree-item-contents heading-link" heading-name="1. 소개"><span class="tree-item-title">1. 
+소개
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible is-collapsed" data-depth="2"><a class="tree-link" href="a-a-tech-blog\정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\2.-보안-원칙.html#2._보안의_원칙"><div class="tree-item-contents heading-link" heading-name="2. 보안의 원칙"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">2. 
+보안의 원칙
+</span></div></a><div class="tree-item-children nav-folder-children" style="display: none;"><div class="tree-item" data-depth="3"><a class="tree-link" href="a-a-tech-blog\정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\2.-보안-원칙.html#보안의_원칙의_세_가지_요소"><div class="tree-item-contents heading-link" heading-name="보안의 원칙의 세 가지 요소"><span class="tree-item-title">보안의 원칙의 세 가지 요소</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
