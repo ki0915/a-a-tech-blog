@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 04:46:23 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 04:46:23 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 04:48:50 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 04:48:50 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
  <br><br><br>
     한국어
     English
@@ -152,32 +152,9 @@
             
         
     
-    <br>    // Apply the theme to the body
-    if (theme === "dark") {
-        document.body.classList.add("theme-dark");
-        document.body.classList.remove("theme-light");
-    } else {
-        document.body.classList.add("theme-light");
-        document.body.classList.remove("theme-dark");
-    }
-    // Add class based on screen width
-    if (window.innerWidth &lt; 480) {
-        document.body.classList.add("is-phone");
-    } else if (window.innerWidth &lt; 768) {
-        document.body.classList.add("is-tablet");
-    } else if (window.innerWidth &lt; 1024) {
-        document.body.classList.add("is-small-screen");
-    } else {
-        document.body.classList.add("is-large-screen");
-    }
-    // Change language function
-    function changeLanguage(lang) {
-        document.getElementById('ko-content').style.display = lang === 'ko' ? 'block' : 'none';
-        document.getElementById('en-content').style.display = lang === 'en' ? 'block' : 'none';
-    }
-&lt;/script&gt;
-복사<br>
-]]></description><link>정보보안\cisa\domain1\main\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/main/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 04:46:16 GMT</pubDate></item><item><title><![CDATA[무제 파일]]></title><description><![CDATA[ 
+    
+
+]]></description><link>정보보안\cisa\domain1\main\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/main/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 04:48:44 GMT</pubDate></item><item><title><![CDATA[무제 파일]]></title><description><![CDATA[ 
  ]]></description><link>무제-파일.html</link><guid isPermaLink="false">무제 파일.md</guid><pubDate>Tue, 13 Aug 2024 01:00:07 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
  ]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Mon, 12 Aug 2024 06:13:57 GMT</pubDate></item><item><title><![CDATA[IT 감사 프로세스 - 2]]></title><description><![CDATA[ 
  <br><br>
