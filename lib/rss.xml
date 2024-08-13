@@ -1,24 +1,21 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 04:23:43 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 04:23:42 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
- <br><br>
-    
-        한국어
-        English
-    
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 04:27:52 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 04:27:52 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
+ <br><br><br>
+    한국어
+    English
     
         
-        
             
             
             
-            감사 기능의 역할과 책임에 대해 포괄적으로 정의한 문서. 책임, 권한, 의무에 대해 기술되어 있으며 이사회나 후원자의 승인을 받아야 한다.
+            감사 기능의 역할과 책임에 대해 포괄적으로 정의한 문서입니다. 책임, 권한, 의무에 대해 기술되어 있으며 이사회나 후원자의 승인을 받아야 합니다.
             
-            감사를 계획하고 실행하는 과정을 기록하는 문서. 감사가 진행되기 이전에는 반드시 승인을 받아야 하며, 중요할 때에만 급히 수정 가능하다. 현장 감사 절차를 기술한 문서이다.
+            감사를 계획하고 실행하는 과정을 기록하는 문서입니다. 감사가 진행되기 이전에는 반드시 승인을 받아야 하며, 급히 수정 가능하지만 중요할 때에만 해야 합니다. 현장 감사 절차를 기술한 문서입니다.
             
-            감사 중에 사용된 모든 감사 절차와 기술을 적어놓은 문서. 전자 감사 작업 조서는 접근 권한 설정을 잘해놓아야 한다. 품질 보증이나 타 감사인의 참조, 소송 대비 과정에서 감사 작업 조서는 문서화 되어야 한다.
+            감사 중에 사용된 모든 감사 절차와 기술을 적어놓은 문서입니다. 전자 감사 작업 조서는 접근 권한 설정을 잘 해놓아야 하며 품질 보증이나 타 감사인의 참조, 소송 대비 과정에서 문서화 되어야 합니다.
             
-            IS 감사인이 제시한 발견 사항과 권고 사항을 듣고 실시한 경영진의 후속 검토가 적절한지 알아본다.
+            IS 감사인이 제시한 발견 사항과 권고 사항을 듣고 실시한 경영진의 후속 검토가 적절한지 알아봅니다.
             
-            감사 증거는 다음 기준에 따라 평가된다:
+            감사 증거는 다음 기준을 기반으로 평가됩니다:
             
                 <br>연관성: 감사와 얼마나 관련이 있는지.
                 <br>신뢰성:
@@ -33,44 +30,44 @@
                 <br>충분성: 누가 봐도 같은 답을 내릴 만큼 충분한지.
             
             
-            다음은 자주 출제되는 위험 종류입니다:
+            이 영역은 자주 출제되므로 꼼꼼히 봐두세요.
             
-            근본적으로 존재하는 위협. 보완통제를 통해 감소 가능하지만 감사인이 통제하기는 거의 불가능하다.
+            근본적으로 존재하는 위협으로, 보완 통제를 통해 감소 가능하지만 감사인이 통제하기 거의 불가능합니다.
             
-            오류를 적발하고 교정하지 못했을 경우의 위협. 단기적으로는 크게 개선하지 못하지만 감사인의 권고를 듣고 중장기적으로 개선이 가능하다.
+            오류를 적발하고 교정하지 못했을 경우의 위협으로, 단기적으로는 크게 개선되지 않지만 감사인의 권고를 통해 중장기적으로 개선 가능.
             
-            샘플링 위험과 비샘플링 위험으로 분류된다:
+            샘플링 위험과 비샘플링 위험으로 분류됩니다:
             
-                <br>샘플링 위험: 샘플링한 모집단이 집단을 대표하지 못할 위험.
-                <br>비샘플링 위험: 감사 절차 상에서 문제가 발생함. 감사인의 실수나 미숙이 원인. 교육과 훈련, 감사의 강도 조절로 완화 가능.
-            
-            
-            감사인이 문제를 제대로 적발하지 못한 채 보고서를 발행했을 때의 위험. 감사 위험은 고유 위험과 통제 위험, 적발 위험을 곱한 값이다.
-            
-            경영진이 용인 가능한 리스크를 정함. 감사인은 감사 위험이 사업 위험보다 작아야 한다.
-            
-            효과적으로 위험을 관리하는 위험 관리는 조직의 위험에 대한 성향을 완벽하게 이해하는 것이다. 조직의 위험 성향을 가장 잘 파악할 수 있는 문서는 무엇인가?
+                <br>샘플링 위험: 샘플 시 샘플링한 모집단이 집단을 대표하지 못할 위험.
+                <br>비샘플링 위험: 감사 절차에서 문제가 생김 (감사인의 실수나 미숙이 원인), 교육과 훈련, 감사의 강도 조절로 완화 가능.
             
             
-                <br>위험 성향 정의: 예를 들어 회계 관련 문제.
-                <br>위험 식별: 예를 들어 회계 장부의 노출.
-                <br>위험 관리 전략 개발: 위 정보를 바탕으로.
+            감사인이 문제를 제대로 적발하지 못한 채 보고서를 발행했을 때의 위험입니다. 감사 위험은 고유 위험과 통제 위험, 적발 위험을 곱한 값입니다.
+            
+            경영진이 용인 가능한 리스크를 정합니다. 감사인은 감사 위험이 사업 위험보다 작아야 합니다.
+            
+            효과적인 위험 관리는 조직의 위험 성향을 완벽하게 이해하는 것입니다. 조직의 위험 성향을 가장 잘 파악할 수 있는 문서는 무엇인가요?
             
             
-            
-                <br>회피 (문제의 원인을 없앰): 문제의 원인을 완전히 제거. 위험이 완전히 사라짐. 비용이 많이 들지만 가장 확실한 방법.
-                <br>경감 (위험을 완화 시킴): 내부적으로 대책을 세우는 방법. 예를 들어 API 보안이 취약할 때 VPN을 사용하여 정해진 사용자만 접근하도록 한다.
-                <br>전가: 3자를 이용해 대응. 예를 들어 보험, 아웃소싱.
-                <br>수용 (감수): 위험을 알고만 있으며 대응하지 않음. 감사인은 위험 수용이 올바른지 확인해야 한다.
-                <br>무시: 위험을 인지하지 않고 대응도 하지 않음.
+                <br>위험 정의: 예를 들어, 회계 관련 문제.
+                <br>위험 식별: 예를 들어, 회계 장부의 노출.
+                <br>위험 관리 전략 개발: 수집된 정보를 바탕으로.
             
             
             
-                <br>위험 식별: 자산을 식별한다.
-                <br>위험 분석/평가: 위험을 분석하고 평가한다.
-                <br>위험 통제: 통제를 적용하며 기존의 통제를 평가하고 확인한다.
-                <br>지속적인 모니터링: 통제 이후 잔여 위험을 완화하며 감사인의 권고가 필요하다. 경영진은 위험을 용인할지 결정한다.
-                <br>주기적인 보고: 정기적인 보고가 필요하다.
+                <br>회피: 문제의 원인을 완전히 제거합니다. 위험이 완전히 사라지며, 가장 확실한 방법이지만 비용이 많이 듭니다.
+                <br>경감: 내부적으로 대책을 세워 위험을 완화시킵니다. 예를 들어, VPN을 사용하여 API 접근을 정해진 사용자만 가능하게 합니다.
+                <br>전가: 3자를 이용하여 대응합니다. 예를 들어, 보험이나 아웃소싱으로 책임을 떠넘깁니다.
+                <br>수용: 위험을 알고만 있으며 대응을 하지 않습니다. 감사인은 위험 수용이 적절한지 확인해야 합니다.
+                <br>무시: 위험을 인식하지 못하거나 대응하지 않습니다.
+            
+            
+            
+                <br>위험 식별: 자산을 식별합니다.
+                <br>위험 분석/평가: 위험을 분석하고 평가합니다.
+                <br>위험 통제: 통제를 적용하고 기존 통제를 평가합니다.
+                <br>지속적인 모니터링: 통제 이후에는 잔여 위험이 남습니다. 이를 완화하는 것은 감사인의 권고입니다. 경영진은 얼마만큼의 위험을 용인할지 결정합니다.
+                <br>주기적인 보고: 정기적인 보고가 필요합니다.
             
             
             
@@ -79,90 +76,85 @@
                 <br>2순위: 최소 1년에 한 번.
             
             
-            정성적 방법:
+            위험 분석 방법에는 정성적 방법과 정량적 방법이 있습니다.
             
-                <br>델파이 기법: 익명으로 전문가에게 자문.
-                <br>질문서 법.
-                <br>시나리오 법.
             
-            정량적 방법:
-            
-                <br>위협 발생 가능성을 수치로 표현.
-                <br>복잡하다.
+                <br>델파이 기법: 익명으로 전문가에게 자문을 받습니다.
+                <br>질문서 법: 질문서를 활용하여 정보를 수집합니다.
+                <br>시나리오 법: 다양한 시나리오를 통해 분석합니다.
             
             
             
-                <br>Complete elimination of all errors or fraud is not possible.
-                <br>The principle of materiality applies, and auditors must make professional judgments.
-                <br>Examine high-risk areas first to use resources efficiently.
+                <br>위협 발생 가능성을 수치로 표현: 객관적인 데이터를 사용하여 분석합니다.
+                <br>복잡성: 정량적 방법은 더 복잡할 수 있습니다.
+                <br>RBAA (위험 기반 감사): 모든 오류나 부정을 완전히 제거할 수는 없으며, 중요성의 원칙을 적용하고 감사인은 전문가적 판단을 내려야 합니다. 높은 위험부터 검사하여 자원을 효율적으로 사용합니다.
             
         
         
-        
             
             
             
-            A document that comprehensively defines the role and responsibilities of the audit function, detailing responsibilities, authority, and obligations. It must be approved by the board or sponsors.
+            A document that comprehensively defines the roles and responsibilities of the audit function, detailing responsibilities, authorities, and obligations. It must be approved by the board or sponsor.
             
-            A document that records the process of planning and executing the audit. It must be approved before the audit begins and can only be modified urgently if necessary. It details the field audit procedures.
+            A document that records the process of planning and executing the audit. It must be approved before the audit begins and can be modified urgently only when necessary. It describes the on-site audit procedures.
             
-            A document that records all audit procedures and techniques used during the audit. Electronic audit work papers should have proper access controls. Work papers should be documented for quality assurance, reference by other auditors, and litigation purposes.
+            A document that records all audit procedures and techniques used during the audit. Electronic audit work papers must have proper access controls and should be documented for quality assurance, references by other auditors, and litigation purposes.
             
-            Review whether the management's follow-up review of the findings and recommendations presented by the IS auditor is appropriate.
+            Assess whether the management’s follow-up review of the findings and recommendations presented by the IS auditor is adequate.
             
             Audit evidence is evaluated based on the following criteria:
             
-                <br>Relevance: How related it is to the audit.
+                <br>Relevance: How related is it to the audit?
                 <br>Reliability:
                     
-                        <br>Where it was obtained (more reliable from an independent third party than from within the organization).
-                        <br>Who collected it (collected by an authoritative source, e.g., international audit organizations).
-                        <br>How objective it is.
-                        <br>When it was collected (how long after the event).
+                        <br>Where was it obtained from (independent third parties are more reliable than internal sources)?
+                        <br>Who collected it (collected by an authoritative entity, e.g., international audit bodies)?
+                        <br>How objective is it?
+                        <br>When was it collected (how much time has elapsed since the event)?
                     
                 
-                <br>Usefulness: Whether it helps in the audit.
-                <br>Sufficiency: Whether it is sufficient for anyone to come to the same conclusion.
+                <br>Usefulness: Is the evidence helpful for the audit?
+                <br>Sufficiency: Is it enough to lead to the same conclusion for anyone reviewing it?
             
             
-            Commonly tested types of risks include:
+            This area is frequently tested, so review it thoroughly.
             
-            Threats that exist fundamentally. Can be reduced through control measures but are almost impossible for the auditor to control.
+            Threats that exist fundamentally and can be reduced through control measures but are nearly impossible for the auditor to control.
             
-            The risk of failing to detect and correct errors. It may not be significantly improved in the short term, but long-term improvements are possible with the auditor's recommendations.
+            The risk of failing to detect and correct errors, which may not be significantly improved in the short term but can be addressed through the auditor’s recommendations for medium to long-term improvements.
             
             Classified into sampling risk and non-sampling risk:
             
-                <br>Sampling Risk: The risk that the sampled population does not represent the whole population.
-                <br>Non-Sampling Risk: Issues arising from audit procedures, such as auditor mistakes or inexperience. Can be mitigated by training, education, and adjusting audit intensity.
+                <br>Sampling Risk: The risk that the sample does not represent the population.
+                <br>Non-Sampling Risk: Issues occurring during audit procedures (due to auditor’s mistakes or inexperience), which can be mitigated through training, education, and adjusting audit intensity.
             
             
-            The risk that the auditor issues a report without detecting problems. Audit risk is the product of inherent risk, control risk, and detection risk.
+            The risk of issuing a report without identifying the issues correctly. Audit risk is the product of inherent risk, control risk, and detection risk.
             
-            The risk that management is willing to accept. The auditor must ensure that the audit risk is smaller than the business risk.
+            Management defines the risk acceptable for the organization. The auditor must ensure that audit risk is lower than business risk.
             
-            Effective risk management involves a complete understanding of the organization's risk appetite. What is the document that best identifies the organization's risk appetite?
-            
-            
-                <br>Define Risk Appetite: For example, accounting-related issues.
-                <br>Identify Risks: For example, exposure of accounting books.
-                <br>Develop Risk Management Strategy: Based on the information gathered.
+            Effective risk management involves a complete understanding of the organization's risk appetite. What document best captures the organization’s risk appetite?
             
             
+                <br>Define Risk: For example, accounting-related issues.
+                <br>Identify Risk: For example, exposure of accounting records.
+                <br>Develop Risk Management Strategy: Based on the information collected.
             
-                <br>Avoidance (Eliminating the Cause): Completely removing the cause of the problem. The risk is entirely eliminated. This method is costly but the most definitive.
-                <br>Mitigation: Internal measures to reduce the risk. For example, using a VPN to restrict access for specific users if API security is vulnerable.
-                <br>Transfer: Using third parties to manage the risk. For example, insurance or outsourcing.
-                <br>Acceptance: Acknowledging the risk without taking action. The auditor must verify if accepting the risk is appropriate.
-                <br>Ignorance: Not acknowledging or addressing the risk.
+            
+            
+                <br>Avoidance: Completely eliminate the cause of the problem. This is the most reliable but can be costly.
+                <br>Mitigation: Internally implement measures to reduce risk. For example, using a VPN to restrict API access to authorized users only.
+                <br>Transfer: Use third parties to handle risk. For example, insurance or outsourcing shifts responsibility.
+                <br>Acceptance: Acknowledge the risk without taking action. The auditor should ensure that accepting the risk is appropriate.
+                <br>Neglect: Ignore the risk without acknowledging or addressing it.
             
             
             
                 <br>Risk Identification: Identify assets.
                 <br>Risk Analysis/Evaluation: Analyze and evaluate risks.
                 <br>Risk Control: Apply controls and assess existing controls.
-                <br>Continuous Monitoring: Residual risks remain after controls, which should be mitigated by the auditor's recommendations. Management decides how much risk to accept.
-                <br>Periodic Reporting: Regular reporting is necessary.
+                <br>Continuous Monitoring: Residual risks remain after controls are applied. Mitigating these is the auditor's recommendation. Management decides the acceptable level of risk.
+                <br>Periodic Reporting: Regular reporting is required.
             
             
             
@@ -171,28 +163,24 @@
                 <br>Priority 2: At least once a year.
             
             
-            Qualitative Methods:
+            Risk analysis methods include qualitative and quantitative approaches.
             
-                <br>Delphi Technique: Consulting experts anonymously.
-                <br>Questionnaire Method.
-                <br>Scenario Method.
             
-            Quantitative Methods:
-            
-                <br>Expressing the likelihood of threats numerically.
-                <br>More complex.
+                <br>Delphi Technique: Consult experts anonymously.
+                <br>Questionnaire Method: Use questionnaires to gather information.
+                <br>Scenario Method: Analyze various scenarios.
             
             
             
-                <br>Complete elimination of all errors or fraud is not possible.
-                <br>The principle of materiality applies, and auditors must make professional judgments.
-                <br>Examine high-risk areas first to use resources efficiently.
+                <br>Quantify Threat Probability: Use objective data to analyze risks.
+                <br>Complexity: Quantitative methods can be more complex.
+                <br>RBAA (Risk-Based Audit Approach): Not all errors or fraud can be completely eliminated. Apply the principle of materiality, and auditors must use professional judgment. Prioritize high-risk areas to use resources efficiently.
             
         
     
     
 
-]]></description><link>정보보안\cisa\domain1\main\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/main/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 04:23:37 GMT</pubDate></item><item><title><![CDATA[1.]]></title><description><![CDATA[ 
+]]></description><link>정보보안\cisa\domain1\main\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/main/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 04:27:42 GMT</pubDate></item><item><title><![CDATA[1.]]></title><description><![CDATA[ 
  <br><img alt="Pasted image 20240812103222.png" src="lib\media\pasted-image-20240812103222.png"><br><a data-href="2. Security Principles" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\2.-security-principles.html" class="internal-link" target="_self" rel="noopener">2. Security Principles</a><br>Here is the English translation of your text with the specified formatting:<br>"A penetration test is an authorized audit of the security and defenses of a computer system, which the system owner has agreed to. In this sense, it has the legitimacy of penetration, but it must not exceed the agreed-upon scope.<br>Exceeding this scope would turn the test into hacking.<br><br>
     
         
