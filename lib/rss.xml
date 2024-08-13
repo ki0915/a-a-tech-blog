@@ -1,514 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 04:50:07 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 04:50:07 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[무제 파일]]></title><description><![CDATA[ 
- ]]></description><link>무제-파일.html</link><guid isPermaLink="false">무제 파일.md</guid><pubDate>Tue, 13 Aug 2024 01:00:07 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
- ]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Mon, 12 Aug 2024 06:13:57 GMT</pubDate></item><item><title><![CDATA[IT 감사 프로세스 - 2]]></title><description><![CDATA[ 
- <br><br>
-    
-        
-            
-            
-            
-                <br>연간 감사 계획
-                <br>개별 감사 계획
-                <br>현장 감사 계획
-                <br>보고
-                <br>후속 조치
-            
-        <br>    &lt;div class="section"&gt;
-        &lt;h2&gt;2. 현장 감사&lt;/h2&gt;
-        &lt;p class="highlight"&gt;현장 감사 계획은 크게 일반 통제(환경과 운영을 테스트)와 응용 통제로 나뉜다. 이 점을 구분하여 잘 판단해야 한다.&lt;/p&gt;
-        &lt;h3&gt;통제 평가&lt;/h3&gt;
-        &lt;p&gt;통제가 현 상황이나 환경에 적합한지 평가&lt;/p&gt;
-        &lt;h4&gt;일반 통제 (준거성 테스트)&lt;/h4&gt;
-        &lt;ul&gt;
-            &lt;li&gt;조직의 환경을 전반적으로 테스트한다.&lt;/li&gt;
-            &lt;li&gt;규칙 준수나 규칙이 적합한지를 테스트한다.&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;h4&gt;응용 통제 (실증 테스트)&lt;/h4&gt;
-        &lt;ul&gt;
-            &lt;li&gt;실제 성과의 품질을 검증한다.&lt;/li&gt;
-            &lt;li&gt;잘 지켜지고 있지 않는 통제를 증명한다.&lt;/li&gt;
-            &lt;li&gt;실제 처리의 무결성을 검증한다.&lt;/li&gt;
-            &lt;li&gt;결과물을 검증한다.&lt;/li&gt;
-            &lt;li&gt;실제로 해본다. (예: 재무제표 보고서 올바른지 검사)&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-
-    &lt;div class="section"&gt;
-        &lt;h2&gt;3. 보고&lt;/h2&gt;
-        &lt;ul&gt;
-            &lt;li&gt;피감사인과 협의한다. 발견 사항에 대한 사실을 이해시키고 동의를 구한다.&lt;/li&gt;
-            &lt;li&gt;감사인과의 종료회의를 진행하고 감사보고서를 배포해야 한다.&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-
-    &lt;div class="section"&gt;
-        &lt;h2&gt;4. 후속 조치&lt;/h2&gt;
-        &lt;p class="highlight"&gt;이거 시험에 나왔음&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;권고 사항에 대하여 경영진의 교정 조치가 목적을 달성하였는지를 파악하기 위해 후속 조치 검토&lt;/li&gt;
-            &lt;li&gt;경영진이 위험을 감수하기로 한 경우 문서화나 후속 조치를 할 필요 없다.&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;p&gt;문제로 나올 경우:&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;IS 감사인은 경영진의 교정 조치에 대해 파악하기로 하였다. 이를 수행하는 목적으로 올바른 것은?&lt;/strong&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;span class="important"&gt;-&gt; 감사인의 권고 사항을 받아들여 교정 조치를 수행하여 성공적으로 위험을 경감, 혹은 제거하였는지 파악하기 위해서이다.&lt;/span&gt;&lt;/p&gt;
-    &lt;/div&gt;
-
-    &lt;div class="section"&gt;
-        &lt;h2&gt;5. 감사인의 자격&lt;/h2&gt;
-        &lt;ul&gt;
-            &lt;li&gt;독립성 (이게 문제로 정말 많이 나옴)&lt;/li&gt;
-            &lt;li&gt;전문가로서의 판단/기준&lt;/li&gt;
-            &lt;li&gt;적격성: 정당한 자격이 있음&lt;/li&gt;
-            &lt;li&gt;중요성&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-
-    &lt;div class="section"&gt;
-        &lt;h2&gt;6. IS 감사위원회&lt;/h2&gt;
-        &lt;ul&gt;
-            &lt;li&gt;이사회 산하에 설립이 되며 경영에 참여하지 않는 사외 이사들로 구성 (경영에 참여하지 않는 사외이사 레벨)&lt;/li&gt;
-            &lt;li&gt;감사 기능의 권한과 독립성을 제공한다.&lt;/li&gt;
-            &lt;li&gt;경영진의 부정을 감시한다.&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-
-    &lt;div class="section"&gt;
-        &lt;h2&gt;7. 통제의 종류&lt;/h2&gt;
-        &lt;p class="highlight"&gt;무조건 시험에 나옴&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;&lt;strong&gt;예방 통제:&lt;/strong&gt; 문제가 생기기 전에 미리 예방하는 통제
-                &lt;ul&gt;
-                    &lt;li&gt;업무 기능 분리 (직무 분리, 업무 순환), 물리적 접근 통제, 거래 승인 절차 등&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;적발 통제:&lt;/strong&gt; 문제를 적발하고 보고하는 통제
-                &lt;ul&gt;
-                    &lt;li&gt;해시 합계, 체크 포인트, 감사, 접근 로그&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;교정 통제:&lt;/strong&gt; 위협을 최소화하고 이후에 시스템을 정상적으로 복구하는 통제
-                &lt;ul&gt;
-                    &lt;li&gt;BCP, 복구 및 백업, 교정으로 인한 위험 감소&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;보완 통제:&lt;/strong&gt; 기존에 있던 시스템 통제에서 보완하여 잠재적인 위험이나 기존 위험을 보완하는 통제
-                &lt;ul&gt;
-                    &lt;li&gt;보완 통제를 통해 고유 위험 감소&lt;/li&gt;
-                    &lt;li&gt;예: 대체 불가능한 기존 취약 모듈이 있으면 그 모듈의 취약점을 해결해줄 패치 찾기&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;p&gt;&lt;strong&gt;거버넌스는 무조건 이사회 책임&lt;/strong&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;strong&gt;관리 책임은 최고 경영진과 임원&lt;/strong&gt;&lt;/p&gt;
-    &lt;/div&gt;
-
-    &lt;div class="section"&gt;
-        &lt;h2&gt;8. 감사 계획 수립 절차&lt;/h2&gt;
-        &lt;ol&gt;
-            &lt;li&gt;환경 이해 및 문서 검토 - 업무 현장 검토, 전기 감사 보고서, 다른 회사 자료 분석하기, 환경에 대한 이해&lt;/li&gt;
-            &lt;li&gt;분석적 검토 절차&lt;/li&gt;
-            &lt;li&gt;설문 조사&lt;/li&gt;
-            &lt;li&gt;착수 회의, 예비 회의&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-
-    &lt;div class="section"&gt;
-        &lt;h2&gt;9. 감사 테스트&lt;/h2&gt;
-        &lt;h3&gt;통제 테스트 (준거성 테스트)&lt;/h3&gt;
-        &lt;ul&gt;
-            &lt;li&gt;통제 절차가 사전에 정의된 대로 잘 지켜지고 있는지 검증&lt;/li&gt;
-            &lt;li&gt;규칙의 준수여부와 규칙이 효과적인지 검증한다.&lt;/li&gt;
-            &lt;li&gt;환경을 검증하는 테스트이다.&lt;/li&gt;
-            &lt;li&gt;속성 샘플링을 사용한다.&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;h3&gt;실증 테스트&lt;/h3&gt;
-        &lt;ul&gt;
-            &lt;li&gt;실제 처리의 무결성을 검증하는 테스트이다.&lt;/li&gt;
-            &lt;li&gt;특정한 처리나 응용 프로그램의 무결성을 테스트한다 (지엽적인 부분)&lt;/li&gt;
-            &lt;li&gt;변량 샘플링을 사용한다.&lt;/li&gt;
-            &lt;li&gt;실제로 해본다.&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-
-    &lt;div class="section"&gt;
-        &lt;h2&gt;10. 감사 샘플링&lt;/h2&gt;
-        &lt;ul&gt;
-            &lt;li&gt;&lt;strong&gt;통계적 샘플링:&lt;/strong&gt; 오류의 수치를 객관적으로 계량화 가능하다. 객관적인 기준을 가진다.&lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;임의 샘플링:&lt;/strong&gt; 임의적으로 난수로 표본 추출&lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;체계적 샘플링:&lt;/strong&gt; 첫 번째 샘플은 무작위로 추출하고 그 뒤부터는 일련 번호를 붙여서 추출&lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;비통계적 샘플링:&lt;/strong&gt; 그냥 자기가 임의적으로 추출&lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;속성 샘플링:&lt;/strong&gt; 준거성 테스트, 일반 통제 할 때 사용
-                &lt;ul&gt;
-                    &lt;li&gt;단속적 샘플링과 발견 샘플링으로 나뉜다.&lt;/li&gt;
-                    &lt;li&gt;단속적 샘플링: 샘플의 모집단의 오류 확률이 기대 결과보다 낮을 때 될 때까지 다시 수행한다. 그러다가 기대 결과에 부합하는 모집단이 나오면 종료&lt;/li&gt;
-                    &lt;li&gt;발견 샘플링: 오류나 부정을 발견하는 샘플링이다.&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;변량 샘플링:&lt;/strong&gt; 실증 테스트, 응용 통제
-                &lt;ul&gt;
-                    &lt;li&gt;실제 처리에 있는 결과가 무결한지 검증한다.&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;층화 샘플링:&lt;/strong&gt; 모집단을 특정한 기준에 따라 나눈다. 추출 대상 모집단이 한정되어서 샘플의 크기도 작아진다.&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-
-    &lt;div class="section"&gt;
-        &lt;h2&gt;11. CATTs (컴퓨터를 이용한 감사)&lt;/h2&gt;
-        &lt;ul&gt;
-            &lt;li&gt;&lt;strong&gt;GAS:&lt;/strong&gt; 범용 감사 소프트웨어&lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;SAS:&lt;/strong&gt; 특정 목적으로 사용되는 소프트웨어&lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;화이트박스:&lt;/strong&gt; 소스 내부를 보면서 로직까지 감사 가능&lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;블랙박스:&lt;/strong&gt; 외부 기능만 보면서 감사&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-
-    &lt;div class="section"&gt;
-        &lt;h2&gt;12. CSA&lt;/h2&gt;
-        &lt;ul&gt;
-            &lt;li&gt;자체 감사를 의미한다.&lt;/li&gt;
-            &lt;li&gt;고위험 분야를 식별할 수 있다.&lt;/li&gt;
-            &lt;li&gt;감사인은 촉진자 역할을 한다.&lt;/li&gt;
-            &lt;li&gt;내부 직원들의 사기를 증진시킬 수 있다.&lt;/li&gt;
-            &lt;li&gt;워크샵 형태이다.&lt;/li&gt;
-            &lt;li&gt;평가는 경영진이 한다.&lt;/li&gt;
-            &lt;li&gt;현업 관리자들이 CSA의 주체이다.&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-
-    &lt;div class="section"&gt;
-        &lt;h2&gt;13. IS 직무 윤리 규정&lt;/h2&gt;
-        &lt;ol&gt;
-            &lt;li&gt;ISACA는 협회 회원 및 자격증 소지자의 직무 및 개인 행위에 관한 지침을 제시하고자 본 직무 윤리 규정을 제정한다.&lt;/li&gt;
-            &lt;li&gt;ISACA 회원 및 자격증 소지자는 다음 규정을 준수해야 한다.
-                &lt;ol&gt;
-                    &lt;li&gt;기업의 정보 시스템과 기술에 대한 효과적인 거버넌스와 관리 그리고 감사, 통제, 보안, 위험 관리 등에 적용되는 적절한 기준과 절차의 규현을 지원하고 준수를 촉진해야 한다.&lt;/li&gt;
-                    &lt;li&gt;직무 기준에 따라 객관성, 정단한 근면성, 전문가적 주의로 임무를 수행해야 한다.&lt;/li&gt;
-                    &lt;li&gt;높은 행위 기준과 품격을 유지하고, 자신의 직업 또는 협회의 신뢰를 떨어뜨리지 않으며, 합법적인 방법으로 이해관계자들에게 이익에 기여한다.&lt;/li&gt;
-                    &lt;li&gt;사법 당국이 공개를 요구하는 경우가 아니라면 업무 수행 중에 습득한 정보의 프라이버시와 기밀을 유지해야 한다. 해당 정보를 사적 목적으로 사용하거나 부적절한 대상에게 제공해서는 안 된다.&lt;/li&gt;
-                    &lt;li&gt;자신의 전문 분야에서 숙련성을 유지하고 필요한 기술, 지식 및 능력을 사용하여 업무를 완수할 수 있을 때만 해당 업무 수행을 동의해야 한다.&lt;/li&gt;
-                    &lt;li&gt;공개하지 않을 경우 결과 보고를 왜곡할 수 있는 모든 중요 사실을 공개하고 수행 작업의 결과를 적절한 대상에게 전달 (감사받은 부서로 전달, 타 부서 전달 NO!) 해야 한다.&lt;/li&gt;
-                    &lt;li&gt;기업의 정보 시스템과 기술의 거버넌스와 관리 그리고 감사, 통제, 보안, 위험 관리 등에 관한 이해관계자들의 이해를 증진함으로 그들의 직무 교육을 지원한다.&lt;/li&gt;
-                &lt;/ol&gt;
-            &lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-
-    &lt;div class="section"&gt;
-        &lt;h2&gt;14. 거버넌스&lt;/h2&gt;
-        &lt;ul&gt;
-            &lt;li&gt;&lt;strong&gt;기업 거버넌스:&lt;/strong&gt; 기업의 목적을 달성하기 위해 통제&lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;정보보호 거버넌스:&lt;/strong&gt; 보호를 목적으로 하며 운영 효율성을 개선한다.&lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;IT 거버넌스:&lt;/strong&gt; 전략적 연계, 가치 제공 (이익 기반), 성과 측정 (BSC로 IT 성과 측정) -&gt; 조직의 전략을 공유하기 위해서이다. 자원 관리, 리스크 관리
-                &lt;ul&gt;
-                    &lt;li&gt;경영진이 위험 인식&lt;/li&gt;
-                    &lt;li&gt;가장 이상적인 상황은 조직의 위험에 대한 성향을 이해하는 것이다.&lt;/li&gt;
-                    &lt;li&gt;책임은 언제나 조직에게 있다.&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;컴플라이언스 (정책 관리)&lt;/strong&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-
-    &lt;div class="section"&gt;
-        &lt;h2&gt;15. IT 거버넌스 감사의 역할&lt;/h2&gt;
-        &lt;ul&gt;
-            &lt;li&gt;정책이나 법, 규정 등을 항상 모니터링한다.&lt;/li&gt;
-            &lt;li&gt;IT 거버넌스를 검토하고 개선점을 찾아낸다.&lt;/li&gt;
-            &lt;li&gt;모범적인 사례가 있으면 경영진에게 추천한다.&lt;/li&gt;
-            &lt;li&gt;정책을 준수하도록 돕는다.&lt;/li&gt;
-            &lt;li&gt;독립적이고 객관적인 시선으로 평가한다.&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;p&gt;&lt;strong&gt;추구하는 목적:&lt;/strong&gt; 자원 효율 증대, 자원 보호, IT 전략 수행&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;비즈니스와 IT 전략적 연계&lt;/li&gt;
-            &lt;li&gt;효과적인 IT 거버넌스
-                &lt;ul&gt;
-                    &lt;li&gt;리더십 발휘해서 보증&lt;/li&gt;
-                    &lt;li&gt;조직의 구조를 잘 보증한다.&lt;/li&gt;
-                    &lt;li&gt;프로세스가 잘 수행되도록 지원하기&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-
-    &lt;div class="section"&gt;
-        &lt;h2&gt;16. IS 운영 위원회&lt;/h2&gt;
-        &lt;ul&gt;
-            &lt;li&gt;하는 일: 프로젝트 우선 순위 조정, 프로젝트 일정 정하기, 프로젝트 자원 할당, 각 팀과의 의견 중재&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-
-    &lt;div class="section"&gt;
-        &lt;h2&gt;17. 정보보호 거버넌스&lt;/h2&gt;
-        &lt;ul&gt;
-            &lt;li&gt;&lt;strong&gt;정보보호 거버넌스의 기대 효과:&lt;/strong&gt;
-                &lt;ul&gt;
-                    &lt;li&gt;거래 상대와 고객에게 신뢰성을 제공한다.&lt;/li&gt;
-                    &lt;li&gt;더 나은 효율성을 제공한다.&lt;/li&gt;
-                    &lt;li&gt;기업의 이미지를 더 좋게 만든다.&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-복사<br>
-]]></description><link>정보보안\cisa\domain1\kor\it-감사-프로세스-2.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/kor/IT 감사 프로세스 - 2.md</guid><pubDate>Tue, 13 Aug 2024 04:38:08 GMT</pubDate></item><item><title><![CDATA[CISA 감사 관련 문서 및 위험 관리]]></title><description><![CDATA[ 
- <br>
-    
-    
-    
-    감사 기능의 역할과 책임에 대해 포괄적으로 정의한 문서입니다. 책임, 권한, 의무에 대해 기술되어 있으며, 승인 시에는 이사회나 후원자의 승인을 받아야 합니다.
-    
-    감사를 계획하고 실행하는 과정을 기록하는 문서입니다. 감사가 진행되기 이전에는 반드시 승인을 받아야 하며, 중요할 때만 급히 수정이 가능합니다. 현장 감사 절차를 기술한 문서입니다.
-    
-    감사 중에 사용된 모든 감사 절차와 기술을 적어놓은 문서입니다. 전자 감사 작업 조서는 접근 권한 설정을 잘해야 하며, 품질 보증이나 타 감사인의 참조, 소송 대비 과정에서 문서화되어야 합니다.
-    
-    IS 감사인이 제시한 발견 사항과 권고 사항을 듣고, 경영진이 실시한 후속 검토가 적절한지 알아봅니다.
-    
-    감사 증거는 아래와 같은 기준으로 평가됩니다:
-    
-        <br>연관성: 감사와 얼마나 관련이 있는지
-        <br>신뢰성: 
-            
-                <br>어디에서 얻은 것인지 (조직 내부보다는 독립적인 제3자에게서 얻는 것이 더 믿음직)
-                <br>누가 수집하였는지 (권위 있는 기관이 수집했는지)
-                <br>얼마나 객관적인지
-                <br>언제 수집했는지 (사건으로부터 얼마나 시간이 지났는지)
-            
-        
-        <br>유용성: 감사에 도움이 되는 증거인지
-        <br>충분성: 누가 봐도 같은 답을 내릴 만큼 충분한지
-    
-    
-    아래는 자주 출제되는 위험의 종류입니다:
-    
-    근본적으로 존재하는 위협으로, 보완 통제를 통해 감소시킬 수 있으나 감사인이 통제하기는 어렵습니다.
-    
-    오류를 적발하고 교정하지 못했을 때의 위협으로, 단기적으로는 크게 개선할 수 없지만 감사인의 권고를 통해 중장기적 개선이 가능합니다.
-    
-    샘플링 위험과 비샘플링 위험으로 나뉩니다.
-    
-        <br>샘플링 위험: 샘플이 모집단을 대표하지 못할 위험
-        <br>비샘플링 위험: 감사 절차에서 문제가 생긴 경우로, 감사인의 실수나 미숙함이 원인이 됩니다. 교육과 훈련, 감사의 강도 조절로 완화할 수 있습니다.
-    
-    
-    감사인이 문제를 제대로 적발하지 못한 채 보고서를 발행했을 때의 위험입니다. 감사 위험은 고유 위험, 통제 위험, 적발 위험의 곱으로 계산됩니다.
-    
-    경영진이 용인 가능한 리스크를 정하고, 감사인은 감사 위험을 사업 위험보다 낮게 설정해야 합니다.
-    
-    효과적인 위험 관리는 조직의 위험 성향을 완벽하게 이해하는 것입니다. 조직의 위험 성향을 가장 잘 파악할 수 있는 문서는 무엇일까요?
-    
-    
-        <br>위험 성향 정의: 예를 들어, 회계부 관련 문제
-        <br>위험 식별: 예를 들어, 회계 장부의 노출
-        <br>위험 관리 전략 수립: 위의 정보를 기반으로 전략 수립
-    
-    
-    
-        <br>회피 (문제의 원인을 없앰): 문제의 원인을 완전히 제거하여 위험을 없앱니다. 가장 확실한 방법이지만 비용이 많이 듭니다.
-        <br>경감 (위험을 완화): 내부적으로 대책을 세워 위험을 완화시킵니다. 예를 들어, API 보안이 취약하면 VPN을 사용하여 정해진 사용자만 접근하게 합니다.
-        <br>전가: 3자를 이용하여 대응하거나 책임을 떠넘기는 방식입니다. 예: 보험, 아웃소싱.
-        <br>수용 (감수): 위험을 알고 있으면서도 대응하지 않습니다. 감사인은 위험 수용이 올바른지 확인해야 합니다.
-        <br>무시: 위험을 알지 못하고 대응하지 않는 경우입니다.
-    
-    
-    
-        <br>위험 식별: 자산을 식별합니다.
-        <br>위험 분석/평가: 위험을 분석하고 평가합니다.
-        <br>위험 통제: 통제를 적용합니다. 이때 기존 통제를 평가하고 확인해야 합니다.
-        <br>지속적인 모니터링: 통제 이후 잔여 위험이 남으며, 이를 완화하는 것은 감사인의 권고입니다. 경영진은 용인 가능한 위험 수준을 결정해야 합니다.
-        <br>주기적인 보고: 주기적인 보고가 필요합니다.
-    
-    
-    
-    
-        <br>중대한 변화나 위협이 있었을 때 (1순위)
-        <br>최소 1년에 한 번 (2순위)
-    
-    
-    
-    
-        <br>델파이 기법: 익명으로 전문가에게 자문
-        <br>질문서법: 질문지를 통한 분석
-        <br>시나리오법: 다양한 시나리오를 통한 분석
-    
-    
-    
-        <br>위협 발생 가능성을 수치로 표현: 정량적 접근
-        <br>복잡한 방법: 분석이 복잡할 수 있음
-    
-    
-    
-        <br>모든 오류나 부정은 완전히 제거할 수 없습니다.
-        <br>중요성의 원칙을 적용하며, 감사인은 전문가적 판단을 내려야 합니다.
-        <br>높은 위험부터 검사하여 자원을 효율적으로 사용합니다.
-    
-
-<br><a data-href="2. 보안 원칙" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\2.-보안-원칙.html" class="internal-link" target="_self" rel="noopener">2. 보안 원칙</a>]]></description><link>정보보안\cisa\domain1\kor\it-감사-프로세스-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/kor/IT 감사 프로세스 - 1.md</guid><pubDate>Tue, 13 Aug 2024 04:29:04 GMT</pubDate></item><item><title><![CDATA[1.]]></title><description><![CDATA[ 
- <br><img alt="Pasted image 20240812103222.png" src="lib\media\pasted-image-20240812103222.png"><br><a data-href="2. Security Principles" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\2.-security-principles.html" class="internal-link" target="_self" rel="noopener">2. Security Principles</a><br>Here is the English translation of your text with the specified formatting:<br>"A penetration test is an authorized audit of the security and defenses of a computer system, which the system owner has agreed to. In this sense, it has the legitimacy of penetration, but it must not exceed the agreed-upon scope.<br>Exceeding this scope would turn the test into hacking.<br><br>
-    
-        
-        
-        
-        ROE is a document created at the early stages of a penetration testing contract.
-        
-        
-        Penetration testing can have various objectives and goals within its scope. Therefore, penetration tests are not all the same, and there is no one-size-fits-all approach to how penetration testers should proceed.
-        The steps performed by a penetration tester during an engagement are referred to as the methodology. A practical methodology involves actions taken in a smart way that are relevant to the current situation. Each situation may require a different methodology. For example, the methodology used to test the security of a web application may not be practical when testing the security of a network, as these are different domains.
-        
-        
-        
-        OSSTMM: The OSSTMM provides a detailed framework for testing strategies for systems, software, applications, communications, and the human aspect of cybersecurity.
-        This methodology mainly focuses on how these systems and applications communicate, so it includes methodologies for:
-        
-            <br>Communications (telephone, VoIP, etc.)
-            <br>Wired networks
-            <br>Wireless communications
-        
-    
-
-]]></description><link>정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\1..html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Eng/1..md</guid><pubDate>Tue, 13 Aug 2024 04:18:24 GMT</pubDate><enclosure url="lib\media\pasted-image-20240812103222.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240812103222.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Security Principles]]></title><description><![CDATA[ 
- <br><img alt="Pasted image 20240812105418.png" src="lib\media\pasted-image-20240812105418.png"><br><br>
-    
-        
-        
-        Principles of information security to protect data and safeguard systems from abuse.
-        
-        The model of confidentiality, integrity, and availability (CIA) consists of these three principles and has become an industry standard today. This model helps in making decisions about the value of the data and what is needed in a business.
-        
-        
-        Confidentiality is about protecting data from unauthorized access and misuse. Organizations always store some form of sensitive data within their systems. Providing confidentiality is about protecting this data from unintended access by anyone other than the authorized individuals.
-        
-        Integrity ensures that data remains unaltered except for authorized changes. Data can be changed due to careless handling, system errors, or unauthorized access. In security principles, integrity is maintained if information remains unchanged during storage, transmission, and usage, ensuring unauthorized individuals cannot alter the data (e.g., data breaches).
-        
-        To be useful, data must always be accessible and available to users. Availability is an essential element.
-        
-        It is important to manage and correctly define various levels of access to information technology systems that individuals need.
-        The level of access granted to individuals is determined by two basic factors:
-        
-            <br>The role/function of the individual within the organization
-            <br>The sensitivity of the information stored in the system
-        
-        Two key concepts used in assigning and managing user access rights are PIM (Privileged Identity Management) and PAM (Privileged Access Management).
-        Initially, these two concepts may seem similar. However, they are different. PIM is used to translate user roles within an organization into access roles within the system. In contrast, PAM primarily deals with managing the privileges associated with system access.
-        A critical aspect of access and privilege control is the principle of least privilege. In simple terms, users should be given only the minimum privileges necessary to perform their duties.
-        PAM integrates more than just access assignment. It also includes security policy enforcement such as password management, policy auditing, and reducing the attack surface of systems.
-        
-        Before discussing security models in detail, let's consider the three elements of CIA: confidentiality, integrity, and availability.
-        According to security models, any system or technology that stores information is referred to as an information system, and this is how systems and devices are referenced in this context.
-        Let's look at some popular and effective security models used to achieve the three elements of CIA.
-        
-        The Bell-La Padula Model is used to achieve confidentiality. This model assumes a hierarchical structure within an organization where everyone's responsibilities/roles are well defined.
-        This model operates by granting access to data (referred to as objects) based on a "write-up, read-down" rule. It ensures that individuals can access only the data they need.
-        
-        
-        The Biba Model is similar to the Bell-La Padula Model but focuses on integrity rather than confidentiality in CIA.
-        This model applies rules summarized as "write-up, read-down." This means that a subject can write to information at its own level or lower but can only read data at its level or higher.
-        
-        The Biba Model is used in situations or organizations where integrity is more critical than confidentiality. For example, in software development, developers may need access only to the code necessary for their tasks and not to other critical information.
-        
-        Threat modeling is the process of reviewing, improving, and testing security protocols in an organization's IT infrastructure and services.
-        An important step in the threat modeling process is identifying potential threats and vulnerabilities that a system or application may face.
-        The threat modeling process is similar to risk assessments performed in the workplace for employees and customers, following similar principles.
-        
-            <br>Preparation
-            <br>Identification
-            <br>Mitigation
-            <br>Review
-        
-        To assist, frameworks such as STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege) and PASTA (Process for Attack Simulation and Threat Analysis) are available. Below, we will discuss STRIDE in detail. STRIDE, developed by two Microsoft security researchers in 1999, remains influential today. STRIDE includes six key principles.
-        
-        Security breaches are referred to as incidents. Despite stringent threat models and secure system designs, incidents do occur. The actions taken to address and remediate threats are known as Incident Response (IR) and are a crucial part of a career in cybersecurity.
-        Incident response processes are often covered in security certifications such as those offered by CISA.
-        Incidents are classified using urgency and impact ratings. Urgency is determined by the type of attack faced, the location of the affected system, and the impact on business operations.
-        Incidents are responded to by Computer Security Incident Response Teams (CSIRTs) that are pre-organized with technical knowledge of the current incident. To successfully resolve an incident, the following six steps of incident response are often listed in the table below.
-        
-    
-
-]]></description><link>정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\2.-security-principles.html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Eng/2. Security Principles.md</guid><pubDate>Tue, 13 Aug 2024 04:19:06 GMT</pubDate><enclosure url="lib\media\pasted-image-20240812105418.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240812105418.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1.]]></title><description><![CDATA[ 
- <br><img alt="Pasted image 20240812103300.png" src="lib\media\pasted-image-20240812103300.png"><br>침투&nbsp;테스트는&nbsp;시스템&nbsp;소유자가&nbsp;동의한&nbsp;컴퓨터&nbsp;시스템의&nbsp;보안&nbsp;및&nbsp;방어에&nbsp;대한&nbsp;승인된&nbsp;감사\니다이러한&nbsp;의미에서&nbsp;침투의&nbsp;합법성을 가지고 있지만, 그외 부분을 벗어나면 안됩니다!<br> 그 외의 부분을 벗어나면 테스트가 아니라 해킹이 되기 때문입니다. <br><br>
-    
-        
-        
-        
-        ROE는 침투 테스트 계약의 초기 단계에서 생성되는 문서입니다.
-        
-        
-        침투 테스트는 범위 내에서 다양한 목적과 목표를 가질 수 있습니다. 이 때문에 침투 테스트는 동일하지 않으며 침투 테스터가 어떻게 접근해야 하는지에 대해 절대적인 기준은 존재하지 않습니다. 
-        참여 중에 침투 테스터가 수행하는 단계를 방법론이라고 합니다. 실제로 유용한 방법론은 효율적인 방법으로 취해진 조치가 현 상황에 잘 들어맞습니다.  각 상황마다 들이맞는 방법론이 다른 것입니다. 예를 들어, 웹 애플리케이션의 보안을 테스트하는 데 사용할 방법론을 갖는 것은 네트워크의 보안을 테스트해야 할 때 실용적이지 않습니다. 두 영역은 다르기 때문입니다.
-        
-        
-        
-        OSSTMM: OSSTMM은 시스템, 소프트웨어, 애플리케이션, 통신 및 사이버 보안의 인적 측면에 대한 테스트 전략의 상세한 프레임워크를 제공합니다.
-        이 방법론은 주로 이러한 시스템과 애플리케이션이 통신하는 방식에 초점을 맞추므로 다음을 위한 방법론이 포함됩니다:
-        
-            <br>통신(전화, VoIP 등)
-            <br>유선 네트워크
-            <br>무선 통신
-        
-    
-
-]]></description><link>정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\1..html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Kor/1..md</guid><pubDate>Tue, 13 Aug 2024 04:17:11 GMT</pubDate><enclosure url="lib\media\pasted-image-20240812103300.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240812103300.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2. 보안 원칙]]></title><description><![CDATA[ 
- <br><img alt="Pasted image 20240812105418.png" src="lib\media\pasted-image-20240812105418.png"><br><a data-tooltip-position="top" aria-label="A_A-s-Tech-Blog/Obsidian_Remote/정보보안/tryhackme/Jr Penetration Tester/보안 소개/Kor/1." data-href="A_A-s-Tech-Blog/Obsidian_Remote/정보보안/tryhackme/Jr Penetration Tester/보안 소개/Kor/1." href="A_A-s-Tech-Blog\Obsidian_Remote\정보보안\tryhackme\Jr Penetration Tester\보안 소개\Kor\1." class="internal-link" target="_self" rel="noopener">1.</a><br>
-<a data-href="IT 감사 프로세스 - 1" href="정보보안\cisa\domain1\kor\it-감사-프로세스-1.html" class="internal-link" target="_self" rel="noopener">IT 감사 프로세스 - 1</a><br>
-    
-        
-        
-        데이터를 보호하고 남용으로부터 시스템을 보호하는 정보 보안의 원칙
-        
-        기밀성, 무결성 및 가용성(CIA),  세 가지로 구성된 이 모델은 오늘날 빠르게 업계 표준이 되었습니다. 이 모델은 적용되는 데이터의 가치와 비즈니스에서 필요한 결정을 내리는데 도움이 됩니다.
-        
-        
-        기밀성은 무단 액세스 및 오용으로부터 데이터를 보호하는 것입니다. 조직은 항상 어떤 형태의 민감한 데이터를 시스템에 저장합니다. 기밀성을 제공하는 것은 의도하지 않은 누군가로부터 이 데이터를 보호하는 것과 같습니다. 즉 허용된 누군가 이외에 데이터에 접근하는 것을 막아야 합니다. 
-        
-        무결성은 보안의 삼 요소 중에서 승인된 변경이 없는 한 데이터가 언제나 무결한상태를 유지하는 것입니다. 부주의한 접근 및 이용, 정보 시스템의 오류, 무단 접근 및 이용 등으로 인해 정보가 변경될 수 있습니다.  보안 원칙에서는 정보를 수정하지 않고 저장되거나, 전송 및 사용하는 동안 정보가 변경되지 않은 상태로 유지될 때 무결성이 충족되는 것으로 판단합니다. 이를 위해서는 권한이 없는 사람이 데이터를 변경할 수 없도록 조치를 취해야 합니다(예: 기밀 위반).
-        
-        데이터가 유용하려면 언제든 사용자가 데이터를 사용할 수 있고 액세스할 수 있어야 합니다. 가용성은 그러한 요소입니다. 
-        
-        개인이 필요로 하는 정보 기술 시스템에 대한 다양한 액세스 수준을 관리하고 올바르게 정의하는 것이 중요합니다.
-        개인에게 제공되는 액세스 수준은 두 가지 기본 요소에 따라 결정됩니다:
-        
-            <br>조직 내 개인의 역할/기능
-            <br>시스템에 저장되는 정보의 민감도
-        
-        개인의 액세스 권한을 할당하고 관리하는 데 두 가지 주요 개념이 사용되며, PIM(Privileged Identity Management) 및 PAM(Privileged Access Management)이 사용됩니다.
-        처음에는 이 두 개념이 같은 것처럼 보일 수 있습니다. 그러나 그 둘은 서로 다릅니다. PIM은 조직 내의 사용자 역할을 시스템의 액세스 역할로 변환하는 데 사용됩니다. 반면 PAM은 무엇보다도 시스템의 액세스가 갖는 권한 관리입니다.
-        권한 및 액세스 제어를 논의할 때 필수적인 것은 최소 권한의 원칙입니다. 간단히 말해, 사용자에게는 최소한의 권한만 부여되어야 하며, 의무를 수행하는 데 절대적으로 필요한 권한만 부여되어야 합니다.
-        PAM은 액세스 할당 이상의 기능을 통합합니다. 또한 비밀번호 관리, 정책 감사, 시스템이 직면하는 공격 표면 감소와 같은 보안 정책 시행을 포함합니다.
-        
-        보안 모델에 대해 자세히 논의하기 전에 CIA의 세 가지 요소인 기밀성, 무결성 및 가용성을 생각해 봅시다. 
-        보안 모델에 따르면 정보를 저장하는 모든 시스템 또는 기술을 정보 시스템이라고 하며, 이 작업에서 시스템 및 장치를 참조하는 방법입니다.
-        CIA 3요소의 세 가지 요소를 달성하는 데 사용되는 인기 있고 효과적인 몇 가지 보안 모델을 살펴보겠습니다.
-        
-        Bell-La Padula 모델은 기밀성을 달성하는 데 사용됩니다. 이 모델에는 모든 사람의 책임/역할이 잘 정의되어 있는 조직의 계층 구조와 같은 몇 가지 가정이 있습니다.
-        이 모델은 엄격하게 알 필요가 있는 데이터(객체라고 함)에 대한 액세스 권한을 부여하여 작동합니다. 이 모델은 "쓰기 금지, 읽기 금지" 규칙을 사용합니다. 필요한 사람이 필요한 데이터에 접근 가능한 모델입니다. 
-        
-        
-        Biba 모델은 틀림없이 Bell-La Padula 모델과 동일하지만 CIA의 무결성을 위한 것입니다.
-        이 모델은  데이터 및 사용자에게 "기록하지 않고 읽지 않음"으로 요약할 수 있는 규칙을 적용합니다. 이 규칙은 주체가 해당 권한 수준 이하의 정보에 내용을 작성하거나 쓸 수 있지만 해당 수준 위의 데이터만 읽을 수 있음을 의미합니다.
-        
-        Biba 모델은 기밀성보다 무결성이 더 중요한 조직이나 상황에서 사용됩니다. 예를 들어 소프트웨어 개발에서 개발자는 작업에 필요한 코드에만 액세스할 수 있습니다. 데이터베이스 등과 같은 중요한 정보에 액세스할 필요가 없을 수도 있습니다.
-        
-        위협 모델링은 조직의 정보 기술 인프라 및 서비스에 있는 보안 프로토콜을 검토, 개선 및 테스트하는 프로세스입니다.
-        위협 모델링 프로세스의 중요한 단계는 애플리케이션 또는 시스템이 직면할 수 있는 가능성 있는 위협, 시스템 또는 애플리케이션이 취약할 수 있는 취약성을 식별하는 것입니다.
-        위협 모델링 프로세스는 직원과 고객을 위해 작업장에서 수행되는 위험 평가와 매우 비슷합니다. 원칙과 같습니다.
-        
-            <br>준비
-            <br>식별
-            <br>완화
-            <br>검토
-        
-        이를 돕기 위해 STRIDE(스푸핑, 데이터 변조, 부인 위협, 정보 공개, 서비스 거부 및 권한 상승) 및 PASTA(공격 시뮬레이션 및 프로세스를 위한 프로세스)와 같은 프레임워크가 있습니다. 아래에서 STRIDE에 대해 자세히 설명하겠습니다. 1999년 두 명의 Microsoft 보안 연구원이 작성한 STRIDE는 오늘날에도 큰 영향을 끼치고 있습니다. STRIDE에는 6가지 주요 원칙이 포함되어 있습니다.
-        
-        보안 위반을 인시던트(사고)라고 합니다. 모든 엄격한 위협 모델과 안전한 시스템 설계에도 불구하고 사고는 발생합니다. 위협을 해결하고 수정하기 위해 취한 조치를 사고 대응(IR)이라고 하며 사이버 보안의 전체 경력 경로입니다.
-         이에 대한 사고 대응 프로세스등은 CISA와 같은 보안 자격증에서 자주 출제되곤 합니다.
-        인시던트는 긴급도 및 영향 등급을 사용하여 분류됩니다. 긴급성은 직면한 공격의 유형, 영향을 받는 시스템에 의해 영향이 결정되는 위치 및 비즈니스 운영에 미치는 영향에 따라 결정됩니다.
-        사고는 시스템 및/또는 현재 사고에 대한 기술적 지식을 갖춘 직원 그룹으로 미리 구성된 컴퓨터 보안 사고 대응 팀(CSIRT)에 의해 대응됩니다. 인시던트를 성공적으로 해결하기 위해 이러한 단계는 종종 아래 표에 나열된 인시던트 대응의 6단계라고 합니다.
-        
-    
-
-]]></description><link>정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\2.-보안-원칙.html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Kor/2. 보안 원칙.md</guid><pubDate>Tue, 13 Aug 2024 04:17:54 GMT</pubDate><enclosure url="lib\media\pasted-image-20240812105418.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240812105418.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[ INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 04:54:31 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 04:54:29 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[ INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
  <br># <br>
     
     
@@ -600,7 +90,339 @@
         <br>Examine high-risk areas first to use resources efficiently.
     
 
-<br><a data-href="2. Security Principles" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\2.-security-principles.html" class="internal-link" target="_self" rel="noopener">2. Security Principles</a>]]></description><link>정보보안\cisa\domain1\eng\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/Eng/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 01:36:46 GMT</pubDate></item><item><title><![CDATA[Active Directory?]]></title><description><![CDATA[ 
+<br><a data-href="2. Security Principles" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\2.-security-principles.html" class="internal-link" target="_self" rel="noopener">2. Security Principles</a>]]></description><link>정보보안\cisa\domain1\eng\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/Eng/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 01:36:46 GMT</pubDate></item><item><title><![CDATA[INFORMATION SYSTEMS AUDITING PROCESS - 2]]></title><description><![CDATA[ 
+ <br><br>Annual audit plan<br>Individual Audit Plan<br>On-site audit plan<br>Report<br>Follow-upThe field audit plan is largely divided into general controls (testing the environment and operations) and applied controls. This point must be distinguished and judged carefully.Control Evaluation - Assess whether controls are appropriate for the current situation or environmentGeneral Controls (Conformity Testing) - Test the organization's environment overall. - Test compliance with rules or whether the rules are appropriate (conformity test)Application Control (Verification Testing) - Verify the quality of actual performance. - Prove that controls are not being maintained well. - Verify the integrity of actual processing. - Verify the results. - Actually try it. (ex: Check whether the financial statement report is correct)- Consult with the auditee. Explain the facts about the findings and seek consent. - A closing meeting must be held with the auditor and the audit report must be distributed.* This appeared on the test- Review follow-up actions for recommendations to determine whether management's corrective actions have achieved their objectives- If management decides to take a risk, there is no need for documentation or follow-up.If it turns out to be a problem) is The auditor decided to find out about management's corrective actions. What is the correct purpose for doing this? -&gt; This is to determine whether the risk was successfully reduced or eliminated by accepting the auditor's recommendations and carrying out corrective actions.- Independence (this comes up a lot as a problem) - Judgment/standards as an expert - Eligibility: Rightly qualified - Importance- Established under the Board of Directors and comprised of outside directors who do not participate in management (outside director level not participating in management) - Provides authority and independence of the audit function. - Monitors management’s corruption.* Must appear in the examPreventive Control - Control to prevent problems before they occur - Separation of work functions (duty separation, work rotation), physical access control, transaction approval procedures, etc.Detection and Control - Controls to detect and report problems - Hash sum, checkpoint, audit, access logCorrectional Control - Controls to minimize threats and restore the system to normal afterwards - Reduced risk due to BCP, recovery and backup, and remediation * Remember that recovery and backup are included with BCP.Complementary Controls - Control that complements existing system controls to compensate for potential or existing risks - Reduce inherent risks through complementary controls ex) If there is an existing vulnerable module that cannot be replaced, find a patch that will resolve the vulnerability of that module.* Governance is unconditionally the responsibility of the board of directors * Management responsibility is top management and executives<br>Understand the environment and review documents - Reviewing workplaces, electrical audit reports, analyzing other company data, understanding the environment<br>Analytical review procedure<br>Survey<br>Launch meeting, preliminary meetingControl Test (Conformity Test) - Verify that control procedures are being followed as defined in advance - Verify compliance with rules and whether they are effective. - This is a test to verify the environment. - Use attribute sampling.Procedure<br>Investigation<br>Query<br>Re-do<br>Follow-up (walk-through) - Backtrack the overall business processEmpirical Test - This is a test that verifies the integrity of actual processing. - Tests the integrity of a specific processing or application program (minor part). - Use random sampling.Statistical Sampling - The number of errors can be objectively quantified. Have objective standards.Random Sampling - Randomly sample with random numbersSystematic Sampling - The first sample is selected randomly, and subsequent samples are selected by serial number.Non-Statistical Sampling - Just extract it randomlyAttribute Sampling - Conformity testing, used for general control - Divided into intermittent sampling and discovery sampling. - Intermittent sampling: Intermittent sampling is performed again until the error probability of the sample population is lower than the expected result. Then, it ends when a population that meets the expected results is found. - Discovery sampling: Sampling that discovers errors or irregularities.변량 샘플링 - Verification testing, application control - Verify that the results from actual processing are flawless.Stratified Sampling - Divide the population according to specific criteria. Because the population from which to extract is limited, the sample size also becomes small.GAS - General purpose audit softwareSAS - Software used for a specific purpose화이트박스 - Even the logic can be audited while viewing the source code.블랙박스 - Audit by only looking at external functions- This means self-audit. - High-risk areas can be identified. - The auditor acts as a facilitator. - It can improve the morale of internal employees. - It is in the form of a workshop. - Evaluation is made by management. - Field managers are the subjects of CSA.1. ISACA establishes this Code of Professional Ethics to provide guidelines for the professional and personal conduct of association members and certificate holders. 2. ISACA members and certificate holders must comply with the following regulations. 1) Effective governance and management of a company's information systems and technology, as well as the establishment of appropriate standards and procedures applicable to auditing, control, security, and risk management, must be supported and compliance promoted. 2) Duties must be performed with objectivity, sincere diligence, and professional care in accordance with job standards. 3) Maintain high standards of conduct and dignity, do not undermine the trust of your profession or association, and contribute to the interests of stakeholders in a legal manner. 4) The privacy and confidentiality of information acquired during the performance of work must be maintained, unless disclosure is requested by judicial authorities. The information must not be used for personal purposes or provided to inappropriate parties. 5) You must agree to perform a task only if you remain skilled in your field of expertise and can complete the task using the necessary skills, knowledge and abilities. 6) All important facts that may distort the result report if not disclosed must be disclosed and the results of the work performed must be delivered to the appropriate target (delivered to the audited department, not to other departments!). 7) Support job training for stakeholders by improving their understanding of governance and management of corporate information systems and technology, as well as audit, control, security, and risk management.Corporate Governance: Control to achieve corporate objectivesInformation Security Governance: Aims to protect and improve operational efficiency.IT Governance: Strategic Alignment - Providing value (profit-based) - Performance Measurement (Measuring IT Performance with BSC) -&gt; This is to share the organization’s strategy. - Resource management - Risk Management -&gt; Management is aware of risk -&gt; The ideal situation is to understand the organization’s appetite for risk. -&gt; Responsibility always lies with the organization. - Compliance (Policy Management)Role 1. Always monitor policies, laws, and regulations. 2. Review IT governance and identify areas for improvement. 3. If there are any exemplary cases, recommend them to management. 4. Helps ensure policy compliance. 5. Evaluate from an independent and objective perspective.Purpose Pursued Strategic linkage between business and IT - Effective IT Governance 1. Demonstrate leadership and ensure 2. Ensure the structure of the organization well. 3. Helping the process run wellWhat you do: Coordinating project priorities, setting project schedules, allocating project resources, and mediating with each team.Expected effects of information security governance 1. Provide reliability to trading partners and customers. 2. Provides better efficiency. 3. Makes the company’s image better.© 2024 IS Audit Guide. All rights reserved.]]></description><link>정보보안\cisa\domain1\eng\information-systems-auditing-process-2.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/Eng/INFORMATION SYSTEMS AUDITING PROCESS - 2.md</guid><pubDate>Tue, 13 Aug 2024 04:54:11 GMT</pubDate></item><item><title><![CDATA[CISA 감사 관련 문서 및 위험 관리]]></title><description><![CDATA[ 
+ <br>
+    
+    
+    
+    감사 기능의 역할과 책임에 대해 포괄적으로 정의한 문서입니다. 책임, 권한, 의무에 대해 기술되어 있으며, 승인 시에는 이사회나 후원자의 승인을 받아야 합니다.
+    
+    감사를 계획하고 실행하는 과정을 기록하는 문서입니다. 감사가 진행되기 이전에는 반드시 승인을 받아야 하며, 중요할 때만 급히 수정이 가능합니다. 현장 감사 절차를 기술한 문서입니다.
+    
+    감사 중에 사용된 모든 감사 절차와 기술을 적어놓은 문서입니다. 전자 감사 작업 조서는 접근 권한 설정을 잘해야 하며, 품질 보증이나 타 감사인의 참조, 소송 대비 과정에서 문서화되어야 합니다.
+    
+    IS 감사인이 제시한 발견 사항과 권고 사항을 듣고, 경영진이 실시한 후속 검토가 적절한지 알아봅니다.
+    
+    감사 증거는 아래와 같은 기준으로 평가됩니다:
+    
+        <br>연관성: 감사와 얼마나 관련이 있는지
+        <br>신뢰성: 
+            
+                <br>어디에서 얻은 것인지 (조직 내부보다는 독립적인 제3자에게서 얻는 것이 더 믿음직)
+                <br>누가 수집하였는지 (권위 있는 기관이 수집했는지)
+                <br>얼마나 객관적인지
+                <br>언제 수집했는지 (사건으로부터 얼마나 시간이 지났는지)
+            
+        
+        <br>유용성: 감사에 도움이 되는 증거인지
+        <br>충분성: 누가 봐도 같은 답을 내릴 만큼 충분한지
+    
+    
+    아래는 자주 출제되는 위험의 종류입니다:
+    
+    근본적으로 존재하는 위협으로, 보완 통제를 통해 감소시킬 수 있으나 감사인이 통제하기는 어렵습니다.
+    
+    오류를 적발하고 교정하지 못했을 때의 위협으로, 단기적으로는 크게 개선할 수 없지만 감사인의 권고를 통해 중장기적 개선이 가능합니다.
+    
+    샘플링 위험과 비샘플링 위험으로 나뉩니다.
+    
+        <br>샘플링 위험: 샘플이 모집단을 대표하지 못할 위험
+        <br>비샘플링 위험: 감사 절차에서 문제가 생긴 경우로, 감사인의 실수나 미숙함이 원인이 됩니다. 교육과 훈련, 감사의 강도 조절로 완화할 수 있습니다.
+    
+    
+    감사인이 문제를 제대로 적발하지 못한 채 보고서를 발행했을 때의 위험입니다. 감사 위험은 고유 위험, 통제 위험, 적발 위험의 곱으로 계산됩니다.
+    
+    경영진이 용인 가능한 리스크를 정하고, 감사인은 감사 위험을 사업 위험보다 낮게 설정해야 합니다.
+    
+    효과적인 위험 관리는 조직의 위험 성향을 완벽하게 이해하는 것입니다. 조직의 위험 성향을 가장 잘 파악할 수 있는 문서는 무엇일까요?
+    
+    
+        <br>위험 성향 정의: 예를 들어, 회계부 관련 문제
+        <br>위험 식별: 예를 들어, 회계 장부의 노출
+        <br>위험 관리 전략 수립: 위의 정보를 기반으로 전략 수립
+    
+    
+    
+        <br>회피 (문제의 원인을 없앰): 문제의 원인을 완전히 제거하여 위험을 없앱니다. 가장 확실한 방법이지만 비용이 많이 듭니다.
+        <br>경감 (위험을 완화): 내부적으로 대책을 세워 위험을 완화시킵니다. 예를 들어, API 보안이 취약하면 VPN을 사용하여 정해진 사용자만 접근하게 합니다.
+        <br>전가: 3자를 이용하여 대응하거나 책임을 떠넘기는 방식입니다. 예: 보험, 아웃소싱.
+        <br>수용 (감수): 위험을 알고 있으면서도 대응하지 않습니다. 감사인은 위험 수용이 올바른지 확인해야 합니다.
+        <br>무시: 위험을 알지 못하고 대응하지 않는 경우입니다.
+    
+    
+    
+        <br>위험 식별: 자산을 식별합니다.
+        <br>위험 분석/평가: 위험을 분석하고 평가합니다.
+        <br>위험 통제: 통제를 적용합니다. 이때 기존 통제를 평가하고 확인해야 합니다.
+        <br>지속적인 모니터링: 통제 이후 잔여 위험이 남으며, 이를 완화하는 것은 감사인의 권고입니다. 경영진은 용인 가능한 위험 수준을 결정해야 합니다.
+        <br>주기적인 보고: 주기적인 보고가 필요합니다.
+    
+    
+    
+    
+        <br>중대한 변화나 위협이 있었을 때 (1순위)
+        <br>최소 1년에 한 번 (2순위)
+    
+    
+    
+    
+        <br>델파이 기법: 익명으로 전문가에게 자문
+        <br>질문서법: 질문지를 통한 분석
+        <br>시나리오법: 다양한 시나리오를 통한 분석
+    
+    
+    
+        <br>위협 발생 가능성을 수치로 표현: 정량적 접근
+        <br>복잡한 방법: 분석이 복잡할 수 있음
+    
+    
+    
+        <br>모든 오류나 부정은 완전히 제거할 수 없습니다.
+        <br>중요성의 원칙을 적용하며, 감사인은 전문가적 판단을 내려야 합니다.
+        <br>높은 위험부터 검사하여 자원을 효율적으로 사용합니다.
+    
+
+<br><a data-href="2. 보안 원칙" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\2.-보안-원칙.html" class="internal-link" target="_self" rel="noopener">2. 보안 원칙</a>]]></description><link>정보보안\cisa\domain1\kor\it-감사-프로세스-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/kor/IT 감사 프로세스 - 1.md</guid><pubDate>Tue, 13 Aug 2024 04:29:04 GMT</pubDate></item><item><title><![CDATA[IT 감사 프로세스 - 2]]></title><description><![CDATA[ 
+ <br><br>
+    
+        
+            
+            
+            
+                <br>연간 감사 계획
+                <br>개별 감사 계획
+                <br>현장 감사 계획
+                <br>보고
+                <br>후속 조치
+            
+        <br>    &lt;div class="section"&gt;
+        &lt;h2&gt;2. 현장 감사&lt;/h2&gt;
+        &lt;p class="highlight"&gt;현장 감사 계획은 크게 일반 통제(환경과 운영을 테스트)와 응용 통제로 나뉜다. 이 점을 구분하여 잘 판단해야 한다.&lt;/p&gt;
+        &lt;h3&gt;통제 평가&lt;/h3&gt;
+        &lt;p&gt;통제가 현 상황이나 환경에 적합한지 평가&lt;/p&gt;
+        &lt;h4&gt;일반 통제 (준거성 테스트)&lt;/h4&gt;
+        &lt;ul&gt;
+            &lt;li&gt;조직의 환경을 전반적으로 테스트한다.&lt;/li&gt;
+            &lt;li&gt;규칙 준수나 규칙이 적합한지를 테스트한다.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;h4&gt;응용 통제 (실증 테스트)&lt;/h4&gt;
+        &lt;ul&gt;
+            &lt;li&gt;실제 성과의 품질을 검증한다.&lt;/li&gt;
+            &lt;li&gt;잘 지켜지고 있지 않는 통제를 증명한다.&lt;/li&gt;
+            &lt;li&gt;실제 처리의 무결성을 검증한다.&lt;/li&gt;
+            &lt;li&gt;결과물을 검증한다.&lt;/li&gt;
+            &lt;li&gt;실제로 해본다. (예: 재무제표 보고서 올바른지 검사)&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="section"&gt;
+        &lt;h2&gt;3. 보고&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;피감사인과 협의한다. 발견 사항에 대한 사실을 이해시키고 동의를 구한다.&lt;/li&gt;
+            &lt;li&gt;감사인과의 종료회의를 진행하고 감사보고서를 배포해야 한다.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="section"&gt;
+        &lt;h2&gt;4. 후속 조치&lt;/h2&gt;
+        &lt;p class="highlight"&gt;이거 시험에 나왔음&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;권고 사항에 대하여 경영진의 교정 조치가 목적을 달성하였는지를 파악하기 위해 후속 조치 검토&lt;/li&gt;
+            &lt;li&gt;경영진이 위험을 감수하기로 한 경우 문서화나 후속 조치를 할 필요 없다.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;문제로 나올 경우:&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;IS 감사인은 경영진의 교정 조치에 대해 파악하기로 하였다. 이를 수행하는 목적으로 올바른 것은?&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span class="important"&gt;-&gt; 감사인의 권고 사항을 받아들여 교정 조치를 수행하여 성공적으로 위험을 경감, 혹은 제거하였는지 파악하기 위해서이다.&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="section"&gt;
+        &lt;h2&gt;5. 감사인의 자격&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;독립성 (이게 문제로 정말 많이 나옴)&lt;/li&gt;
+            &lt;li&gt;전문가로서의 판단/기준&lt;/li&gt;
+            &lt;li&gt;적격성: 정당한 자격이 있음&lt;/li&gt;
+            &lt;li&gt;중요성&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="section"&gt;
+        &lt;h2&gt;6. IS 감사위원회&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;이사회 산하에 설립이 되며 경영에 참여하지 않는 사외 이사들로 구성 (경영에 참여하지 않는 사외이사 레벨)&lt;/li&gt;
+            &lt;li&gt;감사 기능의 권한과 독립성을 제공한다.&lt;/li&gt;
+            &lt;li&gt;경영진의 부정을 감시한다.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="section"&gt;
+        &lt;h2&gt;7. 통제의 종류&lt;/h2&gt;
+        &lt;p class="highlight"&gt;무조건 시험에 나옴&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;예방 통제:&lt;/strong&gt; 문제가 생기기 전에 미리 예방하는 통제
+                &lt;ul&gt;
+                    &lt;li&gt;업무 기능 분리 (직무 분리, 업무 순환), 물리적 접근 통제, 거래 승인 절차 등&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;적발 통제:&lt;/strong&gt; 문제를 적발하고 보고하는 통제
+                &lt;ul&gt;
+                    &lt;li&gt;해시 합계, 체크 포인트, 감사, 접근 로그&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;교정 통제:&lt;/strong&gt; 위협을 최소화하고 이후에 시스템을 정상적으로 복구하는 통제
+                &lt;ul&gt;
+                    &lt;li&gt;BCP, 복구 및 백업, 교정으로 인한 위험 감소&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;보완 통제:&lt;/strong&gt; 기존에 있던 시스템 통제에서 보완하여 잠재적인 위험이나 기존 위험을 보완하는 통제
+                &lt;ul&gt;
+                    &lt;li&gt;보완 통제를 통해 고유 위험 감소&lt;/li&gt;
+                    &lt;li&gt;예: 대체 불가능한 기존 취약 모듈이 있으면 그 모듈의 취약점을 해결해줄 패치 찾기&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;&lt;strong&gt;거버넌스는 무조건 이사회 책임&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;관리 책임은 최고 경영진과 임원&lt;/strong&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;8. 감사 계획 수립 절차&lt;/h2&gt;
+        &lt;ol&gt;
+            &lt;li&gt;환경 이해 및 문서 검토 - 업무 현장 검토, 전기 감사 보고서, 다른 회사 자료 분석하기, 환경에 대한 이해&lt;/li&gt;
+            &lt;li&gt;분석적 검토 절차&lt;/li&gt;
+            &lt;li&gt;설문 조사&lt;/li&gt;
+            &lt;li&gt;착수 회의, 예비 회의&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="section"&gt;
+        &lt;h2&gt;9. 감사 테스트&lt;/h2&gt;
+        &lt;h3&gt;통제 테스트 (준거성 테스트)&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;통제 절차가 사전에 정의된 대로 잘 지켜지고 있는지 검증&lt;/li&gt;
+            &lt;li&gt;규칙의 준수여부와 규칙이 효과적인지 검증한다.&lt;/li&gt;
+            &lt;li&gt;환경을 검증하는 테스트이다.&lt;/li&gt;
+            &lt;li&gt;속성 샘플링을 사용한다.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;h3&gt;실증 테스트&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;실제 처리의 무결성을 검증하는 테스트이다.&lt;/li&gt;
+            &lt;li&gt;특정한 처리나 응용 프로그램의 무결성을 테스트한다 (지엽적인 부분)&lt;/li&gt;
+            &lt;li&gt;변량 샘플링을 사용한다.&lt;/li&gt;
+            &lt;li&gt;실제로 해본다.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="section"&gt;
+        &lt;h2&gt;10. 감사 샘플링&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;통계적 샘플링:&lt;/strong&gt; 오류의 수치를 객관적으로 계량화 가능하다. 객관적인 기준을 가진다.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;임의 샘플링:&lt;/strong&gt; 임의적으로 난수로 표본 추출&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;체계적 샘플링:&lt;/strong&gt; 첫 번째 샘플은 무작위로 추출하고 그 뒤부터는 일련 번호를 붙여서 추출&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;비통계적 샘플링:&lt;/strong&gt; 그냥 자기가 임의적으로 추출&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;속성 샘플링:&lt;/strong&gt; 준거성 테스트, 일반 통제 할 때 사용
+                &lt;ul&gt;
+                    &lt;li&gt;단속적 샘플링과 발견 샘플링으로 나뉜다.&lt;/li&gt;
+                    &lt;li&gt;단속적 샘플링: 샘플의 모집단의 오류 확률이 기대 결과보다 낮을 때 될 때까지 다시 수행한다. 그러다가 기대 결과에 부합하는 모집단이 나오면 종료&lt;/li&gt;
+                    &lt;li&gt;발견 샘플링: 오류나 부정을 발견하는 샘플링이다.&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;변량 샘플링:&lt;/strong&gt; 실증 테스트, 응용 통제
+                &lt;ul&gt;
+                    &lt;li&gt;실제 처리에 있는 결과가 무결한지 검증한다.&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;층화 샘플링:&lt;/strong&gt; 모집단을 특정한 기준에 따라 나눈다. 추출 대상 모집단이 한정되어서 샘플의 크기도 작아진다.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="section"&gt;
+        &lt;h2&gt;11. CATTs (컴퓨터를 이용한 감사)&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;GAS:&lt;/strong&gt; 범용 감사 소프트웨어&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;SAS:&lt;/strong&gt; 특정 목적으로 사용되는 소프트웨어&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;화이트박스:&lt;/strong&gt; 소스 내부를 보면서 로직까지 감사 가능&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;블랙박스:&lt;/strong&gt; 외부 기능만 보면서 감사&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="section"&gt;
+        &lt;h2&gt;12. CSA&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;자체 감사를 의미한다.&lt;/li&gt;
+            &lt;li&gt;고위험 분야를 식별할 수 있다.&lt;/li&gt;
+            &lt;li&gt;감사인은 촉진자 역할을 한다.&lt;/li&gt;
+            &lt;li&gt;내부 직원들의 사기를 증진시킬 수 있다.&lt;/li&gt;
+            &lt;li&gt;워크샵 형태이다.&lt;/li&gt;
+            &lt;li&gt;평가는 경영진이 한다.&lt;/li&gt;
+            &lt;li&gt;현업 관리자들이 CSA의 주체이다.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="section"&gt;
+        &lt;h2&gt;13. IS 직무 윤리 규정&lt;/h2&gt;
+        &lt;ol&gt;
+            &lt;li&gt;ISACA는 협회 회원 및 자격증 소지자의 직무 및 개인 행위에 관한 지침을 제시하고자 본 직무 윤리 규정을 제정한다.&lt;/li&gt;
+            &lt;li&gt;ISACA 회원 및 자격증 소지자는 다음 규정을 준수해야 한다.
+                &lt;ol&gt;
+                    &lt;li&gt;기업의 정보 시스템과 기술에 대한 효과적인 거버넌스와 관리 그리고 감사, 통제, 보안, 위험 관리 등에 적용되는 적절한 기준과 절차의 규현을 지원하고 준수를 촉진해야 한다.&lt;/li&gt;
+                    &lt;li&gt;직무 기준에 따라 객관성, 정단한 근면성, 전문가적 주의로 임무를 수행해야 한다.&lt;/li&gt;
+                    &lt;li&gt;높은 행위 기준과 품격을 유지하고, 자신의 직업 또는 협회의 신뢰를 떨어뜨리지 않으며, 합법적인 방법으로 이해관계자들에게 이익에 기여한다.&lt;/li&gt;
+                    &lt;li&gt;사법 당국이 공개를 요구하는 경우가 아니라면 업무 수행 중에 습득한 정보의 프라이버시와 기밀을 유지해야 한다. 해당 정보를 사적 목적으로 사용하거나 부적절한 대상에게 제공해서는 안 된다.&lt;/li&gt;
+                    &lt;li&gt;자신의 전문 분야에서 숙련성을 유지하고 필요한 기술, 지식 및 능력을 사용하여 업무를 완수할 수 있을 때만 해당 업무 수행을 동의해야 한다.&lt;/li&gt;
+                    &lt;li&gt;공개하지 않을 경우 결과 보고를 왜곡할 수 있는 모든 중요 사실을 공개하고 수행 작업의 결과를 적절한 대상에게 전달 (감사받은 부서로 전달, 타 부서 전달 NO!) 해야 한다.&lt;/li&gt;
+                    &lt;li&gt;기업의 정보 시스템과 기술의 거버넌스와 관리 그리고 감사, 통제, 보안, 위험 관리 등에 관한 이해관계자들의 이해를 증진함으로 그들의 직무 교육을 지원한다.&lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="section"&gt;
+        &lt;h2&gt;14. 거버넌스&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;기업 거버넌스:&lt;/strong&gt; 기업의 목적을 달성하기 위해 통제&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;정보보호 거버넌스:&lt;/strong&gt; 보호를 목적으로 하며 운영 효율성을 개선한다.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;IT 거버넌스:&lt;/strong&gt; 전략적 연계, 가치 제공 (이익 기반), 성과 측정 (BSC로 IT 성과 측정) -&gt; 조직의 전략을 공유하기 위해서이다. 자원 관리, 리스크 관리
+                &lt;ul&gt;
+                    &lt;li&gt;경영진이 위험 인식&lt;/li&gt;
+                    &lt;li&gt;가장 이상적인 상황은 조직의 위험에 대한 성향을 이해하는 것이다.&lt;/li&gt;
+                    &lt;li&gt;책임은 언제나 조직에게 있다.&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;컴플라이언스 (정책 관리)&lt;/strong&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="section"&gt;
+        &lt;h2&gt;15. IT 거버넌스 감사의 역할&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;정책이나 법, 규정 등을 항상 모니터링한다.&lt;/li&gt;
+            &lt;li&gt;IT 거버넌스를 검토하고 개선점을 찾아낸다.&lt;/li&gt;
+            &lt;li&gt;모범적인 사례가 있으면 경영진에게 추천한다.&lt;/li&gt;
+            &lt;li&gt;정책을 준수하도록 돕는다.&lt;/li&gt;
+            &lt;li&gt;독립적이고 객관적인 시선으로 평가한다.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;&lt;strong&gt;추구하는 목적:&lt;/strong&gt; 자원 효율 증대, 자원 보호, IT 전략 수행&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;비즈니스와 IT 전략적 연계&lt;/li&gt;
+            &lt;li&gt;효과적인 IT 거버넌스
+                &lt;ul&gt;
+                    &lt;li&gt;리더십 발휘해서 보증&lt;/li&gt;
+                    &lt;li&gt;조직의 구조를 잘 보증한다.&lt;/li&gt;
+                    &lt;li&gt;프로세스가 잘 수행되도록 지원하기&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="section"&gt;
+        &lt;h2&gt;16. IS 운영 위원회&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;하는 일: 프로젝트 우선 순위 조정, 프로젝트 일정 정하기, 프로젝트 자원 할당, 각 팀과의 의견 중재&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="section"&gt;
+        &lt;h2&gt;17. 정보보호 거버넌스&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;정보보호 거버넌스의 기대 효과:&lt;/strong&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;거래 상대와 고객에게 신뢰성을 제공한다.&lt;/li&gt;
+                    &lt;li&gt;더 나은 효율성을 제공한다.&lt;/li&gt;
+                    &lt;li&gt;기업의 이미지를 더 좋게 만든다.&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+복사<br>
+]]></description><link>정보보안\cisa\domain1\kor\it-감사-프로세스-2.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/kor/IT 감사 프로세스 - 2.md</guid><pubDate>Tue, 13 Aug 2024 04:54:01 GMT</pubDate></item><item><title><![CDATA[Active Directory?]]></title><description><![CDATA[ 
  <br><img alt="post-thumbnail" src="https://velog.velcdn.com/images/tkops365/post/65c4efa1-7472-4aa0-aa8c-994385b67a25/image.png" referrerpolicy="no-referrer"><br><br><img src="https://velog.velcdn.com/images/tkops365/post/cf0ba30b-ac69-496e-9b51-a58076dd2d7e/image.jpg" referrerpolicy="no-referrer"><br>Active Directory centralizes the management of common components of a computer network in a single repository called Active Directory (AD). To explain it more simply, you can think of it as a database that stores information about company employees' account information (ID, password), computer information, and policies you want to enforce (ex: password is 9 or more characters long). I'm familiar with it because I manage a company server, but it can be a bit confusing when you first hear it. The server running this Active Directory is called a domain controller (DC).<br>
 Advantages
 <br>Centralized identity management: Easily control and control all users on your network.<br>
@@ -615,7 +437,7 @@ You can sleep.<br>Caution!) A group can have both users and computers as members
 <br>Difference between security group and organizational unit
 <br>Organizational unit:&nbsp;Mainly used to apply policies<br>
 Security Group:&nbsp;Used to grant permissions to resources<br><br>This part is similar for both users and machines. The idea is to separate devices and users based on their purpose. Just as it is good to separate intranet computers, development team personal computers, etc. from each other.<br><br>If you use Windows Domian, all credentials are stored on the domain controller. The user uses these credentials to authenticate to the service, and the service asks the domain controller to confirm the authentication is correct.<br>
-Two protocols can be used for authentication: These are protocols that I occasionally encountered while studying hacking.<br>Kerberos: Used in newer versions of Windows. This is the default protocol for recent domains.<br>NetNTLM: A legacy authentication protocol maintained for compatibility.<br>Although I've heard that NetNTLM is often deprecated, both protocols live on most networks.<br><br>As your company grows, your network also grows. It's a natural result. As the number of services increases and the information to be managed increases, the size of the network also increases. We know how it grows. Whether it's an algorithm or a flow chart, it's a structure you'll definitely see.<br>you're right. It is a tree structure.<br><img src="https://velog.velcdn.com/images/tkops365/post/26ad27f9-1911-450e-be22-017ff2279379/image.png" referrerpolicy="no-referrer"><br>Active Directory supports multiple domain integration, allowing you to partition your network into independently manageable units. By making them share the same namespace, you can combine the domains in a tree form.<br>If your domain is split into two subdomains for UK and US branches, you can build a tree with a root domain and two subdomains called thm.local and thm.local, each with their own AD, computers, and users.<br>This partitioned structure gives you more control over who can access what in your domain. UK IT staff will have their own DC that manages only UK resources. For example, UK users cannot manage US users. In this way, the domain administrator at each branch has full control of its DCs, but not the DCs of other branch offices. You can also configure policies independently for each domain in the tree.<br>However, it is also common for companies with different namespaces to merge. What should I do in times like this? you're right. Just as the two Chinese characters for tree and neck come together to form the Chinese character for bush and forest,<br>the domain can also be a forest. Integrating multiple trees with different namespaces into the same network is called a forest.<br>By organizing multiple domains into trees and forests, you can have a nicely compartmentalized network in terms of management and resources. However, at some point, THM UK's users may need to access shared files on one of MHT ASIA's servers. To achieve this, domains arranged in<br>trees and forests are joined by trust relationships.<br>Simply put, a trust relationship between domains allows you to grant users from another domain access to resources in another domain. This relationship can be unidirectional or bidirectional.<br>This is how I looked into Active Directory. Normally, when managing a server, I only knew the concepts and moved on, but when I reflected on my knowledge properly, my perspective opened up more broadly. I need to gain more security and network knowledge in the future.]]></description><link>정보보안\cs\서버-관리\eng\active-directory(eng).html</link><guid isPermaLink="false">정보보안/CS/서버 관리/Eng/Active Directory(Eng).md</guid><pubDate>Mon, 12 Aug 2024 00:47:16 GMT</pubDate><enclosure url="https://velog.velcdn.com/images/tkops365/post/65c4efa1-7472-4aa0-aa8c-994385b67a25/image.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://velog.velcdn.com/images/tkops365/post/65c4efa1-7472-4aa0-aa8c-994385b67a25/image.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Ubuntu Docker Capacity Management(Eng)]]></title><description><![CDATA[ 
+Two protocols can be used for authentication: These are protocols that I occasionally encountered while studying hacking.<br>Kerberos: Used in newer versions of Windows. This is the default protocol for recent domains.<br>NetNTLM: A legacy authentication protocol maintained for compatibility.<br>Although I've heard that NetNTLM is often deprecated, both protocols live on most networks.<br><br>As your company grows, your network also grows. It's a natural result. As the number of services increases and the information to be managed increases, the size of the network also increases. We know how it grows. Whether it's an algorithm or a flow chart, it's a structure you'll definitely see.<br>you're right. It is a tree structure.<br><img src="https://velog.velcdn.com/images/tkops365/post/26ad27f9-1911-450e-be22-017ff2279379/image.png" referrerpolicy="no-referrer"><br>Active Directory supports multiple domain integration, allowing you to partition your network into independently manageable units. By making them share the same namespace, you can combine the domains in a tree form.<br>If your domain is split into two subdomains for UK and US branches, you can build a tree with a root domain and two subdomains called thm.local and thm.local, each with their own AD, computers, and users.<br>This partitioned structure gives you more control over who can access what in your domain. UK IT staff will have their own DC that manages only UK resources. For example, UK users cannot manage US users. In this way, the domain administrator at each branch has full control of its DCs, but not the DCs of other branch offices. You can also configure policies independently for each domain in the tree.<br>However, it is also common for companies with different namespaces to merge. What should I do in times like this? you're right. Just as the two Chinese characters for tree and neck come together to form the Chinese character for bush and forest,<br>the domain can also be a forest. Integrating multiple trees with different namespaces into the same network is called a forest.<br>By organizing multiple domains into trees and forests, you can have a nicely compartmentalized network in terms of management and resources. However, at some point, THM UK's users may need to access shared files on one of MHT ASIA's servers. To achieve this, domains arranged in<br>trees and forests are joined by trust relationships.<br>Simply put, a trust relationship between domains allows you to grant users from another domain access to resources in another domain. This relationship can be unidirectional or bidirectional.<br>This is how I looked into Active Directory. Normally, when managing a server, I only knew the concepts and moved on, but when I reflected on my knowledge properly, my perspective opened up more broadly. I need to gain more security and network knowledge in the future.]]></description><link>정보보안\cs\서버-관리\eng\active-directory(eng).html</link><guid isPermaLink="false">정보보안/CS/서버 관리/Eng/Active Directory(Eng).md</guid><pubDate>Mon, 12 Aug 2024 00:47:16 GMT</pubDate><enclosure url="https://velog.velcdn.com/images/tkops365/post/65c4efa1-7472-4aa0-aa8c-994385b67a25/image.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://velog.velcdn.com/images/tkops365/post/65c4efa1-7472-4aa0-aa8c-994385b67a25/image.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Ubuntu Docker Capacity Management(Eng)]]></title><description><![CDATA[ 
  <br><img src="https://velog.velcdn.com/images/tkops365/post/f03cd953-edc3-4ae4-8b00-60576cf465e8/image.png" referrerpolicy="no-referrer"><br>We encountered a difficult error while using Docker at work. The 4TB allocated to Ubuntu was insufficient, so the existing service was down. At first, we thought we could deal with it by deleting files or logs that were taking up a lot of space, but that wasn't the fundamental problem.<br>Since I spent a lot of time on this issue, I decided to share my solution for developers like me, especially those who develop and maintain Docker servers like me.<br><br><img src="https://velog.velcdn.com/images/tkops365/post/72458452-fa5d-43e7-8f4b-c01625fdce7d/image.png" referrerpolicy="no-referrer"><br>When using Docker, you may see that disk usage suddenly increases. Then, you enter the Docker container and check the capacity of the db or the files in the container, but you cannot find the cause.<br>Why is that?<br>The reason is simple.<br>This is because containers share disk volumes, and garbage data values ​​from the server accumulate on those disk volumes for a long time.<br>It is mainly accumulated in the server container that handles logic, but if left for a long time, it will also accumulate in other auxiliary containers such as databases.<br>
 <br>I also had a ton of garbage accumulated in mariaDB, nginx, Grafana, phpadmin, etc.
 <br>To put it simply, the cause is that the volumes of deleted or unused images or containers have piled up, creating this situation.<br>What should be done in this situation?<br>For times like this, Docker has prepared commands.<br>It is docker system prune .<br>First, let me explain the method. <br>docker ps -a 
@@ -636,7 +458,7 @@ docker rm $(docker ps -a -q)
 
 복사<br>Next, it's time to delete any unused data from Docker.<br>Delete unused volumes:<br>docker volume prune
 복사<br>Delete all unused containers, images, volumes, and networks:<br>docker system prune -a
-복사<br>Re-creating and running containers to fulfill the above assumptions would provide a dramatic increase in capacity.<br>I got 3 terabytes.<br>Normally, you can just use the docker volume prune command to delete the above volume, but I had to deal with capacity issues again in less than 3 months when I did that the first time I tried.<br>So docker system prune -a to delete unused images, volumes, containers, networks, etc.<br>was used.<br>Of course, I'm not saying you should always use that command, because you never know what problems might arise.<br>I hope that you won't have any problems with capacity when using Docker on Ubuntu using this method. It was a meaningful event to learn again that volume management is important.]]></description><link>정보보안\cs\서버-관리\eng\ubuntu-docker-capacity-management(eng).html</link><guid isPermaLink="false">정보보안/CS/서버 관리/Eng/Ubuntu Docker Capacity Management(Eng).md</guid><pubDate>Mon, 12 Aug 2024 00:45:02 GMT</pubDate><enclosure url="https://velog.velcdn.com/images/tkops365/post/f03cd953-edc3-4ae4-8b00-60576cf465e8/image.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://velog.velcdn.com/images/tkops365/post/f03cd953-edc3-4ae4-8b00-60576cf465e8/image.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[우분투 Docker 용량 관리]]></title><description><![CDATA[ 
+복사<br>Re-creating and running containers to fulfill the above assumptions would provide a dramatic increase in capacity.<br>I got 3 terabytes.<br>Normally, you can just use the docker volume prune command to delete the above volume, but I had to deal with capacity issues again in less than 3 months when I did that the first time I tried.<br>So docker system prune -a to delete unused images, volumes, containers, networks, etc.<br>was used.<br>Of course, I'm not saying you should always use that command, because you never know what problems might arise.<br>I hope that you won't have any problems with capacity when using Docker on Ubuntu using this method. It was a meaningful event to learn again that volume management is important.]]></description><link>정보보안\cs\서버-관리\eng\ubuntu-docker-capacity-management(eng).html</link><guid isPermaLink="false">정보보안/CS/서버 관리/Eng/Ubuntu Docker Capacity Management(Eng).md</guid><pubDate>Mon, 12 Aug 2024 00:45:02 GMT</pubDate><enclosure url="https://velog.velcdn.com/images/tkops365/post/f03cd953-edc3-4ae4-8b00-60576cf465e8/image.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://velog.velcdn.com/images/tkops365/post/f03cd953-edc3-4ae4-8b00-60576cf465e8/image.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[우분투 Docker 용량 관리]]></title><description><![CDATA[ 
  <br><img src="https://velog.velcdn.com/images/tkops365/post/f03cd953-edc3-4ae4-8b00-60576cf465e8/image.png" referrerpolicy="no-referrer"><br>회사에서 도커 사용 중에 어려운 오류를 마주쳤다. 우분투에 할당된 4테라 용량이 부족하여 기존 서비스가 먹통이 된 것이다. 처음에는 용량을 많이 차지하는 파일이나 로그를 삭제함으로 대응하면 될 줄 알았지만, 그건 근본적인 문제가 아니었다. <br>이 문제에 수 많은 시간을 소비했기에 나와 같은 개발자들을 위해 문제 해결 방법을 공유하기로 했다. 특히 나처럼 도커 서버를 개발하고 관리하는 이들에게 도움이 되었으면 좋겠다. <br><br><img src="https://velog.velcdn.com/images/tkops365/post/72458452-fa5d-43e7-8f4b-c01625fdce7d/image.png" referrerpolicy="no-referrer"><br>(예시 사진)<br>도커를 사용하다보면 디스크의 사용량이 갑자기 늘어나있는 광경을 볼 수 있다. 그러면 도커 컨테이너에 들어가서 db의 용량이나 컨테이너의 파일들을 뒤져보지만, 원인을 알 수 없었다. <br> 왜일까? <br>그 이유는 간단한다.  <br>컨테이너 끼리 디스크 볼륨을 공유하고 있고 그 디스크 볼륨에 오랜 시간 서버의 쓰레기 데이터 값이 쌓이기 때문이다. <br>주로 로직을 담당하는 서버 컨테이너에 쌓이지만, 오랜 시간 방치하면 데이터 베이스 같은 다른 부속 컨테이너들에도 쌓이게 된다.<br>
 <br>필자는 mariaDB, nginx, Grafana, phpadmin, 등에도 어머어마한 쓰레기 값이 쌓여있었다.
 <br>원인을 간단하게 설명하자면, 삭제되거나 사용하지 않는 이미지나 컨테이너의 볼륨이 쌓여서 저런 사태를 만들어낸 것이다. <br> 이럴 때 조치는 어떻게 해야 하는가? <br>이럴 때를 대비하여 docker 에서는 명령어 들을  준비해두었다. <br>바로 docker system prune이다.<br>먼저 방법을 설명하겠다. <br>docker ps -a 
@@ -658,7 +480,7 @@ docker rm $(docker ps -a -q)
 
 복사<br>그 다음에는 이제 docker에서 사용되지 않는 데이터들을 삭제해줄 시간이다.<br>사용하지 않는 볼륨 삭제:<br>docker volume prune
 복사<br>사용하지 않는 컨테이너, 이미지, 볼륨 및 네트워크를 모두 삭제:<br>docker system prune -a
-복사<br>위 가정을 마치기 컨테이너들을 다시 만들고 실행하면 획기적인 용량 확보가 가능할 것이다.<br>필자는 3테라를 확보했다.<br>보통은 위 볼륨 삭제 과정에서 docker volume prune 이 명령어만 사용하고 마쳐도 되지만, 필자는 첫 번째 시도 때 그렇게 했다고 3달도 되지 않아 또 용량 문제에 시달렸다.<br>그렇기에 쓰지 않는 이미지와 볼륨, 컨테이너, 네트워크 등을 삭제 하는 docker system prune -a<br>를 사용했다.<br>물론 무조건 저 명령어를 쓰라는 건 아니다. 무슨 문제가 생길 지도 모르기 때문이다.<br> 이 방법을 사용하여 우분투에서 도커를 사용할 때에 용량 문제에 시달리지 않길 바란다. 볼륨 관리가 중요하다는 것을 또 한번 배우게 되어 뜻 깊은 사건이었다.]]></description><link>정보보안\cs\서버-관리\kor\우분투-docker-용량-관리.html</link><guid isPermaLink="false">정보보안/CS/서버 관리/kor/우분투 Docker 용량 관리.md</guid><pubDate>Mon, 12 Aug 2024 00:43:13 GMT</pubDate><enclosure url="https://velog.velcdn.com/images/tkops365/post/f03cd953-edc3-4ae4-8b00-60576cf465e8/image.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://velog.velcdn.com/images/tkops365/post/f03cd953-edc3-4ae4-8b00-60576cf465e8/image.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Active Directory란?]]></title><description><![CDATA[ 
+복사<br>위 가정을 마치기 컨테이너들을 다시 만들고 실행하면 획기적인 용량 확보가 가능할 것이다.<br>필자는 3테라를 확보했다.<br>보통은 위 볼륨 삭제 과정에서 docker volume prune 이 명령어만 사용하고 마쳐도 되지만, 필자는 첫 번째 시도 때 그렇게 했다고 3달도 되지 않아 또 용량 문제에 시달렸다.<br>그렇기에 쓰지 않는 이미지와 볼륨, 컨테이너, 네트워크 등을 삭제 하는 docker system prune -a<br>를 사용했다.<br>물론 무조건 저 명령어를 쓰라는 건 아니다. 무슨 문제가 생길 지도 모르기 때문이다.<br> 이 방법을 사용하여 우분투에서 도커를 사용할 때에 용량 문제에 시달리지 않길 바란다. 볼륨 관리가 중요하다는 것을 또 한번 배우게 되어 뜻 깊은 사건이었다.]]></description><link>정보보안\cs\서버-관리\kor\우분투-docker-용량-관리.html</link><guid isPermaLink="false">정보보안/CS/서버 관리/kor/우분투 Docker 용량 관리.md</guid><pubDate>Mon, 12 Aug 2024 00:43:13 GMT</pubDate><enclosure url="https://velog.velcdn.com/images/tkops365/post/f03cd953-edc3-4ae4-8b00-60576cf465e8/image.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://velog.velcdn.com/images/tkops365/post/f03cd953-edc3-4ae4-8b00-60576cf465e8/image.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Active Directory란?]]></title><description><![CDATA[ 
  <br><br>]<br><img src="https://velog.velcdn.com/images/tkops365/post/cf0ba30b-ac69-496e-9b51-a58076dd2d7e/image.jpg" referrerpolicy="no-referrer"><br>Active Directory란 컴퓨터 네트워크의 공통 구성 요소 관리를 AD(Active Directory) 라는 단일 저장소에 중앙 집중화하는 것입니다. 좀 더 쉽게 설명하자면 회사 직원들의 계정 정보(ID, Password)와 컴퓨터에 대한 정보, 그리고 강제하고자 하는 정책들(ex 비밀번호는 9자리 이상) 에 대한 정보를 저장하는 데이터 베이스 같은 거라고 생각하면 됩니다. 저는 회사 서버를 관리하는 입장이라 익숙하지만, 처음 들을 때는 다소 난해할 수 있습니다.  이 Active Directory를 실행하는 서버를 DC(도메인 컨트롤러)라고 합니다. <br>
 장점
 <br>중앙 집중식 ID 관리: 네트워크의 모든 사용자를 쉽게 컨트롤하고 제어할 수 있습니다.<br>
@@ -708,7 +530,7 @@ docker rm $(docker ps -a -q)
 인증에는 두 가지 프로토콜을 사용할 수 있습니다. 저도 해킹 공부 하면서 간간히 접한 프로토콜들입니다.<br>Kerberos : 최신 버전의 Windows에서 사용됩니다. 이는 최근 도메인의 기본 프로토콜입니다.
 NetNTLM: 호환성을 위해 유지되는 레거시 인증 프로토콜입니다.
 
-NetNTLM은 더 이상 사용하지 않는 경우가 많다고 들었지만, 대두분의 네트워크에는 두 프로토콜이 살아있습니다. <br><br>기업이 성장하면 네트워크도 커집니다. 당연한 결과죠. 서비스가 많아지고 관리할 정보들이 늘어나면 네트워크의 크기도 커지니까요.  이때 커지는 방식을 저희는 알고 있습니다. 알고리즘이든, 플로우 차트든, 반드시 보게 되는 구조니까요.<br>맞습니다. 트리 구조입니다. <br><img src="https://velog.velcdn.com/images/tkops365/post/26ad27f9-1911-450e-be22-017ff2279379/image.png" referrerpolicy="no-referrer"><br>Active Diretory는 여러 도메인 통합을 지원하므로 네트워크를 독립적으로 관리할 수 있는 단위로 분할할 수 있습니다. 동일한 네임스페이스를 공유하게 만들어서 해당 도메인들을 tree 형태로 결합할 수 있습니다.<br>도메인이 영국 및 미국 지점에 대해 두 개의 하위 도메인으로 분할된 경우 루트 도메인 과 및라는 두 개의 하위 도메인 thm.local이 있는 트리를 구축할 수 있으며 각각에는 해당 AD , 컴퓨터 및 사용자가 있습니다..<br>이 분할된 구조를 통해 도메인에서 누가 무엇에 액세스할 수 있는지 더 효과적으로 제어할 수 있습니다. 영국의 IT 인력은 영국 리소스만 관리하는 자체 DC를 갖게 됩니다. 예를 들어 영국 사용자는 미국 사용자를 관리할 수 없습니다. 이러한 방식으로 각 지점의 도메인 관리자는 해당 DC를 완전히 제어할 수 있지만 다른 지점의 DC는 제어할 수 없습니다. 트리의 각 도메인에 대해 정책을 독립적으로 구성할 수도 있습니다.<br>하지만 다른 네임 스페이스를 가진 회사들끼리 합병되는 경우도 잦습니다. 이럴 때는 어떻게 해야할까요? 맞습니다. 나무 목이라는 한자 두개가 모여 수풀 림이라는 한자가 되듯이, 도메인도 숲이 되면됩니다. 서로 다른 네임스페이스를 가진 여러 트리를 동일한 네트워크로 통합하는 것을 포레스트라고 합니다 .<br>여러 도메인을 트리와 포레스트로 구성하면 관리 및 리소스 측면에서 훌륭하게 구획화된 네트워크를 가질 수 있습니다. 그러나 특정 시점에 THM UK 의 사용자는 MHT ASIA 서버 중 하나에 있는 공유 파일에 액세스해야 할 수도 있습니다. 이를 위해서는 트리와 포레스트에 배열된 도메인이 신뢰 관계 로 결합됩니다 .<br>간단히 말해서, 도메인 간에 신뢰 관계가 있으면 다른 도메인의 사용자에게 다른 도메인의 리소스에 액세스할 수 있는  권한을 부여할 수 있습니다. 이 관계는 단방향으로도, 양방향으로도 구성할 수 있습니다. <br>이렇게 Active Directory에 알아봤습니다. 평소에 서버를 관라할 때에는 개념만 알고 넘어갔는데 다시 제대로 지식을 되새김해보니 더 넓게 시야가 트이네요. 앞으로 좀 더 많이 보안, 네트워크 지식을 알아가야 겠습니다.]]></description><link>정보보안\cs\서버-관리\kor\active-directory란.html</link><guid isPermaLink="false">정보보안/CS/서버 관리/kor/Active Directory란.md</guid><pubDate>Mon, 12 Aug 2024 01:47:00 GMT</pubDate><enclosure url="https://velog.velcdn.com/images/tkops365/post/cf0ba30b-ac69-496e-9b51-a58076dd2d7e/image.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://velog.velcdn.com/images/tkops365/post/cf0ba30b-ac69-496e-9b51-a58076dd2d7e/image.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1.]]></title><description><![CDATA[ 
+NetNTLM은 더 이상 사용하지 않는 경우가 많다고 들었지만, 대두분의 네트워크에는 두 프로토콜이 살아있습니다. <br><br>기업이 성장하면 네트워크도 커집니다. 당연한 결과죠. 서비스가 많아지고 관리할 정보들이 늘어나면 네트워크의 크기도 커지니까요.  이때 커지는 방식을 저희는 알고 있습니다. 알고리즘이든, 플로우 차트든, 반드시 보게 되는 구조니까요.<br>맞습니다. 트리 구조입니다. <br><img src="https://velog.velcdn.com/images/tkops365/post/26ad27f9-1911-450e-be22-017ff2279379/image.png" referrerpolicy="no-referrer"><br>Active Diretory는 여러 도메인 통합을 지원하므로 네트워크를 독립적으로 관리할 수 있는 단위로 분할할 수 있습니다. 동일한 네임스페이스를 공유하게 만들어서 해당 도메인들을 tree 형태로 결합할 수 있습니다.<br>도메인이 영국 및 미국 지점에 대해 두 개의 하위 도메인으로 분할된 경우 루트 도메인 과 및라는 두 개의 하위 도메인 thm.local이 있는 트리를 구축할 수 있으며 각각에는 해당 AD , 컴퓨터 및 사용자가 있습니다..<br>이 분할된 구조를 통해 도메인에서 누가 무엇에 액세스할 수 있는지 더 효과적으로 제어할 수 있습니다. 영국의 IT 인력은 영국 리소스만 관리하는 자체 DC를 갖게 됩니다. 예를 들어 영국 사용자는 미국 사용자를 관리할 수 없습니다. 이러한 방식으로 각 지점의 도메인 관리자는 해당 DC를 완전히 제어할 수 있지만 다른 지점의 DC는 제어할 수 없습니다. 트리의 각 도메인에 대해 정책을 독립적으로 구성할 수도 있습니다.<br>하지만 다른 네임 스페이스를 가진 회사들끼리 합병되는 경우도 잦습니다. 이럴 때는 어떻게 해야할까요? 맞습니다. 나무 목이라는 한자 두개가 모여 수풀 림이라는 한자가 되듯이, 도메인도 숲이 되면됩니다. 서로 다른 네임스페이스를 가진 여러 트리를 동일한 네트워크로 통합하는 것을 포레스트라고 합니다 .<br>여러 도메인을 트리와 포레스트로 구성하면 관리 및 리소스 측면에서 훌륭하게 구획화된 네트워크를 가질 수 있습니다. 그러나 특정 시점에 THM UK 의 사용자는 MHT ASIA 서버 중 하나에 있는 공유 파일에 액세스해야 할 수도 있습니다. 이를 위해서는 트리와 포레스트에 배열된 도메인이 신뢰 관계 로 결합됩니다 .<br>간단히 말해서, 도메인 간에 신뢰 관계가 있으면 다른 도메인의 사용자에게 다른 도메인의 리소스에 액세스할 수 있는  권한을 부여할 수 있습니다. 이 관계는 단방향으로도, 양방향으로도 구성할 수 있습니다. <br>이렇게 Active Directory에 알아봤습니다. 평소에 서버를 관라할 때에는 개념만 알고 넘어갔는데 다시 제대로 지식을 되새김해보니 더 넓게 시야가 트이네요. 앞으로 좀 더 많이 보안, 네트워크 지식을 알아가야 겠습니다.]]></description><link>정보보안\cs\서버-관리\kor\active-directory란.html</link><guid isPermaLink="false">정보보안/CS/서버 관리/kor/Active Directory란.md</guid><pubDate>Mon, 12 Aug 2024 01:47:00 GMT</pubDate><enclosure url="https://velog.velcdn.com/images/tkops365/post/cf0ba30b-ac69-496e-9b51-a58076dd2d7e/image.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://velog.velcdn.com/images/tkops365/post/cf0ba30b-ac69-496e-9b51-a58076dd2d7e/image.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1.]]></title><description><![CDATA[ 
  <br>Security has two major domains:<br><img src="https://velog.velcdn.com/images/tkops365/post/65a8a861-3aaf-442a-991f-232116da09d9/image.png" referrerpolicy="no-referrer"><br>"Offensive"<br><img src="https://velog.velcdn.com/images/tkops365/post/56d20474-5660-4d9b-8bba-a47f0262b89f/image.png" referrerpolicy="no-referrer"><br>"Defensive"<br><img src="https://velog.velcdn.com/images/tkops365/post/75a04b29-89f7-479d-87d5-634526bbab9f/image.png" referrerpolicy="no-referrer"><br>In this article, I will introduce the basic areas of security.<br>
 Offensive Security
 <br>Offensive security involves the process of finding vulnerabilities in applications to infiltrate computer systems, exploit software bugs, and gain unauthorized access to applications.<br>In short, it means acting like a “hacker” to stop hackers.<br>This concept is similar to the image we have of hackers.<br>
@@ -782,7 +604,7 @@ Defensive Security
 
 
 
-]]></description><link>정보보안\tryhackme\jr-penetration-tester\보안-소개\eng\1..html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/보안 소개/Eng/1..md</guid><pubDate>Mon, 12 Aug 2024 00:59:58 GMT</pubDate><enclosure url="https://velog.velcdn.com/images/tkops365/post/65a8a861-3aaf-442a-991f-232116da09d9/image.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://velog.velcdn.com/images/tkops365/post/65a8a861-3aaf-442a-991f-232116da09d9/image.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1.]]></title><description><![CDATA[ 
+]]></description><link>정보보안\tryhackme\jr-penetration-tester\보안-소개\eng\1..html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/보안 소개/Eng/1..md</guid><pubDate>Mon, 12 Aug 2024 00:59:58 GMT</pubDate><enclosure url="https://velog.velcdn.com/images/tkops365/post/65a8a861-3aaf-442a-991f-232116da09d9/image.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://velog.velcdn.com/images/tkops365/post/65a8a861-3aaf-442a-991f-232116da09d9/image.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1.]]></title><description><![CDATA[ 
  <br><img src="https://velog.velcdn.com/images/tkops365/post/06b48fdf-5dff-492a-80b8-2a1b4d6921ea/image.jpg" referrerpolicy="no-referrer"><br>"공격적"<br><img src="https://velog.velcdn.com/images/tkops365/post/4d88ac01-36ea-4dab-a268-85541ef4075b/image.png" referrerpolicy="no-referrer"><br>"방어적"<br><img src="https://velog.velcdn.com/images/tkops365/post/accfc629-2578-4a58-bb39-cfe21457a9a7/image.png" referrerpolicy="no-referrer"><br>이 글에서는 기본적인 보안 영역에 대한 소개를 진행해보려고 합니다.<br>
 공격적인 보안
 <br>
@@ -884,7 +706,88 @@ Defensive Security
         
     
 
-]]></description><link>정보보안\tryhackme\jr-penetration-tester\보안-소개\kor\1..html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/보안 소개/Kor/1..md</guid><pubDate>Mon, 12 Aug 2024 00:59:08 GMT</pubDate><enclosure url="https://velog.velcdn.com/images/tkops365/post/06b48fdf-5dff-492a-80b8-2a1b4d6921ea/image.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://velog.velcdn.com/images/tkops365/post/06b48fdf-5dff-492a-80b8-2a1b4d6921ea/image.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Using the Application]]></title><description><![CDATA[ 
+]]></description><link>정보보안\tryhackme\jr-penetration-tester\보안-소개\kor\1..html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/보안 소개/Kor/1..md</guid><pubDate>Mon, 12 Aug 2024 00:59:08 GMT</pubDate><enclosure url="https://velog.velcdn.com/images/tkops365/post/06b48fdf-5dff-492a-80b8-2a1b4d6921ea/image.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://velog.velcdn.com/images/tkops365/post/06b48fdf-5dff-492a-80b8-2a1b4d6921ea/image.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1.]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20240812103222.png" src="lib\media\pasted-image-20240812103222.png"><br><a data-href="2. Security Principles" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\2.-security-principles.html" class="internal-link" target="_self" rel="noopener">2. Security Principles</a><br>Here is the English translation of your text with the specified formatting:<br>"A penetration test is an authorized audit of the security and defenses of a computer system, which the system owner has agreed to. In this sense, it has the legitimacy of penetration, but it must not exceed the agreed-upon scope.<br>Exceeding this scope would turn the test into hacking.<br><br>
+    
+        
+        
+        
+        ROE is a document created at the early stages of a penetration testing contract.
+        
+        
+        Penetration testing can have various objectives and goals within its scope. Therefore, penetration tests are not all the same, and there is no one-size-fits-all approach to how penetration testers should proceed.
+        The steps performed by a penetration tester during an engagement are referred to as the methodology. A practical methodology involves actions taken in a smart way that are relevant to the current situation. Each situation may require a different methodology. For example, the methodology used to test the security of a web application may not be practical when testing the security of a network, as these are different domains.
+        
+        
+        
+        OSSTMM: The OSSTMM provides a detailed framework for testing strategies for systems, software, applications, communications, and the human aspect of cybersecurity.
+        This methodology mainly focuses on how these systems and applications communicate, so it includes methodologies for:
+        
+            <br>Communications (telephone, VoIP, etc.)
+            <br>Wired networks
+            <br>Wireless communications
+        
+    
+
+]]></description><link>정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\1..html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Eng/1..md</guid><pubDate>Tue, 13 Aug 2024 04:18:24 GMT</pubDate><enclosure url="lib\media\pasted-image-20240812103222.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240812103222.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Security Principles]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20240812105418.png" src="lib\media\pasted-image-20240812105418.png"><br><br>
+    
+        
+        
+        Principles of information security to protect data and safeguard systems from abuse.
+        
+        The model of confidentiality, integrity, and availability (CIA) consists of these three principles and has become an industry standard today. This model helps in making decisions about the value of the data and what is needed in a business.
+        
+        
+        Confidentiality is about protecting data from unauthorized access and misuse. Organizations always store some form of sensitive data within their systems. Providing confidentiality is about protecting this data from unintended access by anyone other than the authorized individuals.
+        
+        Integrity ensures that data remains unaltered except for authorized changes. Data can be changed due to careless handling, system errors, or unauthorized access. In security principles, integrity is maintained if information remains unchanged during storage, transmission, and usage, ensuring unauthorized individuals cannot alter the data (e.g., data breaches).
+        
+        To be useful, data must always be accessible and available to users. Availability is an essential element.
+        
+        It is important to manage and correctly define various levels of access to information technology systems that individuals need.
+        The level of access granted to individuals is determined by two basic factors:
+        
+            <br>The role/function of the individual within the organization
+            <br>The sensitivity of the information stored in the system
+        
+        Two key concepts used in assigning and managing user access rights are PIM (Privileged Identity Management) and PAM (Privileged Access Management).
+        Initially, these two concepts may seem similar. However, they are different. PIM is used to translate user roles within an organization into access roles within the system. In contrast, PAM primarily deals with managing the privileges associated with system access.
+        A critical aspect of access and privilege control is the principle of least privilege. In simple terms, users should be given only the minimum privileges necessary to perform their duties.
+        PAM integrates more than just access assignment. It also includes security policy enforcement such as password management, policy auditing, and reducing the attack surface of systems.
+        
+        Before discussing security models in detail, let's consider the three elements of CIA: confidentiality, integrity, and availability.
+        According to security models, any system or technology that stores information is referred to as an information system, and this is how systems and devices are referenced in this context.
+        Let's look at some popular and effective security models used to achieve the three elements of CIA.
+        
+        The Bell-La Padula Model is used to achieve confidentiality. This model assumes a hierarchical structure within an organization where everyone's responsibilities/roles are well defined.
+        This model operates by granting access to data (referred to as objects) based on a "write-up, read-down" rule. It ensures that individuals can access only the data they need.
+        
+        
+        The Biba Model is similar to the Bell-La Padula Model but focuses on integrity rather than confidentiality in CIA.
+        This model applies rules summarized as "write-up, read-down." This means that a subject can write to information at its own level or lower but can only read data at its level or higher.
+        
+        The Biba Model is used in situations or organizations where integrity is more critical than confidentiality. For example, in software development, developers may need access only to the code necessary for their tasks and not to other critical information.
+        
+        Threat modeling is the process of reviewing, improving, and testing security protocols in an organization's IT infrastructure and services.
+        An important step in the threat modeling process is identifying potential threats and vulnerabilities that a system or application may face.
+        The threat modeling process is similar to risk assessments performed in the workplace for employees and customers, following similar principles.
+        
+            <br>Preparation
+            <br>Identification
+            <br>Mitigation
+            <br>Review
+        
+        To assist, frameworks such as STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege) and PASTA (Process for Attack Simulation and Threat Analysis) are available. Below, we will discuss STRIDE in detail. STRIDE, developed by two Microsoft security researchers in 1999, remains influential today. STRIDE includes six key principles.
+        
+        Security breaches are referred to as incidents. Despite stringent threat models and secure system designs, incidents do occur. The actions taken to address and remediate threats are known as Incident Response (IR) and are a crucial part of a career in cybersecurity.
+        Incident response processes are often covered in security certifications such as those offered by CISA.
+        Incidents are classified using urgency and impact ratings. Urgency is determined by the type of attack faced, the location of the affected system, and the impact on business operations.
+        Incidents are responded to by Computer Security Incident Response Teams (CSIRTs) that are pre-organized with technical knowledge of the current incident. To successfully resolve an incident, the following six steps of incident response are often listed in the table below.
+        
+    
+
+]]></description><link>정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\2.-security-principles.html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Eng/2. Security Principles.md</guid><pubDate>Tue, 13 Aug 2024 04:19:06 GMT</pubDate><enclosure url="lib\media\pasted-image-20240812105418.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240812105418.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Using the Application]]></title><description><![CDATA[ 
  <br><br>This section teaches you how to manually review a web application for security issues using only the tools built into your browser.<br>Below is a brief explanation of the built-in browser tools you will use:<br>
 <br>View Source - View the human-readable source code of a website using your browser.
 <br>Inspector - Learn how to inspect page elements and change them to view usually blocked content.
@@ -894,7 +797,89 @@ Defensive Security
     
     
 
-<br><br><br>Let's start the practice. First, connect to the website provided. Of course, make sure to boot up the virtual machine within the website.<br>Once you boot it up, you'll see a screen like the one below.<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png" referrerpolicy="no-referrer"><br>At first, I thought I needed to find a flag within the HTML of this page, so I searched here and there using developer tools.<br>But that wasn't what the challenge was asking for. Let's first look at the HTML code.<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/KqbUN/btshia6iN1r/RlrHPzWm4XkY15Zi2Aj5k0/img.png" referrerpolicy="no-referrer"><br>If you look carefully, you’ll see some "href" tags pointing to certain locations. So I started investigating these tags. I used the method of simply following the tags to see where they led.<br>However, I couldn't find any answers within the links embedded in the navigation (nav) section. But while searching through the comments, I discovered something at the very top:<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/B8Blu/btsg9ORjjv6/K87WZ0wUfqFdUKhBn1kJwK/img.png" referrerpolicy="no-referrer"><br>I found this part. You need to follow the page mentioned here.<br>URL + the above-mentioned page.<br>Then you'll see something like this:<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/b6fC50/btsg9NkxSfy/XSZH9gOzdXijXJdkzp9ic1/img.png" referrerpolicy="no-referrer"><br>This is the answer to the first question.<br>The second challenge follows a similar approach.<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/cUqmDe/btsg9PpcyWf/YeQXddqxVdJgpVl4LPELG0/img.png" referrerpolicy="no-referrer"><br>This is the code I showed you earlier. If you look closely, you’ll notice an unused path /secret-page. You need to access this page using the same method as before.<br>If you do this:<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/8mCTn/btshhIPVkbk/mRSSzHoPbUTvK42purCfQ1/img.png" referrerpolicy="no-referrer"><br>You’ll find another answer.<br>The third challenge took me quite a bit of time. I initially thought that entering random links would give me the answer. But if you read the question carefully, you'll find the solution.<br>“HTML code can be used to include external files such as CSS, JavaScript, and images. In this example, we can see that these files are all stored in the same directory. If you view this directory in a web browser, there is a configuration error. Instead of a blank page or a 403 Forbidden error page (indicating you don't have access to the directory), directory listing is enabled, which lists all the files in the directory. Sometimes this isn't an issue, and all files in the directory are publicly viewable. However, in some cases, backup files, source code, or other confidential information might be stored there. In this case, you will find the flag in a flag.txt file.”<br>It clearly mentions that directory "listing" is enabled. We can view the directories that make up the source using developer tools.<br>Specifically:<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/2rlJh/btshh7hCZhp/cLOqKZpfZxaukKAy6bCpg0/img.png" referrerpolicy="no-referrer"><br>This one here. I initially tried the approach of accessing the answer by entering the URL + assets + flag.txt, but there’s another method that I will describe here.<br>The first method is as described: URL + assets + flag.txt.<br>You can directly access the flag file, which contains the answer.<br>The second method involves entering:<br>URL + assets.<br>If you do this:<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/bDZfpj/btshh97peo8/uA7klNP2dYQD7oxIIQmTi1/img.png" referrerpolicy="no-referrer"><br>You'll see the files inside. Among them, you need to access flag.txt to find the answer.<br>The last challenge was more difficult than expected because it required a step-by-step approach. Let's proceed in order. When you look at the comments, you'll see that the framework currently in use is mentioned with a link.<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/bOTar9/btshbud7i0g/oz2SlA3LE6K3Ms6KA7Hg61/img.png" referrerpolicy="no-referrer"> <br>When you access the link,<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/bngvW4/btshiiJNMQ5/qkuYYhnlGkhQ0B4Kn0pkAK/img.png" referrerpolicy="no-referrer"><br>you'll see a screen like this. I see it in Korean because my browser is set to automatic translation. We saw earlier that the version mentioned in the comments was 1.2, but the current version is 1.3. Keep this difference in mind. Let's head over to the documentation from here. <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/bHV7ly/btsheEtm6BE/Njj7z8p3ZMpduc5yKMJLd1/img.png" referrerpolicy="no-referrer"><br>The documentation states that if you use this framework, you can create that link and log in with that information. So, what does the change log say? Let's take a look. <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/dXeV6i/btshi72aF7k/de9WslotkvuQHBicwtwSb1/img.png" referrerpolicy="no-referrer"> We can learn many things here, but we need to focus on version 1.3. Before this update, a file called tmp.zip was created in the directory, and it was accessible. So, we should check that, right? However, in the assets directory, which we have access to, there was no such file. Therefore, we need to log in on the login page we saw earlier, right? Please log in using the information you remembered earlier. <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/I2Q7C/btshi72aMpC/kWDBqDkoauuLoZxkDVu1h0/img.png" referrerpolicy="no-referrer"> <br>After logging in, you might see a flag similar to the one above. But that's not the answer. We clearly saw that the issue of accessing tmp.zip was fixed in version 1.3. However, we are currently accessing a website that uses version 1.2. Therefore, we should be able to access that file. <br>So, if you add tmp.zip to the link, you should be able to download that file. If you read the file, you'll find the answer. This practice was something I've done before, but it was the first time I approached it by carefully gathering and deducing information step by step. It made the process more interesting, and I feel like I still have a lot to learn. ### 3. Developer Tools – Inspector All modern browsers come with developer tools. These are toolkits that help web developers debug web applications and allow you to peek inside a website to check your progress. As penetration testers, we can leverage these tools to gain a much better understanding of web applications. We are particularly focused on three features of the developer tools: Inspector, Debugger, and Network. ## Practice This practice is a continuation of the previous one. Move to the article page and manipulate the CSS and HTML of the third article. <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/TgMpW/btshiGRcGug/3iQ9XU97TKQUaqI5JDJ1Xk/img.png" referrerpolicy="no-referrer"> <br>When you first access the page, you'll see a screen like this. Now, let's look at the HTML and recognize the situation to resolve it. The top-level tag hiding the screen is <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/ddA3Wv/btshjefQADt/9PbuCw2XpEcK1I2LnYmKX0/img.png" referrerpolicy="no-referrer"> <br>as shown above. The CSS class is also mentioned. Let's check that part. <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/NQTrx/btsg9MMJntl/HtwGLgHVsO1pQl7nIirVk0/img.png" referrerpolicy="no-referrer"> <br>When we look at the CSS, we see something like this. However, the display is set to block. So, what should we do? You need to change the display value to none. After making this change, the answer should appear on the screen. ### 4. Developer Tools – Debugger This panel of the developer tools is for JavaScript debugging, an excellent feature for web developers who want to figure out why something isn't working. However, as penetration testers, it provides us with options to dive deep into the JavaScript code. In Firefox and Safari, this feature is called Debugger, while in Google Chrome, it is called Sources. ## Practice First, enter the contact section of the link, and in the assets folder, you'll see a file called flash.min.js. <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/bbQrol/btshh8OlE51/ztaPBk3Y8xbqfLbY4U2TKk/img.png" referrerpolicy="no-referrer"> <br>This small piece of JavaScript removes the red popup from the page. We can utilize another feature of the debugger called breakpoints. This allows us to force the browser to stop processing the JavaScript and pause the current execution. Click on the line number that contains the above code, and it will turn blue. You have now inserted a breakpoint on this line. If you refresh the page, you'll notice that the red box remains on the page and contains the flag. By doing this and double-clicking, you can stop at the breakpoint you've marked and find the answer. ## 5. Developer Tools – Network Using the Network tab in the developer tools, you can track all external requests made by a webpage. Click on the Network tab and refresh the page to see all the files being requested by the page. <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/n3leT/btshcgsMS6a/B1YEU8GhF0TMnUoKgrKPbk/img.png" referrerpolicy="no-referrer"><br>Try this on the contact page. If the list becomes a bit cluttered, you can clear it by clicking on the trash icon. With the Network tab open, fill out the contact form and press the Send Message button. You will see the event in the Network tab, and this is a form submission using a method called AJAX. AJAX is a method of exchanging data with a web application in the background, without interfering with the current webpage. Inspect the new item generated in the Network tab by the contact form, and you will see the page where the data was sent to reveal the flag. This practice also takes place on the CONTACT page. --- Let me know if you need any more translations or explanations!]]></description><link>정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\3.-using-the-application.html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Eng/3. Using the Application.md</guid><pubDate>Tue, 13 Aug 2024 00:38:40 GMT</pubDate><enclosure url="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[응용 프로그램 사용]]></title><description><![CDATA[ 
+<br><br><br>Let's start the practice. First, connect to the website provided. Of course, make sure to boot up the virtual machine within the website.<br>Once you boot it up, you'll see a screen like the one below.<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png" referrerpolicy="no-referrer"><br>At first, I thought I needed to find a flag within the HTML of this page, so I searched here and there using developer tools.<br>But that wasn't what the challenge was asking for. Let's first look at the HTML code.<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/KqbUN/btshia6iN1r/RlrHPzWm4XkY15Zi2Aj5k0/img.png" referrerpolicy="no-referrer"><br>If you look carefully, you’ll see some "href" tags pointing to certain locations. So I started investigating these tags. I used the method of simply following the tags to see where they led.<br>However, I couldn't find any answers within the links embedded in the navigation (nav) section. But while searching through the comments, I discovered something at the very top:<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/B8Blu/btsg9ORjjv6/K87WZ0wUfqFdUKhBn1kJwK/img.png" referrerpolicy="no-referrer"><br>I found this part. You need to follow the page mentioned here.<br>URL + the above-mentioned page.<br>Then you'll see something like this:<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/b6fC50/btsg9NkxSfy/XSZH9gOzdXijXJdkzp9ic1/img.png" referrerpolicy="no-referrer"><br>This is the answer to the first question.<br>The second challenge follows a similar approach.<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/cUqmDe/btsg9PpcyWf/YeQXddqxVdJgpVl4LPELG0/img.png" referrerpolicy="no-referrer"><br>This is the code I showed you earlier. If you look closely, you’ll notice an unused path /secret-page. You need to access this page using the same method as before.<br>If you do this:<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/8mCTn/btshhIPVkbk/mRSSzHoPbUTvK42purCfQ1/img.png" referrerpolicy="no-referrer"><br>You’ll find another answer.<br>The third challenge took me quite a bit of time. I initially thought that entering random links would give me the answer. But if you read the question carefully, you'll find the solution.<br>“HTML code can be used to include external files such as CSS, JavaScript, and images. In this example, we can see that these files are all stored in the same directory. If you view this directory in a web browser, there is a configuration error. Instead of a blank page or a 403 Forbidden error page (indicating you don't have access to the directory), directory listing is enabled, which lists all the files in the directory. Sometimes this isn't an issue, and all files in the directory are publicly viewable. However, in some cases, backup files, source code, or other confidential information might be stored there. In this case, you will find the flag in a flag.txt file.”<br>It clearly mentions that directory "listing" is enabled. We can view the directories that make up the source using developer tools.<br>Specifically:<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/2rlJh/btshh7hCZhp/cLOqKZpfZxaukKAy6bCpg0/img.png" referrerpolicy="no-referrer"><br>This one here. I initially tried the approach of accessing the answer by entering the URL + assets + flag.txt, but there’s another method that I will describe here.<br>The first method is as described: URL + assets + flag.txt.<br>You can directly access the flag file, which contains the answer.<br>The second method involves entering:<br>URL + assets.<br>If you do this:<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/bDZfpj/btshh97peo8/uA7klNP2dYQD7oxIIQmTi1/img.png" referrerpolicy="no-referrer"><br>You'll see the files inside. Among them, you need to access flag.txt to find the answer.<br>The last challenge was more difficult than expected because it required a step-by-step approach. Let's proceed in order. When you look at the comments, you'll see that the framework currently in use is mentioned with a link.<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/bOTar9/btshbud7i0g/oz2SlA3LE6K3Ms6KA7Hg61/img.png" referrerpolicy="no-referrer"> <br>When you access the link,<br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/bngvW4/btshiiJNMQ5/qkuYYhnlGkhQ0B4Kn0pkAK/img.png" referrerpolicy="no-referrer"><br>you'll see a screen like this. I see it in Korean because my browser is set to automatic translation. We saw earlier that the version mentioned in the comments was 1.2, but the current version is 1.3. Keep this difference in mind. Let's head over to the documentation from here. <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/bHV7ly/btsheEtm6BE/Njj7z8p3ZMpduc5yKMJLd1/img.png" referrerpolicy="no-referrer"><br>The documentation states that if you use this framework, you can create that link and log in with that information. So, what does the change log say? Let's take a look. <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/dXeV6i/btshi72aF7k/de9WslotkvuQHBicwtwSb1/img.png" referrerpolicy="no-referrer"> We can learn many things here, but we need to focus on version 1.3. Before this update, a file called tmp.zip was created in the directory, and it was accessible. So, we should check that, right? However, in the assets directory, which we have access to, there was no such file. Therefore, we need to log in on the login page we saw earlier, right? Please log in using the information you remembered earlier. <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/I2Q7C/btshi72aMpC/kWDBqDkoauuLoZxkDVu1h0/img.png" referrerpolicy="no-referrer"> <br>After logging in, you might see a flag similar to the one above. But that's not the answer. We clearly saw that the issue of accessing tmp.zip was fixed in version 1.3. However, we are currently accessing a website that uses version 1.2. Therefore, we should be able to access that file. <br>So, if you add tmp.zip to the link, you should be able to download that file. If you read the file, you'll find the answer. This practice was something I've done before, but it was the first time I approached it by carefully gathering and deducing information step by step. It made the process more interesting, and I feel like I still have a lot to learn. ### 3. Developer Tools – Inspector All modern browsers come with developer tools. These are toolkits that help web developers debug web applications and allow you to peek inside a website to check your progress. As penetration testers, we can leverage these tools to gain a much better understanding of web applications. We are particularly focused on three features of the developer tools: Inspector, Debugger, and Network. ## Practice This practice is a continuation of the previous one. Move to the article page and manipulate the CSS and HTML of the third article. <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/TgMpW/btshiGRcGug/3iQ9XU97TKQUaqI5JDJ1Xk/img.png" referrerpolicy="no-referrer"> <br>When you first access the page, you'll see a screen like this. Now, let's look at the HTML and recognize the situation to resolve it. The top-level tag hiding the screen is <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/ddA3Wv/btshjefQADt/9PbuCw2XpEcK1I2LnYmKX0/img.png" referrerpolicy="no-referrer"> <br>as shown above. The CSS class is also mentioned. Let's check that part. <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/NQTrx/btsg9MMJntl/HtwGLgHVsO1pQl7nIirVk0/img.png" referrerpolicy="no-referrer"> <br>When we look at the CSS, we see something like this. However, the display is set to block. So, what should we do? You need to change the display value to none. After making this change, the answer should appear on the screen. ### 4. Developer Tools – Debugger This panel of the developer tools is for JavaScript debugging, an excellent feature for web developers who want to figure out why something isn't working. However, as penetration testers, it provides us with options to dive deep into the JavaScript code. In Firefox and Safari, this feature is called Debugger, while in Google Chrome, it is called Sources. ## Practice First, enter the contact section of the link, and in the assets folder, you'll see a file called flash.min.js. <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/bbQrol/btshh8OlE51/ztaPBk3Y8xbqfLbY4U2TKk/img.png" referrerpolicy="no-referrer"> <br>This small piece of JavaScript removes the red popup from the page. We can utilize another feature of the debugger called breakpoints. This allows us to force the browser to stop processing the JavaScript and pause the current execution. Click on the line number that contains the above code, and it will turn blue. You have now inserted a breakpoint on this line. If you refresh the page, you'll notice that the red box remains on the page and contains the flag. By doing this and double-clicking, you can stop at the breakpoint you've marked and find the answer. ## 5. Developer Tools – Network Using the Network tab in the developer tools, you can track all external requests made by a webpage. Click on the Network tab and refresh the page to see all the files being requested by the page. <br><img alt="Screenshot" src="https://blog.kakaocdn.net/dn/n3leT/btshcgsMS6a/B1YEU8GhF0TMnUoKgrKPbk/img.png" referrerpolicy="no-referrer"><br>Try this on the contact page. If the list becomes a bit cluttered, you can clear it by clicking on the trash icon. With the Network tab open, fill out the contact form and press the Send Message button. You will see the event in the Network tab, and this is a form submission using a method called AJAX. AJAX is a method of exchanging data with a web application in the background, without interfering with the current webpage. Inspect the new item generated in the Network tab by the contact form, and you will see the page where the data was sent to reveal the flag. This practice also takes place on the CONTACT page. --- Let me know if you need any more translations or explanations!]]></description><link>정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\3.-using-the-application.html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Eng/3. Using the Application.md</guid><pubDate>Tue, 13 Aug 2024 00:38:40 GMT</pubDate><enclosure url="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1.]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20240812103300.png" src="lib\media\pasted-image-20240812103300.png"><br>침투&nbsp;테스트는&nbsp;시스템&nbsp;소유자가&nbsp;동의한&nbsp;컴퓨터&nbsp;시스템의&nbsp;보안&nbsp;및&nbsp;방어에&nbsp;대한&nbsp;승인된&nbsp;감사\니다이러한&nbsp;의미에서&nbsp;침투의&nbsp;합법성을 가지고 있지만, 그외 부분을 벗어나면 안됩니다!<br> 그 외의 부분을 벗어나면 테스트가 아니라 해킹이 되기 때문입니다. <br><br>
+    
+        
+        
+        
+        ROE는 침투 테스트 계약의 초기 단계에서 생성되는 문서입니다.
+        
+        
+        침투 테스트는 범위 내에서 다양한 목적과 목표를 가질 수 있습니다. 이 때문에 침투 테스트는 동일하지 않으며 침투 테스터가 어떻게 접근해야 하는지에 대해 절대적인 기준은 존재하지 않습니다. 
+        참여 중에 침투 테스터가 수행하는 단계를 방법론이라고 합니다. 실제로 유용한 방법론은 효율적인 방법으로 취해진 조치가 현 상황에 잘 들어맞습니다.  각 상황마다 들이맞는 방법론이 다른 것입니다. 예를 들어, 웹 애플리케이션의 보안을 테스트하는 데 사용할 방법론을 갖는 것은 네트워크의 보안을 테스트해야 할 때 실용적이지 않습니다. 두 영역은 다르기 때문입니다.
+        
+        
+        
+        OSSTMM: OSSTMM은 시스템, 소프트웨어, 애플리케이션, 통신 및 사이버 보안의 인적 측면에 대한 테스트 전략의 상세한 프레임워크를 제공합니다.
+        이 방법론은 주로 이러한 시스템과 애플리케이션이 통신하는 방식에 초점을 맞추므로 다음을 위한 방법론이 포함됩니다:
+        
+            <br>통신(전화, VoIP 등)
+            <br>유선 네트워크
+            <br>무선 통신
+        
+    
+
+]]></description><link>정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\1..html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Kor/1..md</guid><pubDate>Tue, 13 Aug 2024 04:17:11 GMT</pubDate><enclosure url="lib\media\pasted-image-20240812103300.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240812103300.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2. 보안 원칙]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20240812105418.png" src="lib\media\pasted-image-20240812105418.png"><br><a data-tooltip-position="top" aria-label="A_A-s-Tech-Blog/Obsidian_Remote/정보보안/tryhackme/Jr Penetration Tester/보안 소개/Kor/1." data-href="A_A-s-Tech-Blog/Obsidian_Remote/정보보안/tryhackme/Jr Penetration Tester/보안 소개/Kor/1." href="A_A-s-Tech-Blog\Obsidian_Remote\정보보안\tryhackme\Jr Penetration Tester\보안 소개\Kor\1." class="internal-link" target="_self" rel="noopener">1.</a><br>
+<a data-href="IT 감사 프로세스 - 1" href="정보보안\cisa\domain1\kor\it-감사-프로세스-1.html" class="internal-link" target="_self" rel="noopener">IT 감사 프로세스 - 1</a><br>
+    
+        
+        
+        데이터를 보호하고 남용으로부터 시스템을 보호하는 정보 보안의 원칙
+        
+        기밀성, 무결성 및 가용성(CIA),  세 가지로 구성된 이 모델은 오늘날 빠르게 업계 표준이 되었습니다. 이 모델은 적용되는 데이터의 가치와 비즈니스에서 필요한 결정을 내리는데 도움이 됩니다.
+        
+        
+        기밀성은 무단 액세스 및 오용으로부터 데이터를 보호하는 것입니다. 조직은 항상 어떤 형태의 민감한 데이터를 시스템에 저장합니다. 기밀성을 제공하는 것은 의도하지 않은 누군가로부터 이 데이터를 보호하는 것과 같습니다. 즉 허용된 누군가 이외에 데이터에 접근하는 것을 막아야 합니다. 
+        
+        무결성은 보안의 삼 요소 중에서 승인된 변경이 없는 한 데이터가 언제나 무결한상태를 유지하는 것입니다. 부주의한 접근 및 이용, 정보 시스템의 오류, 무단 접근 및 이용 등으로 인해 정보가 변경될 수 있습니다.  보안 원칙에서는 정보를 수정하지 않고 저장되거나, 전송 및 사용하는 동안 정보가 변경되지 않은 상태로 유지될 때 무결성이 충족되는 것으로 판단합니다. 이를 위해서는 권한이 없는 사람이 데이터를 변경할 수 없도록 조치를 취해야 합니다(예: 기밀 위반).
+        
+        데이터가 유용하려면 언제든 사용자가 데이터를 사용할 수 있고 액세스할 수 있어야 합니다. 가용성은 그러한 요소입니다. 
+        
+        개인이 필요로 하는 정보 기술 시스템에 대한 다양한 액세스 수준을 관리하고 올바르게 정의하는 것이 중요합니다.
+        개인에게 제공되는 액세스 수준은 두 가지 기본 요소에 따라 결정됩니다:
+        
+            <br>조직 내 개인의 역할/기능
+            <br>시스템에 저장되는 정보의 민감도
+        
+        개인의 액세스 권한을 할당하고 관리하는 데 두 가지 주요 개념이 사용되며, PIM(Privileged Identity Management) 및 PAM(Privileged Access Management)이 사용됩니다.
+        처음에는 이 두 개념이 같은 것처럼 보일 수 있습니다. 그러나 그 둘은 서로 다릅니다. PIM은 조직 내의 사용자 역할을 시스템의 액세스 역할로 변환하는 데 사용됩니다. 반면 PAM은 무엇보다도 시스템의 액세스가 갖는 권한 관리입니다.
+        권한 및 액세스 제어를 논의할 때 필수적인 것은 최소 권한의 원칙입니다. 간단히 말해, 사용자에게는 최소한의 권한만 부여되어야 하며, 의무를 수행하는 데 절대적으로 필요한 권한만 부여되어야 합니다.
+        PAM은 액세스 할당 이상의 기능을 통합합니다. 또한 비밀번호 관리, 정책 감사, 시스템이 직면하는 공격 표면 감소와 같은 보안 정책 시행을 포함합니다.
+        
+        보안 모델에 대해 자세히 논의하기 전에 CIA의 세 가지 요소인 기밀성, 무결성 및 가용성을 생각해 봅시다. 
+        보안 모델에 따르면 정보를 저장하는 모든 시스템 또는 기술을 정보 시스템이라고 하며, 이 작업에서 시스템 및 장치를 참조하는 방법입니다.
+        CIA 3요소의 세 가지 요소를 달성하는 데 사용되는 인기 있고 효과적인 몇 가지 보안 모델을 살펴보겠습니다.
+        
+        Bell-La Padula 모델은 기밀성을 달성하는 데 사용됩니다. 이 모델에는 모든 사람의 책임/역할이 잘 정의되어 있는 조직의 계층 구조와 같은 몇 가지 가정이 있습니다.
+        이 모델은 엄격하게 알 필요가 있는 데이터(객체라고 함)에 대한 액세스 권한을 부여하여 작동합니다. 이 모델은 "쓰기 금지, 읽기 금지" 규칙을 사용합니다. 필요한 사람이 필요한 데이터에 접근 가능한 모델입니다. 
+        
+        
+        Biba 모델은 틀림없이 Bell-La Padula 모델과 동일하지만 CIA의 무결성을 위한 것입니다.
+        이 모델은  데이터 및 사용자에게 "기록하지 않고 읽지 않음"으로 요약할 수 있는 규칙을 적용합니다. 이 규칙은 주체가 해당 권한 수준 이하의 정보에 내용을 작성하거나 쓸 수 있지만 해당 수준 위의 데이터만 읽을 수 있음을 의미합니다.
+        
+        Biba 모델은 기밀성보다 무결성이 더 중요한 조직이나 상황에서 사용됩니다. 예를 들어 소프트웨어 개발에서 개발자는 작업에 필요한 코드에만 액세스할 수 있습니다. 데이터베이스 등과 같은 중요한 정보에 액세스할 필요가 없을 수도 있습니다.
+        
+        위협 모델링은 조직의 정보 기술 인프라 및 서비스에 있는 보안 프로토콜을 검토, 개선 및 테스트하는 프로세스입니다.
+        위협 모델링 프로세스의 중요한 단계는 애플리케이션 또는 시스템이 직면할 수 있는 가능성 있는 위협, 시스템 또는 애플리케이션이 취약할 수 있는 취약성을 식별하는 것입니다.
+        위협 모델링 프로세스는 직원과 고객을 위해 작업장에서 수행되는 위험 평가와 매우 비슷합니다. 원칙과 같습니다.
+        
+            <br>준비
+            <br>식별
+            <br>완화
+            <br>검토
+        
+        이를 돕기 위해 STRIDE(스푸핑, 데이터 변조, 부인 위협, 정보 공개, 서비스 거부 및 권한 상승) 및 PASTA(공격 시뮬레이션 및 프로세스를 위한 프로세스)와 같은 프레임워크가 있습니다. 아래에서 STRIDE에 대해 자세히 설명하겠습니다. 1999년 두 명의 Microsoft 보안 연구원이 작성한 STRIDE는 오늘날에도 큰 영향을 끼치고 있습니다. STRIDE에는 6가지 주요 원칙이 포함되어 있습니다.
+        
+        보안 위반을 인시던트(사고)라고 합니다. 모든 엄격한 위협 모델과 안전한 시스템 설계에도 불구하고 사고는 발생합니다. 위협을 해결하고 수정하기 위해 취한 조치를 사고 대응(IR)이라고 하며 사이버 보안의 전체 경력 경로입니다.
+         이에 대한 사고 대응 프로세스등은 CISA와 같은 보안 자격증에서 자주 출제되곤 합니다.
+        인시던트는 긴급도 및 영향 등급을 사용하여 분류됩니다. 긴급성은 직면한 공격의 유형, 영향을 받는 시스템에 의해 영향이 결정되는 위치 및 비즈니스 운영에 미치는 영향에 따라 결정됩니다.
+        사고는 시스템 및/또는 현재 사고에 대한 기술적 지식을 갖춘 직원 그룹으로 미리 구성된 컴퓨터 보안 사고 대응 팀(CSIRT)에 의해 대응됩니다. 인시던트를 성공적으로 해결하기 위해 이러한 단계는 종종 아래 표에 나열된 인시던트 대응의 6단계라고 합니다.
+        
+    
+
+]]></description><link>정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\2.-보안-원칙.html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Kor/2. 보안 원칙.md</guid><pubDate>Tue, 13 Aug 2024 04:17:54 GMT</pubDate><enclosure url="lib\media\pasted-image-20240812105418.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240812105418.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[응용 프로그램 사용]]></title><description><![CDATA[ 
  <br>
 <br>이 내용은 tryhackme Jr Penetration Tester 항목에서의 실습입니다. *
 <br><br>이번에는 브라우저에 내장된 도구만을 사용하여 보안 문제에 대해 웹 애플리케이션을 수동으로 검토하는 방법을 배웁니다.<br>다음은&nbsp;사용할&nbsp;내장&nbsp;브라우저&nbsp;도구에&nbsp;대한&nbsp;간략한&nbsp;설명입니다.<br>
@@ -906,4 +891,6 @@ Defensive Security
     
     
 
-<br><br><br>실습에&nbsp;들어가겠습니다.&nbsp;먼저&nbsp;제공받은&nbsp;웹&nbsp;사이트로&nbsp;접속합니다.&nbsp;물론&nbsp;그&nbsp;전에&nbsp;웹&nbsp;사이트&nbsp;내에&nbsp;있는&nbsp;가상머신을&nbsp;구동해주세요.<br>구동하면&nbsp;아래와&nbsp;같은&nbsp;화면이&nbsp;나타납니다.<br><img src="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png" referrerpolicy="no-referrer"><br>저는 처음에 이 페이지의&nbsp;html에서&nbsp;flag를 찾아야 하나 하고 개발자 도구로 이리 저리 뒤져봤습니다.<br>하지만 문제는 그런 걸 바라는 게 아니었습니다.&nbsp;일단&nbsp;html&nbsp;코드부터 살펴보겠습니다.<br><img src="https://blog.kakaocdn.net/dn/KqbUN/btshia6iN1r/RlrHPzWm4XkY15Zi2Aj5k0/img.png" referrerpolicy="no-referrer"><br>잘 보시면&nbsp;"href"&nbsp;태그가 어딘가를 가리키는 것들이 보이실 겁니다.&nbsp;저는 그래서 저 태그들을 유심히 찾아봤습니다.&nbsp;일단 무작정 태그들을 따라 들어가 찾아보는 방식을 사용했습니다.<br>하지만&nbsp;nav&nbsp;안에 배치된 링크들에서는 답을 찾을 수가 없었습니다.&nbsp;그러다가 주석을 뒤지다가 맨 상단의<br><img src="https://blog.kakaocdn.net/dn/B8Blu/btsg9ORjjv6/K87WZ0wUfqFdUKhBn1kJwK/img.png" referrerpolicy="no-referrer"><br>이 부분을 발견했습니다.&nbsp;여기에 적혀있는 페이지를 타고 들어가시면 됩니다..<br>주소&nbsp;+&nbsp;위 링크 페이지<br>그렇게 되면<br><img src="https://blog.kakaocdn.net/dn/b6fC50/btsg9NkxSfy/XSZH9gOzdXijXJdkzp9ic1/img.png" referrerpolicy="no-referrer"><br>아래와 같은 답이 보여지게 됩니다.&nbsp;하지만 이건 첫 번째 답입니다.<br>두번째 문제도 이와 같은 방식을 취합니다.<br><img src="https://blog.kakaocdn.net/dn/cUqmDe/btsg9PpcyWf/YeQXddqxVdJgpVl4LPELG0/img.png" referrerpolicy="no-referrer"><br>아까 보여드린 코드죠?&nbsp;여기서 잘 보면 사용하지 않은&nbsp;/secret-page&nbsp;가 있는데 이곳으로 아까와 같은 방식으로 접속해주면 됩니다.<br>그러면<br><img src="https://blog.kakaocdn.net/dn/8mCTn/btshhIPVkbk/mRSSzHoPbUTvK42purCfQ1/img.png" referrerpolicy="no-referrer"><br>아래와 같은 답을 보여주게 됩니다.<br>3번째 문제부터는 저는 개인적으로 꽤 시간이 걸렸습니다.&nbsp;무작정 링크를 입력하면 답이 나올 거라고 생각했거든요.&nbsp;하지만 문제를 잘 읽어보면 해답이 나와 있었습니다.<br>“HTML&nbsp;코드를&nbsp;사용하여&nbsp;CSS, JavaScript&nbsp;및&nbsp;이미지와&nbsp;같은&nbsp;외부&nbsp;파일을&nbsp;포함할&nbsp;수&nbsp;있습니다.&nbsp;이&nbsp;예에서는&nbsp;이러한&nbsp;파일이&nbsp;모두&nbsp;같은&nbsp;디렉터리에&nbsp;저장되어&nbsp;있음을&nbsp;알&nbsp;수&nbsp;있습니다.&nbsp;웹&nbsp;브라우저에서&nbsp;이&nbsp;디렉터리를&nbsp;보면&nbsp;구성&nbsp;오류가&nbsp;있는&nbsp;것입니다.&nbsp;표시되어야&nbsp;하는&nbsp;것은&nbsp;디렉토리에&nbsp;대한&nbsp;액세스&nbsp;권한이&nbsp;없다는&nbsp;오류가&nbsp;있는&nbsp;빈&nbsp;페이지&nbsp;또는&nbsp;403 Forbidden&nbsp;페이지입니다.&nbsp;대신&nbsp;디렉토리&nbsp;목록&nbsp;기능이&nbsp;활성화되어&nbsp;실제로&nbsp;디렉토리의&nbsp;모든&nbsp;파일을&nbsp;나열합니다.&nbsp;때때로&nbsp;이것은&nbsp;문제가&nbsp;되지&nbsp;않으며&nbsp;디렉토리의&nbsp;모든&nbsp;파일은&nbsp;공개적으로&nbsp;볼&nbsp;수&nbsp;있지만&nbsp;경우에&nbsp;따라&nbsp;백업&nbsp;파일,&nbsp;소스&nbsp;코드&nbsp;또는&nbsp;기타&nbsp;기밀&nbsp;정보가&nbsp;여기에&nbsp;저장될&nbsp;수&nbsp;있습니다.&nbsp;이&nbsp;경우&nbsp;flag.txt&nbsp;파일에&nbsp;플래그가&nbsp;표시됩니다.” <br>&nbsp;여기서는 분명 디렉토리&nbsp;“목록”이 활성화 된다고 나와 있었습니다.&nbsp;그리고 우리는 개발자 도구를 통해 소스를 이루고 있는 디렉토리를 볼 수 있었습니다.<br>바로<br><img src="https://blog.kakaocdn.net/dn/2rlJh/btshh7hCZhp/cLOqKZpfZxaukKAy6bCpg0/img.png" referrerpolicy="no-referrer"><br>이 친구입니다.&nbsp;저는 처음에 링크&nbsp;+ assets + flag.txt&nbsp;로 답에 접근하는 방식을 사용했지만,&nbsp;다른 방법이 있기에 둘 다 서술하겠습니다.<br>첫 번째는 말 그대로 링크&nbsp;+ assets + flag.txt&nbsp;입니다.<br>이렇게 바로 답이 서술된 플래그 파일에 접근이 가능합니다.<br>두 번째는<br>링크&nbsp;+ assets를 입력하는 겁니다.<br>이렇게 입력하면<br><img src="https://blog.kakaocdn.net/dn/bDZfpj/btshh97peo8/uA7klNP2dYQD7oxIIQmTi1/img.png" referrerpolicy="no-referrer"><br>가 나옵니다.&nbsp;여기서 접근하셔도 좋습니다.<br>마지막 문제는 생각보다 어려웠습니다.&nbsp;하나 하나씩 차근차근 진행해야 했기 때문입니다.<br>순서대로 진행해보겠습니다.<br>주석을 보시면 현재 사용하는 프레임워크에 대해 링크로 나와있습니다.<br><img src="https://blog.kakaocdn.net/dn/bOTar9/btshbud7i0g/oz2SlA3LE6K3Ms6KA7Hg61/img.png" referrerpolicy="no-referrer"><br>아래의 링크로 접속하면<br><img src="https://blog.kakaocdn.net/dn/bngvW4/btshiiJNMQ5/qkuYYhnlGkhQ0B4Kn0pkAK/img.png" referrerpolicy="no-referrer"><br>이러한 화면이 뜹니다.&nbsp;저는 한글로 자동 번역 중이라 한글로 뜨는 겁니다.<br>아까 저희가 주석에서 본 버전은&nbsp;1.2&nbsp;였는데 현재 버전은&nbsp;1.3입니다.&nbsp;이 차이를 잘 알아두세요.&nbsp;여기서 저희는 먼저 설명서로 가보겠습니다.<br><img src="https://blog.kakaocdn.net/dn/bHV7ly/btsheEtm6BE/Njj7z8p3ZMpduc5yKMJLd1/img.png" referrerpolicy="no-referrer"><br>이 프레임워크를 사용하면 저 링크가 생기도 저곳에서 저 정보로 로그인을 할 수 있다고 나와있습니다.&nbsp;그렇다면 변경 로그는 무엇이 있을까요?&nbsp;일단 들어가보겠습니다.<br><img src="https://blog.kakaocdn.net/dn/dXeV6i/btshi72aF7k/de9WslotkvuQHBicwtwSb1/img.png" referrerpolicy="no-referrer"><br>저희는 여러가지 알 수 있지만, 1.3&nbsp;버전을 주목해야 합니다.&nbsp;저 업데이트 이전까지&nbsp;tmp.zip&nbsp;이라는 파일을 디렉토리에 생성하고 접근이 가능했다는 거죠.<br>그렇다면 저희는 저걸 확인해보아야 겠죠?<br>하지만 저희가 접근 가능한&nbsp;assets&nbsp;에서는 저런 파일이 없었습니다.&nbsp;그렇다면 저희는 위에서 보여주는 로그인 페이지에서 로그인을 해보아야 겠죠?<br>그 링크에서 로그인을 해주세요.&nbsp;아까 정보는 다 기억하고 계시죠?<br><img src="https://blog.kakaocdn.net/dn/I2Q7C/btshi72aMpC/kWDBqDkoauuLoZxkDVu1h0/img.png" referrerpolicy="no-referrer"><br>로그인하면 위와 같은 플래그를 보셨을 겁니다.&nbsp;하지만 이건 답이 아니죠.&nbsp;우리는 분명 보았습니다. 1.3&nbsp;버전에서야&nbsp;tmp.zip에 접근 가능한 오류를 고쳤다고요.&nbsp;하지만 저희는&nbsp;1.2&nbsp;버전의 웹 사이트에 접속 중입니다.&nbsp;그렇다면 저희는 저 파일에 접근할 수 있습니다.<br>그렇다면 저희는 링크&nbsp;+ tmp.zip을 입력하면 그 파일을 다운 받을 수 있습니다.&nbsp;그리고 그 파일에 있는 파일을 읽어보면 답이 있습니다.<br>&nbsp;이번 실습은 저도 기존에 해보았던 방식인데,&nbsp;이렇게 차근차근 정보를 가지고 추리해가는 형태는 처음이었습니다.&nbsp;그래서 더 흥미럽게 푼 것 같네요.&nbsp;아직 배워야 할 부분이 많은 것 같습니다.<br><br>모든&nbsp;최신&nbsp;브라우저에는&nbsp;개발자&nbsp;도구가&nbsp;포함되어&nbsp;있습니다.&nbsp;이것은&nbsp;웹&nbsp;개발자가&nbsp;웹&nbsp;응용&nbsp;프로그램을&nbsp;디버깅하는&nbsp;데&nbsp;도움이&nbsp;되는&nbsp;도구&nbsp;키트이며&nbsp;웹&nbsp;사이트&nbsp;내부를&nbsp;엿볼&nbsp;수&nbsp;있어&nbsp;진행&nbsp;상황을&nbsp;확인할&nbsp;수&nbsp;있습니다.&nbsp;침투&nbsp;테스터로서&nbsp;우리는&nbsp;이러한&nbsp;도구를&nbsp;활용하여&nbsp;웹&nbsp;애플리케이션을&nbsp;훨씬&nbsp;더&nbsp;잘&nbsp;이해할&nbsp;수&nbsp;있습니다.&nbsp;특히&nbsp;개발자&nbsp;도구&nbsp;키트의&nbsp;세&nbsp;가지&nbsp;기능인&nbsp;Inspector, Debugger&nbsp;및&nbsp;Network에&nbsp;중점을&nbsp;두고&nbsp;있습니다.<br><br>이번 실습도 아까의 연장 선입니다.&nbsp;기사 페이지로 넘어가서&nbsp;3번째 기사의&nbsp;CSS와&nbsp;HTML을 조작하면 됩니다.<br><img src="https://blog.kakaocdn.net/dn/TgMpW/btshiGRcGug/3iQ9XU97TKQUaqI5JDJ1Xk/img.png" referrerpolicy="no-referrer"><br>처음 접속하면 이런 페이지가 뜹니다.&nbsp;그럼 저희는&nbsp;HTML을 보며 이 상황을 인식하고 해결할 수 있습니다.<br>저 화면을 가리고 있는 태그의 최상위 태그는<br><img src="https://blog.kakaocdn.net/dn/ddA3Wv/btshjefQADt/9PbuCw2XpEcK1I2LnYmKX0/img.png" referrerpolicy="no-referrer"><br>아래와 같습니다. CSS CLASS도 나와있네요.&nbsp;저 부분을 확인해봅시다.<br><img src="https://blog.kakaocdn.net/dn/NQTrx/btsg9MMJntl/HtwGLgHVsO1pQl7nIirVk0/img.png" referrerpolicy="no-referrer"><br>CSS를 확인해보니 위처럼 되어 있습니다.&nbsp;그런데&nbsp;display가&nbsp;block&nbsp;처리가 되어 있네요.<br>그렇다면 어떻게 해야할까요?<br>저&nbsp;display의 값을&nbsp;none으로 바꾸어주면 됩니다.<br>그렇게 실습하시면 아마 답이 화면에 출력되었을 겁니다.<br><br>개발자&nbsp;도구의&nbsp;이&nbsp;패널은&nbsp;JavaScript&nbsp;디버깅을&nbsp;위한&nbsp;것이며,&nbsp;작동하지&nbsp;않을&nbsp;수&nbsp;있는&nbsp;이유를&nbsp;알아내고자&nbsp;하는&nbsp;웹&nbsp;개발자를&nbsp;위한&nbsp;뛰어난&nbsp;기능입니다.&nbsp;그러나&nbsp;침투&nbsp;테스터로서&nbsp;JavaScript&nbsp;코드를&nbsp;깊이&nbsp;파고들&nbsp;수&nbsp;있는&nbsp;옵션을&nbsp;제공합니다.&nbsp;Firefox&nbsp;및&nbsp;Safari에서는&nbsp;이&nbsp;기능을&nbsp;디버거라고&nbsp;하지만&nbsp;Google Chrome에서는&nbsp;소스라고&nbsp;합니다.<br><br>먼저 링크의&nbsp;contact&nbsp;칸으로 들어가서&nbsp;assets&nbsp;폴더를 확인하면&nbsp;flash.min.js라는&nbsp;파일이&nbsp;표시됩니다<br><img src="https://blog.kakaocdn.net/dn/bbQrol/btshh8OlE51/ztaPBk3Y8xbqfLbY4U2TKk/img.png" referrerpolicy="no-referrer"><br>이&nbsp;약간의&nbsp;JavaScript는&nbsp;페이지에서&nbsp;빨간색&nbsp;팝업을&nbsp;제거하는&nbsp;것입니다.&nbsp;중단점&nbsp;이라는&nbsp;디버거의&nbsp;또&nbsp;다른&nbsp;기능을&nbsp;활용할&nbsp;수&nbsp;있습니다&nbsp;&nbsp;.&nbsp;이는&nbsp;브라우저가&nbsp;JavaScript&nbsp;처리를&nbsp;중지하고&nbsp;현재&nbsp;실행을&nbsp;일시&nbsp;중지하도록&nbsp;강제할&nbsp;수&nbsp;있는&nbsp;코드의&nbsp;지점입니다.<br>위의&nbsp;코드가&nbsp;포함된&nbsp;줄&nbsp;번호를&nbsp;클릭하면&nbsp;파란색으로&nbsp;바뀝니다.&nbsp;이제&nbsp;이&nbsp;줄에&nbsp;중단점을&nbsp;삽입했습니다.&nbsp;이제&nbsp;페이지를&nbsp;새로고침하면&nbsp;빨간색&nbsp;상자가&nbsp;사라지지&nbsp;않고&nbsp;페이지에&nbsp;남아&nbsp;있으며&nbsp;플래그가&nbsp;포함되어&nbsp;있음을&nbsp;알&nbsp;수&nbsp;있습니다.<br>저렇게 하고 더블 클릭하시면 중단점으로 체크한 부분에서 멈춰서 답을 구할 수 있습니다.<br><br>개발자&nbsp;도구의&nbsp;네트워크&nbsp;탭을&nbsp;사용하여&nbsp;웹&nbsp;페이지가&nbsp;만드는&nbsp;모든&nbsp;외부&nbsp;요청을&nbsp;추적할&nbsp;수&nbsp;있습니다.&nbsp;네트워크&nbsp;탭을&nbsp;클릭한&nbsp;다음&nbsp;페이지를&nbsp;새로&nbsp;고치면&nbsp;페이지에서&nbsp;요청하는&nbsp;모든&nbsp;파일이&nbsp;표시됩니다.&nbsp;<br><img src="https://blog.kakaocdn.net/dn/n3leT/btshcgsMS6a/B1YEU8GhF0TMnUoKgrKPbk/img.png" referrerpolicy="no-referrer"><br>연락처&nbsp;페이지에서&nbsp;이&nbsp;작업을&nbsp;시도하십시오.&nbsp;목록이&nbsp;약간&nbsp;과밀해지면&nbsp;휴지통&nbsp;아이콘을&nbsp;눌러&nbsp;목록을&nbsp;삭제할&nbsp;수&nbsp;있습니다.<br>네트워크&nbsp;탭이&nbsp;열린&nbsp;상태에서&nbsp;연락처&nbsp;양식을&nbsp;작성하고&nbsp;&nbsp;메시지&nbsp;보내기&nbsp;&nbsp;버튼을&nbsp;누르십시오.&nbsp;네트워크&nbsp;탭에서&nbsp;이벤트를&nbsp;확인할&nbsp;수&nbsp;있으며&nbsp;이것은&nbsp;AJAX라는&nbsp;메서드를&nbsp;사용하여&nbsp;백그라운드에서&nbsp;제출되는&nbsp;양식입니다.&nbsp;AJAX는&nbsp;현재&nbsp;웹&nbsp;페이지를&nbsp;변경하여&nbsp;간섭하지&nbsp;않고&nbsp;웹&nbsp;애플리케이션&nbsp;백그라운드에서&nbsp;네트워크&nbsp;데이터를&nbsp;송수신하는&nbsp;방법입니다.<br>연락처&nbsp;양식이&nbsp;생성한&nbsp;네트워크&nbsp;탭의&nbsp;새&nbsp;항목을&nbsp;검사하고&nbsp;플래그를&nbsp;표시하기&nbsp;위해&nbsp;데이터가&nbsp;전송된&nbsp;페이지를&nbsp;봅니다.<br>이것도&nbsp;CONTACT&nbsp;페이지에서&nbsp;실행됩니다.]]></description><link>정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\3.-응용-프로그램-사용.html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Kor/3. 응용 프로그램 사용.md</guid><pubDate>Tue, 13 Aug 2024 00:31:25 GMT</pubDate><enclosure url="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
+<br><br><br>실습에&nbsp;들어가겠습니다.&nbsp;먼저&nbsp;제공받은&nbsp;웹&nbsp;사이트로&nbsp;접속합니다.&nbsp;물론&nbsp;그&nbsp;전에&nbsp;웹&nbsp;사이트&nbsp;내에&nbsp;있는&nbsp;가상머신을&nbsp;구동해주세요.<br>구동하면&nbsp;아래와&nbsp;같은&nbsp;화면이&nbsp;나타납니다.<br><img src="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png" referrerpolicy="no-referrer"><br>저는 처음에 이 페이지의&nbsp;html에서&nbsp;flag를 찾아야 하나 하고 개발자 도구로 이리 저리 뒤져봤습니다.<br>하지만 문제는 그런 걸 바라는 게 아니었습니다.&nbsp;일단&nbsp;html&nbsp;코드부터 살펴보겠습니다.<br><img src="https://blog.kakaocdn.net/dn/KqbUN/btshia6iN1r/RlrHPzWm4XkY15Zi2Aj5k0/img.png" referrerpolicy="no-referrer"><br>잘 보시면&nbsp;"href"&nbsp;태그가 어딘가를 가리키는 것들이 보이실 겁니다.&nbsp;저는 그래서 저 태그들을 유심히 찾아봤습니다.&nbsp;일단 무작정 태그들을 따라 들어가 찾아보는 방식을 사용했습니다.<br>하지만&nbsp;nav&nbsp;안에 배치된 링크들에서는 답을 찾을 수가 없었습니다.&nbsp;그러다가 주석을 뒤지다가 맨 상단의<br><img src="https://blog.kakaocdn.net/dn/B8Blu/btsg9ORjjv6/K87WZ0wUfqFdUKhBn1kJwK/img.png" referrerpolicy="no-referrer"><br>이 부분을 발견했습니다.&nbsp;여기에 적혀있는 페이지를 타고 들어가시면 됩니다..<br>주소&nbsp;+&nbsp;위 링크 페이지<br>그렇게 되면<br><img src="https://blog.kakaocdn.net/dn/b6fC50/btsg9NkxSfy/XSZH9gOzdXijXJdkzp9ic1/img.png" referrerpolicy="no-referrer"><br>아래와 같은 답이 보여지게 됩니다.&nbsp;하지만 이건 첫 번째 답입니다.<br>두번째 문제도 이와 같은 방식을 취합니다.<br><img src="https://blog.kakaocdn.net/dn/cUqmDe/btsg9PpcyWf/YeQXddqxVdJgpVl4LPELG0/img.png" referrerpolicy="no-referrer"><br>아까 보여드린 코드죠?&nbsp;여기서 잘 보면 사용하지 않은&nbsp;/secret-page&nbsp;가 있는데 이곳으로 아까와 같은 방식으로 접속해주면 됩니다.<br>그러면<br><img src="https://blog.kakaocdn.net/dn/8mCTn/btshhIPVkbk/mRSSzHoPbUTvK42purCfQ1/img.png" referrerpolicy="no-referrer"><br>아래와 같은 답을 보여주게 됩니다.<br>3번째 문제부터는 저는 개인적으로 꽤 시간이 걸렸습니다.&nbsp;무작정 링크를 입력하면 답이 나올 거라고 생각했거든요.&nbsp;하지만 문제를 잘 읽어보면 해답이 나와 있었습니다.<br>“HTML&nbsp;코드를&nbsp;사용하여&nbsp;CSS, JavaScript&nbsp;및&nbsp;이미지와&nbsp;같은&nbsp;외부&nbsp;파일을&nbsp;포함할&nbsp;수&nbsp;있습니다.&nbsp;이&nbsp;예에서는&nbsp;이러한&nbsp;파일이&nbsp;모두&nbsp;같은&nbsp;디렉터리에&nbsp;저장되어&nbsp;있음을&nbsp;알&nbsp;수&nbsp;있습니다.&nbsp;웹&nbsp;브라우저에서&nbsp;이&nbsp;디렉터리를&nbsp;보면&nbsp;구성&nbsp;오류가&nbsp;있는&nbsp;것입니다.&nbsp;표시되어야&nbsp;하는&nbsp;것은&nbsp;디렉토리에&nbsp;대한&nbsp;액세스&nbsp;권한이&nbsp;없다는&nbsp;오류가&nbsp;있는&nbsp;빈&nbsp;페이지&nbsp;또는&nbsp;403 Forbidden&nbsp;페이지입니다.&nbsp;대신&nbsp;디렉토리&nbsp;목록&nbsp;기능이&nbsp;활성화되어&nbsp;실제로&nbsp;디렉토리의&nbsp;모든&nbsp;파일을&nbsp;나열합니다.&nbsp;때때로&nbsp;이것은&nbsp;문제가&nbsp;되지&nbsp;않으며&nbsp;디렉토리의&nbsp;모든&nbsp;파일은&nbsp;공개적으로&nbsp;볼&nbsp;수&nbsp;있지만&nbsp;경우에&nbsp;따라&nbsp;백업&nbsp;파일,&nbsp;소스&nbsp;코드&nbsp;또는&nbsp;기타&nbsp;기밀&nbsp;정보가&nbsp;여기에&nbsp;저장될&nbsp;수&nbsp;있습니다.&nbsp;이&nbsp;경우&nbsp;flag.txt&nbsp;파일에&nbsp;플래그가&nbsp;표시됩니다.” <br>&nbsp;여기서는 분명 디렉토리&nbsp;“목록”이 활성화 된다고 나와 있었습니다.&nbsp;그리고 우리는 개발자 도구를 통해 소스를 이루고 있는 디렉토리를 볼 수 있었습니다.<br>바로<br><img src="https://blog.kakaocdn.net/dn/2rlJh/btshh7hCZhp/cLOqKZpfZxaukKAy6bCpg0/img.png" referrerpolicy="no-referrer"><br>이 친구입니다.&nbsp;저는 처음에 링크&nbsp;+ assets + flag.txt&nbsp;로 답에 접근하는 방식을 사용했지만,&nbsp;다른 방법이 있기에 둘 다 서술하겠습니다.<br>첫 번째는 말 그대로 링크&nbsp;+ assets + flag.txt&nbsp;입니다.<br>이렇게 바로 답이 서술된 플래그 파일에 접근이 가능합니다.<br>두 번째는<br>링크&nbsp;+ assets를 입력하는 겁니다.<br>이렇게 입력하면<br><img src="https://blog.kakaocdn.net/dn/bDZfpj/btshh97peo8/uA7klNP2dYQD7oxIIQmTi1/img.png" referrerpolicy="no-referrer"><br>가 나옵니다.&nbsp;여기서 접근하셔도 좋습니다.<br>마지막 문제는 생각보다 어려웠습니다.&nbsp;하나 하나씩 차근차근 진행해야 했기 때문입니다.<br>순서대로 진행해보겠습니다.<br>주석을 보시면 현재 사용하는 프레임워크에 대해 링크로 나와있습니다.<br><img src="https://blog.kakaocdn.net/dn/bOTar9/btshbud7i0g/oz2SlA3LE6K3Ms6KA7Hg61/img.png" referrerpolicy="no-referrer"><br>아래의 링크로 접속하면<br><img src="https://blog.kakaocdn.net/dn/bngvW4/btshiiJNMQ5/qkuYYhnlGkhQ0B4Kn0pkAK/img.png" referrerpolicy="no-referrer"><br>이러한 화면이 뜹니다.&nbsp;저는 한글로 자동 번역 중이라 한글로 뜨는 겁니다.<br>아까 저희가 주석에서 본 버전은&nbsp;1.2&nbsp;였는데 현재 버전은&nbsp;1.3입니다.&nbsp;이 차이를 잘 알아두세요.&nbsp;여기서 저희는 먼저 설명서로 가보겠습니다.<br><img src="https://blog.kakaocdn.net/dn/bHV7ly/btsheEtm6BE/Njj7z8p3ZMpduc5yKMJLd1/img.png" referrerpolicy="no-referrer"><br>이 프레임워크를 사용하면 저 링크가 생기도 저곳에서 저 정보로 로그인을 할 수 있다고 나와있습니다.&nbsp;그렇다면 변경 로그는 무엇이 있을까요?&nbsp;일단 들어가보겠습니다.<br><img src="https://blog.kakaocdn.net/dn/dXeV6i/btshi72aF7k/de9WslotkvuQHBicwtwSb1/img.png" referrerpolicy="no-referrer"><br>저희는 여러가지 알 수 있지만, 1.3&nbsp;버전을 주목해야 합니다.&nbsp;저 업데이트 이전까지&nbsp;tmp.zip&nbsp;이라는 파일을 디렉토리에 생성하고 접근이 가능했다는 거죠.<br>그렇다면 저희는 저걸 확인해보아야 겠죠?<br>하지만 저희가 접근 가능한&nbsp;assets&nbsp;에서는 저런 파일이 없었습니다.&nbsp;그렇다면 저희는 위에서 보여주는 로그인 페이지에서 로그인을 해보아야 겠죠?<br>그 링크에서 로그인을 해주세요.&nbsp;아까 정보는 다 기억하고 계시죠?<br><img src="https://blog.kakaocdn.net/dn/I2Q7C/btshi72aMpC/kWDBqDkoauuLoZxkDVu1h0/img.png" referrerpolicy="no-referrer"><br>로그인하면 위와 같은 플래그를 보셨을 겁니다.&nbsp;하지만 이건 답이 아니죠.&nbsp;우리는 분명 보았습니다. 1.3&nbsp;버전에서야&nbsp;tmp.zip에 접근 가능한 오류를 고쳤다고요.&nbsp;하지만 저희는&nbsp;1.2&nbsp;버전의 웹 사이트에 접속 중입니다.&nbsp;그렇다면 저희는 저 파일에 접근할 수 있습니다.<br>그렇다면 저희는 링크&nbsp;+ tmp.zip을 입력하면 그 파일을 다운 받을 수 있습니다.&nbsp;그리고 그 파일에 있는 파일을 읽어보면 답이 있습니다.<br>&nbsp;이번 실습은 저도 기존에 해보았던 방식인데,&nbsp;이렇게 차근차근 정보를 가지고 추리해가는 형태는 처음이었습니다.&nbsp;그래서 더 흥미럽게 푼 것 같네요.&nbsp;아직 배워야 할 부분이 많은 것 같습니다.<br><br>모든&nbsp;최신&nbsp;브라우저에는&nbsp;개발자&nbsp;도구가&nbsp;포함되어&nbsp;있습니다.&nbsp;이것은&nbsp;웹&nbsp;개발자가&nbsp;웹&nbsp;응용&nbsp;프로그램을&nbsp;디버깅하는&nbsp;데&nbsp;도움이&nbsp;되는&nbsp;도구&nbsp;키트이며&nbsp;웹&nbsp;사이트&nbsp;내부를&nbsp;엿볼&nbsp;수&nbsp;있어&nbsp;진행&nbsp;상황을&nbsp;확인할&nbsp;수&nbsp;있습니다.&nbsp;침투&nbsp;테스터로서&nbsp;우리는&nbsp;이러한&nbsp;도구를&nbsp;활용하여&nbsp;웹&nbsp;애플리케이션을&nbsp;훨씬&nbsp;더&nbsp;잘&nbsp;이해할&nbsp;수&nbsp;있습니다.&nbsp;특히&nbsp;개발자&nbsp;도구&nbsp;키트의&nbsp;세&nbsp;가지&nbsp;기능인&nbsp;Inspector, Debugger&nbsp;및&nbsp;Network에&nbsp;중점을&nbsp;두고&nbsp;있습니다.<br><br>이번 실습도 아까의 연장 선입니다.&nbsp;기사 페이지로 넘어가서&nbsp;3번째 기사의&nbsp;CSS와&nbsp;HTML을 조작하면 됩니다.<br><img src="https://blog.kakaocdn.net/dn/TgMpW/btshiGRcGug/3iQ9XU97TKQUaqI5JDJ1Xk/img.png" referrerpolicy="no-referrer"><br>처음 접속하면 이런 페이지가 뜹니다.&nbsp;그럼 저희는&nbsp;HTML을 보며 이 상황을 인식하고 해결할 수 있습니다.<br>저 화면을 가리고 있는 태그의 최상위 태그는<br><img src="https://blog.kakaocdn.net/dn/ddA3Wv/btshjefQADt/9PbuCw2XpEcK1I2LnYmKX0/img.png" referrerpolicy="no-referrer"><br>아래와 같습니다. CSS CLASS도 나와있네요.&nbsp;저 부분을 확인해봅시다.<br><img src="https://blog.kakaocdn.net/dn/NQTrx/btsg9MMJntl/HtwGLgHVsO1pQl7nIirVk0/img.png" referrerpolicy="no-referrer"><br>CSS를 확인해보니 위처럼 되어 있습니다.&nbsp;그런데&nbsp;display가&nbsp;block&nbsp;처리가 되어 있네요.<br>그렇다면 어떻게 해야할까요?<br>저&nbsp;display의 값을&nbsp;none으로 바꾸어주면 됩니다.<br>그렇게 실습하시면 아마 답이 화면에 출력되었을 겁니다.<br><br>개발자&nbsp;도구의&nbsp;이&nbsp;패널은&nbsp;JavaScript&nbsp;디버깅을&nbsp;위한&nbsp;것이며,&nbsp;작동하지&nbsp;않을&nbsp;수&nbsp;있는&nbsp;이유를&nbsp;알아내고자&nbsp;하는&nbsp;웹&nbsp;개발자를&nbsp;위한&nbsp;뛰어난&nbsp;기능입니다.&nbsp;그러나&nbsp;침투&nbsp;테스터로서&nbsp;JavaScript&nbsp;코드를&nbsp;깊이&nbsp;파고들&nbsp;수&nbsp;있는&nbsp;옵션을&nbsp;제공합니다.&nbsp;Firefox&nbsp;및&nbsp;Safari에서는&nbsp;이&nbsp;기능을&nbsp;디버거라고&nbsp;하지만&nbsp;Google Chrome에서는&nbsp;소스라고&nbsp;합니다.<br><br>먼저 링크의&nbsp;contact&nbsp;칸으로 들어가서&nbsp;assets&nbsp;폴더를 확인하면&nbsp;flash.min.js라는&nbsp;파일이&nbsp;표시됩니다<br><img src="https://blog.kakaocdn.net/dn/bbQrol/btshh8OlE51/ztaPBk3Y8xbqfLbY4U2TKk/img.png" referrerpolicy="no-referrer"><br>이&nbsp;약간의&nbsp;JavaScript는&nbsp;페이지에서&nbsp;빨간색&nbsp;팝업을&nbsp;제거하는&nbsp;것입니다.&nbsp;중단점&nbsp;이라는&nbsp;디버거의&nbsp;또&nbsp;다른&nbsp;기능을&nbsp;활용할&nbsp;수&nbsp;있습니다&nbsp;&nbsp;.&nbsp;이는&nbsp;브라우저가&nbsp;JavaScript&nbsp;처리를&nbsp;중지하고&nbsp;현재&nbsp;실행을&nbsp;일시&nbsp;중지하도록&nbsp;강제할&nbsp;수&nbsp;있는&nbsp;코드의&nbsp;지점입니다.<br>위의&nbsp;코드가&nbsp;포함된&nbsp;줄&nbsp;번호를&nbsp;클릭하면&nbsp;파란색으로&nbsp;바뀝니다.&nbsp;이제&nbsp;이&nbsp;줄에&nbsp;중단점을&nbsp;삽입했습니다.&nbsp;이제&nbsp;페이지를&nbsp;새로고침하면&nbsp;빨간색&nbsp;상자가&nbsp;사라지지&nbsp;않고&nbsp;페이지에&nbsp;남아&nbsp;있으며&nbsp;플래그가&nbsp;포함되어&nbsp;있음을&nbsp;알&nbsp;수&nbsp;있습니다.<br>저렇게 하고 더블 클릭하시면 중단점으로 체크한 부분에서 멈춰서 답을 구할 수 있습니다.<br><br>개발자&nbsp;도구의&nbsp;네트워크&nbsp;탭을&nbsp;사용하여&nbsp;웹&nbsp;페이지가&nbsp;만드는&nbsp;모든&nbsp;외부&nbsp;요청을&nbsp;추적할&nbsp;수&nbsp;있습니다.&nbsp;네트워크&nbsp;탭을&nbsp;클릭한&nbsp;다음&nbsp;페이지를&nbsp;새로&nbsp;고치면&nbsp;페이지에서&nbsp;요청하는&nbsp;모든&nbsp;파일이&nbsp;표시됩니다.&nbsp;<br><img src="https://blog.kakaocdn.net/dn/n3leT/btshcgsMS6a/B1YEU8GhF0TMnUoKgrKPbk/img.png" referrerpolicy="no-referrer"><br>연락처&nbsp;페이지에서&nbsp;이&nbsp;작업을&nbsp;시도하십시오.&nbsp;목록이&nbsp;약간&nbsp;과밀해지면&nbsp;휴지통&nbsp;아이콘을&nbsp;눌러&nbsp;목록을&nbsp;삭제할&nbsp;수&nbsp;있습니다.<br>네트워크&nbsp;탭이&nbsp;열린&nbsp;상태에서&nbsp;연락처&nbsp;양식을&nbsp;작성하고&nbsp;&nbsp;메시지&nbsp;보내기&nbsp;&nbsp;버튼을&nbsp;누르십시오.&nbsp;네트워크&nbsp;탭에서&nbsp;이벤트를&nbsp;확인할&nbsp;수&nbsp;있으며&nbsp;이것은&nbsp;AJAX라는&nbsp;메서드를&nbsp;사용하여&nbsp;백그라운드에서&nbsp;제출되는&nbsp;양식입니다.&nbsp;AJAX는&nbsp;현재&nbsp;웹&nbsp;페이지를&nbsp;변경하여&nbsp;간섭하지&nbsp;않고&nbsp;웹&nbsp;애플리케이션&nbsp;백그라운드에서&nbsp;네트워크&nbsp;데이터를&nbsp;송수신하는&nbsp;방법입니다.<br>연락처&nbsp;양식이&nbsp;생성한&nbsp;네트워크&nbsp;탭의&nbsp;새&nbsp;항목을&nbsp;검사하고&nbsp;플래그를&nbsp;표시하기&nbsp;위해&nbsp;데이터가&nbsp;전송된&nbsp;페이지를&nbsp;봅니다.<br>이것도&nbsp;CONTACT&nbsp;페이지에서&nbsp;실행됩니다.]]></description><link>정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\3.-응용-프로그램-사용.html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Kor/3. 응용 프로그램 사용.md</guid><pubDate>Tue, 13 Aug 2024 00:31:25 GMT</pubDate><enclosure url="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[무제 파일]]></title><description><![CDATA[ 
+ ]]></description><link>무제-파일.html</link><guid isPermaLink="false">무제 파일.md</guid><pubDate>Tue, 13 Aug 2024 01:00:07 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
+ ]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Mon, 12 Aug 2024 06:13:57 GMT</pubDate></item></channel></rss>
