@@ -1,7 +1,5 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 01:08:53 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 01:08:52 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[무제 파일]]></title><description><![CDATA[ 
- ]]></description><link>무제-파일.html</link><guid isPermaLink="false">무제 파일.md</guid><pubDate>Tue, 13 Aug 2024 01:00:07 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
- ]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Mon, 12 Aug 2024 06:13:57 GMT</pubDate></item><item><title><![CDATA[CISA Audit Documentation and Risk Management]]></title><description><![CDATA[ 
- <br><a data-href="2. Security Principles" href="정보보안과-서버-cs\tryhackme\jr-penetration-tester\침투-테스트\eng\2.-security-principles.html" class="internal-link" target="_self" rel="noopener">2. Security Principles</a><br><br>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 01:12:09 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 01:12:09 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[CISA Audit Documentation and Risk Management]]></title><description><![CDATA[ 
+ <br><br>
     <br>&lt;h2&gt;1. CISA Audit Documentation Types&lt;/h2&gt;
 &lt;h3&gt;IS Audit Charter&lt;/h3&gt;
 &lt;p class="highlight"&gt;A document that comprehensively defines the roles and responsibilities of the audit function. It includes details about responsibilities, authority, and duties and must be approved by the board or sponsor.&lt;/p&gt;
@@ -108,8 +106,9 @@
     &lt;li&gt;Examine high-risk areas first to use resources efficiently.&lt;/li&gt;
 &lt;/ul&gt;
 복사<br>
-]]></description><link>정보보안과-서버-cs\cisa\domain1\eng\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안과 서버 CS/CISA/Domain1/Eng/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 01:04:03 GMT</pubDate></item><item><title><![CDATA[CISA 감사 관련 문서 및 위험 관리]]></title><description><![CDATA[ 
- <br><a data-href="2. 보안 원칙" href="정보보안과-서버-cs\tryhackme\jr-penetration-tester\침투-테스트\kor\2.-보안-원칙.html" class="internal-link" target="_self" rel="noopener">2. 보안 원칙</a><br><br>
+
+[[2. Security Principles]]]]></description><link>정보보안과-서버-cs\cisa\domain1\eng\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안과 서버 CS/CISA/Domain1/Eng/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 01:11:02 GMT</pubDate></item><item><title><![CDATA[CISA 감사 관련 문서 및 위험 관리]]></title><description><![CDATA[ 
+ <br><br>
     <br>&lt;h2&gt;1. CISA 감사 관련 문서 종류&lt;/h2&gt;
 &lt;h3&gt;IS 감사 헌장&lt;/h3&gt;
 &lt;p class="highlight"&gt;감사 기능의 역할과 책임에 대해 포괄적으로 정의한 문서입니다. 책임, 권한, 의무에 대해 기술되어 있으며, 승인 시에는 이사회나 후원자의 승인을 받아야 합니다.&lt;/p&gt;
@@ -216,7 +215,10 @@
     &lt;li&gt;높은 위험부터 검사하여 자원을 효율적으로 사용합니다.&lt;/li&gt;
 &lt;/ul&gt;
 복사<br>
-]]></description><link>정보보안과-서버-cs\cisa\domain1\kor\it-감사-프로세스-1.html</link><guid isPermaLink="false">정보보안과 서버 CS/CISA/Domain1/kor/IT 감사 프로세스 - 1.md</guid><pubDate>Tue, 13 Aug 2024 01:04:31 GMT</pubDate></item><item><title><![CDATA[INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
+
+[[2. 보안 원칙]]]]></description><link>정보보안과-서버-cs\cisa\domain1\kor\it-감사-프로세스-1.html</link><guid isPermaLink="false">정보보안과 서버 CS/CISA/Domain1/kor/IT 감사 프로세스 - 1.md</guid><pubDate>Tue, 13 Aug 2024 01:11:07 GMT</pubDate></item><item><title><![CDATA[무제 파일]]></title><description><![CDATA[ 
+ ]]></description><link>무제-파일.html</link><guid isPermaLink="false">무제 파일.md</guid><pubDate>Tue, 13 Aug 2024 01:00:07 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
+ ]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Mon, 12 Aug 2024 06:13:57 GMT</pubDate></item><item><title><![CDATA[INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
  <br>
     
         한국어

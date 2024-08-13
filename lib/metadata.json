@@ -1,6 +1,6 @@
 {
   "vaultName": "Obsidian Vault",
-  "lastExport": 1723511332405,
+  "lastExport": 1723511529263,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": true,
@@ -30,6 +30,15 @@
     "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/침투 테스트/Kor/1..md",
     "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/침투 테스트/Kor/2. 보안 원칙.md",
     "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/침투 테스트/Kor/3. 응용 프로그램 사용.md",
+    "Recource/Pasted image 20240812103222.png",
+    "Recource/Pasted image 20240812103300.png",
+    "Recource/Pasted image 20240812105353.png",
+    "Recource/Pasted image 20240812105418.png",
+    "Recource/Pasted image 20240812105506.png",
+    "Recource/Pasted image 20240812105540.png",
+    "Recource/Pasted image 20240812105840.png",
+    "Recource/Pasted image 20240813092642.png",
+    "Recource/Pasted image 20240813092703.png",
     "무제 파일.md",
     "무제 파일.canvas",
     "index.md",
@@ -123,205 +132,205 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1723511332405,
-      "sourceSize": 42699,
+      "modifiedTime": 1723511529263,
+      "sourceSize": 51644,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1723511332405,
-      "sourceSize": 1675,
+      "modifiedTime": 1723511529263,
+      "sourceSize": 1655,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 11716,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 272363,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1723511332405,
+      "modifiedTime": 1723511529263,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/html/custom-head-content.html": {
-      "modifiedTime": 1723511332405,
-      "sourceSize": 40513,
+      "modifiedTime": 1723511529263,
+      "sourceSize": 42699,
       "exportedPath": "lib/html/custom-head-content.html",
       "dependencies": []
     },
     "정보보안과 서버 CS/CISA/Domain1/Eng/INFORMATION SYSTEMS AUDITING PROCESS - 1.md": {
-      "modifiedTime": 1723511093358,
+      "modifiedTime": 1723511529263,
       "sourceSize": 8816,
       "exportedPath": "정보보안과-서버-cs/cisa/domain1/eng/information-systems-auditing-process-1.html",
       "dependencies": []
     },
     "정보보안과 서버 CS/CISA/Domain1/kor/IT 감사 프로세스 - 1.md": {
-      "modifiedTime": 1723511093358,
+      "modifiedTime": 1723511529263,
       "sourceSize": 9030,
       "exportedPath": "정보보안과-서버-cs/cisa/domain1/kor/it-감사-프로세스-1.html",
       "dependencies": []
@@ -482,6 +491,60 @@
       "modifiedTime": 1723511332405,
       "sourceSize": 0,
       "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "Recource/Pasted image 20240812103222.png": {
+      "modifiedTime": 1723511529263,
+      "sourceSize": 6207,
+      "exportedPath": "recource/pasted-image-20240812103222.png",
+      "dependencies": []
+    },
+    "Recource/Pasted image 20240812103300.png": {
+      "modifiedTime": 1723511529263,
+      "sourceSize": 6207,
+      "exportedPath": "recource/pasted-image-20240812103300.png",
+      "dependencies": []
+    },
+    "Recource/Pasted image 20240812105353.png": {
+      "modifiedTime": 1723511529263,
+      "sourceSize": 46448,
+      "exportedPath": "recource/pasted-image-20240812105353.png",
+      "dependencies": []
+    },
+    "Recource/Pasted image 20240812105418.png": {
+      "modifiedTime": 1723511529263,
+      "sourceSize": 44594,
+      "exportedPath": "recource/pasted-image-20240812105418.png",
+      "dependencies": []
+    },
+    "Recource/Pasted image 20240812105506.png": {
+      "modifiedTime": 1723511529263,
+      "sourceSize": 44594,
+      "exportedPath": "recource/pasted-image-20240812105506.png",
+      "dependencies": []
+    },
+    "Recource/Pasted image 20240812105540.png": {
+      "modifiedTime": 1723511529263,
+      "sourceSize": 44594,
+      "exportedPath": "recource/pasted-image-20240812105540.png",
+      "dependencies": []
+    },
+    "Recource/Pasted image 20240812105840.png": {
+      "modifiedTime": 1723511529263,
+      "sourceSize": 44594,
+      "exportedPath": "recource/pasted-image-20240812105840.png",
+      "dependencies": []
+    },
+    "Recource/Pasted image 20240813092642.png": {
+      "modifiedTime": 1723511529263,
+      "sourceSize": 3594,
+      "exportedPath": "recource/pasted-image-20240813092642.png",
+      "dependencies": []
+    },
+    "Recource/Pasted image 20240813092703.png": {
+      "modifiedTime": 1723511529263,
+      "sourceSize": 28288,
+      "exportedPath": "recource/pasted-image-20240813092703.png",
       "dependencies": []
     }
   }
