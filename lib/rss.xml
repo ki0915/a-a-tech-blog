@@ -1,4 +1,257 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 04:35:03 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 04:35:03 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 04:40:22 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 04:40:22 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[IT 감사 프로세스 - 2]]></title><description><![CDATA[ 
+ <br><br>
+    
+        
+            
+            
+            
+                <br>연간 감사 계획
+                <br>개별 감사 계획
+                <br>현장 감사 계획
+                <br>보고
+                <br>후속 조치
+            
+        <br>    &lt;div class="section"&gt;
+        &lt;h2&gt;2. 현장 감사&lt;/h2&gt;
+        &lt;p class="highlight"&gt;현장 감사 계획은 크게 일반 통제(환경과 운영을 테스트)와 응용 통제로 나뉜다. 이 점을 구분하여 잘 판단해야 한다.&lt;/p&gt;
+        &lt;h3&gt;통제 평가&lt;/h3&gt;
+        &lt;p&gt;통제가 현 상황이나 환경에 적합한지 평가&lt;/p&gt;
+        &lt;h4&gt;일반 통제 (준거성 테스트)&lt;/h4&gt;
+        &lt;ul&gt;
+            &lt;li&gt;조직의 환경을 전반적으로 테스트한다.&lt;/li&gt;
+            &lt;li&gt;규칙 준수나 규칙이 적합한지를 테스트한다.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;h4&gt;응용 통제 (실증 테스트)&lt;/h4&gt;
+        &lt;ul&gt;
+            &lt;li&gt;실제 성과의 품질을 검증한다.&lt;/li&gt;
+            &lt;li&gt;잘 지켜지고 있지 않는 통제를 증명한다.&lt;/li&gt;
+            &lt;li&gt;실제 처리의 무결성을 검증한다.&lt;/li&gt;
+            &lt;li&gt;결과물을 검증한다.&lt;/li&gt;
+            &lt;li&gt;실제로 해본다. (예: 재무제표 보고서 올바른지 검사)&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;3. 보고&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;피감사인과 협의한다. 발견 사항에 대한 사실을 이해시키고 동의를 구한다.&lt;/li&gt;
+            &lt;li&gt;감사인과의 종료회의를 진행하고 감사보고서를 배포해야 한다.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;4. 후속 조치&lt;/h2&gt;
+        &lt;p class="highlight"&gt;이거 시험에 나왔음&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;권고 사항에 대하여 경영진의 교정 조치가 목적을 달성하였는지를 파악하기 위해 후속 조치 검토&lt;/li&gt;
+            &lt;li&gt;경영진이 위험을 감수하기로 한 경우 문서화나 후속 조치를 할 필요 없다.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;문제로 나올 경우:&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;IS 감사인은 경영진의 교정 조치에 대해 파악하기로 하였다. 이를 수행하는 목적으로 올바른 것은?&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span class="important"&gt;-&gt; 감사인의 권고 사항을 받아들여 교정 조치를 수행하여 성공적으로 위험을 경감, 혹은 제거하였는지 파악하기 위해서이다.&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;5. 감사인의 자격&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;독립성 (이게 문제로 정말 많이 나옴)&lt;/li&gt;
+            &lt;li&gt;전문가로서의 판단/기준&lt;/li&gt;
+            &lt;li&gt;적격성: 정당한 자격이 있음&lt;/li&gt;
+            &lt;li&gt;중요성&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;6. IS 감사위원회&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;이사회 산하에 설립이 되며 경영에 참여하지 않는 사외 이사들로 구성 (경영에 참여하지 않는 사외이사 레벨)&lt;/li&gt;
+            &lt;li&gt;감사 기능의 권한과 독립성을 제공한다.&lt;/li&gt;
+            &lt;li&gt;경영진의 부정을 감시한다.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;7. 통제의 종류&lt;/h2&gt;
+        &lt;p class="highlight"&gt;무조건 시험에 나옴&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;예방 통제:&lt;/strong&gt; 문제가 생기기 전에 미리 예방하는 통제
+                &lt;ul&gt;
+                    &lt;li&gt;업무 기능 분리 (직무 분리, 업무 순환), 물리적 접근 통제, 거래 승인 절차 등&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;적발 통제:&lt;/strong&gt; 문제를 적발하고 보고하는 통제
+                &lt;ul&gt;
+                    &lt;li&gt;해시 합계, 체크 포인트, 감사, 접근 로그&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;교정 통제:&lt;/strong&gt; 위협을 최소화하고 이후에 시스템을 정상적으로 복구하는 통제
+                &lt;ul&gt;
+                    &lt;li&gt;BCP, 복구 및 백업, 교정으로 인한 위험 감소&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;보완 통제:&lt;/strong&gt; 기존에 있던 시스템 통제에서 보완하여 잠재적인 위험이나 기존 위험을 보완하는 통제
+                &lt;ul&gt;
+                    &lt;li&gt;보완 통제를 통해 고유 위험 감소&lt;/li&gt;
+                    &lt;li&gt;예: 대체 불가능한 기존 취약 모듈이 있으면 그 모듈의 취약점을 해결해줄 패치 찾기&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;&lt;strong&gt;거버넌스는 무조건 이사회 책임&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;관리 책임은 최고 경영진과 임원&lt;/strong&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;8. 감사 계획 수립 절차&lt;/h2&gt;
+        &lt;ol&gt;
+            &lt;li&gt;환경 이해 및 문서 검토 - 업무 현장 검토, 전기 감사 보고서, 다른 회사 자료 분석하기, 환경에 대한 이해&lt;/li&gt;
+            &lt;li&gt;분석적 검토 절차&lt;/li&gt;
+            &lt;li&gt;설문 조사&lt;/li&gt;
+            &lt;li&gt;착수 회의, 예비 회의&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;9. 감사 테스트&lt;/h2&gt;
+        &lt;h3&gt;통제 테스트 (준거성 테스트)&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;통제 절차가 사전에 정의된 대로 잘 지켜지고 있는지 검증&lt;/li&gt;
+            &lt;li&gt;규칙의 준수여부와 규칙이 효과적인지 검증한다.&lt;/li&gt;
+            &lt;li&gt;환경을 검증하는 테스트이다.&lt;/li&gt;
+            &lt;li&gt;속성 샘플링을 사용한다.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;h3&gt;실증 테스트&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;실제 처리의 무결성을 검증하는 테스트이다.&lt;/li&gt;
+            &lt;li&gt;특정한 처리나 응용 프로그램의 무결성을 테스트한다 (지엽적인 부분)&lt;/li&gt;
+            &lt;li&gt;변량 샘플링을 사용한다.&lt;/li&gt;
+            &lt;li&gt;실제로 해본다.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;10. 감사 샘플링&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;통계적 샘플링:&lt;/strong&gt; 오류의 수치를 객관적으로 계량화 가능하다. 객관적인 기준을 가진다.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;임의 샘플링:&lt;/strong&gt; 임의적으로 난수로 표본 추출&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;체계적 샘플링:&lt;/strong&gt; 첫 번째 샘플은 무작위로 추출하고 그 뒤부터는 일련 번호를 붙여서 추출&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;비통계적 샘플링:&lt;/strong&gt; 그냥 자기가 임의적으로 추출&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;속성 샘플링:&lt;/strong&gt; 준거성 테스트, 일반 통제 할 때 사용
+                &lt;ul&gt;
+                    &lt;li&gt;단속적 샘플링과 발견 샘플링으로 나뉜다.&lt;/li&gt;
+                    &lt;li&gt;단속적 샘플링: 샘플의 모집단의 오류 확률이 기대 결과보다 낮을 때 될 때까지 다시 수행한다. 그러다가 기대 결과에 부합하는 모집단이 나오면 종료&lt;/li&gt;
+                    &lt;li&gt;발견 샘플링: 오류나 부정을 발견하는 샘플링이다.&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;변량 샘플링:&lt;/strong&gt; 실증 테스트, 응용 통제
+                &lt;ul&gt;
+                    &lt;li&gt;실제 처리에 있는 결과가 무결한지 검증한다.&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;층화 샘플링:&lt;/strong&gt; 모집단을 특정한 기준에 따라 나눈다. 추출 대상 모집단이 한정되어서 샘플의 크기도 작아진다.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;11. CATTs (컴퓨터를 이용한 감사)&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;GAS:&lt;/strong&gt; 범용 감사 소프트웨어&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;SAS:&lt;/strong&gt; 특정 목적으로 사용되는 소프트웨어&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;화이트박스:&lt;/strong&gt; 소스 내부를 보면서 로직까지 감사 가능&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;블랙박스:&lt;/strong&gt; 외부 기능만 보면서 감사&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;12. CSA&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;자체 감사를 의미한다.&lt;/li&gt;
+            &lt;li&gt;고위험 분야를 식별할 수 있다.&lt;/li&gt;
+            &lt;li&gt;감사인은 촉진자 역할을 한다.&lt;/li&gt;
+            &lt;li&gt;내부 직원들의 사기를 증진시킬 수 있다.&lt;/li&gt;
+            &lt;li&gt;워크샵 형태이다.&lt;/li&gt;
+            &lt;li&gt;평가는 경영진이 한다.&lt;/li&gt;
+            &lt;li&gt;현업 관리자들이 CSA의 주체이다.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;13. IS 직무 윤리 규정&lt;/h2&gt;
+        &lt;ol&gt;
+            &lt;li&gt;ISACA는 협회 회원 및 자격증 소지자의 직무 및 개인 행위에 관한 지침을 제시하고자 본 직무 윤리 규정을 제정한다.&lt;/li&gt;
+            &lt;li&gt;ISACA 회원 및 자격증 소지자는 다음 규정을 준수해야 한다.
+                &lt;ol&gt;
+                    &lt;li&gt;기업의 정보 시스템과 기술에 대한 효과적인 거버넌스와 관리 그리고 감사, 통제, 보안, 위험 관리 등에 적용되는 적절한 기준과 절차의 규현을 지원하고 준수를 촉진해야 한다.&lt;/li&gt;
+                    &lt;li&gt;직무 기준에 따라 객관성, 정단한 근면성, 전문가적 주의로 임무를 수행해야 한다.&lt;/li&gt;
+                    &lt;li&gt;높은 행위 기준과 품격을 유지하고, 자신의 직업 또는 협회의 신뢰를 떨어뜨리지 않으며, 합법적인 방법으로 이해관계자들에게 이익에 기여한다.&lt;/li&gt;
+                    &lt;li&gt;사법 당국이 공개를 요구하는 경우가 아니라면 업무 수행 중에 습득한 정보의 프라이버시와 기밀을 유지해야 한다. 해당 정보를 사적 목적으로 사용하거나 부적절한 대상에게 제공해서는 안 된다.&lt;/li&gt;
+                    &lt;li&gt;자신의 전문 분야에서 숙련성을 유지하고 필요한 기술, 지식 및 능력을 사용하여 업무를 완수할 수 있을 때만 해당 업무 수행을 동의해야 한다.&lt;/li&gt;
+                    &lt;li&gt;공개하지 않을 경우 결과 보고를 왜곡할 수 있는 모든 중요 사실을 공개하고 수행 작업의 결과를 적절한 대상에게 전달 (감사받은 부서로 전달, 타 부서 전달 NO!) 해야 한다.&lt;/li&gt;
+                    &lt;li&gt;기업의 정보 시스템과 기술의 거버넌스와 관리 그리고 감사, 통제, 보안, 위험 관리 등에 관한 이해관계자들의 이해를 증진함으로 그들의 직무 교육을 지원한다.&lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;14. 거버넌스&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;기업 거버넌스:&lt;/strong&gt; 기업의 목적을 달성하기 위해 통제&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;정보보호 거버넌스:&lt;/strong&gt; 보호를 목적으로 하며 운영 효율성을 개선한다.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;IT 거버넌스:&lt;/strong&gt; 전략적 연계, 가치 제공 (이익 기반), 성과 측정 (BSC로 IT 성과 측정) -&gt; 조직의 전략을 공유하기 위해서이다. 자원 관리, 리스크 관리
+                &lt;ul&gt;
+                    &lt;li&gt;경영진이 위험 인식&lt;/li&gt;
+                    &lt;li&gt;가장 이상적인 상황은 조직의 위험에 대한 성향을 이해하는 것이다.&lt;/li&gt;
+                    &lt;li&gt;책임은 언제나 조직에게 있다.&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;컴플라이언스 (정책 관리)&lt;/strong&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;15. IT 거버넌스 감사의 역할&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;정책이나 법, 규정 등을 항상 모니터링한다.&lt;/li&gt;
+            &lt;li&gt;IT 거버넌스를 검토하고 개선점을 찾아낸다.&lt;/li&gt;
+            &lt;li&gt;모범적인 사례가 있으면 경영진에게 추천한다.&lt;/li&gt;
+            &lt;li&gt;정책을 준수하도록 돕는다.&lt;/li&gt;
+            &lt;li&gt;독립적이고 객관적인 시선으로 평가한다.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;&lt;strong&gt;추구하는 목적:&lt;/strong&gt; 자원 효율 증대, 자원 보호, IT 전략 수행&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;비즈니스와 IT 전략적 연계&lt;/li&gt;
+            &lt;li&gt;효과적인 IT 거버넌스
+                &lt;ul&gt;
+                    &lt;li&gt;리더십 발휘해서 보증&lt;/li&gt;
+                    &lt;li&gt;조직의 구조를 잘 보증한다.&lt;/li&gt;
+                    &lt;li&gt;프로세스가 잘 수행되도록 지원하기&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;16. IS 운영 위원회&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;하는 일: 프로젝트 우선 순위 조정, 프로젝트 일정 정하기, 프로젝트 자원 할당, 각 팀과의 의견 중재&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section"&gt;
+        &lt;h2&gt;17. 정보보호 거버넌스&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;정보보호 거버넌스의 기대 효과:&lt;/strong&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;거래 상대와 고객에게 신뢰성을 제공한다.&lt;/li&gt;
+                    &lt;li&gt;더 나은 효율성을 제공한다.&lt;/li&gt;
+                    &lt;li&gt;기업의 이미지를 더 좋게 만든다.&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+복사<br>
+]]></description><link>정보보안\cisa\domain1\kor\it-감사-프로세스-2.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/kor/IT 감사 프로세스 - 2.md</guid><pubDate>Tue, 13 Aug 2024 04:38:08 GMT</pubDate></item><item><title><![CDATA[INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
  <br><br>
     한국어
     English
@@ -72,115 +325,111 @@
             
             
             
-                <br>1순위: 중대한 변화나 위협이 있었을 때.
-                <br>2순위: 최소 1년에 한 번.
+                <br>우선순위 1: 중요한 변화나 위협이 발생할 때.
+                <br>우선순위 2: 최소한 연 1회.
             
             
-            위험 분석 방법에는 정성적 방법과 정량적 방법이 있습니다.
+            위험 분석 방법에는 질적 접근과 양적 접근이 있습니다.
+            
+            질적 방법은 다음과 같습니다:
+            
+                <br>고객의 요구사항: 고객의 요구 사항을 정확히 분석합니다.
+                <br>전문가의 의견: 전문가의 의견을 수렴합니다.
+                <br>유사 사례 분석: 유사한 사례를 분석합니다.
             
             
-                <br>델파이 기법: 익명으로 전문가에게 자문을 받습니다.
-                <br>질문서 법: 질문서를 활용하여 정보를 수집합니다.
-                <br>시나리오 법: 다양한 시나리오를 통해 분석합니다.
+            양적 방법은 다음과 같습니다:
             
-            
-            
-                <br>위협 발생 가능성을 수치로 표현: 객관적인 데이터를 사용하여 분석합니다.
-                <br>복잡성: 정량적 방법은 더 복잡할 수 있습니다.
-                <br>RBAA (위험 기반 감사): 모든 오류나 부정을 완전히 제거할 수는 없으며, 중요성의 원칙을 적용하고 감사인은 전문가적 판단을 내려야 합니다. 높은 위험부터 검사하여 자원을 효율적으로 사용합니다.
+                <br>확률: 사건의 발생 확률을 수치로 분석합니다.
+                <br>영향: 사건이 발생했을 때의 영향을 수치로 분석합니다.
             
         
         
             
             
             
-            A document that comprehensively defines the roles and responsibilities of the audit function, detailing responsibilities, authorities, and obligations. It must be approved by the board or sponsor.
+            A document that comprehensively defines the role and responsibilities of the audit function. It details responsibilities, authority, and obligations and must be approved by the board or sponsor.
             
-            A document that records the process of planning and executing the audit. It must be approved before the audit begins and can be modified urgently only when necessary. It describes the on-site audit procedures.
+            A document that records the process of planning and executing an audit. It must be approved before the audit begins, but can be modified urgently if needed. It describes the procedures for field audit.
             
-            A document that records all audit procedures and techniques used during the audit. Electronic audit work papers must have proper access controls and should be documented for quality assurance, references by other auditors, and litigation purposes.
+            Documents recording all audit procedures and techniques used during the audit. Electronic working papers must be well-secured and documented for quality assurance, reference by other auditors, and legal purposes.
             
-            Assess whether the management’s follow-up review of the findings and recommendations presented by the IS auditor is adequate.
+            Evaluates if the follow-up review by management on audit findings and recommendations is appropriate.
             
             Audit evidence is evaluated based on the following criteria:
             
-                <br>Relevance: How related is it to the audit?
+                <br>Relevance: How relevant it is to the audit.
                 <br>Reliability:
                     
-                        <br>Where was it obtained from (independent third parties are more reliable than internal sources)?
-                        <br>Who collected it (collected by an authoritative entity, e.g., international audit bodies)?
-                        <br>How objective is it?
-                        <br>When was it collected (how much time has elapsed since the event)?
+                        <br>Where it was obtained (more reliable if from an independent third party rather than internally).
+                        <br>Who collected it (e.g., from an authoritative body like an international audit organization).
+                        <br>How objective it is.
+                        <br>When it was collected (time elapsed since the event).
                     
                 
-                <br>Usefulness: Is the evidence helpful for the audit?
-                <br>Sufficiency: Is it enough to lead to the same conclusion for anyone reviewing it?
+                <br>Usefulness: How useful it is for the audit.
+                <br>Sufficiency: Whether there is enough evidence for others to reach the same conclusion.
             
             
-            This area is frequently tested, so review it thoroughly.
+            This area is often tested, so review it carefully.
             
-            Threats that exist fundamentally and can be reduced through control measures but are nearly impossible for the auditor to control.
+            Risks that inherently exist and cannot be completely controlled by the auditor but can be mitigated through compensating controls.
             
-            The risk of failing to detect and correct errors, which may not be significantly improved in the short term but can be addressed through the auditor’s recommendations for medium to long-term improvements.
+            Risk that errors will not be detected or corrected. Short-term improvements are unlikely, but long-term improvements can be made based on the auditor’s recommendations.
             
-            Classified into sampling risk and non-sampling risk:
+            The risk of not detecting a problem and issuing a report with unresolved issues. Detection risk is the product of inherent risk, control risk, and detection risk.
             
-                <br>Sampling Risk: The risk that the sample does not represent the population.
-                <br>Non-Sampling Risk: Issues occurring during audit procedures (due to auditor’s mistakes or inexperience), which can be mitigated through training, education, and adjusting audit intensity.
+            Management defines acceptable risk levels. The auditor must ensure that audit risk is lower than business risk.
             
-            
-            The risk of issuing a report without identifying the issues correctly. Audit risk is the product of inherent risk, control risk, and detection risk.
-            
-            Management defines the risk acceptable for the organization. The auditor must ensure that audit risk is lower than business risk.
-            
-            Effective risk management involves a complete understanding of the organization's risk appetite. What document best captures the organization’s risk appetite?
+            Effective risk management involves a thorough understanding of the organization's risk appetite. What document best identifies the organization’s risk appetite?
             
             
-                <br>Define Risk: For example, accounting-related issues.
-                <br>Identify Risk: For example, exposure of accounting records.
-                <br>Develop Risk Management Strategy: Based on the information collected.
+                <br>Risk Definition: For example, accounting issues.
+                <br>Risk Identification: For example, exposure in accounting records.
+                <br>Risk Management Strategy Development: Based on collected information.
             
             
             
-                <br>Avoidance: Completely eliminate the cause of the problem. This is the most reliable but can be costly.
-                <br>Mitigation: Internally implement measures to reduce risk. For example, using a VPN to restrict API access to authorized users only.
-                <br>Transfer: Use third parties to handle risk. For example, insurance or outsourcing shifts responsibility.
-                <br>Acceptance: Acknowledge the risk without taking action. The auditor should ensure that accepting the risk is appropriate.
-                <br>Neglect: Ignore the risk without acknowledging or addressing it.
+                <br>Avoidance: Completely eliminates the cause of the problem. It fully removes the risk but can be costly.
+                <br>Mitigation: Implements measures internally to reduce risk. For example, using a VPN to restrict API access to authorized users only.
+                <br>Transfer: Uses third parties to address the risk. For example, transferring responsibility through insurance or outsourcing.
+                <br>Acceptance: Acknowledges the risk without taking action. The auditor must determine if risk acceptance is appropriate.
+                <br>Ignorance: Either does not recognize the risk or does not respond to it.
             
             
             
-                <br>Risk Identification: Identify assets.
-                <br>Risk Analysis/Evaluation: Analyze and evaluate risks.
-                <br>Risk Control: Apply controls and assess existing controls.
-                <br>Continuous Monitoring: Residual risks remain after controls are applied. Mitigating these is the auditor's recommendation. Management decides the acceptable level of risk.
-                <br>Periodic Reporting: Regular reporting is required.
+                <br>Risk Identification: Identifies assets.
+                <br>Risk Analysis/Assessment: Analyzes and assesses the risk.
+                <br>Risk Control: Applies controls and evaluates existing controls.
+                <br>Continuous Monitoring: Post-control residual risks remain. Mitigating these is the auditor’s recommendation. Management decides how much risk to tolerate.
+                <br>Periodic Reporting: Regular reporting is necessary.
             
             
             
             
                 <br>Priority 1: When significant changes or threats occur.
-                <br>Priority 2: At least once a year.
+                <br>Priority 2: At least annually.
             
             
             Risk analysis methods include qualitative and quantitative approaches.
             
+            Qualitative methods include:
             
-                <br>Delphi Technique: Consult experts anonymously.
-                <br>Questionnaire Method: Use questionnaires to gather information.
-                <br>Scenario Method: Analyze various scenarios.
+                <br>Customer Requirements: Analyzing customer requirements.
+                <br>Expert Opinions: Gathering expert opinions.
+                <br>Similar Cases: Analyzing similar cases.
             
             
+            Quantitative methods include:
             
-                <br>Quantify Threat Probability: Use objective data to analyze risks.
-                <br>Complexity: Quantitative methods can be more complex.
-                <br>RBAA (Risk-Based Audit Approach): Not all errors or fraud can be completely eliminated. Apply the principle of materiality, and auditors must use professional judgment. Prioritize high-risk areas to use resources efficiently.
+                <br>Probability: Analyzing the probability of occurrence.
+                <br>Impact: Analyzing the impact of an occurrence.
             
         
     
     
 
-]]></description><link>정보보안\cisa\domain1\main\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/main/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 04:34:49 GMT</pubDate></item><item><title><![CDATA[CISA 감사 관련 문서 및 위험 관리]]></title><description><![CDATA[ 
+]]></description><link>정보보안\cisa\domain1\main\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/main/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 04:40:16 GMT</pubDate></item><item><title><![CDATA[CISA 감사 관련 문서 및 위험 관리]]></title><description><![CDATA[ 
  <br>
     
     
@@ -833,6 +1082,4 @@ Defensive Security
     
     
 
-<br><br><br>실습에&nbsp;들어가겠습니다.&nbsp;먼저&nbsp;제공받은&nbsp;웹&nbsp;사이트로&nbsp;접속합니다.&nbsp;물론&nbsp;그&nbsp;전에&nbsp;웹&nbsp;사이트&nbsp;내에&nbsp;있는&nbsp;가상머신을&nbsp;구동해주세요.<br>구동하면&nbsp;아래와&nbsp;같은&nbsp;화면이&nbsp;나타납니다.<br><img src="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png" referrerpolicy="no-referrer"><br>저는 처음에 이 페이지의&nbsp;html에서&nbsp;flag를 찾아야 하나 하고 개발자 도구로 이리 저리 뒤져봤습니다.<br>하지만 문제는 그런 걸 바라는 게 아니었습니다.&nbsp;일단&nbsp;html&nbsp;코드부터 살펴보겠습니다.<br><img src="https://blog.kakaocdn.net/dn/KqbUN/btshia6iN1r/RlrHPzWm4XkY15Zi2Aj5k0/img.png" referrerpolicy="no-referrer"><br>잘 보시면&nbsp;"href"&nbsp;태그가 어딘가를 가리키는 것들이 보이실 겁니다.&nbsp;저는 그래서 저 태그들을 유심히 찾아봤습니다.&nbsp;일단 무작정 태그들을 따라 들어가 찾아보는 방식을 사용했습니다.<br>하지만&nbsp;nav&nbsp;안에 배치된 링크들에서는 답을 찾을 수가 없었습니다.&nbsp;그러다가 주석을 뒤지다가 맨 상단의<br><img src="https://blog.kakaocdn.net/dn/B8Blu/btsg9ORjjv6/K87WZ0wUfqFdUKhBn1kJwK/img.png" referrerpolicy="no-referrer"><br>이 부분을 발견했습니다.&nbsp;여기에 적혀있는 페이지를 타고 들어가시면 됩니다..<br>주소&nbsp;+&nbsp;위 링크 페이지<br>그렇게 되면<br><img src="https://blog.kakaocdn.net/dn/b6fC50/btsg9NkxSfy/XSZH9gOzdXijXJdkzp9ic1/img.png" referrerpolicy="no-referrer"><br>아래와 같은 답이 보여지게 됩니다.&nbsp;하지만 이건 첫 번째 답입니다.<br>두번째 문제도 이와 같은 방식을 취합니다.<br><img src="https://blog.kakaocdn.net/dn/cUqmDe/btsg9PpcyWf/YeQXddqxVdJgpVl4LPELG0/img.png" referrerpolicy="no-referrer"><br>아까 보여드린 코드죠?&nbsp;여기서 잘 보면 사용하지 않은&nbsp;/secret-page&nbsp;가 있는데 이곳으로 아까와 같은 방식으로 접속해주면 됩니다.<br>그러면<br><img src="https://blog.kakaocdn.net/dn/8mCTn/btshhIPVkbk/mRSSzHoPbUTvK42purCfQ1/img.png" referrerpolicy="no-referrer"><br>아래와 같은 답을 보여주게 됩니다.<br>3번째 문제부터는 저는 개인적으로 꽤 시간이 걸렸습니다.&nbsp;무작정 링크를 입력하면 답이 나올 거라고 생각했거든요.&nbsp;하지만 문제를 잘 읽어보면 해답이 나와 있었습니다.<br>“HTML&nbsp;코드를&nbsp;사용하여&nbsp;CSS, JavaScript&nbsp;및&nbsp;이미지와&nbsp;같은&nbsp;외부&nbsp;파일을&nbsp;포함할&nbsp;수&nbsp;있습니다.&nbsp;이&nbsp;예에서는&nbsp;이러한&nbsp;파일이&nbsp;모두&nbsp;같은&nbsp;디렉터리에&nbsp;저장되어&nbsp;있음을&nbsp;알&nbsp;수&nbsp;있습니다.&nbsp;웹&nbsp;브라우저에서&nbsp;이&nbsp;디렉터리를&nbsp;보면&nbsp;구성&nbsp;오류가&nbsp;있는&nbsp;것입니다.&nbsp;표시되어야&nbsp;하는&nbsp;것은&nbsp;디렉토리에&nbsp;대한&nbsp;액세스&nbsp;권한이&nbsp;없다는&nbsp;오류가&nbsp;있는&nbsp;빈&nbsp;페이지&nbsp;또는&nbsp;403 Forbidden&nbsp;페이지입니다.&nbsp;대신&nbsp;디렉토리&nbsp;목록&nbsp;기능이&nbsp;활성화되어&nbsp;실제로&nbsp;디렉토리의&nbsp;모든&nbsp;파일을&nbsp;나열합니다.&nbsp;때때로&nbsp;이것은&nbsp;문제가&nbsp;되지&nbsp;않으며&nbsp;디렉토리의&nbsp;모든&nbsp;파일은&nbsp;공개적으로&nbsp;볼&nbsp;수&nbsp;있지만&nbsp;경우에&nbsp;따라&nbsp;백업&nbsp;파일,&nbsp;소스&nbsp;코드&nbsp;또는&nbsp;기타&nbsp;기밀&nbsp;정보가&nbsp;여기에&nbsp;저장될&nbsp;수&nbsp;있습니다.&nbsp;이&nbsp;경우&nbsp;flag.txt&nbsp;파일에&nbsp;플래그가&nbsp;표시됩니다.” <br>&nbsp;여기서는 분명 디렉토리&nbsp;“목록”이 활성화 된다고 나와 있었습니다.&nbsp;그리고 우리는 개발자 도구를 통해 소스를 이루고 있는 디렉토리를 볼 수 있었습니다.<br>바로<br><img src="https://blog.kakaocdn.net/dn/2rlJh/btshh7hCZhp/cLOqKZpfZxaukKAy6bCpg0/img.png" referrerpolicy="no-referrer"><br>이 친구입니다.&nbsp;저는 처음에 링크&nbsp;+ assets + flag.txt&nbsp;로 답에 접근하는 방식을 사용했지만,&nbsp;다른 방법이 있기에 둘 다 서술하겠습니다.<br>첫 번째는 말 그대로 링크&nbsp;+ assets + flag.txt&nbsp;입니다.<br>이렇게 바로 답이 서술된 플래그 파일에 접근이 가능합니다.<br>두 번째는<br>링크&nbsp;+ assets를 입력하는 겁니다.<br>이렇게 입력하면<br><img src="https://blog.kakaocdn.net/dn/bDZfpj/btshh97peo8/uA7klNP2dYQD7oxIIQmTi1/img.png" referrerpolicy="no-referrer"><br>가 나옵니다.&nbsp;여기서 접근하셔도 좋습니다.<br>마지막 문제는 생각보다 어려웠습니다.&nbsp;하나 하나씩 차근차근 진행해야 했기 때문입니다.<br>순서대로 진행해보겠습니다.<br>주석을 보시면 현재 사용하는 프레임워크에 대해 링크로 나와있습니다.<br><img src="https://blog.kakaocdn.net/dn/bOTar9/btshbud7i0g/oz2SlA3LE6K3Ms6KA7Hg61/img.png" referrerpolicy="no-referrer"><br>아래의 링크로 접속하면<br><img src="https://blog.kakaocdn.net/dn/bngvW4/btshiiJNMQ5/qkuYYhnlGkhQ0B4Kn0pkAK/img.png" referrerpolicy="no-referrer"><br>이러한 화면이 뜹니다.&nbsp;저는 한글로 자동 번역 중이라 한글로 뜨는 겁니다.<br>아까 저희가 주석에서 본 버전은&nbsp;1.2&nbsp;였는데 현재 버전은&nbsp;1.3입니다.&nbsp;이 차이를 잘 알아두세요.&nbsp;여기서 저희는 먼저 설명서로 가보겠습니다.<br><img src="https://blog.kakaocdn.net/dn/bHV7ly/btsheEtm6BE/Njj7z8p3ZMpduc5yKMJLd1/img.png" referrerpolicy="no-referrer"><br>이 프레임워크를 사용하면 저 링크가 생기도 저곳에서 저 정보로 로그인을 할 수 있다고 나와있습니다.&nbsp;그렇다면 변경 로그는 무엇이 있을까요?&nbsp;일단 들어가보겠습니다.<br><img src="https://blog.kakaocdn.net/dn/dXeV6i/btshi72aF7k/de9WslotkvuQHBicwtwSb1/img.png" referrerpolicy="no-referrer"><br>저희는 여러가지 알 수 있지만, 1.3&nbsp;버전을 주목해야 합니다.&nbsp;저 업데이트 이전까지&nbsp;tmp.zip&nbsp;이라는 파일을 디렉토리에 생성하고 접근이 가능했다는 거죠.<br>그렇다면 저희는 저걸 확인해보아야 겠죠?<br>하지만 저희가 접근 가능한&nbsp;assets&nbsp;에서는 저런 파일이 없었습니다.&nbsp;그렇다면 저희는 위에서 보여주는 로그인 페이지에서 로그인을 해보아야 겠죠?<br>그 링크에서 로그인을 해주세요.&nbsp;아까 정보는 다 기억하고 계시죠?<br><img src="https://blog.kakaocdn.net/dn/I2Q7C/btshi72aMpC/kWDBqDkoauuLoZxkDVu1h0/img.png" referrerpolicy="no-referrer"><br>로그인하면 위와 같은 플래그를 보셨을 겁니다.&nbsp;하지만 이건 답이 아니죠.&nbsp;우리는 분명 보았습니다. 1.3&nbsp;버전에서야&nbsp;tmp.zip에 접근 가능한 오류를 고쳤다고요.&nbsp;하지만 저희는&nbsp;1.2&nbsp;버전의 웹 사이트에 접속 중입니다.&nbsp;그렇다면 저희는 저 파일에 접근할 수 있습니다.<br>그렇다면 저희는 링크&nbsp;+ tmp.zip을 입력하면 그 파일을 다운 받을 수 있습니다.&nbsp;그리고 그 파일에 있는 파일을 읽어보면 답이 있습니다.<br>&nbsp;이번 실습은 저도 기존에 해보았던 방식인데,&nbsp;이렇게 차근차근 정보를 가지고 추리해가는 형태는 처음이었습니다.&nbsp;그래서 더 흥미럽게 푼 것 같네요.&nbsp;아직 배워야 할 부분이 많은 것 같습니다.<br><br>모든&nbsp;최신&nbsp;브라우저에는&nbsp;개발자&nbsp;도구가&nbsp;포함되어&nbsp;있습니다.&nbsp;이것은&nbsp;웹&nbsp;개발자가&nbsp;웹&nbsp;응용&nbsp;프로그램을&nbsp;디버깅하는&nbsp;데&nbsp;도움이&nbsp;되는&nbsp;도구&nbsp;키트이며&nbsp;웹&nbsp;사이트&nbsp;내부를&nbsp;엿볼&nbsp;수&nbsp;있어&nbsp;진행&nbsp;상황을&nbsp;확인할&nbsp;수&nbsp;있습니다.&nbsp;침투&nbsp;테스터로서&nbsp;우리는&nbsp;이러한&nbsp;도구를&nbsp;활용하여&nbsp;웹&nbsp;애플리케이션을&nbsp;훨씬&nbsp;더&nbsp;잘&nbsp;이해할&nbsp;수&nbsp;있습니다.&nbsp;특히&nbsp;개발자&nbsp;도구&nbsp;키트의&nbsp;세&nbsp;가지&nbsp;기능인&nbsp;Inspector, Debugger&nbsp;및&nbsp;Network에&nbsp;중점을&nbsp;두고&nbsp;있습니다.<br><br>이번 실습도 아까의 연장 선입니다.&nbsp;기사 페이지로 넘어가서&nbsp;3번째 기사의&nbsp;CSS와&nbsp;HTML을 조작하면 됩니다.<br><img src="https://blog.kakaocdn.net/dn/TgMpW/btshiGRcGug/3iQ9XU97TKQUaqI5JDJ1Xk/img.png" referrerpolicy="no-referrer"><br>처음 접속하면 이런 페이지가 뜹니다.&nbsp;그럼 저희는&nbsp;HTML을 보며 이 상황을 인식하고 해결할 수 있습니다.<br>저 화면을 가리고 있는 태그의 최상위 태그는<br><img src="https://blog.kakaocdn.net/dn/ddA3Wv/btshjefQADt/9PbuCw2XpEcK1I2LnYmKX0/img.png" referrerpolicy="no-referrer"><br>아래와 같습니다. CSS CLASS도 나와있네요.&nbsp;저 부분을 확인해봅시다.<br><img src="https://blog.kakaocdn.net/dn/NQTrx/btsg9MMJntl/HtwGLgHVsO1pQl7nIirVk0/img.png" referrerpolicy="no-referrer"><br>CSS를 확인해보니 위처럼 되어 있습니다.&nbsp;그런데&nbsp;display가&nbsp;block&nbsp;처리가 되어 있네요.<br>그렇다면 어떻게 해야할까요?<br>저&nbsp;display의 값을&nbsp;none으로 바꾸어주면 됩니다.<br>그렇게 실습하시면 아마 답이 화면에 출력되었을 겁니다.<br><br>개발자&nbsp;도구의&nbsp;이&nbsp;패널은&nbsp;JavaScript&nbsp;디버깅을&nbsp;위한&nbsp;것이며,&nbsp;작동하지&nbsp;않을&nbsp;수&nbsp;있는&nbsp;이유를&nbsp;알아내고자&nbsp;하는&nbsp;웹&nbsp;개발자를&nbsp;위한&nbsp;뛰어난&nbsp;기능입니다.&nbsp;그러나&nbsp;침투&nbsp;테스터로서&nbsp;JavaScript&nbsp;코드를&nbsp;깊이&nbsp;파고들&nbsp;수&nbsp;있는&nbsp;옵션을&nbsp;제공합니다.&nbsp;Firefox&nbsp;및&nbsp;Safari에서는&nbsp;이&nbsp;기능을&nbsp;디버거라고&nbsp;하지만&nbsp;Google Chrome에서는&nbsp;소스라고&nbsp;합니다.<br><br>먼저 링크의&nbsp;contact&nbsp;칸으로 들어가서&nbsp;assets&nbsp;폴더를 확인하면&nbsp;flash.min.js라는&nbsp;파일이&nbsp;표시됩니다<br><img src="https://blog.kakaocdn.net/dn/bbQrol/btshh8OlE51/ztaPBk3Y8xbqfLbY4U2TKk/img.png" referrerpolicy="no-referrer"><br>이&nbsp;약간의&nbsp;JavaScript는&nbsp;페이지에서&nbsp;빨간색&nbsp;팝업을&nbsp;제거하는&nbsp;것입니다.&nbsp;중단점&nbsp;이라는&nbsp;디버거의&nbsp;또&nbsp;다른&nbsp;기능을&nbsp;활용할&nbsp;수&nbsp;있습니다&nbsp;&nbsp;.&nbsp;이는&nbsp;브라우저가&nbsp;JavaScript&nbsp;처리를&nbsp;중지하고&nbsp;현재&nbsp;실행을&nbsp;일시&nbsp;중지하도록&nbsp;강제할&nbsp;수&nbsp;있는&nbsp;코드의&nbsp;지점입니다.<br>위의&nbsp;코드가&nbsp;포함된&nbsp;줄&nbsp;번호를&nbsp;클릭하면&nbsp;파란색으로&nbsp;바뀝니다.&nbsp;이제&nbsp;이&nbsp;줄에&nbsp;중단점을&nbsp;삽입했습니다.&nbsp;이제&nbsp;페이지를&nbsp;새로고침하면&nbsp;빨간색&nbsp;상자가&nbsp;사라지지&nbsp;않고&nbsp;페이지에&nbsp;남아&nbsp;있으며&nbsp;플래그가&nbsp;포함되어&nbsp;있음을&nbsp;알&nbsp;수&nbsp;있습니다.<br>저렇게 하고 더블 클릭하시면 중단점으로 체크한 부분에서 멈춰서 답을 구할 수 있습니다.<br><br>개발자&nbsp;도구의&nbsp;네트워크&nbsp;탭을&nbsp;사용하여&nbsp;웹&nbsp;페이지가&nbsp;만드는&nbsp;모든&nbsp;외부&nbsp;요청을&nbsp;추적할&nbsp;수&nbsp;있습니다.&nbsp;네트워크&nbsp;탭을&nbsp;클릭한&nbsp;다음&nbsp;페이지를&nbsp;새로&nbsp;고치면&nbsp;페이지에서&nbsp;요청하는&nbsp;모든&nbsp;파일이&nbsp;표시됩니다.&nbsp;<br><img src="https://blog.kakaocdn.net/dn/n3leT/btshcgsMS6a/B1YEU8GhF0TMnUoKgrKPbk/img.png" referrerpolicy="no-referrer"><br>연락처&nbsp;페이지에서&nbsp;이&nbsp;작업을&nbsp;시도하십시오.&nbsp;목록이&nbsp;약간&nbsp;과밀해지면&nbsp;휴지통&nbsp;아이콘을&nbsp;눌러&nbsp;목록을&nbsp;삭제할&nbsp;수&nbsp;있습니다.<br>네트워크&nbsp;탭이&nbsp;열린&nbsp;상태에서&nbsp;연락처&nbsp;양식을&nbsp;작성하고&nbsp;&nbsp;메시지&nbsp;보내기&nbsp;&nbsp;버튼을&nbsp;누르십시오.&nbsp;네트워크&nbsp;탭에서&nbsp;이벤트를&nbsp;확인할&nbsp;수&nbsp;있으며&nbsp;이것은&nbsp;AJAX라는&nbsp;메서드를&nbsp;사용하여&nbsp;백그라운드에서&nbsp;제출되는&nbsp;양식입니다.&nbsp;AJAX는&nbsp;현재&nbsp;웹&nbsp;페이지를&nbsp;변경하여&nbsp;간섭하지&nbsp;않고&nbsp;웹&nbsp;애플리케이션&nbsp;백그라운드에서&nbsp;네트워크&nbsp;데이터를&nbsp;송수신하는&nbsp;방법입니다.<br>연락처&nbsp;양식이&nbsp;생성한&nbsp;네트워크&nbsp;탭의&nbsp;새&nbsp;항목을&nbsp;검사하고&nbsp;플래그를&nbsp;표시하기&nbsp;위해&nbsp;데이터가&nbsp;전송된&nbsp;페이지를&nbsp;봅니다.<br>이것도&nbsp;CONTACT&nbsp;페이지에서&nbsp;실행됩니다.]]></description><link>정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\3.-응용-프로그램-사용.html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Kor/3. 응용 프로그램 사용.md</guid><pubDate>Tue, 13 Aug 2024 00:31:25 GMT</pubDate><enclosure url="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[무제 파일]]></title><description><![CDATA[ 
- ]]></description><link>무제-파일.html</link><guid isPermaLink="false">무제 파일.md</guid><pubDate>Tue, 13 Aug 2024 01:00:07 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
- ]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Mon, 12 Aug 2024 06:13:57 GMT</pubDate></item></channel></rss>
+<br><br><br>실습에&nbsp;들어가겠습니다.&nbsp;먼저&nbsp;제공받은&nbsp;웹&nbsp;사이트로&nbsp;접속합니다.&nbsp;물론&nbsp;그&nbsp;전에&nbsp;웹&nbsp;사이트&nbsp;내에&nbsp;있는&nbsp;가상머신을&nbsp;구동해주세요.<br>구동하면&nbsp;아래와&nbsp;같은&nbsp;화면이&nbsp;나타납니다.<br><img src="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png" referrerpolicy="no-referrer"><br>저는 처음에 이 페이지의&nbsp;html에서&nbsp;flag를 찾아야 하나 하고 개발자 도구로 이리 저리 뒤져봤습니다.<br>하지만 문제는 그런 걸 바라는 게 아니었습니다.&nbsp;일단&nbsp;html&nbsp;코드부터 살펴보겠습니다.<br><img src="https://blog.kakaocdn.net/dn/KqbUN/btshia6iN1r/RlrHPzWm4XkY15Zi2Aj5k0/img.png" referrerpolicy="no-referrer"><br>잘 보시면&nbsp;"href"&nbsp;태그가 어딘가를 가리키는 것들이 보이실 겁니다.&nbsp;저는 그래서 저 태그들을 유심히 찾아봤습니다.&nbsp;일단 무작정 태그들을 따라 들어가 찾아보는 방식을 사용했습니다.<br>하지만&nbsp;nav&nbsp;안에 배치된 링크들에서는 답을 찾을 수가 없었습니다.&nbsp;그러다가 주석을 뒤지다가 맨 상단의<br><img src="https://blog.kakaocdn.net/dn/B8Blu/btsg9ORjjv6/K87WZ0wUfqFdUKhBn1kJwK/img.png" referrerpolicy="no-referrer"><br>이 부분을 발견했습니다.&nbsp;여기에 적혀있는 페이지를 타고 들어가시면 됩니다..<br>주소&nbsp;+&nbsp;위 링크 페이지<br>그렇게 되면<br><img src="https://blog.kakaocdn.net/dn/b6fC50/btsg9NkxSfy/XSZH9gOzdXijXJdkzp9ic1/img.png" referrerpolicy="no-referrer"><br>아래와 같은 답이 보여지게 됩니다.&nbsp;하지만 이건 첫 번째 답입니다.<br>두번째 문제도 이와 같은 방식을 취합니다.<br><img src="https://blog.kakaocdn.net/dn/cUqmDe/btsg9PpcyWf/YeQXddqxVdJgpVl4LPELG0/img.png" referrerpolicy="no-referrer"><br>아까 보여드린 코드죠?&nbsp;여기서 잘 보면 사용하지 않은&nbsp;/secret-page&nbsp;가 있는데 이곳으로 아까와 같은 방식으로 접속해주면 됩니다.<br>그러면<br><img src="https://blog.kakaocdn.net/dn/8mCTn/btshhIPVkbk/mRSSzHoPbUTvK42purCfQ1/img.png" referrerpolicy="no-referrer"><br>아래와 같은 답을 보여주게 됩니다.<br>3번째 문제부터는 저는 개인적으로 꽤 시간이 걸렸습니다.&nbsp;무작정 링크를 입력하면 답이 나올 거라고 생각했거든요.&nbsp;하지만 문제를 잘 읽어보면 해답이 나와 있었습니다.<br>“HTML&nbsp;코드를&nbsp;사용하여&nbsp;CSS, JavaScript&nbsp;및&nbsp;이미지와&nbsp;같은&nbsp;외부&nbsp;파일을&nbsp;포함할&nbsp;수&nbsp;있습니다.&nbsp;이&nbsp;예에서는&nbsp;이러한&nbsp;파일이&nbsp;모두&nbsp;같은&nbsp;디렉터리에&nbsp;저장되어&nbsp;있음을&nbsp;알&nbsp;수&nbsp;있습니다.&nbsp;웹&nbsp;브라우저에서&nbsp;이&nbsp;디렉터리를&nbsp;보면&nbsp;구성&nbsp;오류가&nbsp;있는&nbsp;것입니다.&nbsp;표시되어야&nbsp;하는&nbsp;것은&nbsp;디렉토리에&nbsp;대한&nbsp;액세스&nbsp;권한이&nbsp;없다는&nbsp;오류가&nbsp;있는&nbsp;빈&nbsp;페이지&nbsp;또는&nbsp;403 Forbidden&nbsp;페이지입니다.&nbsp;대신&nbsp;디렉토리&nbsp;목록&nbsp;기능이&nbsp;활성화되어&nbsp;실제로&nbsp;디렉토리의&nbsp;모든&nbsp;파일을&nbsp;나열합니다.&nbsp;때때로&nbsp;이것은&nbsp;문제가&nbsp;되지&nbsp;않으며&nbsp;디렉토리의&nbsp;모든&nbsp;파일은&nbsp;공개적으로&nbsp;볼&nbsp;수&nbsp;있지만&nbsp;경우에&nbsp;따라&nbsp;백업&nbsp;파일,&nbsp;소스&nbsp;코드&nbsp;또는&nbsp;기타&nbsp;기밀&nbsp;정보가&nbsp;여기에&nbsp;저장될&nbsp;수&nbsp;있습니다.&nbsp;이&nbsp;경우&nbsp;flag.txt&nbsp;파일에&nbsp;플래그가&nbsp;표시됩니다.” <br>&nbsp;여기서는 분명 디렉토리&nbsp;“목록”이 활성화 된다고 나와 있었습니다.&nbsp;그리고 우리는 개발자 도구를 통해 소스를 이루고 있는 디렉토리를 볼 수 있었습니다.<br>바로<br><img src="https://blog.kakaocdn.net/dn/2rlJh/btshh7hCZhp/cLOqKZpfZxaukKAy6bCpg0/img.png" referrerpolicy="no-referrer"><br>이 친구입니다.&nbsp;저는 처음에 링크&nbsp;+ assets + flag.txt&nbsp;로 답에 접근하는 방식을 사용했지만,&nbsp;다른 방법이 있기에 둘 다 서술하겠습니다.<br>첫 번째는 말 그대로 링크&nbsp;+ assets + flag.txt&nbsp;입니다.<br>이렇게 바로 답이 서술된 플래그 파일에 접근이 가능합니다.<br>두 번째는<br>링크&nbsp;+ assets를 입력하는 겁니다.<br>이렇게 입력하면<br><img src="https://blog.kakaocdn.net/dn/bDZfpj/btshh97peo8/uA7klNP2dYQD7oxIIQmTi1/img.png" referrerpolicy="no-referrer"><br>가 나옵니다.&nbsp;여기서 접근하셔도 좋습니다.<br>마지막 문제는 생각보다 어려웠습니다.&nbsp;하나 하나씩 차근차근 진행해야 했기 때문입니다.<br>순서대로 진행해보겠습니다.<br>주석을 보시면 현재 사용하는 프레임워크에 대해 링크로 나와있습니다.<br><img src="https://blog.kakaocdn.net/dn/bOTar9/btshbud7i0g/oz2SlA3LE6K3Ms6KA7Hg61/img.png" referrerpolicy="no-referrer"><br>아래의 링크로 접속하면<br><img src="https://blog.kakaocdn.net/dn/bngvW4/btshiiJNMQ5/qkuYYhnlGkhQ0B4Kn0pkAK/img.png" referrerpolicy="no-referrer"><br>이러한 화면이 뜹니다.&nbsp;저는 한글로 자동 번역 중이라 한글로 뜨는 겁니다.<br>아까 저희가 주석에서 본 버전은&nbsp;1.2&nbsp;였는데 현재 버전은&nbsp;1.3입니다.&nbsp;이 차이를 잘 알아두세요.&nbsp;여기서 저희는 먼저 설명서로 가보겠습니다.<br><img src="https://blog.kakaocdn.net/dn/bHV7ly/btsheEtm6BE/Njj7z8p3ZMpduc5yKMJLd1/img.png" referrerpolicy="no-referrer"><br>이 프레임워크를 사용하면 저 링크가 생기도 저곳에서 저 정보로 로그인을 할 수 있다고 나와있습니다.&nbsp;그렇다면 변경 로그는 무엇이 있을까요?&nbsp;일단 들어가보겠습니다.<br><img src="https://blog.kakaocdn.net/dn/dXeV6i/btshi72aF7k/de9WslotkvuQHBicwtwSb1/img.png" referrerpolicy="no-referrer"><br>저희는 여러가지 알 수 있지만, 1.3&nbsp;버전을 주목해야 합니다.&nbsp;저 업데이트 이전까지&nbsp;tmp.zip&nbsp;이라는 파일을 디렉토리에 생성하고 접근이 가능했다는 거죠.<br>그렇다면 저희는 저걸 확인해보아야 겠죠?<br>하지만 저희가 접근 가능한&nbsp;assets&nbsp;에서는 저런 파일이 없었습니다.&nbsp;그렇다면 저희는 위에서 보여주는 로그인 페이지에서 로그인을 해보아야 겠죠?<br>그 링크에서 로그인을 해주세요.&nbsp;아까 정보는 다 기억하고 계시죠?<br><img src="https://blog.kakaocdn.net/dn/I2Q7C/btshi72aMpC/kWDBqDkoauuLoZxkDVu1h0/img.png" referrerpolicy="no-referrer"><br>로그인하면 위와 같은 플래그를 보셨을 겁니다.&nbsp;하지만 이건 답이 아니죠.&nbsp;우리는 분명 보았습니다. 1.3&nbsp;버전에서야&nbsp;tmp.zip에 접근 가능한 오류를 고쳤다고요.&nbsp;하지만 저희는&nbsp;1.2&nbsp;버전의 웹 사이트에 접속 중입니다.&nbsp;그렇다면 저희는 저 파일에 접근할 수 있습니다.<br>그렇다면 저희는 링크&nbsp;+ tmp.zip을 입력하면 그 파일을 다운 받을 수 있습니다.&nbsp;그리고 그 파일에 있는 파일을 읽어보면 답이 있습니다.<br>&nbsp;이번 실습은 저도 기존에 해보았던 방식인데,&nbsp;이렇게 차근차근 정보를 가지고 추리해가는 형태는 처음이었습니다.&nbsp;그래서 더 흥미럽게 푼 것 같네요.&nbsp;아직 배워야 할 부분이 많은 것 같습니다.<br><br>모든&nbsp;최신&nbsp;브라우저에는&nbsp;개발자&nbsp;도구가&nbsp;포함되어&nbsp;있습니다.&nbsp;이것은&nbsp;웹&nbsp;개발자가&nbsp;웹&nbsp;응용&nbsp;프로그램을&nbsp;디버깅하는&nbsp;데&nbsp;도움이&nbsp;되는&nbsp;도구&nbsp;키트이며&nbsp;웹&nbsp;사이트&nbsp;내부를&nbsp;엿볼&nbsp;수&nbsp;있어&nbsp;진행&nbsp;상황을&nbsp;확인할&nbsp;수&nbsp;있습니다.&nbsp;침투&nbsp;테스터로서&nbsp;우리는&nbsp;이러한&nbsp;도구를&nbsp;활용하여&nbsp;웹&nbsp;애플리케이션을&nbsp;훨씬&nbsp;더&nbsp;잘&nbsp;이해할&nbsp;수&nbsp;있습니다.&nbsp;특히&nbsp;개발자&nbsp;도구&nbsp;키트의&nbsp;세&nbsp;가지&nbsp;기능인&nbsp;Inspector, Debugger&nbsp;및&nbsp;Network에&nbsp;중점을&nbsp;두고&nbsp;있습니다.<br><br>이번 실습도 아까의 연장 선입니다.&nbsp;기사 페이지로 넘어가서&nbsp;3번째 기사의&nbsp;CSS와&nbsp;HTML을 조작하면 됩니다.<br><img src="https://blog.kakaocdn.net/dn/TgMpW/btshiGRcGug/3iQ9XU97TKQUaqI5JDJ1Xk/img.png" referrerpolicy="no-referrer"><br>처음 접속하면 이런 페이지가 뜹니다.&nbsp;그럼 저희는&nbsp;HTML을 보며 이 상황을 인식하고 해결할 수 있습니다.<br>저 화면을 가리고 있는 태그의 최상위 태그는<br><img src="https://blog.kakaocdn.net/dn/ddA3Wv/btshjefQADt/9PbuCw2XpEcK1I2LnYmKX0/img.png" referrerpolicy="no-referrer"><br>아래와 같습니다. CSS CLASS도 나와있네요.&nbsp;저 부분을 확인해봅시다.<br><img src="https://blog.kakaocdn.net/dn/NQTrx/btsg9MMJntl/HtwGLgHVsO1pQl7nIirVk0/img.png" referrerpolicy="no-referrer"><br>CSS를 확인해보니 위처럼 되어 있습니다.&nbsp;그런데&nbsp;display가&nbsp;block&nbsp;처리가 되어 있네요.<br>그렇다면 어떻게 해야할까요?<br>저&nbsp;display의 값을&nbsp;none으로 바꾸어주면 됩니다.<br>그렇게 실습하시면 아마 답이 화면에 출력되었을 겁니다.<br><br>개발자&nbsp;도구의&nbsp;이&nbsp;패널은&nbsp;JavaScript&nbsp;디버깅을&nbsp;위한&nbsp;것이며,&nbsp;작동하지&nbsp;않을&nbsp;수&nbsp;있는&nbsp;이유를&nbsp;알아내고자&nbsp;하는&nbsp;웹&nbsp;개발자를&nbsp;위한&nbsp;뛰어난&nbsp;기능입니다.&nbsp;그러나&nbsp;침투&nbsp;테스터로서&nbsp;JavaScript&nbsp;코드를&nbsp;깊이&nbsp;파고들&nbsp;수&nbsp;있는&nbsp;옵션을&nbsp;제공합니다.&nbsp;Firefox&nbsp;및&nbsp;Safari에서는&nbsp;이&nbsp;기능을&nbsp;디버거라고&nbsp;하지만&nbsp;Google Chrome에서는&nbsp;소스라고&nbsp;합니다.<br><br>먼저 링크의&nbsp;contact&nbsp;칸으로 들어가서&nbsp;assets&nbsp;폴더를 확인하면&nbsp;flash.min.js라는&nbsp;파일이&nbsp;표시됩니다<br><img src="https://blog.kakaocdn.net/dn/bbQrol/btshh8OlE51/ztaPBk3Y8xbqfLbY4U2TKk/img.png" referrerpolicy="no-referrer"><br>이&nbsp;약간의&nbsp;JavaScript는&nbsp;페이지에서&nbsp;빨간색&nbsp;팝업을&nbsp;제거하는&nbsp;것입니다.&nbsp;중단점&nbsp;이라는&nbsp;디버거의&nbsp;또&nbsp;다른&nbsp;기능을&nbsp;활용할&nbsp;수&nbsp;있습니다&nbsp;&nbsp;.&nbsp;이는&nbsp;브라우저가&nbsp;JavaScript&nbsp;처리를&nbsp;중지하고&nbsp;현재&nbsp;실행을&nbsp;일시&nbsp;중지하도록&nbsp;강제할&nbsp;수&nbsp;있는&nbsp;코드의&nbsp;지점입니다.<br>위의&nbsp;코드가&nbsp;포함된&nbsp;줄&nbsp;번호를&nbsp;클릭하면&nbsp;파란색으로&nbsp;바뀝니다.&nbsp;이제&nbsp;이&nbsp;줄에&nbsp;중단점을&nbsp;삽입했습니다.&nbsp;이제&nbsp;페이지를&nbsp;새로고침하면&nbsp;빨간색&nbsp;상자가&nbsp;사라지지&nbsp;않고&nbsp;페이지에&nbsp;남아&nbsp;있으며&nbsp;플래그가&nbsp;포함되어&nbsp;있음을&nbsp;알&nbsp;수&nbsp;있습니다.<br>저렇게 하고 더블 클릭하시면 중단점으로 체크한 부분에서 멈춰서 답을 구할 수 있습니다.<br><br>개발자&nbsp;도구의&nbsp;네트워크&nbsp;탭을&nbsp;사용하여&nbsp;웹&nbsp;페이지가&nbsp;만드는&nbsp;모든&nbsp;외부&nbsp;요청을&nbsp;추적할&nbsp;수&nbsp;있습니다.&nbsp;네트워크&nbsp;탭을&nbsp;클릭한&nbsp;다음&nbsp;페이지를&nbsp;새로&nbsp;고치면&nbsp;페이지에서&nbsp;요청하는&nbsp;모든&nbsp;파일이&nbsp;표시됩니다.&nbsp;<br><img src="https://blog.kakaocdn.net/dn/n3leT/btshcgsMS6a/B1YEU8GhF0TMnUoKgrKPbk/img.png" referrerpolicy="no-referrer"><br>연락처&nbsp;페이지에서&nbsp;이&nbsp;작업을&nbsp;시도하십시오.&nbsp;목록이&nbsp;약간&nbsp;과밀해지면&nbsp;휴지통&nbsp;아이콘을&nbsp;눌러&nbsp;목록을&nbsp;삭제할&nbsp;수&nbsp;있습니다.<br>네트워크&nbsp;탭이&nbsp;열린&nbsp;상태에서&nbsp;연락처&nbsp;양식을&nbsp;작성하고&nbsp;&nbsp;메시지&nbsp;보내기&nbsp;&nbsp;버튼을&nbsp;누르십시오.&nbsp;네트워크&nbsp;탭에서&nbsp;이벤트를&nbsp;확인할&nbsp;수&nbsp;있으며&nbsp;이것은&nbsp;AJAX라는&nbsp;메서드를&nbsp;사용하여&nbsp;백그라운드에서&nbsp;제출되는&nbsp;양식입니다.&nbsp;AJAX는&nbsp;현재&nbsp;웹&nbsp;페이지를&nbsp;변경하여&nbsp;간섭하지&nbsp;않고&nbsp;웹&nbsp;애플리케이션&nbsp;백그라운드에서&nbsp;네트워크&nbsp;데이터를&nbsp;송수신하는&nbsp;방법입니다.<br>연락처&nbsp;양식이&nbsp;생성한&nbsp;네트워크&nbsp;탭의&nbsp;새&nbsp;항목을&nbsp;검사하고&nbsp;플래그를&nbsp;표시하기&nbsp;위해&nbsp;데이터가&nbsp;전송된&nbsp;페이지를&nbsp;봅니다.<br>이것도&nbsp;CONTACT&nbsp;페이지에서&nbsp;실행됩니다.]]></description><link>정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\3.-응용-프로그램-사용.html</link><guid isPermaLink="false">정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Kor/3. 응용 프로그램 사용.md</guid><pubDate>Tue, 13 Aug 2024 00:31:25 GMT</pubDate><enclosure url="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://blog.kakaocdn.net/dn/LCYCp/btsg9LUBfG3/vlKJEKE97XCWPs3r1zbbfk/img.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
