@@ -1,4 +1,187 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 04:40:22 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 04:40:22 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[IT 감사 프로세스 - 2]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 04:44:20 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 04:44:20 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
+ <br><br><br>
+    한국어
+    English
+    
+        
+            
+            
+            
+            감사 기능의 역할과 책임에 대해 포괄적으로 정의한 문서입니다. 책임, 권한, 의무에 대해 기술되어 있으며 이사회나 후원자의 승인을 받아야 합니다.
+            
+            감사를 계획하고 실행하는 과정을 기록하는 문서입니다. 감사가 진행되기 이전에는 반드시 승인을 받아야 하며, 급히 수정 가능하지만 중요할 때에만 해야 합니다. 현장 감사 절차를 기술한 문서입니다.
+            
+            감사 중에 사용된 모든 감사 절차와 기술을 적어놓은 문서입니다. 전자 감사 작업 조서는 접근 권한 설정을 잘 해놓아야 하며 품질 보증이나 타 감사인의 참조, 소송 대비 과정에서 문서화 되어야 합니다.
+            
+            IS 감사인이 제시한 발견 사항과 권고 사항을 듣고 실시한 경영진의 후속 검토가 적절한지 알아봅니다.
+            
+            감사 증거는 다음 기준을 기반으로 평가됩니다:
+            
+                <br>연관성: 감사와 얼마나 관련이 있는지.
+                <br>신뢰성:
+                    
+                        <br>어디에서 얻은 건지 (조직 내부보다는 독립적인 제 3자에게서 얻는 것이 더 믿음직).
+                        <br>누가 수집하였는지 (어떤 권위 있는 사람이 수집하였는지, 예: 국제 감사 기관).
+                        <br>얼마나 객관적인지.
+                        <br>언제 수집했는지 (사건으로부터 얼마나 떨어진 시간에 수집하였는지).
+                    
+                
+                <br>유용성: 감사에 도움이 되는 증거인지.
+                <br>충분성: 누가 봐도 같은 답을 내릴 만큼 충분한지.
+            
+            
+            이 영역은 자주 출제되므로 꼼꼼히 봐두세요.
+            
+            근본적으로 존재하는 위협으로, 보완 통제를 통해 감소 가능하지만 감사인이 통제하기 거의 불가능합니다.
+            
+            오류를 적발하고 교정하지 못했을 경우의 위협으로, 단기적으로는 크게 개선되지 않지만 감사인의 권고를 통해 중장기적으로 개선 가능.
+            
+            샘플링 위험과 비샘플링 위험으로 분류됩니다:
+            
+                <br>샘플링 위험: 샘플 시 샘플링한 모집단이 집단을 대표하지 못할 위험.
+                <br>비샘플링 위험: 감사 절차에서 문제가 생김 (감사인의 실수나 미숙이 원인), 교육과 훈련, 감사의 강도 조절로 완화 가능.
+            
+            
+            감사인이 문제를 제대로 적발하지 못한 채 보고서를 발행했을 때의 위험입니다. 감사 위험은 고유 위험과 통제 위험, 적발 위험을 곱한 값입니다.
+            
+            경영진이 용인 가능한 리스크를 정합니다. 감사인은 감사 위험이 사업 위험보다 작아야 합니다.
+            
+            효과적인 위험 관리는 조직의 위험 성향을 완벽하게 이해하는 것입니다. 조직의 위험 성향을 가장 잘 파악할 수 있는 문서는 무엇인가요?
+            
+            
+                <br>위험 정의: 예를 들어, 회계 관련 문제.
+                <br>위험 식별: 예를 들어, 회계 장부의 노출.
+                <br>위험 관리 전략 개발: 수집된 정보를 바탕으로.
+            
+            
+            
+                <br>회피: 문제의 원인을 완전히 제거합니다. 위험이 완전히 사라지며, 가장 확실한 방법이지만 비용이 많이 듭니다.
+                <br>경감: 내부적으로 대책을 세워 위험을 완화시킵니다. 예를 들어, VPN을 사용하여 API 접근을 정해진 사용자만 가능하게 합니다.
+                <br>전가: 3자를 이용하여 대응합니다. 예를 들어, 보험이나 아웃소싱으로 책임을 떠넘깁니다.
+                <br>수용: 위험을 알고만 있으며 대응을 하지 않습니다. 감사인은 위험 수용이 적절한지 확인해야 합니다.
+                <br>무시: 위험을 인식하지 못하거나 대응하지 않습니다.
+            
+            
+            
+                <br>위험 식별: 자산을 식별합니다.
+                <br>위험 분석/평가: 위험을 분석하고 평가합니다.
+                <br>위험 통제: 통제를 적용하고 기존 통제를 평가합니다.
+                <br>지속적인 모니터링: 통제 이후에는 잔여 위험이 남습니다. 이를 완화하는 것은 감사인의 권고입니다. 경영진은 얼마만큼의 위험을 용인할지 결정합니다.
+                <br>주기적인 보고: 정기적인 보고가 필요합니다.
+            
+            
+            
+            
+                <br>위험 수준 평가
+                <br>리스크 응답 결정
+                <br>우선 순위 설정
+            
+        
+        
+            
+            
+            
+            A comprehensive document that defines the role and responsibility of the audit function. It includes details on responsibilities, authority, and obligations, and must be approved by the board or sponsor.
+            
+            A document that records the process of planning and executing audits. It must be approved before the audit begins and can be modified quickly but only when necessary. It describes the procedures for conducting field audits.
+            
+            A document detailing all audit procedures and techniques used during the audit. Electronic working papers must have well-set access permissions and should be documented for quality assurance, reference by other auditors, or legal protection.
+            
+            Evaluates whether the executive management's follow-up on the findings and recommendations of the IS auditor is adequate.
+            
+            Audit evidence is evaluated based on the following criteria:
+            
+                <br>Relevance: How related the evidence is to the audit.
+                <br>Reliability:
+                    
+                        <br>Where it was obtained (more reliable from independent third parties than from within the organization).
+                        <br>Who collected it (e.g., from an authoritative body such as an international auditing institution).
+                        <br>How objective it is.
+                        <br>When it was collected (how recent it is in relation to the event).
+                    
+                
+                <br>Usefulness: Whether the evidence helps in the audit.
+                <br>Sufficiency: Whether the evidence is sufficient for anyone to reach the same conclusion.
+            
+            
+            This area is frequently tested, so review it thoroughly.
+            
+            Threats that inherently exist and can be mitigated by compensating controls but are almost impossible for the auditor to control.
+            
+            Threats that arise when errors are not detected and corrected. It might not improve significantly in the short term but can be improved in the medium to long term through auditor recommendations.
+            
+            Classified into sampling risk and non-sampling risk:
+            
+                <br>Sampling Risk: The risk that the sample taken does not represent the population.
+                <br>Non-Sampling Risk: Issues arising from audit procedures (e.g., auditor mistakes or inexperience), which can be mitigated through training and adjusting the intensity of the audit.
+            
+            
+            The risk that the auditor issues a report without detecting significant issues. Audit risk is the product of inherent risk, control risk, and detection risk.
+            
+            The risk that the management accepts. Auditors must ensure that audit risk is lower than business risk.
+            
+            Effective risk management involves understanding the organization's risk appetite perfectly. What is the best document to understand the organization's risk appetite?
+            
+            
+                <br>Risk Definition: For example, accounting issues.
+                <br>Risk Identification: For example, exposure in accounting records.
+                <br>Risk Management Strategy Development: Based on the collected information.
+            
+            
+            
+                <br>Avoidance: Completely removes the cause of the problem. The most certain method but costly.
+                <br>Mitigation: Internally develops measures to reduce risks. For example, using VPN to restrict API access to authorized users only.
+                <br>Transfer: Using third parties to respond. For example, insurance or outsourcing.
+                <br>Acceptance: Acknowledges the risk but does not respond. The auditor needs to check if risk acceptance is appropriate.
+                <br>Ignore: Failing to recognize or respond to the risk.
+            
+            
+            
+                <br>Risk Identification: Identify assets.
+                <br>Risk Analysis/Evaluation: Analyze and evaluate risks.
+                <br>Risk Control: Apply and evaluate controls.
+                <br>Continuous Monitoring: Residual risks remain after control. Mitigation is through auditor recommendations. Management decides how much risk to accept.
+                <br>Periodic Reporting: Regular reporting is necessary.
+            
+            
+            
+            
+                <br>Assessing risk levels
+                <br>Deciding on risk response
+                <br>Setting priorities
+            
+        
+    
+    <br>    // Apply the theme to the body
+    if (theme === "dark") {
+        document.body.classList.add("theme-dark");
+        document.body.classList.remove("theme-light");
+    } else {
+        document.body.classList.add("theme-light");
+        document.body.classList.remove("theme-dark");
+    }
+
+    // Add class based on screen width
+    if (window.innerWidth &lt; 480) {
+        document.body.classList.add("is-phone");
+    } else if (window.innerWidth &lt; 768) {
+        document.body.classList.add("is-tablet");
+    } else if (window.innerWidth &lt; 1024) {
+        document.body.classList.add("is-small-screen");
+    } else {
+        document.body.classList.add("is-large-screen");
+    }
+
+    // Change language function
+    function changeLanguage(lang) {
+        document.getElementById('ko-content').style.display = lang === 'ko' ? 'block' : 'none';
+        document.getElementById('en-content').style.display = lang === 'en' ? 'block' : 'none';
+    }
+&lt;/script&gt;
+복사<br>
+]]></description><link>정보보안\cisa\domain1\main\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/main/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 04:44:12 GMT</pubDate></item><item><title><![CDATA[무제 파일]]></title><description><![CDATA[ 
+ ]]></description><link>무제-파일.html</link><guid isPermaLink="false">무제 파일.md</guid><pubDate>Tue, 13 Aug 2024 01:00:07 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
+ ]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Mon, 12 Aug 2024 06:13:57 GMT</pubDate></item><item><title><![CDATA[IT 감사 프로세스 - 2]]></title><description><![CDATA[ 
  <br><br>
     
         
@@ -251,185 +434,7 @@
     &lt;/div&gt;
 &lt;/div&gt;
 복사<br>
-]]></description><link>정보보안\cisa\domain1\kor\it-감사-프로세스-2.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/kor/IT 감사 프로세스 - 2.md</guid><pubDate>Tue, 13 Aug 2024 04:38:08 GMT</pubDate></item><item><title><![CDATA[INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
- <br><br>
-    한국어
-    English
-    
-        
-            
-            
-            
-            감사 기능의 역할과 책임에 대해 포괄적으로 정의한 문서입니다. 책임, 권한, 의무에 대해 기술되어 있으며 이사회나 후원자의 승인을 받아야 합니다.
-            
-            감사를 계획하고 실행하는 과정을 기록하는 문서입니다. 감사가 진행되기 이전에는 반드시 승인을 받아야 하며, 급히 수정 가능하지만 중요할 때에만 해야 합니다. 현장 감사 절차를 기술한 문서입니다.
-            
-            감사 중에 사용된 모든 감사 절차와 기술을 적어놓은 문서입니다. 전자 감사 작업 조서는 접근 권한 설정을 잘 해놓아야 하며 품질 보증이나 타 감사인의 참조, 소송 대비 과정에서 문서화 되어야 합니다.
-            
-            IS 감사인이 제시한 발견 사항과 권고 사항을 듣고 실시한 경영진의 후속 검토가 적절한지 알아봅니다.
-            
-            감사 증거는 다음 기준을 기반으로 평가됩니다:
-            
-                <br>연관성: 감사와 얼마나 관련이 있는지.
-                <br>신뢰성:
-                    
-                        <br>어디에서 얻은 건지 (조직 내부보다는 독립적인 제 3자에게서 얻는 것이 더 믿음직).
-                        <br>누가 수집하였는지 (어떤 권위 있는 사람이 수집하였는지, 예: 국제 감사 기관).
-                        <br>얼마나 객관적인지.
-                        <br>언제 수집했는지 (사건으로부터 얼마나 떨어진 시간에 수집하였는지).
-                    
-                
-                <br>유용성: 감사에 도움이 되는 증거인지.
-                <br>충분성: 누가 봐도 같은 답을 내릴 만큼 충분한지.
-            
-            
-            이 영역은 자주 출제되므로 꼼꼼히 봐두세요.
-            
-            근본적으로 존재하는 위협으로, 보완 통제를 통해 감소 가능하지만 감사인이 통제하기 거의 불가능합니다.
-            
-            오류를 적발하고 교정하지 못했을 경우의 위협으로, 단기적으로는 크게 개선되지 않지만 감사인의 권고를 통해 중장기적으로 개선 가능.
-            
-            샘플링 위험과 비샘플링 위험으로 분류됩니다:
-            
-                <br>샘플링 위험: 샘플 시 샘플링한 모집단이 집단을 대표하지 못할 위험.
-                <br>비샘플링 위험: 감사 절차에서 문제가 생김 (감사인의 실수나 미숙이 원인), 교육과 훈련, 감사의 강도 조절로 완화 가능.
-            
-            
-            감사인이 문제를 제대로 적발하지 못한 채 보고서를 발행했을 때의 위험입니다. 감사 위험은 고유 위험과 통제 위험, 적발 위험을 곱한 값입니다.
-            
-            경영진이 용인 가능한 리스크를 정합니다. 감사인은 감사 위험이 사업 위험보다 작아야 합니다.
-            
-            효과적인 위험 관리는 조직의 위험 성향을 완벽하게 이해하는 것입니다. 조직의 위험 성향을 가장 잘 파악할 수 있는 문서는 무엇인가요?
-            
-            
-                <br>위험 정의: 예를 들어, 회계 관련 문제.
-                <br>위험 식별: 예를 들어, 회계 장부의 노출.
-                <br>위험 관리 전략 개발: 수집된 정보를 바탕으로.
-            
-            
-            
-                <br>회피: 문제의 원인을 완전히 제거합니다. 위험이 완전히 사라지며, 가장 확실한 방법이지만 비용이 많이 듭니다.
-                <br>경감: 내부적으로 대책을 세워 위험을 완화시킵니다. 예를 들어, VPN을 사용하여 API 접근을 정해진 사용자만 가능하게 합니다.
-                <br>전가: 3자를 이용하여 대응합니다. 예를 들어, 보험이나 아웃소싱으로 책임을 떠넘깁니다.
-                <br>수용: 위험을 알고만 있으며 대응을 하지 않습니다. 감사인은 위험 수용이 적절한지 확인해야 합니다.
-                <br>무시: 위험을 인식하지 못하거나 대응하지 않습니다.
-            
-            
-            
-                <br>위험 식별: 자산을 식별합니다.
-                <br>위험 분석/평가: 위험을 분석하고 평가합니다.
-                <br>위험 통제: 통제를 적용하고 기존 통제를 평가합니다.
-                <br>지속적인 모니터링: 통제 이후에는 잔여 위험이 남습니다. 이를 완화하는 것은 감사인의 권고입니다. 경영진은 얼마만큼의 위험을 용인할지 결정합니다.
-                <br>주기적인 보고: 정기적인 보고가 필요합니다.
-            
-            
-            
-            
-                <br>우선순위 1: 중요한 변화나 위협이 발생할 때.
-                <br>우선순위 2: 최소한 연 1회.
-            
-            
-            위험 분석 방법에는 질적 접근과 양적 접근이 있습니다.
-            
-            질적 방법은 다음과 같습니다:
-            
-                <br>고객의 요구사항: 고객의 요구 사항을 정확히 분석합니다.
-                <br>전문가의 의견: 전문가의 의견을 수렴합니다.
-                <br>유사 사례 분석: 유사한 사례를 분석합니다.
-            
-            
-            양적 방법은 다음과 같습니다:
-            
-                <br>확률: 사건의 발생 확률을 수치로 분석합니다.
-                <br>영향: 사건이 발생했을 때의 영향을 수치로 분석합니다.
-            
-        
-        
-            
-            
-            
-            A document that comprehensively defines the role and responsibilities of the audit function. It details responsibilities, authority, and obligations and must be approved by the board or sponsor.
-            
-            A document that records the process of planning and executing an audit. It must be approved before the audit begins, but can be modified urgently if needed. It describes the procedures for field audit.
-            
-            Documents recording all audit procedures and techniques used during the audit. Electronic working papers must be well-secured and documented for quality assurance, reference by other auditors, and legal purposes.
-            
-            Evaluates if the follow-up review by management on audit findings and recommendations is appropriate.
-            
-            Audit evidence is evaluated based on the following criteria:
-            
-                <br>Relevance: How relevant it is to the audit.
-                <br>Reliability:
-                    
-                        <br>Where it was obtained (more reliable if from an independent third party rather than internally).
-                        <br>Who collected it (e.g., from an authoritative body like an international audit organization).
-                        <br>How objective it is.
-                        <br>When it was collected (time elapsed since the event).
-                    
-                
-                <br>Usefulness: How useful it is for the audit.
-                <br>Sufficiency: Whether there is enough evidence for others to reach the same conclusion.
-            
-            
-            This area is often tested, so review it carefully.
-            
-            Risks that inherently exist and cannot be completely controlled by the auditor but can be mitigated through compensating controls.
-            
-            Risk that errors will not be detected or corrected. Short-term improvements are unlikely, but long-term improvements can be made based on the auditor’s recommendations.
-            
-            The risk of not detecting a problem and issuing a report with unresolved issues. Detection risk is the product of inherent risk, control risk, and detection risk.
-            
-            Management defines acceptable risk levels. The auditor must ensure that audit risk is lower than business risk.
-            
-            Effective risk management involves a thorough understanding of the organization's risk appetite. What document best identifies the organization’s risk appetite?
-            
-            
-                <br>Risk Definition: For example, accounting issues.
-                <br>Risk Identification: For example, exposure in accounting records.
-                <br>Risk Management Strategy Development: Based on collected information.
-            
-            
-            
-                <br>Avoidance: Completely eliminates the cause of the problem. It fully removes the risk but can be costly.
-                <br>Mitigation: Implements measures internally to reduce risk. For example, using a VPN to restrict API access to authorized users only.
-                <br>Transfer: Uses third parties to address the risk. For example, transferring responsibility through insurance or outsourcing.
-                <br>Acceptance: Acknowledges the risk without taking action. The auditor must determine if risk acceptance is appropriate.
-                <br>Ignorance: Either does not recognize the risk or does not respond to it.
-            
-            
-            
-                <br>Risk Identification: Identifies assets.
-                <br>Risk Analysis/Assessment: Analyzes and assesses the risk.
-                <br>Risk Control: Applies controls and evaluates existing controls.
-                <br>Continuous Monitoring: Post-control residual risks remain. Mitigating these is the auditor’s recommendation. Management decides how much risk to tolerate.
-                <br>Periodic Reporting: Regular reporting is necessary.
-            
-            
-            
-            
-                <br>Priority 1: When significant changes or threats occur.
-                <br>Priority 2: At least annually.
-            
-            
-            Risk analysis methods include qualitative and quantitative approaches.
-            
-            Qualitative methods include:
-            
-                <br>Customer Requirements: Analyzing customer requirements.
-                <br>Expert Opinions: Gathering expert opinions.
-                <br>Similar Cases: Analyzing similar cases.
-            
-            
-            Quantitative methods include:
-            
-                <br>Probability: Analyzing the probability of occurrence.
-                <br>Impact: Analyzing the impact of an occurrence.
-            
-        
-    
-    
-
-]]></description><link>정보보안\cisa\domain1\main\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/main/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 04:40:16 GMT</pubDate></item><item><title><![CDATA[CISA 감사 관련 문서 및 위험 관리]]></title><description><![CDATA[ 
+]]></description><link>정보보안\cisa\domain1\kor\it-감사-프로세스-2.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/kor/IT 감사 프로세스 - 2.md</guid><pubDate>Tue, 13 Aug 2024 04:38:08 GMT</pubDate></item><item><title><![CDATA[CISA 감사 관련 문서 및 위험 관리]]></title><description><![CDATA[ 
  <br>
     
     
