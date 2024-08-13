@@ -1,5 +1,97 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 04:27:52 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 04:27:52 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
- <br><br><br>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 04:30:54 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 04:30:53 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[CISA 감사 관련 문서 및 위험 관리]]></title><description><![CDATA[ 
+ <br>
+    
+    
+    
+    감사 기능의 역할과 책임에 대해 포괄적으로 정의한 문서입니다. 책임, 권한, 의무에 대해 기술되어 있으며, 승인 시에는 이사회나 후원자의 승인을 받아야 합니다.
+    
+    감사를 계획하고 실행하는 과정을 기록하는 문서입니다. 감사가 진행되기 이전에는 반드시 승인을 받아야 하며, 중요할 때만 급히 수정이 가능합니다. 현장 감사 절차를 기술한 문서입니다.
+    
+    감사 중에 사용된 모든 감사 절차와 기술을 적어놓은 문서입니다. 전자 감사 작업 조서는 접근 권한 설정을 잘해야 하며, 품질 보증이나 타 감사인의 참조, 소송 대비 과정에서 문서화되어야 합니다.
+    
+    IS 감사인이 제시한 발견 사항과 권고 사항을 듣고, 경영진이 실시한 후속 검토가 적절한지 알아봅니다.
+    
+    감사 증거는 아래와 같은 기준으로 평가됩니다:
+    
+        <br>연관성: 감사와 얼마나 관련이 있는지
+        <br>신뢰성: 
+            
+                <br>어디에서 얻은 것인지 (조직 내부보다는 독립적인 제3자에게서 얻는 것이 더 믿음직)
+                <br>누가 수집하였는지 (권위 있는 기관이 수집했는지)
+                <br>얼마나 객관적인지
+                <br>언제 수집했는지 (사건으로부터 얼마나 시간이 지났는지)
+            
+        
+        <br>유용성: 감사에 도움이 되는 증거인지
+        <br>충분성: 누가 봐도 같은 답을 내릴 만큼 충분한지
+    
+    
+    아래는 자주 출제되는 위험의 종류입니다:
+    
+    근본적으로 존재하는 위협으로, 보완 통제를 통해 감소시킬 수 있으나 감사인이 통제하기는 어렵습니다.
+    
+    오류를 적발하고 교정하지 못했을 때의 위협으로, 단기적으로는 크게 개선할 수 없지만 감사인의 권고를 통해 중장기적 개선이 가능합니다.
+    
+    샘플링 위험과 비샘플링 위험으로 나뉩니다.
+    
+        <br>샘플링 위험: 샘플이 모집단을 대표하지 못할 위험
+        <br>비샘플링 위험: 감사 절차에서 문제가 생긴 경우로, 감사인의 실수나 미숙함이 원인이 됩니다. 교육과 훈련, 감사의 강도 조절로 완화할 수 있습니다.
+    
+    
+    감사인이 문제를 제대로 적발하지 못한 채 보고서를 발행했을 때의 위험입니다. 감사 위험은 고유 위험, 통제 위험, 적발 위험의 곱으로 계산됩니다.
+    
+    경영진이 용인 가능한 리스크를 정하고, 감사인은 감사 위험을 사업 위험보다 낮게 설정해야 합니다.
+    
+    효과적인 위험 관리는 조직의 위험 성향을 완벽하게 이해하는 것입니다. 조직의 위험 성향을 가장 잘 파악할 수 있는 문서는 무엇일까요?
+    
+    
+        <br>위험 성향 정의: 예를 들어, 회계부 관련 문제
+        <br>위험 식별: 예를 들어, 회계 장부의 노출
+        <br>위험 관리 전략 수립: 위의 정보를 기반으로 전략 수립
+    
+    
+    
+        <br>회피 (문제의 원인을 없앰): 문제의 원인을 완전히 제거하여 위험을 없앱니다. 가장 확실한 방법이지만 비용이 많이 듭니다.
+        <br>경감 (위험을 완화): 내부적으로 대책을 세워 위험을 완화시킵니다. 예를 들어, API 보안이 취약하면 VPN을 사용하여 정해진 사용자만 접근하게 합니다.
+        <br>전가: 3자를 이용하여 대응하거나 책임을 떠넘기는 방식입니다. 예: 보험, 아웃소싱.
+        <br>수용 (감수): 위험을 알고 있으면서도 대응하지 않습니다. 감사인은 위험 수용이 올바른지 확인해야 합니다.
+        <br>무시: 위험을 알지 못하고 대응하지 않는 경우입니다.
+    
+    
+    
+        <br>위험 식별: 자산을 식별합니다.
+        <br>위험 분석/평가: 위험을 분석하고 평가합니다.
+        <br>위험 통제: 통제를 적용합니다. 이때 기존 통제를 평가하고 확인해야 합니다.
+        <br>지속적인 모니터링: 통제 이후 잔여 위험이 남으며, 이를 완화하는 것은 감사인의 권고입니다. 경영진은 용인 가능한 위험 수준을 결정해야 합니다.
+        <br>주기적인 보고: 주기적인 보고가 필요합니다.
+    
+    
+    
+    
+        <br>중대한 변화나 위협이 있었을 때 (1순위)
+        <br>최소 1년에 한 번 (2순위)
+    
+    
+    
+    
+        <br>델파이 기법: 익명으로 전문가에게 자문
+        <br>질문서법: 질문지를 통한 분석
+        <br>시나리오법: 다양한 시나리오를 통한 분석
+    
+    
+    
+        <br>위협 발생 가능성을 수치로 표현: 정량적 접근
+        <br>복잡한 방법: 분석이 복잡할 수 있음
+    
+    
+    
+        <br>모든 오류나 부정은 완전히 제거할 수 없습니다.
+        <br>중요성의 원칙을 적용하며, 감사인은 전문가적 판단을 내려야 합니다.
+        <br>높은 위험부터 검사하여 자원을 효율적으로 사용합니다.
+    
+
+<br><a data-href="2. 보안 원칙" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\2.-보안-원칙.html" class="internal-link" target="_self" rel="noopener">2. 보안 원칙</a>]]></description><link>정보보안\cisa\domain1\kor\it-감사-프로세스-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/kor/IT 감사 프로세스 - 1.md</guid><pubDate>Tue, 13 Aug 2024 04:29:04 GMT</pubDate></item><item><title><![CDATA[INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
+ <br><br>
     한국어
     English
     
@@ -180,7 +272,7 @@
     
     
 
-]]></description><link>정보보안\cisa\domain1\main\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/main/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 04:27:42 GMT</pubDate></item><item><title><![CDATA[1.]]></title><description><![CDATA[ 
+]]></description><link>정보보안\cisa\domain1\main\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/main/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 04:30:47 GMT</pubDate></item><item><title><![CDATA[1.]]></title><description><![CDATA[ 
  <br><img alt="Pasted image 20240812103222.png" src="lib\media\pasted-image-20240812103222.png"><br><a data-href="2. Security Principles" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\2.-security-principles.html" class="internal-link" target="_self" rel="noopener">2. Security Principles</a><br>Here is the English translation of your text with the specified formatting:<br>"A penetration test is an authorized audit of the security and defenses of a computer system, which the system owner has agreed to. In this sense, it has the legitimacy of penetration, but it must not exceed the agreed-upon scope.<br>Exceeding this scope would turn the test into hacking.<br><br>
     
         
@@ -435,99 +527,7 @@
         <br>Examine high-risk areas first to use resources efficiently.
     
 
-<br><a data-href="2. Security Principles" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\2.-security-principles.html" class="internal-link" target="_self" rel="noopener">2. Security Principles</a>]]></description><link>정보보안\cisa\domain1\eng\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/Eng/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 01:36:46 GMT</pubDate></item><item><title><![CDATA[CISA 감사 관련 문서 및 위험 관리]]></title><description><![CDATA[ 
- <br>IT 감사 프로세스 - 1<br>
-    
-    
-    
-    감사 기능의 역할과 책임에 대해 포괄적으로 정의한 문서입니다. 책임, 권한, 의무에 대해 기술되어 있으며, 승인 시에는 이사회나 후원자의 승인을 받아야 합니다.
-    
-    감사를 계획하고 실행하는 과정을 기록하는 문서입니다. 감사가 진행되기 이전에는 반드시 승인을 받아야 하며, 중요할 때만 급히 수정이 가능합니다. 현장 감사 절차를 기술한 문서입니다.
-    
-    감사 중에 사용된 모든 감사 절차와 기술을 적어놓은 문서입니다. 전자 감사 작업 조서는 접근 권한 설정을 잘해야 하며, 품질 보증이나 타 감사인의 참조, 소송 대비 과정에서 문서화되어야 합니다.
-    
-    IS 감사인이 제시한 발견 사항과 권고 사항을 듣고, 경영진이 실시한 후속 검토가 적절한지 알아봅니다.
-    
-    감사 증거는 아래와 같은 기준으로 평가됩니다:
-    
-        <br>연관성: 감사와 얼마나 관련이 있는지
-        <br>신뢰성: 
-            
-                <br>어디에서 얻은 것인지 (조직 내부보다는 독립적인 제3자에게서 얻는 것이 더 믿음직)
-                <br>누가 수집하였는지 (권위 있는 기관이 수집했는지)
-                <br>얼마나 객관적인지
-                <br>언제 수집했는지 (사건으로부터 얼마나 시간이 지났는지)
-            
-        
-        <br>유용성: 감사에 도움이 되는 증거인지
-        <br>충분성: 누가 봐도 같은 답을 내릴 만큼 충분한지
-    
-    
-    아래는 자주 출제되는 위험의 종류입니다:
-    
-    근본적으로 존재하는 위협으로, 보완 통제를 통해 감소시킬 수 있으나 감사인이 통제하기는 어렵습니다.
-    
-    오류를 적발하고 교정하지 못했을 때의 위협으로, 단기적으로는 크게 개선할 수 없지만 감사인의 권고를 통해 중장기적 개선이 가능합니다.
-    
-    샘플링 위험과 비샘플링 위험으로 나뉩니다.
-    
-        <br>샘플링 위험: 샘플이 모집단을 대표하지 못할 위험
-        <br>비샘플링 위험: 감사 절차에서 문제가 생긴 경우로, 감사인의 실수나 미숙함이 원인이 됩니다. 교육과 훈련, 감사의 강도 조절로 완화할 수 있습니다.
-    
-    
-    감사인이 문제를 제대로 적발하지 못한 채 보고서를 발행했을 때의 위험입니다. 감사 위험은 고유 위험, 통제 위험, 적발 위험의 곱으로 계산됩니다.
-    
-    경영진이 용인 가능한 리스크를 정하고, 감사인은 감사 위험을 사업 위험보다 낮게 설정해야 합니다.
-    
-    효과적인 위험 관리는 조직의 위험 성향을 완벽하게 이해하는 것입니다. 조직의 위험 성향을 가장 잘 파악할 수 있는 문서는 무엇일까요?
-    
-    
-        <br>위험 성향 정의: 예를 들어, 회계부 관련 문제
-        <br>위험 식별: 예를 들어, 회계 장부의 노출
-        <br>위험 관리 전략 수립: 위의 정보를 기반으로 전략 수립
-    
-    
-    
-        <br>회피 (문제의 원인을 없앰): 문제의 원인을 완전히 제거하여 위험을 없앱니다. 가장 확실한 방법이지만 비용이 많이 듭니다.
-        <br>경감 (위험을 완화): 내부적으로 대책을 세워 위험을 완화시킵니다. 예를 들어, API 보안이 취약하면 VPN을 사용하여 정해진 사용자만 접근하게 합니다.
-        <br>전가: 3자를 이용하여 대응하거나 책임을 떠넘기는 방식입니다. 예: 보험, 아웃소싱.
-        <br>수용 (감수): 위험을 알고 있으면서도 대응하지 않습니다. 감사인은 위험 수용이 올바른지 확인해야 합니다.
-        <br>무시: 위험을 알지 못하고 대응하지 않는 경우입니다.
-    
-    
-    
-        <br>위험 식별: 자산을 식별합니다.
-        <br>위험 분석/평가: 위험을 분석하고 평가합니다.
-        <br>위험 통제: 통제를 적용합니다. 이때 기존 통제를 평가하고 확인해야 합니다.
-        <br>지속적인 모니터링: 통제 이후 잔여 위험이 남으며, 이를 완화하는 것은 감사인의 권고입니다. 경영진은 용인 가능한 위험 수준을 결정해야 합니다.
-        <br>주기적인 보고: 주기적인 보고가 필요합니다.
-    
-    
-    
-    
-        <br>중대한 변화나 위협이 있었을 때 (1순위)
-        <br>최소 1년에 한 번 (2순위)
-    
-    
-    
-    
-        <br>델파이 기법: 익명으로 전문가에게 자문
-        <br>질문서법: 질문지를 통한 분석
-        <br>시나리오법: 다양한 시나리오를 통한 분석
-    
-    
-    
-        <br>위협 발생 가능성을 수치로 표현: 정량적 접근
-        <br>복잡한 방법: 분석이 복잡할 수 있음
-    
-    
-    
-        <br>모든 오류나 부정은 완전히 제거할 수 없습니다.
-        <br>중요성의 원칙을 적용하며, 감사인은 전문가적 판단을 내려야 합니다.
-        <br>높은 위험부터 검사하여 자원을 효율적으로 사용합니다.
-    
-
-<br><a data-href="2. 보안 원칙" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\2.-보안-원칙.html" class="internal-link" target="_self" rel="noopener">2. 보안 원칙</a>]]></description><link>정보보안\cisa\domain1\kor\it-감사-프로세스-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/kor/IT 감사 프로세스 - 1.md</guid><pubDate>Tue, 13 Aug 2024 01:37:18 GMT</pubDate></item><item><title><![CDATA[Active Directory?]]></title><description><![CDATA[ 
+<br><a data-href="2. Security Principles" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\2.-security-principles.html" class="internal-link" target="_self" rel="noopener">2. Security Principles</a>]]></description><link>정보보안\cisa\domain1\eng\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/Eng/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 01:36:46 GMT</pubDate></item><item><title><![CDATA[Active Directory?]]></title><description><![CDATA[ 
  <br><img alt="post-thumbnail" src="https://velog.velcdn.com/images/tkops365/post/65c4efa1-7472-4aa0-aa8c-994385b67a25/image.png" referrerpolicy="no-referrer"><br><br><img src="https://velog.velcdn.com/images/tkops365/post/cf0ba30b-ac69-496e-9b51-a58076dd2d7e/image.jpg" referrerpolicy="no-referrer"><br>Active Directory centralizes the management of common components of a computer network in a single repository called Active Directory (AD). To explain it more simply, you can think of it as a database that stores information about company employees' account information (ID, password), computer information, and policies you want to enforce (ex: password is 9 or more characters long). I'm familiar with it because I manage a company server, but it can be a bit confusing when you first hear it. The server running this Active Directory is called a domain controller (DC).<br>
 Advantages
 <br>Centralized identity management: Easily control and control all users on your network.<br>
