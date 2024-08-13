@@ -1,220 +1,188 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 01:32:21 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 01:32:21 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[ INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 13 Aug 2024 01:37:24 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 13 Aug 2024 01:37:24 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[ INFORMATION SYSTEMS AUDITING PROCESS - 1]]></title><description><![CDATA[ 
  <br># <br>
-    <br>&lt;h2&gt;1. CISA Audit Documentation Types&lt;/h2&gt;
-&lt;h3&gt;IS Audit Charter&lt;/h3&gt;
-&lt;p class="highlight"&gt;A document that comprehensively defines the roles and responsibilities of the audit function. It includes details about responsibilities, authority, and duties and must be approved by the board or sponsor.&lt;/p&gt;
+    
+    
+    
+    A document that comprehensively defines the roles and responsibilities of the audit function. It includes details about responsibilities, authority, and duties and must be approved by the board or sponsor.
+    
+    A document that records the process of planning and executing the audit. Approval must be obtained before the audit begins, and it can be urgently modified only in significant cases. It details the procedures for on-site audits.
+    
+    Documents that record all audit procedures and techniques used during the audit. Electronic audit work papers should have well-configured access permissions. Work papers must be documented for quality assurance, reference by other auditors, or litigation purposes.
+    
+    Examine whether the management's follow-up review, based on the findings and recommendations presented by the IS auditor, was adequate.
+    
+    Audit evidence is evaluated based on the following criteria:
+    
+        <br>Relevance: How related the evidence is to the audit.
+        <br>Reliability: 
+            
+                <br>Where it was obtained (from independent third parties rather than internal sources is more reliable).
+                <br>Who collected it (whether it was collected by an authoritative body, e.g., international auditing institutions).
+                <br>How objective it is.
+                <br>When it was collected (how much time has passed since the event).
+            
+        
+        <br>Usefulness: Whether the evidence is helpful to the audit.
+        <br>Sufficiency: Whether the evidence is sufficient to lead to the same conclusions by anyone reviewing it.
+    
+    
+    Here are the types of risks frequently examined:
+    
+    Threats that inherently exist and can be reduced through compensating controls, but are nearly impossible for auditors to control.
+    
+    Threats arising when errors are not detected and corrected. While short-term improvements may be limited, long-term improvements are possible based on the auditor’s recommendations.
+    
+    Divided into sampling risk and non-sampling risk:
+    
+        <br>Sampling Risk: The risk that the sample selected does not represent the population.
+        <br>Non-Sampling Risk: Problems arising during audit procedures due to auditor mistakes or deficiencies. This risk can be mitigated through training, education, and adjusting the audit's intensity.
+    
+    
+    The risk that the auditor issues a report without detecting significant issues. Audit risk is calculated as the product of inherent risk, control risk, and detection risk.
+    
+    The risk that management is willing to accept. Auditors must ensure that audit risk is less than business risk.
+    
+    Effective risk management involves a thorough understanding of the organization's risk propensity. Which document best captures the organization's risk propensity?
+    
+    
+        <br>Define Risk Propensity: For example, accounting-related issues.
+        <br>Identify Risks: For instance, exposure of accounting records.
+        <br>Develop Risk Management Strategy: Based on the above information.
+    
+    
+    
+        <br>Avoidance (Eliminating the Cause): Completely removes the cause of the risk, thus eliminating the risk. This is the most certain method but is costly.
+        <br>Mitigation (Reducing the Risk): Implement internal measures to reduce risk. For example, if API security is weak, use VPN to restrict access to authorized users only.
+        <br>Transfer: Use third parties to handle the risk or transfer responsibility. Examples include insurance and outsourcing.
+        <br>Acceptance (Acknowledging the Risk): Knowing about the risk but taking no action. Auditors should check if accepting the risk is appropriate.
+        <br>Ignoring: Not acknowledging or responding to the risk.
+    
+    
+    
+        <br>Risk Identification: Identify assets.
+        <br>Risk Analysis/Evaluation: Analyze and evaluate risks.
+        <br>Risk Control: Apply controls. Evaluate and confirm existing controls at this stage.
+        <br>Ongoing Monitoring: After applying controls, residual risk remains. Auditors recommend measures to mitigate this risk. Management decides the acceptable level of risk.
+        <br>Periodic Reporting: Regular reporting is necessary.
+    
+    
+    
+    
+        <br>When significant changes or threats occur (Priority 1)
+        <br>At least once a year (Priority 2)
+    
+    
+    
+    
+        <br>Delphi Method: Consulting with experts anonymously.
+        <br>Questionnaire Method: Analysis through questionnaires.
+        <br>Scenario Method: Analysis through various scenarios.
+    
+    
+    
+        <br>Expressing Threat Likelihood Numerically: Quantitative approach.
+        <br>Complex Method: Can be complex.
+    
+    
+    
+        <br>Complete elimination of all errors or fraud is not possible.
+        <br>The principle of materiality applies, and auditors must make professional judgments.
+        <br>Examine high-risk areas first to use resources efficiently.
+    
 
-&lt;h3&gt;IS Audit Program&lt;/h3&gt;
-&lt;p class="highlight"&gt;A document that records the process of planning and executing the audit. Approval must be obtained before the audit begins, and it can be urgently modified only in significant cases. It details the procedures for on-site audits.&lt;/p&gt;
-
-&lt;h3&gt;IS Audit Work Papers&lt;/h3&gt;
-&lt;p class="highlight"&gt;Documents that record all audit procedures and techniques used during the audit. Electronic audit work papers should have well-configured access permissions. Work papers must be documented for quality assurance, reference by other auditors, or litigation purposes.&lt;/p&gt;
-
-&lt;h2&gt;2. Follow-Up Review&lt;/h2&gt;
-&lt;p&gt;Examine whether the management's follow-up review, based on the findings and recommendations presented by the IS auditor, was adequate.&lt;/p&gt;
-
-&lt;h2&gt;3. Audit Evidence&lt;/h2&gt;
-&lt;p&gt;Audit evidence is evaluated based on the following criteria:&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Relevance:&lt;/span&gt; How related the evidence is to the audit.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Reliability:&lt;/span&gt; 
-        &lt;ul&gt;
-            &lt;li&gt;Where it was obtained (from independent third parties rather than internal sources is more reliable).&lt;/li&gt;
-            &lt;li&gt;Who collected it (whether it was collected by an authoritative body, e.g., international auditing institutions).&lt;/li&gt;
-            &lt;li&gt;How objective it is.&lt;/li&gt;
-            &lt;li&gt;When it was collected (how much time has passed since the event).&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Usefulness:&lt;/span&gt; Whether the evidence is helpful to the audit.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Sufficiency:&lt;/span&gt; Whether the evidence is sufficient to lead to the same conclusions by anyone reviewing it.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;4. Types of Risk&lt;/h2&gt;
-&lt;p&gt;Here are the types of risks frequently examined:&lt;/p&gt;
-
-&lt;h3&gt;Inherent Risk&lt;/h3&gt;
-&lt;p class="highlight"&gt;Threats that inherently exist and can be reduced through compensating controls, but are nearly impossible for auditors to control.&lt;/p&gt;
-
-&lt;h3&gt;Control Risk&lt;/h3&gt;
-&lt;p class="highlight"&gt;Threats arising when errors are not detected and corrected. While short-term improvements may be limited, long-term improvements are possible based on the auditor’s recommendations.&lt;/p&gt;
-
-&lt;h3&gt;Detection Risk&lt;/h3&gt;
-&lt;p class="highlight"&gt;Divided into sampling risk and non-sampling risk:&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Sampling Risk:&lt;/span&gt; The risk that the sample selected does not represent the population.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Non-Sampling Risk:&lt;/span&gt; Problems arising during audit procedures due to auditor mistakes or deficiencies. This risk can be mitigated through training, education, and adjusting the audit's intensity.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Audit Risk&lt;/h3&gt;
-&lt;p class="highlight"&gt;The risk that the auditor issues a report without detecting significant issues. Audit risk is calculated as the product of inherent risk, control risk, and detection risk.&lt;/p&gt;
-
-&lt;h3&gt;Business Risk&lt;/h3&gt;
-&lt;p class="highlight"&gt;The risk that management is willing to accept. Auditors must ensure that audit risk is less than business risk.&lt;/p&gt;
-
-&lt;h2&gt;5. Risk Management&lt;/h2&gt;
-&lt;p&gt;Effective risk management involves a thorough understanding of the organization's risk propensity. Which document best captures the organization's risk propensity?&lt;/p&gt;
-
-&lt;h3&gt;Risk Management Strategy Sequence&lt;/h3&gt;
-&lt;ol&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Define Risk Propensity:&lt;/span&gt; For example, accounting-related issues.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Identify Risks:&lt;/span&gt; For instance, exposure of accounting records.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Develop Risk Management Strategy:&lt;/span&gt; Based on the above information.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3&gt;Five Risk Control Measures&lt;/h3&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Avoidance (Eliminating the Cause):&lt;/span&gt; Completely removes the cause of the risk, thus eliminating the risk. This is the most certain method but is costly.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Mitigation (Reducing the Risk):&lt;/span&gt; Implement internal measures to reduce risk. For example, if API security is weak, use VPN to restrict access to authorized users only.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Transfer:&lt;/span&gt; Use third parties to handle the risk or transfer responsibility. Examples include insurance and outsourcing.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Acceptance (Acknowledging the Risk):&lt;/span&gt; Knowing about the risk but taking no action. Auditors should check if accepting the risk is appropriate.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Ignoring:&lt;/span&gt; Not acknowledging or responding to the risk.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;6. Risk Management Process&lt;/h2&gt;
-&lt;ol&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Risk Identification:&lt;/span&gt; Identify assets.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Risk Analysis/Evaluation:&lt;/span&gt; Analyze and evaluate risks.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Risk Control:&lt;/span&gt; Apply controls. Evaluate and confirm existing controls at this stage.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Ongoing Monitoring:&lt;/span&gt; After applying controls, residual risk remains. Auditors recommend measures to mitigate this risk. Management decides the acceptable level of risk.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Periodic Reporting:&lt;/span&gt; Regular reporting is necessary.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2&gt;7. Risk Analysis&lt;/h2&gt;
-&lt;h3&gt;Risk Analysis Frequency&lt;/h3&gt;
-&lt;ol&gt;
-    &lt;li&gt;&lt;span class="important"&gt;When significant changes or threats occur (Priority 1)&lt;/span&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;At least once a year (Priority 2)&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3&gt;Risk Analysis Methods&lt;/h3&gt;
-&lt;h4&gt;Qualitative Methods&lt;/h4&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Delphi Method:&lt;/span&gt; Consulting with experts anonymously.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Questionnaire Method:&lt;/span&gt; Analysis through questionnaires.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Scenario Method:&lt;/span&gt; Analysis through various scenarios.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;Quantitative Methods&lt;/h4&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Expressing Threat Likelihood Numerically:&lt;/span&gt; Quantitative approach.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;Complex Method:&lt;/span&gt; Can be complex.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Risk-Based Audit (RBAA)&lt;/h3&gt;
-&lt;ul&gt;
-    &lt;li&gt;Complete elimination of all errors or fraud is not possible.&lt;/li&gt;
-    &lt;li&gt;The principle of materiality applies, and auditors must make professional judgments.&lt;/li&gt;
-    &lt;li&gt;Examine high-risk areas first to use resources efficiently.&lt;/li&gt;
-&lt;/ul&gt;
-복사<br>
-<br><a data-href="2. Security Principles" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\2.-security-principles.html" class="internal-link" target="_self" rel="noopener">2. Security Principles</a>]]></description><link>정보보안\cisa\domain1\eng\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/Eng/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 01:32:18 GMT</pubDate></item><item><title><![CDATA[CISA 감사 관련 문서 및 위험 관리]]></title><description><![CDATA[ 
+<br><a data-href="2. Security Principles" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\eng\2.-security-principles.html" class="internal-link" target="_self" rel="noopener">2. Security Principles</a>]]></description><link>정보보안\cisa\domain1\eng\information-systems-auditing-process-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/Eng/INFORMATION SYSTEMS AUDITING PROCESS - 1.md</guid><pubDate>Tue, 13 Aug 2024 01:36:46 GMT</pubDate></item><item><title><![CDATA[CISA 감사 관련 문서 및 위험 관리]]></title><description><![CDATA[ 
  <br>IT 감사 프로세스 - 1<br>
-    <br>&lt;h2&gt;1. CISA 감사 관련 문서 종류&lt;/h2&gt;
-&lt;h3&gt;IS 감사 헌장&lt;/h3&gt;
-&lt;p class="highlight"&gt;감사 기능의 역할과 책임에 대해 포괄적으로 정의한 문서입니다. 책임, 권한, 의무에 대해 기술되어 있으며, 승인 시에는 이사회나 후원자의 승인을 받아야 합니다.&lt;/p&gt;
+    
+    
+    
+    감사 기능의 역할과 책임에 대해 포괄적으로 정의한 문서입니다. 책임, 권한, 의무에 대해 기술되어 있으며, 승인 시에는 이사회나 후원자의 승인을 받아야 합니다.
+    
+    감사를 계획하고 실행하는 과정을 기록하는 문서입니다. 감사가 진행되기 이전에는 반드시 승인을 받아야 하며, 중요할 때만 급히 수정이 가능합니다. 현장 감사 절차를 기술한 문서입니다.
+    
+    감사 중에 사용된 모든 감사 절차와 기술을 적어놓은 문서입니다. 전자 감사 작업 조서는 접근 권한 설정을 잘해야 하며, 품질 보증이나 타 감사인의 참조, 소송 대비 과정에서 문서화되어야 합니다.
+    
+    IS 감사인이 제시한 발견 사항과 권고 사항을 듣고, 경영진이 실시한 후속 검토가 적절한지 알아봅니다.
+    
+    감사 증거는 아래와 같은 기준으로 평가됩니다:
+    
+        <br>연관성: 감사와 얼마나 관련이 있는지
+        <br>신뢰성: 
+            
+                <br>어디에서 얻은 것인지 (조직 내부보다는 독립적인 제3자에게서 얻는 것이 더 믿음직)
+                <br>누가 수집하였는지 (권위 있는 기관이 수집했는지)
+                <br>얼마나 객관적인지
+                <br>언제 수집했는지 (사건으로부터 얼마나 시간이 지났는지)
+            
+        
+        <br>유용성: 감사에 도움이 되는 증거인지
+        <br>충분성: 누가 봐도 같은 답을 내릴 만큼 충분한지
+    
+    
+    아래는 자주 출제되는 위험의 종류입니다:
+    
+    근본적으로 존재하는 위협으로, 보완 통제를 통해 감소시킬 수 있으나 감사인이 통제하기는 어렵습니다.
+    
+    오류를 적발하고 교정하지 못했을 때의 위협으로, 단기적으로는 크게 개선할 수 없지만 감사인의 권고를 통해 중장기적 개선이 가능합니다.
+    
+    샘플링 위험과 비샘플링 위험으로 나뉩니다.
+    
+        <br>샘플링 위험: 샘플이 모집단을 대표하지 못할 위험
+        <br>비샘플링 위험: 감사 절차에서 문제가 생긴 경우로, 감사인의 실수나 미숙함이 원인이 됩니다. 교육과 훈련, 감사의 강도 조절로 완화할 수 있습니다.
+    
+    
+    감사인이 문제를 제대로 적발하지 못한 채 보고서를 발행했을 때의 위험입니다. 감사 위험은 고유 위험, 통제 위험, 적발 위험의 곱으로 계산됩니다.
+    
+    경영진이 용인 가능한 리스크를 정하고, 감사인은 감사 위험을 사업 위험보다 낮게 설정해야 합니다.
+    
+    효과적인 위험 관리는 조직의 위험 성향을 완벽하게 이해하는 것입니다. 조직의 위험 성향을 가장 잘 파악할 수 있는 문서는 무엇일까요?
+    
+    
+        <br>위험 성향 정의: 예를 들어, 회계부 관련 문제
+        <br>위험 식별: 예를 들어, 회계 장부의 노출
+        <br>위험 관리 전략 수립: 위의 정보를 기반으로 전략 수립
+    
+    
+    
+        <br>회피 (문제의 원인을 없앰): 문제의 원인을 완전히 제거하여 위험을 없앱니다. 가장 확실한 방법이지만 비용이 많이 듭니다.
+        <br>경감 (위험을 완화): 내부적으로 대책을 세워 위험을 완화시킵니다. 예를 들어, API 보안이 취약하면 VPN을 사용하여 정해진 사용자만 접근하게 합니다.
+        <br>전가: 3자를 이용하여 대응하거나 책임을 떠넘기는 방식입니다. 예: 보험, 아웃소싱.
+        <br>수용 (감수): 위험을 알고 있으면서도 대응하지 않습니다. 감사인은 위험 수용이 올바른지 확인해야 합니다.
+        <br>무시: 위험을 알지 못하고 대응하지 않는 경우입니다.
+    
+    
+    
+        <br>위험 식별: 자산을 식별합니다.
+        <br>위험 분석/평가: 위험을 분석하고 평가합니다.
+        <br>위험 통제: 통제를 적용합니다. 이때 기존 통제를 평가하고 확인해야 합니다.
+        <br>지속적인 모니터링: 통제 이후 잔여 위험이 남으며, 이를 완화하는 것은 감사인의 권고입니다. 경영진은 용인 가능한 위험 수준을 결정해야 합니다.
+        <br>주기적인 보고: 주기적인 보고가 필요합니다.
+    
+    
+    
+    
+        <br>중대한 변화나 위협이 있었을 때 (1순위)
+        <br>최소 1년에 한 번 (2순위)
+    
+    
+    
+    
+        <br>델파이 기법: 익명으로 전문가에게 자문
+        <br>질문서법: 질문지를 통한 분석
+        <br>시나리오법: 다양한 시나리오를 통한 분석
+    
+    
+    
+        <br>위협 발생 가능성을 수치로 표현: 정량적 접근
+        <br>복잡한 방법: 분석이 복잡할 수 있음
+    
+    
+    
+        <br>모든 오류나 부정은 완전히 제거할 수 없습니다.
+        <br>중요성의 원칙을 적용하며, 감사인은 전문가적 판단을 내려야 합니다.
+        <br>높은 위험부터 검사하여 자원을 효율적으로 사용합니다.
+    
 
-&lt;h3&gt;IS 감사 프로그램&lt;/h3&gt;
-&lt;p class="highlight"&gt;감사를 계획하고 실행하는 과정을 기록하는 문서입니다. 감사가 진행되기 이전에는 반드시 승인을 받아야 하며, 중요할 때만 급히 수정이 가능합니다. 현장 감사 절차를 기술한 문서입니다.&lt;/p&gt;
-
-&lt;h3&gt;IS 감사 작업 조서&lt;/h3&gt;
-&lt;p class="highlight"&gt;감사 중에 사용된 모든 감사 절차와 기술을 적어놓은 문서입니다. 전자 감사 작업 조서는 접근 권한 설정을 잘해야 하며, 품질 보증이나 타 감사인의 참조, 소송 대비 과정에서 문서화되어야 합니다.&lt;/p&gt;
-
-&lt;h2&gt;2. 후속 검토&lt;/h2&gt;
-&lt;p&gt;IS 감사인이 제시한 발견 사항과 권고 사항을 듣고, 경영진이 실시한 후속 검토가 적절한지 알아봅니다.&lt;/p&gt;
-
-&lt;h2&gt;3. 감사 증거&lt;/h2&gt;
-&lt;p&gt;감사 증거는 아래와 같은 기준으로 평가됩니다:&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;span class="important"&gt;연관성:&lt;/span&gt; 감사와 얼마나 관련이 있는지&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;신뢰성:&lt;/span&gt; 
-        &lt;ul&gt;
-            &lt;li&gt;어디에서 얻은 것인지 (조직 내부보다는 독립적인 제3자에게서 얻는 것이 더 믿음직)&lt;/li&gt;
-            &lt;li&gt;누가 수집하였는지 (권위 있는 기관이 수집했는지)&lt;/li&gt;
-            &lt;li&gt;얼마나 객관적인지&lt;/li&gt;
-            &lt;li&gt;언제 수집했는지 (사건으로부터 얼마나 시간이 지났는지)&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;유용성:&lt;/span&gt; 감사에 도움이 되는 증거인지&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;충분성:&lt;/span&gt; 누가 봐도 같은 답을 내릴 만큼 충분한지&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;4. 위험 종류&lt;/h2&gt;
-&lt;p&gt;아래는 자주 출제되는 위험의 종류입니다:&lt;/p&gt;
-
-&lt;h3&gt;고유 위험&lt;/h3&gt;
-&lt;p class="highlight"&gt;근본적으로 존재하는 위협으로, 보완 통제를 통해 감소시킬 수 있으나 감사인이 통제하기는 어렵습니다.&lt;/p&gt;
-
-&lt;h3&gt;통제 위험&lt;/h3&gt;
-&lt;p class="highlight"&gt;오류를 적발하고 교정하지 못했을 때의 위협으로, 단기적으로는 크게 개선할 수 없지만 감사인의 권고를 통해 중장기적 개선이 가능합니다.&lt;/p&gt;
-
-&lt;h3&gt;적발 위험&lt;/h3&gt;
-&lt;p class="highlight"&gt;샘플링 위험과 비샘플링 위험으로 나뉩니다.&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;span class="important"&gt;샘플링 위험:&lt;/span&gt; 샘플이 모집단을 대표하지 못할 위험&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;비샘플링 위험:&lt;/span&gt; 감사 절차에서 문제가 생긴 경우로, 감사인의 실수나 미숙함이 원인이 됩니다. 교육과 훈련, 감사의 강도 조절로 완화할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;감사 위험&lt;/h3&gt;
-&lt;p class="highlight"&gt;감사인이 문제를 제대로 적발하지 못한 채 보고서를 발행했을 때의 위험입니다. 감사 위험은 고유 위험, 통제 위험, 적발 위험의 곱으로 계산됩니다.&lt;/p&gt;
-
-&lt;h3&gt;사업 위험&lt;/h3&gt;
-&lt;p class="highlight"&gt;경영진이 용인 가능한 리스크를 정하고, 감사인은 감사 위험을 사업 위험보다 낮게 설정해야 합니다.&lt;/p&gt;
-
-&lt;h2&gt;5. 위험 관리&lt;/h2&gt;
-&lt;p&gt;효과적인 위험 관리는 조직의 위험 성향을 완벽하게 이해하는 것입니다. 조직의 위험 성향을 가장 잘 파악할 수 있는 문서는 무엇일까요?&lt;/p&gt;
-
-&lt;h3&gt;위험관리 전략의 순서&lt;/h3&gt;
-&lt;ol&gt;
-    &lt;li&gt;&lt;span class="important"&gt;위험 성향 정의:&lt;/span&gt; 예를 들어, 회계부 관련 문제&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;위험 식별:&lt;/span&gt; 예를 들어, 회계 장부의 노출&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;위험 관리 전략 수립:&lt;/span&gt; 위의 정보를 기반으로 전략 수립&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3&gt;위험을 통제하는 5가지 방안&lt;/h3&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;span class="important"&gt;회피 (문제의 원인을 없앰):&lt;/span&gt; 문제의 원인을 완전히 제거하여 위험을 없앱니다. 가장 확실한 방법이지만 비용이 많이 듭니다.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;경감 (위험을 완화):&lt;/span&gt; 내부적으로 대책을 세워 위험을 완화시킵니다. 예를 들어, API 보안이 취약하면 VPN을 사용하여 정해진 사용자만 접근하게 합니다.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;전가:&lt;/span&gt; 3자를 이용하여 대응하거나 책임을 떠넘기는 방식입니다. 예: 보험, 아웃소싱.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;수용 (감수):&lt;/span&gt; 위험을 알고 있으면서도 대응하지 않습니다. 감사인은 위험 수용이 올바른지 확인해야 합니다.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;무시:&lt;/span&gt; 위험을 알지 못하고 대응하지 않는 경우입니다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;6. 위험관리 프로세스&lt;/h2&gt;
-&lt;ol&gt;
-    &lt;li&gt;&lt;span class="important"&gt;위험 식별:&lt;/span&gt; 자산을 식별합니다.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;위험 분석/평가:&lt;/span&gt; 위험을 분석하고 평가합니다.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;위험 통제:&lt;/span&gt; 통제를 적용합니다. 이때 기존 통제를 평가하고 확인해야 합니다.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;지속적인 모니터링:&lt;/span&gt; 통제 이후 잔여 위험이 남으며, 이를 완화하는 것은 감사인의 권고입니다. 경영진은 용인 가능한 위험 수준을 결정해야 합니다.&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;주기적인 보고:&lt;/span&gt; 주기적인 보고가 필요합니다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2&gt;7. 위험 분석&lt;/h2&gt;
-&lt;h3&gt;위험 분석 주기&lt;/h3&gt;
-&lt;ol&gt;
-    &lt;li&gt;&lt;span class="important"&gt;중대한 변화나 위협이 있었을 때 (1순위)&lt;/span&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;최소 1년에 한 번 (2순위)&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3&gt;위험 분석 방법&lt;/h3&gt;
-&lt;h4&gt;정성적 방법&lt;/h4&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;span class="important"&gt;델파이 기법:&lt;/span&gt; 익명으로 전문가에게 자문&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;질문서법:&lt;/span&gt; 질문지를 통한 분석&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;시나리오법:&lt;/span&gt; 다양한 시나리오를 통한 분석&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;정량적 방법&lt;/h4&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;span class="important"&gt;위협 발생 가능성을 수치로 표현:&lt;/span&gt; 정량적 접근&lt;/li&gt;
-    &lt;li&gt;&lt;span class="important"&gt;복잡한 방법:&lt;/span&gt; 분석이 복잡할 수 있음&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;위험 기반 감사 (RBAA)&lt;/h3&gt;
-&lt;ul&gt;
-    &lt;li&gt;모든 오류나 부정은 완전히 제거할 수 없습니다.&lt;/li&gt;
-    &lt;li&gt;중요성의 원칙을 적용하며, 감사인은 전문가적 판단을 내려야 합니다.&lt;/li&gt;
-    &lt;li&gt;높은 위험부터 검사하여 자원을 효율적으로 사용합니다.&lt;/li&gt;
-&lt;/ul&gt;
-복사<br>
-<br><a data-href="2. 보안 원칙" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\2.-보안-원칙.html" class="internal-link" target="_self" rel="noopener">2. 보안 원칙</a>]]></description><link>정보보안\cisa\domain1\kor\it-감사-프로세스-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/kor/IT 감사 프로세스 - 1.md</guid><pubDate>Tue, 13 Aug 2024 01:32:00 GMT</pubDate></item><item><title><![CDATA[Active Directory?]]></title><description><![CDATA[ 
+<br><a data-href="2. 보안 원칙" href="정보보안\tryhackme\jr-penetration-tester\침투-테스트\kor\2.-보안-원칙.html" class="internal-link" target="_self" rel="noopener">2. 보안 원칙</a>]]></description><link>정보보안\cisa\domain1\kor\it-감사-프로세스-1.html</link><guid isPermaLink="false">정보보안/CISA/Domain1/kor/IT 감사 프로세스 - 1.md</guid><pubDate>Tue, 13 Aug 2024 01:37:18 GMT</pubDate></item><item><title><![CDATA[Active Directory?]]></title><description><![CDATA[ 
  <br><img alt="post-thumbnail" src="https://velog.velcdn.com/images/tkops365/post/65c4efa1-7472-4aa0-aa8c-994385b67a25/image.png" referrerpolicy="no-referrer"><br><br><img src="https://velog.velcdn.com/images/tkops365/post/cf0ba30b-ac69-496e-9b51-a58076dd2d7e/image.jpg" referrerpolicy="no-referrer"><br>Active Directory centralizes the management of common components of a computer network in a single repository called Active Directory (AD). To explain it more simply, you can think of it as a database that stores information about company employees' account information (ID, password), computer information, and policies you want to enforce (ex: password is 9 or more characters long). I'm familiar with it because I manage a company server, but it can be a bit confusing when you first hear it. The server running this Active Directory is called a domain controller (DC).<br>
 Advantages
 <br>Centralized identity management: Easily control and control all users on your network.<br>
