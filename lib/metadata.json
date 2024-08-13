@@ -1,37 +1,40 @@
 {
   "vaultName": "Obsidian Vault",
-  "lastExport": 1723512302787,
+  "lastExport": 1723512431562,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": true,
   "useCustomFavicon": false,
   "files": [
-    "정보보안과 서버 CS/CISA/Domain1/Eng/INFORMATION SYSTEMS AUDITING PROCESS - 1.md",
-    "정보보안과 서버 CS/CISA/Domain1/kor/IT 감사 프로세스 - 1.md",
-    "정보보안과 서버 CS/CS/서버 관리/Eng/Active Directory(Eng).md",
-    "정보보안과 서버 CS/CS/서버 관리/Eng/Ubuntu Docker Capacity Management(Eng).md",
-    "정보보안과 서버 CS/CS/서버 관리/kor/우분투 Docker 용량 관리.md",
-    "정보보안과 서버 CS/CS/서버 관리/kor/Active Directory란.md",
-    "정보보안과 서버 CS/Recource/Pasted image 20240812103222.png",
-    "정보보안과 서버 CS/Recource/Pasted image 20240812103300.png",
-    "정보보안과 서버 CS/Recource/Pasted image 20240812105353.png",
-    "정보보안과 서버 CS/Recource/Pasted image 20240812105418.png",
-    "정보보안과 서버 CS/Recource/Pasted image 20240812105506.png",
-    "정보보안과 서버 CS/Recource/Pasted image 20240812105540.png",
-    "정보보안과 서버 CS/Recource/Pasted image 20240812105840.png",
-    "정보보안과 서버 CS/Recource/Pasted image 20240813092642.png",
-    "정보보안과 서버 CS/Recource/Pasted image 20240813092703.png",
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/보안 소개/Eng/1..md",
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/보안 소개/Kor/1..md",
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/침투 테스트/Eng/1..md",
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/침투 테스트/Eng/2. Security Principles.md",
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/침투 테스트/Eng/3. Using the Application.md",
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/침투 테스트/Kor/1..md",
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/침투 테스트/Kor/2. 보안 원칙.md",
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/침투 테스트/Kor/3. 응용 프로그램 사용.md",
+    "정보보안/CISA/Domain1/Eng/INFORMATION SYSTEMS AUDITING PROCESS - 1.md",
+    "정보보안/CISA/Domain1/kor/IT 감사 프로세스 - 1.md",
+    "정보보안/CS/서버 관리/Eng/Active Directory(Eng).md",
+    "정보보안/CS/서버 관리/Eng/Ubuntu Docker Capacity Management(Eng).md",
+    "정보보안/CS/서버 관리/kor/우분투 Docker 용량 관리.md",
+    "정보보안/CS/서버 관리/kor/Active Directory란.md",
+    "정보보안/Recource/Pasted image 20240812103222.png",
+    "정보보안/Recource/Pasted image 20240812103300.png",
+    "정보보안/Recource/Pasted image 20240812105353.png",
+    "정보보안/Recource/Pasted image 20240812105418.png",
+    "정보보안/Recource/Pasted image 20240812105506.png",
+    "정보보안/Recource/Pasted image 20240812105540.png",
+    "정보보안/Recource/Pasted image 20240812105840.png",
+    "정보보안/Recource/Pasted image 20240813092642.png",
+    "정보보안/Recource/Pasted image 20240813092703.png",
+    "정보보안/tryhackme/Jr Penetration Tester/보안 소개/Eng/1..md",
+    "정보보안/tryhackme/Jr Penetration Tester/보안 소개/Kor/1..md",
+    "정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Eng/1..md",
+    "정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Eng/2. Security Principles.md",
+    "정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Eng/3. Using the Application.md",
+    "정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Kor/1..md",
+    "정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Kor/2. 보안 원칙.md",
+    "정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Kor/3. 응용 프로그램 사용.md",
     "무제 파일.md",
     "무제 파일.canvas",
     "index.md",
+    "lib/media/pasted-image-20240812103222.png",
+    "lib/media/pasted-image-20240812105418.png",
+    "lib/media/pasted-image-20240812103300.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -63,10 +66,7 @@
     "lib/styles/other-plugins.css",
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css",
-    "lib/media/pasted-image-20240812103222.png",
-    "lib/media/pasted-image-20240812105418.png",
-    "lib/media/pasted-image-20240812103300.png"
+    "lib/styles/main-styles.css"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -104,305 +104,213 @@
   ],
   "fileInfo": {
     "lib/media/pasted-image-20240812103222.png": {
-      "modifiedTime": 1723511673521,
+      "modifiedTime": 1723512431562,
       "sourceSize": 6207,
       "exportedPath": "lib/media/pasted-image-20240812103222.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240812105418.png": {
-      "modifiedTime": 1723511673521,
+      "modifiedTime": 1723512431562,
       "sourceSize": 44594,
       "exportedPath": "lib/media/pasted-image-20240812105418.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240812103300.png": {
-      "modifiedTime": 1723511673521,
+      "modifiedTime": 1723512431562,
       "sourceSize": 6207,
       "exportedPath": "lib/media/pasted-image-20240812103300.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1723512302787,
-      "sourceSize": 40833,
+      "modifiedTime": 1723512431562,
+      "sourceSize": 40665,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1723512302787,
-      "sourceSize": 1533,
+      "modifiedTime": 1723512431562,
+      "sourceSize": 1435,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 11716,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 272363,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1723512302787,
+      "modifiedTime": 1723512431562,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/html/custom-head-content.html": {
-      "modifiedTime": 1723512302787,
-      "sourceSize": 43415,
+      "modifiedTime": 1723512431562,
+      "sourceSize": 40833,
       "exportedPath": "lib/html/custom-head-content.html",
-      "dependencies": []
-    },
-    "정보보안과 서버 CS/CISA/Domain1/Eng/INFORMATION SYSTEMS AUDITING PROCESS - 1.md": {
-      "modifiedTime": 1723512302787,
-      "sourceSize": 8772,
-      "exportedPath": "정보보안과-서버-cs/cisa/domain1/eng/information-systems-auditing-process-1.html",
-      "dependencies": []
-    },
-    "정보보안과 서버 CS/CISA/Domain1/kor/IT 감사 프로세스 - 1.md": {
-      "modifiedTime": 1723512302787,
-      "sourceSize": 8993,
-      "exportedPath": "정보보안과-서버-cs/cisa/domain1/kor/it-감사-프로세스-1.html",
-      "dependencies": []
-    },
-    "정보보안과 서버 CS/CS/서버 관리/Eng/Active Directory(Eng).md": {
-      "modifiedTime": 1723510952758,
-      "sourceSize": 8675,
-      "exportedPath": "정보보안과-서버-cs/cs/서버-관리/eng/active-directory(eng).html",
-      "dependencies": []
-    },
-    "정보보안과 서버 CS/CS/서버 관리/Eng/Ubuntu Docker Capacity Management(Eng).md": {
-      "modifiedTime": 1723510952758,
-      "sourceSize": 3474,
-      "exportedPath": "정보보안과-서버-cs/cs/서버-관리/eng/ubuntu-docker-capacity-management(eng).html",
-      "dependencies": []
-    },
-    "정보보안과 서버 CS/CS/서버 관리/kor/우분투 Docker 용량 관리.md": {
-      "modifiedTime": 1723510952758,
-      "sourceSize": 4366,
-      "exportedPath": "정보보안과-서버-cs/cs/서버-관리/kor/우분투-docker-용량-관리.html",
-      "dependencies": []
-    },
-    "정보보안과 서버 CS/CS/서버 관리/kor/Active Directory란.md": {
-      "modifiedTime": 1723510952758,
-      "sourceSize": 11937,
-      "exportedPath": "정보보안과-서버-cs/cs/서버-관리/kor/active-directory란.html",
-      "dependencies": []
-    },
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/보안 소개/Eng/1..md": {
-      "modifiedTime": 1723510952758,
-      "sourceSize": 9656,
-      "exportedPath": "정보보안과-서버-cs/tryhackme/jr-penetration-tester/보안-소개/eng/1..html",
-      "dependencies": []
-    },
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/보안 소개/Kor/1..md": {
-      "modifiedTime": 1723510952758,
-      "sourceSize": 10722,
-      "exportedPath": "정보보안과-서버-cs/tryhackme/jr-penetration-tester/보안-소개/kor/1..html",
-      "dependencies": []
-    },
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/침투 테스트/Eng/1..md": {
-      "modifiedTime": 1723511673521,
-      "sourceSize": 7592,
-      "exportedPath": "정보보안과-서버-cs/tryhackme/jr-penetration-tester/침투-테스트/eng/1..html",
-      "dependencies": [
-        "lib/media/pasted-image-20240812103222.png"
-      ]
-    },
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/침투 테스트/Eng/2. Security Principles.md": {
-      "modifiedTime": 1723511673521,
-      "sourceSize": 13741,
-      "exportedPath": "정보보안과-서버-cs/tryhackme/jr-penetration-tester/침투-테스트/eng/2.-security-principles.html",
-      "dependencies": [
-        "lib/media/pasted-image-20240812105418.png"
-      ]
-    },
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/침투 테스트/Eng/3. Using the Application.md": {
-      "modifiedTime": 1723510952758,
-      "sourceSize": 14275,
-      "exportedPath": "정보보안과-서버-cs/tryhackme/jr-penetration-tester/침투-테스트/eng/3.-using-the-application.html",
-      "dependencies": []
-    },
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/침투 테스트/Kor/1..md": {
-      "modifiedTime": 1723511673521,
-      "sourceSize": 8191,
-      "exportedPath": "정보보안과-서버-cs/tryhackme/jr-penetration-tester/침투-테스트/kor/1..html",
-      "dependencies": [
-        "lib/media/pasted-image-20240812103300.png"
-      ]
-    },
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/침투 테스트/Kor/2. 보안 원칙.md": {
-      "modifiedTime": 1723511673521,
-      "sourceSize": 14448,
-      "exportedPath": "정보보안과-서버-cs/tryhackme/jr-penetration-tester/침투-테스트/kor/2.-보안-원칙.html",
-      "dependencies": [
-        "lib/media/pasted-image-20240812105418.png"
-      ]
-    },
-    "정보보안과 서버 CS/tryhackme/Jr Penetration Tester/침투 테스트/Kor/3. 응용 프로그램 사용.md": {
-      "modifiedTime": 1723510952758,
-      "sourceSize": 16914,
-      "exportedPath": "정보보안과-서버-cs/tryhackme/jr-penetration-tester/침투-테스트/kor/3.-응용-프로그램-사용.html",
       "dependencies": []
     },
     "무제 파일.md": {
@@ -423,58 +331,150 @@
       "exportedPath": "index.html",
       "dependencies": []
     },
-    "정보보안과 서버 CS/Recource/Pasted image 20240812103222.png": {
-      "modifiedTime": 1723511673521,
-      "sourceSize": 6207,
-      "exportedPath": "정보보안과-서버-cs/recource/pasted-image-20240812103222.png",
+    "정보보안/CISA/Domain1/Eng/INFORMATION SYSTEMS AUDITING PROCESS - 1.md": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 8772,
+      "exportedPath": "정보보안/cisa/domain1/eng/information-systems-auditing-process-1.html",
       "dependencies": []
     },
-    "정보보안과 서버 CS/Recource/Pasted image 20240812103300.png": {
-      "modifiedTime": 1723511673521,
-      "sourceSize": 6207,
-      "exportedPath": "정보보안과-서버-cs/recource/pasted-image-20240812103300.png",
+    "정보보안/CISA/Domain1/kor/IT 감사 프로세스 - 1.md": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 8993,
+      "exportedPath": "정보보안/cisa/domain1/kor/it-감사-프로세스-1.html",
       "dependencies": []
     },
-    "정보보안과 서버 CS/Recource/Pasted image 20240812105353.png": {
-      "modifiedTime": 1723511673521,
+    "정보보안/CS/서버 관리/Eng/Active Directory(Eng).md": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 8675,
+      "exportedPath": "정보보안/cs/서버-관리/eng/active-directory(eng).html",
+      "dependencies": []
+    },
+    "정보보안/CS/서버 관리/Eng/Ubuntu Docker Capacity Management(Eng).md": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 3474,
+      "exportedPath": "정보보안/cs/서버-관리/eng/ubuntu-docker-capacity-management(eng).html",
+      "dependencies": []
+    },
+    "정보보안/CS/서버 관리/kor/우분투 Docker 용량 관리.md": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 4366,
+      "exportedPath": "정보보안/cs/서버-관리/kor/우분투-docker-용량-관리.html",
+      "dependencies": []
+    },
+    "정보보안/CS/서버 관리/kor/Active Directory란.md": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 11937,
+      "exportedPath": "정보보안/cs/서버-관리/kor/active-directory란.html",
+      "dependencies": []
+    },
+    "정보보안/Recource/Pasted image 20240812103222.png": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 6207,
+      "exportedPath": "정보보안/recource/pasted-image-20240812103222.png",
+      "dependencies": []
+    },
+    "정보보안/Recource/Pasted image 20240812103300.png": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 6207,
+      "exportedPath": "정보보안/recource/pasted-image-20240812103300.png",
+      "dependencies": []
+    },
+    "정보보안/Recource/Pasted image 20240812105353.png": {
+      "modifiedTime": 1723512431562,
       "sourceSize": 46448,
-      "exportedPath": "정보보안과-서버-cs/recource/pasted-image-20240812105353.png",
+      "exportedPath": "정보보안/recource/pasted-image-20240812105353.png",
       "dependencies": []
     },
-    "정보보안과 서버 CS/Recource/Pasted image 20240812105418.png": {
-      "modifiedTime": 1723511673521,
+    "정보보안/Recource/Pasted image 20240812105418.png": {
+      "modifiedTime": 1723512431562,
       "sourceSize": 44594,
-      "exportedPath": "정보보안과-서버-cs/recource/pasted-image-20240812105418.png",
+      "exportedPath": "정보보안/recource/pasted-image-20240812105418.png",
       "dependencies": []
     },
-    "정보보안과 서버 CS/Recource/Pasted image 20240812105506.png": {
-      "modifiedTime": 1723511673521,
+    "정보보안/Recource/Pasted image 20240812105506.png": {
+      "modifiedTime": 1723512431562,
       "sourceSize": 44594,
-      "exportedPath": "정보보안과-서버-cs/recource/pasted-image-20240812105506.png",
+      "exportedPath": "정보보안/recource/pasted-image-20240812105506.png",
       "dependencies": []
     },
-    "정보보안과 서버 CS/Recource/Pasted image 20240812105540.png": {
-      "modifiedTime": 1723511673521,
+    "정보보안/Recource/Pasted image 20240812105540.png": {
+      "modifiedTime": 1723512431562,
       "sourceSize": 44594,
-      "exportedPath": "정보보안과-서버-cs/recource/pasted-image-20240812105540.png",
+      "exportedPath": "정보보안/recource/pasted-image-20240812105540.png",
       "dependencies": []
     },
-    "정보보안과 서버 CS/Recource/Pasted image 20240812105840.png": {
-      "modifiedTime": 1723511673521,
+    "정보보안/Recource/Pasted image 20240812105840.png": {
+      "modifiedTime": 1723512431562,
       "sourceSize": 44594,
-      "exportedPath": "정보보안과-서버-cs/recource/pasted-image-20240812105840.png",
+      "exportedPath": "정보보안/recource/pasted-image-20240812105840.png",
       "dependencies": []
     },
-    "정보보안과 서버 CS/Recource/Pasted image 20240813092642.png": {
-      "modifiedTime": 1723511673521,
+    "정보보안/Recource/Pasted image 20240813092642.png": {
+      "modifiedTime": 1723512431562,
       "sourceSize": 3594,
-      "exportedPath": "정보보안과-서버-cs/recource/pasted-image-20240813092642.png",
+      "exportedPath": "정보보안/recource/pasted-image-20240813092642.png",
       "dependencies": []
     },
-    "정보보안과 서버 CS/Recource/Pasted image 20240813092703.png": {
-      "modifiedTime": 1723511673521,
+    "정보보안/Recource/Pasted image 20240813092703.png": {
+      "modifiedTime": 1723512431562,
       "sourceSize": 28288,
-      "exportedPath": "정보보안과-서버-cs/recource/pasted-image-20240813092703.png",
+      "exportedPath": "정보보안/recource/pasted-image-20240813092703.png",
+      "dependencies": []
+    },
+    "정보보안/tryhackme/Jr Penetration Tester/보안 소개/Eng/1..md": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 9656,
+      "exportedPath": "정보보안/tryhackme/jr-penetration-tester/보안-소개/eng/1..html",
+      "dependencies": []
+    },
+    "정보보안/tryhackme/Jr Penetration Tester/보안 소개/Kor/1..md": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 10722,
+      "exportedPath": "정보보안/tryhackme/jr-penetration-tester/보안-소개/kor/1..html",
+      "dependencies": []
+    },
+    "정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Eng/1..md": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 7557,
+      "exportedPath": "정보보안/tryhackme/jr-penetration-tester/침투-테스트/eng/1..html",
+      "dependencies": [
+        "lib/media/pasted-image-20240812103222.png"
+      ]
+    },
+    "정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Eng/2. Security Principles.md": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 13706,
+      "exportedPath": "정보보안/tryhackme/jr-penetration-tester/침투-테스트/eng/2.-security-principles.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240812105418.png"
+      ]
+    },
+    "정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Eng/3. Using the Application.md": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 14275,
+      "exportedPath": "정보보안/tryhackme/jr-penetration-tester/침투-테스트/eng/3.-using-the-application.html",
+      "dependencies": []
+    },
+    "정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Kor/1..md": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 8156,
+      "exportedPath": "정보보안/tryhackme/jr-penetration-tester/침투-테스트/kor/1..html",
+      "dependencies": [
+        "lib/media/pasted-image-20240812103300.png"
+      ]
+    },
+    "정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Kor/2. 보안 원칙.md": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 14413,
+      "exportedPath": "정보보안/tryhackme/jr-penetration-tester/침투-테스트/kor/2.-보안-원칙.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240812105418.png"
+      ]
+    },
+    "정보보안/tryhackme/Jr Penetration Tester/침투 테스트/Kor/3. 응용 프로그램 사용.md": {
+      "modifiedTime": 1723512431562,
+      "sourceSize": 16914,
+      "exportedPath": "정보보안/tryhackme/jr-penetration-tester/침투-테스트/kor/3.-응용-프로그램-사용.html",
       "dependencies": []
     }
   }
