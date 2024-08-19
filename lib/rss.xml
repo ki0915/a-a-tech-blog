@@ -1,4 +1,920 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 19 Aug 2024 02:57:25 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 19 Aug 2024 02:57:22 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[IT 감사 프로세스 - 2]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 19 Aug 2024 04:53:32 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 19 Aug 2024 04:53:30 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Information System Acquisition, Development, and Management**]]></title><description><![CDATA[ 
+ <br><br><br><br><br>
+<br>Officially authorizes the existence of a project.
+<br>Grants the project manager the authority to use organizational resources.
+<br>Approved by a senior executive or sponsor.
+<br><br><br>
+<br>Important for exams
+<br>Conducted to address organizational strategic objectives or business issues.
+<br>Essentially answers the question: Why is this project being undertaken?
+<br>
+Key Issues
+<br>
+<br>Necessity: Why is this project needed?
+<br>Legitimacy: Is this project legal and legitimate?
+<br>Expected Benefits: What benefits will this project bring to the organization?
+<br>Tip<br>
+<br>The business case should be included in the project charter.
+<br>The business case is performed during the feasibility study.
+<br>It may be reviewed and modified later.
+<br>It must be approved by senior management or sponsors.
+<br>Any changes require approval from senior management.
+<br><br><br>
+<br>A consultative body consisting of senior representatives.
+<br>Chairperson: Project Sponsor (Project Owner)
+<br>Provides strategic direction for the project, represents the interests of various groups, and holds full responsibility.
+<br>Tip<br>
+<br>All responsibility for the project lies with the Steering Committee.
+<br>Holds the authority for corrective actions and project termination.
+<br>With great responsibility comes great authority.
+<br><br><br>
+Audit Committee (Composed of external directors not involved in management)
+<br>
+<br>Symbolizes the independence and authority of the audit function.
+<br>Thus, extensive discussions are held with the Audit Committee to ensure independence during the audit process.
+<br>
+IT Strategy Committee
+<br>
+<br>Provides strategic direction and advice to ensure the organization's strategy aligns with its IS (IT) strategy.
+<br>
+IS Operations Committee
+<br>
+<br>Ensures that "project" activities align with the organization's information strategy objectives, providing strategic direction and advice.
+<br><br><br>
+<br>A review conducted 6 to 12 months after project completion to assess whether the project has met its objectives.
+<br>Tip<br>
+<br>Performed by the end-users and the project development team.
+<br>Different from a post-project review.
+<br><br><br> Important for exams <br>
+Source Lines of Code (SLOC)
+<br>
+<br>Estimates project size based on the number of lines of code.
+
+Function Point Analysis (FPA)
+
+
+<br>Estimates project size based on the size of each function.
+<br>The most effective and preferred technique.
+
+Delphi Technique
+
+
+<br>Gathers expert opinions anonymously.
+
+Regression Analysis
+
+
+<br>Uses historical data for analysis.
+<br><br><br>
+PERT (Program Evaluation and Review Technique)
+<br>
+<br>Views the project as a set of related activities and expresses their relationships.
+<br>Path: A sequence of tasks without loops.
+<br>Shortest Project Completion Time: The longest path.
+<br>
+CPM (Critical Path Method)
+<br>
+<br>Uses the average of the shortest and longest completion times.
+<br>Slack Time: The difference between the minimum and maximum completion times.
+<br>Allocating more resources to the critical path (CP) can shorten project completion time.
+<br>
+Gantt Chart
+<br>
+<br>Displays time on the horizontal axis and project activities on the vertical axis, using bars to represent tasks.
+<br>
+Time Boxing
+<br>
+<br>Requires delivering results within a set time frame.
+<br>Allows defining outcomes with limited time and resources.
+<br>
+Milestone
+<br>
+<br>Marks important events or points during the project. -&gt; These points must be reached for the project to continue.
+<br>Used for schedule management.
+<br><br><br>
+Waterfall Model
+<br>
+<br>Progresses sequentially, emphasizing strict project management and standardization.
+<br>Used when the project is stable, and requirements do not change significantly.  Important for exams 
+<br>
+Prototyping Model
+<br>
+<br>An interim model shaped according to user requirements.
+Types
+
+<br>Experimental Prototyping: Created only for communication with users, then discarded.
+<br>Evolutionary Prototyping: Created for communication and as an initial version.
+
+Spiral Model
+
+
+<br>Combines evolutionary prototyping with risk management.
+<br>Involves iterative cycles of planning, risk analysis, development, and customer evaluation.
+<br>Focuses on risk management.
+
+Iterative Model
+
+
+<br>A combination of Waterfall, Prototyping, and Spiral models.
+<br>All phases are repeated iteratively.
+]]></description><link>achive\cisa\domain3\eng\information-system-acquisition,-development,-and-management.html</link><guid isPermaLink="false">Achive/CISA/Domain3/Eng/Information System Acquisition, Development, and Management.md</guid><pubDate>Mon, 19 Aug 2024 04:35:18 GMT</pubDate></item><item><title><![CDATA[Information System Acquisition, Development, and Management]]></title><description><![CDATA[ 
+ <br><br><br><br><br>
+<br>Feasibility Study (Is it really necessary?)
+<br>Requirements Definition
+<br>Design (Detailed Design), Development, Testing
+<br>Implementation (Acceptance Testing, etc.) - Post-Implementation
+<br>
+Feasibility Review
+<br>
+<br>Must be conducted to increase the probability of project success.
+<br>Expectation of benefits, development costs, risk analysis, management review, execution.
+<br>Should be reviewed periodically.
+<br>
+Requirements Definition
+<br>
+<br>Basic Design: Define and analyze user requirements (involving users and management).
+<br>Officially document system requirements.
+<br>Review whether an embedded audit model is needed; if so, include conceptual design.
+<br>Business Case preparation stage.
+<br>Acceptance test requirements are determined at this stage.
+<br>
+Design (Detailed Design)
+<br>
+<br>Detailed Design
+<br>Focused review by CISA.
+<br>Verify if the program is coded with appropriate control procedures.
+<br>Ensure all changes have been approved by management.
+<br>Baseline: Can mitigate issues related to scope changes.
+<br>Baseline serves as the standard for configuration management and is subject to change management.
+<br><br><br>
+<br>Development by connecting components.
+<br>Reduces development time, costs, improves quality, and promotes modularization.
+<br><br><br>
+<br>System flexibility.
+<br>User convenience.
+<br>Provides integration with existing systems.
+<br>Cost-effective.
+<br>Platform-independent and implements standardized business logic.
+<br>
+Operation Process
+<br>
+<br>Define and Register Service
+<br>Search for Web Service
+<br>Locate Web Service
+<br>Request Web Service
+<br>Execute Web Service
+<br><br><br>
+<br>Reflects user requirements as much as possible when developing part or the whole system.
+
+Considerations
+
+
+<br>Increased threats but reduced assets or time.
+<br>Difficult to control.
+<br>If too focused on user requirements, development control may be neglected.
+<br>Harder to manage changes than with other methods.
+<br>Frequent design or requirement changes can make quality management, approval, and management difficult.
+<br><br><br>
+<br>Increases asset efficiency and maintains quality while accelerating development speed.
+<br>Development and Testing SWOT.
+<br>Uses evolutionary prototyping, automated development tools, integrated environments, and a central repository.
+<br>Strict adherence to development time (Time boxing technique).
+<br><br><br>
+<br>Achieves greater benefits by rapidly adapting to a fast-changing environment.
+<br><br><br>
+<br>Consider existing business processes and radically redesign them.
+<br>Requires medium to long-term improvements due to significant overall changes.
+<br>Post-improvement evaluation is conducted simply.
+<br>
+CISA Auditor's Perspective
+<br>
+<br>Exam Tip
+<br>After BPR, verify what impact it has on existing controls.
+]]></description><link>achive\cisa\domain3\eng\information-system-acquisition,-development,-and-management-2.html</link><guid isPermaLink="false">Achive/CISA/Domain3/Eng/Information System Acquisition, Development, and Management 2.md</guid><pubDate>Mon, 19 Aug 2024 04:37:00 GMT</pubDate></item><item><title><![CDATA[Information System Acquisition, Development, and Management]]></title><description><![CDATA[ 
+ <br><br><br><br><br>
+<br>Feasibility Study
+<br>Analysis
+<br>Design
+<br>Development
+<br>Testing
+<br>Implementation
+<br>
+Feasibility Review
+<br>
+<br>Must be conducted to increase the likelihood of project success.
+<br>Review expected benefits, development costs, risk analysis, quality management, and execution.
+<br>Should be reviewed periodically.
+<br>
+Requirements Definition (Basic Design, Basic Analysis)
+<br>
+<br>Basic Design: Define and analyze user requirements (involving users and management).
+<br>Officially document system requirements.
+<br>Review whether an embedded audit model (EAM) is needed; if so, include conceptual design.
+<br>Business Case preparation stage.
+<br>Review user acceptance test specifications.
+<br>Acceptance test requirements are determined at this stage.
+<br><a data-href="[Information System Acquisition, Development, and Management 2#^34c1ec" href="[Information System Acquisition, Development, and Management 2#^34c1ec" class="internal-link" target="_self" rel="noopener">[Information System Acquisition, Development, and Management 2 &gt; ^34c1ec</a>]
+<br>
+Design (Detailed Design)
+<br>
+<br>
+Detailed Design
+
+<br>
+Focused review by CISA.
+
+<br>
+Verify if the program is coded with appropriate control procedures.
+
+<br>
+Ensure all changes have been approved by management.
+
+<br>
+Baseline: Can mitigate issues related to scope changes.
+
+<br>
+Baseline serves as the standard for configuration management and is subject to change management.
+
+Development
+
+
+<br>
+Coding standards for source code become important standards.
+
+<br>
+Ensure errors in the programming process are properly addressed.
+
+<br><br><br>
+Unit Testing
+<br>
+<br>Tests individual modules or programs to ensure functionality matches specifications.
+<br>
+Integration Testing
+<br>
+<br>Tests connections and integrations between components.
+<br>
+System Testing
+<br>
+<br>Tests multiple modules and functions as a complete system.
+<br>Types<br>Recovery Testing: Tests whether recovery processes work well. Security Testing: Tests access controls and checks for security vulnerabilities. Stress and Volume Testing: Tests load and limits. Performance Testing: Tests performance.<br>
+Acceptance Testing
+<br>
+<br>Tests whether the system meets user requirements (final user verification).
+<br>Upon completion, users sign the acceptance document.
+<br>
+Other Testing
+<br>Types<br>Alpha Testing: Conducted by internal users within the organization. Beta Testing: Conducted by a limited number of external users (potential security vulnerabilities). White Box Testing: Examines the internal logic of the program. Black Box Testing: Tests the external functionality of the program. Parallel Testing: Compares results between the current system and the new system. ITF (Integrated Facility): Inputs test data into the currently operating computer and compares results with expected values. Regression Testing: Tests to ensure that new program introductions or updates do not introduce issues. Usability Testing: Tests whether there are issues when new programs or systems are introduced.<br><br><br>
+Bottom-Up Testing
+<br>
+<br>Tests from small modules to the entire system.
+<br>Easier to detect early module errors.
+<br>Easier to implement.
+<br>
+Top-Down Testing
+<br>
+<br>
+Proceeds from large parts to smaller parts in a top-down manner.
+
+<br>
+Easier to detect interface errors.
+
+<br>
+Examines functionality and critical processes.
+
+<br>
+CISA involves transitioning implementation from development to operations.
+
+]]></description><link>achive\cisa\domain3\eng\information-system-acquisition,-development,-and-management-3.html</link><guid isPermaLink="false">Achive/CISA/Domain3/Eng/Information System Acquisition, Development, and Management 3.md</guid><pubDate>Mon, 19 Aug 2024 04:38:58 GMT</pubDate></item><item><title><![CDATA[정보 시스템 구입, 개발 및 관리]]></title><description><![CDATA[ 
+ <br><br><br><br><br>&nbsp;1. 타당성 조사(정말로 필요한가?<br>
+2. 요구사항 정의<br>
+3. 설계(상세 설계), 개발, 테스트<br>
+4. 구현(인수 테스트 등등) - 구현 후<br>
+타당성 검토
+<br>
+<br>프로젝트의 성공 확률을 높여주기 위해서 수행해야 한다.<br>
+-&nbsp;기대 효과, 개발 비용, 위험 분석, 관리 검토, 수행
+<br>주기적으로 검토해야 한다.
+<br>
+요구 사항 정의
+<br>
+<br>기본 설계: 사용자의 요구 사항을 정의하고 분석(사용자, 경영진 참여)
+<br>시스템 요구사항을&nbsp;공식적으로&nbsp;문서화
+<br>내장감사모델이 필요한지 검토, 필요하면 개념 설계 포함
+<br>사업 사례(Business Case) 작성 단계
+<br>인수 테스트 요구 사항이 이 단계에서 정해진다.
+<br>
+설계(상세 설계)
+<br>
+<br>상세 설계<br>
+-&nbsp;CISA가 집중적으로 확인한다.
+<br>프로그램이 적절한 통제 절차로&nbsp;프로그래밍 되어있는지 확인<br>
+-&nbsp;모든 변경 사항에 경영진 승인이 있었는지 확인
+<br>기준선:&nbsp;범위 변경 문제를 "완화"할 수 있다.
+<br>기준선은&nbsp;형상관리의 기준, 변경 관리의 대상이 된다.
+<br><br><br>
+<br>컴포넌트 끼리 연결해서 개발<br>
+-&nbsp;개발 시간을 단축, 비용 절감, 품질 개선, 모듈화 추진
+<br><br><br>
+<br>시스템 유연성
+<br>사용자 편리성
+<br>기존 시스템 통합 환경을 제공
+<br>비용 효율적
+<br>플랫폼이 독립적이고 표준화된 비즈니스 로직 구현
+<br>
+동작과정
+<br>
+<br>서비스 정의 및 등록
+<br>웹 서비스 검색
+<br>웹 서비스 위치
+<br>웹 서비스 요청
+<br>웹 서비스 수행
+<br><br><br>
+<br>시스템의 일부나 전체 시스템 개발 시에&nbsp;사용자의 요구 사항을 최대한 반영한다.
+<br>
+고려 사항
+<br>-&nbsp;&nbsp;위협이 증가하나&nbsp;자산이나 시간&nbsp;경감<br>
+<br>통제가 어렵다.
+<br>사용자 요구사항에만 집중하다보면&nbsp;개발 통제에 소홀할 수 있다.
+<br>통제의 변경이 다른 방식보다 어렵다.
+<br>디자인이나 요구사항이 자주 변경될 시 품질 관리나&nbsp;승인, 관리가 어렵다.
+<br><br><br>
+<br>개발 속도 빠르게 하면서&nbsp;자산 효율성 증가, 품질 유지
+<br>개발 및 테스트 SWOT<br>
+-&nbsp;진화적 프로토타입 및 자동화 개발도구, 통합 환경, 중앙 저장소 사용
+<br>개발 시간&nbsp;엄격히 준수(Time boxing 기법)
+<br><br><br>
+<br>급변하는 환경에서&nbsp;빠르게 변화하면서 더 큰 이익을 얻음
+<br><br><br>
+<br>기존 업무 프로세스 고려하고&nbsp;급진적으로 프로세스 재설계
+<br>전체적으로 큰 변경을 하기에&nbsp;중장기적인 개선이 필요
+<br>개선 후 평가는 단순하게 진행
+<br>
+CISA 감사인의 관점
+<br>
+<br>시험 나옴<br>
+-&nbsp;&nbsp;BRP 이후 기존 통제에 어떤 영향이 있는지 확인
+]]></description><link>achive\cisa\domain3\kor\정보-시스템-구입-개발-및-관리-2.html</link><guid isPermaLink="false">Achive/CISA/Domain3/Kor/정보 시스템 구입 개발 및 관리 2.md</guid><pubDate>Mon, 19 Aug 2024 04:34:26 GMT</pubDate></item><item><title><![CDATA[Information System Operation, Maintenance, and Management]]></title><description><![CDATA[ 
+ <br><br><br><br><br>
+<br>Controls unauthorized traffic.
+<br>Vulnerable to internal attacks.
+<br>A preventive control.
+<br><br><br>Exam Topic<br>
+Service Overview Concepts
+<br>
+<br>SLR: Service Level Requirement (business proposal)
+<br>SLA: Service Level Agreement (acceptance of business)
+<br>SLM: Service Level Management (performance management)
+<br>SLP: Service Level Plan (plans for service improvement if service is lacking)
+<br>SLO: Service Level Objective (performance targets, rewards, and penalties - rewards for good performance, penalties for poor performance)
+<br><br><br>
+<br>Every deployment (release) has a serial number/version.
+<br>Types<br>Major Release: Significant changes, follows deployment processes. Minor Release: Smaller or minor changes, follows deployment processes. Emergency Release: Rapid or urgent deployment.<br><br><br>
+Quality Assurance
+<br>
+<br>Managing programs, source code, and object code using libraries.
+<br>
+Asset Management
+<br>
+<br>The most important asset is people.
+<br>
+Hardware Maintenance Plan
+<br>
+<br>Proposals are sent in the form of RFP (Request for Proposal) or ITT (Invitation to Tender), and vendors submit proposals.
+<br><br><br>
+What Should Be Included in an RFP
+<br>
+<br>User requirements
+<br>Additional requirements
+<br>Evaluation criteria
+<br>What Should Not Be Included in an RFP<br>
+<br>Detailed specifications (not necessary for the contract)
+<br>Security configurations
+<br>Budget
+<br><br><br>
+External Schema
+<br>
+<br>The database that users or programs can access.
+<br>
+View
+<br>
+<br>A subset of the database.
+<br>Also known as a sub-schema and serves as a preventive control.
+<br>Prevents damage by protecting original data.
+<br><br><br>
+Normalization
+<br>
+<br>Reduces redundancy, increases efficiency.
+<br>Focuses on integrity.
+<br>Ensures compliance with structural and non-structural queries in relational databases.
+<br>Aims to minimize the amount of necessary data.
+<br>
+Denormalization
+<br>
+<br>Increases redundancy, increases efficiency.
+<br><br><br>
+Checkpoints
+<br>
+<br>Create checkpoints for backups.
+<br>Similar to snapshots.
+<br>
+Database Reorganization
+<br>
+<br>Cleans up garbage values or space in the database.
+<br><br><br>
+<br>Entity Integrity: Primary key.
+<br>Referential Integrity: Foreign key.
+<br>Domain Integrity: Range issues.
+]]></description><link>achive\cisa\domain4\eng\information-system-operation,-maintenance,-and-management-1.html</link><guid isPermaLink="false">Achive/CISA/Domain4/Eng/Information System Operation, Maintenance, and Management 1.md</guid><pubDate>Mon, 19 Aug 2024 04:41:39 GMT</pubDate></item><item><title><![CDATA[Information System Operation, Maintenance, and Management]]></title><description><![CDATA[ 
+ <br><br><br><br><br>
+<br>An agreement where a third party holds the source code and provides it if the business fails or is unable to maintain/repair it for various reasons.
+<br>The developer can protect their copyright, and the customer can have assurance of maintenance/repair at a minimal cost.
+<br>
+Contract Requirements
+<br>
+<br>Source code, electronic equipment, developer contact information (not highly critical).
+<br><br><br>
+Session Layer
+<br>Devices: Gateway, L7 switch<br>
+<br>The initial layer to apply security functions.
+<br>
+Data Link Layer
+<br>Devices: Switch<br>
+<br>Error detection using CRC (Cyclic Redundancy Check).
+<br><br><br>
+Parity Check
+<br>
+<br>Maintains the number of bits as always odd or even for error detection.
+<br>Only capable of detecting errors.
+<br>Cannot detect errors if multiple errors occur simultaneously.
+<br>
+Block Summation Check
+<br>
+<br>Performs both horizontal and vertical parity checks for more reliable detection.
+<br>
+CRC (Cyclic Redundancy Check)
+<br>
+<br>Uses hashing -&gt; Classified as a detection control.
+<br>Strong and easy to implement, capable of detecting frame-level errors -&gt; Used in the Data Link Layer.
+<br>Can detect multiple bit errors.
+<br><br><br>
+<br>Definitely on the exam.
+<br>Types<br>Checksum: Transmission control, most effective control. Parity Check: Transmission control, related to the integrity of transmission messages. Check Digit: Used to verify the accuracy of identification numbers, account numbers, etc.; an input control (accuracy verification). Check Digit, Badge Register Key Verification: Input control. Exception Reports: Output control. Reconciliation, Adjustment: Processing control. Parity Check, Checksum, CRC (Cyclic Redundancy Check): Transmission control. File Updates: File control.<br><br><br>
+Forward Error Correction
+<br>
+<br>Error detection and correction are possible at the receiving end. Used for long or costly transmission paths.
+<br>
+Backward Error Correction
+<br>
+<br>Only error detection is possible at the receiving end.
+<br>
+WAN Technologies
+<br>
+<br>X.25: Retransmits upon error detection. Slow speed and high overhead.
+<br>Frame Relay: High transmission efficiency, error handling is managed at the endpoints; not efficient for video or voice transmissions.
+]]></description><link>achive\cisa\domain4\eng\information-system-operation,-maintenance,-and-management-2.html</link><guid isPermaLink="false">Achive/CISA/Domain4/Eng/Information System Operation, Maintenance, and Management 2.md</guid><pubDate>Mon, 19 Aug 2024 04:43:31 GMT</pubDate></item><item><title><![CDATA[Information System Operation, Maintenance, and Management]]></title><description><![CDATA[ 
+ <br><br><br><br><br>
+BCP (Business Continuity Planning)
+<br>
+<br>Protect essential business processes.
+<br>The organization is more important than the customer.
+<br>Testing is usually structural walkthroughs (document testing).
+<br>However, actual testing is the most reliable.
+<br>
+BIA (Business Impact Analysis)
+<br>
+<br>Identify critical business processes and determine recovery times and documentation methods.
+<br>
+DRP (Disaster Recovery Planning)
+<br>
+<br>Protect essential business processes.
+<br><br><br>
+<br>Accepts risk.
+<br>Emphasizes availability.
+<br>Targets residual risk.
+<br>Treated as confidential.
+<br><br><br>
+<br>Strategy for operating from a secondary site for up to 30 days.
+<br><br><br>
+<br>Focuses on saving lives.
+<br>Saving people is the highest priority.
+<br><br><br>
+Mirror
+<br>
+<br>Everything is identical, including data.
+<br>
+Hot
+<br>
+<br>Everything is identical except data.
+<br>
+Warm
+<br>
+<br>Some equipment is available.
+<br>
+Cold
+<br>
+<br>Almost nothing is available.
+<br><br><br>
+Owned
+<br>
+<br>Implemented by the organization itself.
+<br>
+Joint Investment
+<br>
+<br>Co-invested to implement a secondary site.
+<br>Challenges include determining priority vendors during recovery.
+<br>
+Commercial Service
+<br>
+<br>Purchase secondary site services.
+<br>Security and reliability are crucial.
+<br>
+Reciprocal Agreements
+<br>
+<br>Implemented through mutual agreements between companies.
+<br>The least expensive option.
+<br><br><br>
+<br>Should not be susceptible to the same disaster as the primary site.
+<br>Requires appropriate hardware and software compatibility.
+<br>Monitor workload.
+<br>Agree on recovery priorities.
+<br>Testing is mandatory.
+]]></description><link>achive\cisa\domain4\eng\information-system-operation,-maintenance,-and-management-3.html</link><guid isPermaLink="false">Achive/CISA/Domain4/Eng/Information System Operation, Maintenance, and Management 3.md</guid><pubDate>Mon, 19 Aug 2024 04:47:49 GMT</pubDate></item><item><title><![CDATA[Information System Operation, Maintenance, and Management]]></title><description><![CDATA[ 
+ <br><br><br><br><br> This topic appeared on the exam <br>
+Emergency Response Team
+<br>
+<br>Prevents loss of life and the spread of incidents.
+<br>
+Damage Assessment Team
+<br>
+<br>Analyzes the cause and performs initial damage assessment.
+<br>Subsequently declares a disaster.
+<br>Cause/Analysis: Generates information for disaster recovery, marking the start of recovery.
+<br>
+Damage Management Team
+<br>
+<br>Executes BCP/DRP.
+<br>Coordinates and communicates with each team: Disaster Supervisor.
+<br><br><br>
+<br>Compare with government policies.
+<br>Participate or not in testing.
+<br>Evaluate the storage of secondary sites. -&gt; Assess the adequacy and currency of the plan.
+<br>Audit IS and user departments. -&gt; Evaluate employees' emergency response capabilities.
+<br><br><br>
+Fail-Safe
+<br>
+<br>Stops all functions to prevent a failure.
+<br>Provides complete protection.
+<br>
+Fail-Soft
+<br>
+<br>Stops non-essential functions to mitigate a failure.
+<br>Reduces impact of the failure.
+<br>
+Fail-Over
+<br>
+<br>Provides service from an alternative site (or equipment) during a failure.
+<br>Overcomes failures.
+<br>
+Fail-Tolerant
+<br>
+<br>Maintains internal operations despite a failure, with external operations continuing normally.
+<br>Tolerates failures.
+<br>Uses load balancing to provide services from two sites during normal operations, and the functioning site during a failure.
+<br><br><br>
+<br>Should be conducted by IS managers and auditors, not operators.
+<br>Hardware Control: Ensures commands are properly executed.
+<br>Parity Check: Verifies accuracy when transferring from one medium to another.
+<br><br><br>
+<br>Indexing: Creates an index using keys to speed up search.
+<br>Normalization Cautions: Should be applied based on the situation, not blindly.
+<br>FEP (Front-End Processor): Reduces repetitive communication tasks for the CPU.
+<br>Multiplexing: Combines multiple inputs into a single output.
+]]></description><link>achive\cisa\domain4\eng\information-system-operation,-maintenance,-and-management-4.html</link><guid isPermaLink="false">Achive/CISA/Domain4/Eng/Information System Operation, Maintenance, and Management 4.md</guid><pubDate>Mon, 19 Aug 2024 04:49:43 GMT</pubDate></item><item><title><![CDATA[Protection of Information Assets]]></title><description><![CDATA[ 
+ <br><br><br><br><br>
+<br>SSID Broadcasting Disabled: Hide the network name by disabling SSID broadcasting.
+<br>SSID Hiding and Manual Attacks: Even if the SSID is hidden, attacks can still occur.
+<br>Security Standards: WEP (128-bit or higher) &lt; WPA &lt; WPA3 in terms of security.
+<br>MAC Address Filtering on APs: Use MAC address filtering on Access Points (APs) to enhance security.
+<br><br><br>
+<br>Data Owner: Approves and documents data access permissions and passes this documentation to the security administrator, who then determines the security classification based on the provided classification level.
+<br>Security Administrator: With the help of the data owner, regularly reviews access permissions and provides physical and technical security.
+<br>Note: For brute force attacks, it is more effective to use long passwords rather than making it difficult to guess user names.<br><br><br>
+<br>Executives: Do not directly develop security policies but approve and support them. Development is handled by senior management.
+<br>Board of Directors: Responsible for policy oversight.
+<br>Security Administrator: Implements (transfers to operations) and regularly reviews security policies but does not develop them directly. Does not have approval authority.
+<br><br><br>
+<br>Concept: An attack where data is inserted or modified on raw documents during data entry. Often performed by insiders.
+<br>Prevention: Compare raw documents with entered data and review logs and work records. For example, a bank employee manipulating terminal data to embezzle money is considered data diddling.
+<br><br><br>
+Causes of Security Incidents:
+<br>
+<br>Disasters &gt; External Attacks &gt; Internal Threats &gt; Errors/Omissions
+<br>
+Worst Vulnerability:
+<br>
+<br>Incorrect parameter settings.
+<br>
+Birthday Attack:
+<br>
+<br>A technique used to find different messages with the same hash.
+<br>
+Positive / Negative Authentication:
+<br>
+<br>Positive Authentication: An authentication method where only the legitimate user can authenticate (e.g., biometrics).
+<br>Negative Authentication: Authentication methods that can be used by anyone who is not the legitimate user (e.g., passwords, tokens).
+<br><br><br>
+<br>Concept: Authentication method where a single login provides access to all systems.
+<br>Benefits:
+
+<br>Promotes the use of stronger passwords.
+<br>Enhances user authentication.
+<br>Simplifies access management.
+
+
+<br>Auditors: Should review whether the current level of single sign-on strength is appropriate.
+<br><br><br>
+<br>Must be covered in exams.
+<br>
+<br>Identify relevant regulations and issues.
+<br>Identify privacy flows.
+<br>Establish solutions.
+<br><br><br>
+<br>Concept: Documenting changes to software modules or functions.
+<br>Evidence: Demonstrates that security requirements are maintained even after changes.
+<br>]]></description><link>achive\cisa\domain5\eng\protection-of-information-assets.html</link><guid isPermaLink="false">Achive/CISA/Domain5/Eng/Protection of Information Assets.md</guid><pubDate>Mon, 19 Aug 2024 04:52:27 GMT</pubDate></item><item><title><![CDATA[Important Concept]]></title><description><![CDATA[ 
+ <br><br>
+<br>
+Before an Audit:
+
+<br>It is crucial to input information related to "threats" (threat assessment) because audits are related to threats.
+
+
+<br>
+Information Classification:
+
+<br>Performed to prevent data loss and ensure protection.
+
+
+<br>
+KRI (Key Risk Indicator):
+
+<br>Detects unacceptable threat levels or changes in threats, not the discovery of new threats.
+
+
+<br>
+Auditor's Actions:
+
+<br>If findings are discovered, it is preferable to report them to the audit committee or the subject before documenting them. For example, the audit manager.
+
+
+<br>
+Information Security Framework:
+
+<br>Includes compliance with regulations and legal requirements. The framework is broader than policies and is crucial in developing information security policies.
+
+
+<br>
+Development Methodologies in IT Management and Standards:
+
+<br>Must include risk management techniques to meet information security requirements.
+
+
+<br>
+Control Summation:
+
+<br>Ensures "processing integrity."
+
+
+<br>
+Small Organizations:
+
+<br>When role separation is difficult, monitoring is usually the most appropriate option compared to review.
+
+
+<br>
+BCP (Business Continuity Planning):
+
+<br>Testing is more critical than having updates; a lack of testing is a more significant issue.
+
+
+<br>
+Escrow Agreements:
+
+<br>Performed to ensure continuity. Therefore, escrow agreements should always be implemented to guarantee continuity. For example, an escrow repository must always have the latest version of the code.
+
+
+<br>
+Certificate Lifespan:
+
+<br>Managed by the Certificate Authority (CA). The Certificate Revocation List (CRL) only provides a list of revoked certificates.
+
+
+<br>
+Checksum:
+
+<br>Is a "preventive" control.
+
+
+<br>
+Information Security Policy:
+
+<br>Should consider the risk management process. Although considering the information security framework is also a good approach, it may not account for specific organizational circumstances.
+
+
+<br>
+Balanced Scorecard (BSC):
+
+<br>Measures the efficiency of IT governance.
+
+
+<br>
+Cloud Access Security Broker (CASB):
+
+<br>Provides visibility and control over data in the cloud.
+
+
+<br>
+Program Changes:
+
+<br>Must be "thoroughly tested" to ensure integrity, confidentiality, and compliance with requirements.
+
+
+<br>
+Data Classification:
+
+<br>The first step in data protection.
+
+
+<br>
+Configuration Management System:
+
+<br>One of its purposes is to define and manage "software baselines."
+
+
+<br>
+Enterprise Risk Management (ERM):
+
+<br>The responsibility of the Board of Directors.
+
+
+<br>
+Tokenization and Masking:
+
+<br>Tokenization: Replaces sensitive data with randomly generated tokens, storing the tokens in the database and keeping the actual data elsewhere for confidentiality.
+<br>Masking: Obscures some or all parts of sensitive data. It maintains confidentiality while allowing users to recognize their own identification information.
+
+
+<br>
+SIEM (Security Information and Event Management):
+
+<br>Collects and consolidates various logs and events into a single source of information.
+
+
+<br>
+Information Security Policies:
+
+<br>Should consider the risk management process.
+
+
+<br>
+Automated Internal Controls:
+
+<br>Capable of reviewing large-scale data.
+
+
+<br>
+Help Desk:
+
+<br>The most critical aspect is the customer's evaluation since it is used by customers frequently.
+
+
+<br>
+Agile Development Methodology:
+
+<br>Requires rigorous release management due to rapid changes and deployments.
+
+
+<br>
+Auditing Projects:
+
+<br>When planning or selecting an audit project, it is important to consider the project's benefits and justification. Therefore, reviewing the business case of the project is crucial for audit project selection.
+
+
+<br>
+Asset Disposal Process:
+
+<br>The most important aspect is the data stored on the asset, followed by ensuring the process securely disposes of the asset.
+
+
+<br>
+Audit Committee:
+
+<br>Best suited for reporting findings and disputes due to its independence from operations.
+
+
+<br>
+IT Governance:
+
+<br>The starting point for ensuring responsibilities are met is making the information widely known across the organization.
+
+
+<br>
+DLP (Data Loss Prevention):
+
+<br>Training on information assets and security alongside DLP significantly contributes to preventing data leaks.
+
+
+<br>
+Portfolio Management:
+
+<br>Aligns projects with organizational requirements and strategy. If this alignment is lacking, projects may not meet organizational needs and remain unused.
+
+
+<br>
+DLP Systems:
+
+<br>Should detect and monitor malicious traffic.
+
+
+<br>
+Disk Destruction:
+
+<br>If a disk is to be reused and cannot be destroyed, it should be overwritten multiple times.
+
+
+<br>
+Incident Management Reporting:
+
+<br>Should be independent.
+
+
+<br>
+Thin Clients:
+
+<br>Reduce the need for management.
+
+
+<br>
+Most Comprehensive Information on Risk:
+
+<br>Provided by risk assessment.
+
+
+<br>
+Evidence:
+
+<br>Should be extracted from "copies" rather than originals.
+
+
+<br>
+Visitor Procedures:
+
+<br>For data centers or servers, the best procedure is for employees to escort the visitors.
+
+
+<br>
+Outsourcing Critical Processes:
+
+<br>Requires audit rights to prevent significant issues like fraud. Continuous monitoring is essential.
+
+
+<br>
+Incident Response Capabilities:
+
+<br>The most important aspect is documenting lessons learned to avoid repeating the same incidents.
+
+
+<br>
+Using Risk Assessment in Audits:
+
+<br>The main reason is to allocate resources efficiently to the audit area.
+
+
+<br>
+Disaster Situations:
+
+<br>For data center or server backups, ensure that backups are stored "off-site" due to potential complete destruction of the data center or server building.
+
+
+<br>
+Outsourcing:
+
+<br>The main advantage is accessing skilled personnel and services at a lower cost.
+
+
+<br>
+Virtual Infrastructure Risks:
+
+<br>Standardization of images is crucial to avoid major risks.
+
+
+<br>
+Checksum:
+
+<br>Ensures integrity, i.e., the correctness of data.
+
+
+]]></description><link>achive\cisa\important-concept\eng\important-concept.html</link><guid isPermaLink="false">Achive/CISA/Important Concept/Eng/Important Concept.md</guid><pubDate>Mon, 19 Aug 2024 04:53:13 GMT</pubDate></item><item><title><![CDATA[IT 감사 프로세스 - 2]]></title><description><![CDATA[ 
  <br><br> <br><br><br>
 <br>연간 감사 계획
 <br>개별 감사 계획
@@ -186,75 +1102,6 @@
 
 
 ]]></description><link>achive\cisa\domain1\kor\it-감사-프로세스-2.html</link><guid isPermaLink="false">Achive/CISA/Domain1/kor/IT 감사 프로세스 - 2.md</guid><pubDate>Mon, 19 Aug 2024 01:33:46 GMT</pubDate></item><item><title><![CDATA[정보 시스템 구입, 개발 및 관리]]></title><description><![CDATA[ 
- <br><br><br><br><br>&nbsp;1. 타당성 조사(정말로 필요한가?<br>
-2. 요구사항 정의<br>
-3. 설계(상세 설계), 개발, 테스트<br>
-4. 구현(인수 테스트 등등) - 구현 후<br>
-타당성 검토
-<br>
-<br>프로젝트의 성공 확률을 높여주기 위해서 수행해야 한다.<br>
--&nbsp;기대 효과, 개발 비용, 위험 분석, 관리 검토, 수행
-<br>주기적으로 검토해야 한다.
-<br>
-요구 사항 정의
-<br>
-<br>기본 설계: 사용자의 요구 사항을 정의하고 분석(사용자, 경영진 참여)
-<br>시스템 요구사항을&nbsp;공식적으로&nbsp;문서화
-<br>내장감사모델이 필요한지 검토, 필요하면 개념 설계 포함
-<br>사업 사례(Business Case) 작성 단계
-<br>인수 테스트 요구 사항이 이 단계에서 정해진다.
-<br>
-설계(상세 설계)
-<br>
-<br>상세 설계<br>
--&nbsp;CISA가 집중적으로 확인한다.
-<br>프로그램이 적절한 통제 절차로&nbsp;프로그래밍 되어있는지 확인<br>
--&nbsp;모든 변경 사항에 경영진 승인이 있었는지 확인
-<br>기준선:&nbsp;범위 변경 문제를 "완화"할 수 있다.
-<br>기준선은&nbsp;형상관리의 기준, 변경 관리의 대상이 된다.
-<br><br><br>
-<br>컴포넌트 끼리 연결해서 개발<br>
--&nbsp;개발 시간을 단축, 비용 절감, 품질 개선, 모듈화 추진
-<br><br><br>
-<br>시스템 유연성
-<br>사용자 편리성
-<br>기존 시스템 통합 환경을 제공
-<br>비용 효율적
-<br>플랫폼이 독립적이고 표준화된 비즈니스 로직 구현
-<br>
-동작과정
-<br>
-<br>서비스 정의 및 등록
-<br>웹 서비스 검색
-<br>웹 서비스 위치
-<br>웹 서비스 요청
-<br>웹 서비스 수행
-<br><br><br>
-<br>시스템의 일부나 전체 시스템 개발 시에&nbsp;사용자의 요구 사항을 최대한 반영한다.
-<br>
-고려 사항
-<br>-&nbsp;&nbsp;위협이 증가하나&nbsp;자산이나 시간&nbsp;경감<br>
-<br>통제가 어렵다.
-<br>사용자 요구사항에만 집중하다보면&nbsp;개발 통제에 소홀할 수 있다.
-<br>통제의 변경이 다른 방식보다 어렵다.
-<br>디자인이나 요구사항이 자주 변경될 시 품질 관리나&nbsp;승인, 관리가 어렵다.
-<br><br><br>
-<br>개발 속도 빠르게 하면서&nbsp;자산 효율성 증가, 품질 유지
-<br>개발 및 테스트 SWOT<br>
--&nbsp;진화적 프로토타입 및 자동화 개발도구, 통합 환경, 중앙 저장소 사용
-<br>개발 시간&nbsp;엄격히 준수(Time boxing 기법)
-<br><br><br>
-<br>급변하는 환경에서&nbsp;빠르게 변화하면서 더 큰 이익을 얻음
-<br><br><br>
-<br>기존 업무 프로세스 고려하고&nbsp;급진적으로 프로세스 재설계
-<br>전체적으로 큰 변경을 하기에&nbsp;중장기적인 개선이 필요
-<br>개선 후 평가는 단순하게 진행
-<br>
-CISA 감사인의 관점
-<br>
-<br>시험 나옴<br>
--&nbsp;&nbsp;BRP 이후 기존 통제에 어떤 영향이 있는지 확인
-]]></description><link>achive\cisa\domain3\kor\정보-시스템-구입-개발-및-관리-2.html</link><guid isPermaLink="false">Achive/CISA/Domain3/Kor/정보 시스템 구입 개발 및 관리 2.md</guid><pubDate>Mon, 19 Aug 2024 02:57:14 GMT</pubDate></item><item><title><![CDATA[정보 시스템 구입, 개발 및 관리]]></title><description><![CDATA[ 
  <br><br><br><br><br>
 <br>타당성 조사
 <br>
