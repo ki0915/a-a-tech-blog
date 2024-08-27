@@ -1,0 +1,214 @@
+<!DOCTYPE html> <html><head>
+		<title>1. 취약점 101</title>
+		<base href="..\..\..\..\../">
+		<meta id="root-path" root-path="..\..\..\..\../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="Obsidian Vault - 1. 취약점 101">
+		<meta property="og:title" content="1. 취약점 101">
+		<meta property="og:description" content="Obsidian Vault - 1. 취약점 101">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="achive/tryhackme/jr-penetration-tester/취약점-연구/kor/1.-취약점-101.html">
+		<meta property="og:image" content="https://blog.kakaocdn.net/dn/bMe1ZT/btsplrf0Vyb/ZZ3TPeCxLJ1rHADK0jlmX0/img.png">
+		<meta property="og:site_name" content="Obsidian Vault">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="lib/scripts/pixi.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><include src="lib/html/custom-head-content.html"></include><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/other-plugins.css"></noscript><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript><link rel="preload" href="lib/styles/snippets.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/snippets.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon ctp-latte ctp-mocha ctp-accent-rosewater anuppuccin-accent-toggle anp-h1-red anp-h2-peach anp-h3-green anp-h4-teal anp-h5-lavender anp-h6-mauve anp-bold-red anp-italic-green anp-highlight-yellow"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="1. 취약점 101"><ol>
+<li dir="auto">취약점 101</li>
+</ol></h1><div><div data-callout-metadata="" data-callout-fold="" data-callout="abstract" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-clipboard-list"><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="M12 11h4"></path><path d="M12 16h4"></path><path d="M8 11h.01"></path><path d="M8 16h.01"></path></svg></div><div class="callout-title-inner heading-wrapper"><h2 data-heading="취약점&nbsp;101" dir="auto" class="heading" id="취약점&nbsp;101"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>취약점&nbsp;101</h2><div class="heading-children"></div></div></div></div></div><div class="heading-wrapper"><h4 data-heading="1.&nbsp;&nbsp;취약점 소개" dir="auto" class="heading" id="1.&nbsp;&nbsp;취약점_소개"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>1.&nbsp;&nbsp;취약점 소개</h4><div class="heading-children"><div><hr></div><div><p dir="auto">&nbsp;사이버 보안의 취약성은 시스템 또는 애플리케이션의 설계,&nbsp;구현 또는 동작의 약점 또는 결함으로 정의됩니다.&nbsp;공격자는 이러한 약점을 악용하여 공격을 수행할 수 있습니다.<br>
+이번 학습에서는 대표적인 다섯 가지의 취약점을 설명하려고 합니다.&nbsp;다음은 대표적인 취약점들입니다.&nbsp;이를 잘 확인해주세요.</p></div><div><blockquote dir="auto">
+<p>대표적인 취약점</p>
+</blockquote></div><div dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th dir="auto"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>취약점</strong></td>
+<td dir="ltr"><strong>설명</strong></td>
+</tr>
+<tr>
+<td dir="ltr">운영&nbsp;체제</td>
+<td dir="ltr">이러한&nbsp;유형의&nbsp;취약성은&nbsp;운영&nbsp;체제(OS)&nbsp;내에서&nbsp;발견되며&nbsp;종종&nbsp;권한&nbsp;에스컬레이션을&nbsp;초래합니다.</td>
+</tr>
+<tr>
+<td dir="ltr">(잘못된)&nbsp;구성&nbsp;기반</td>
+<td dir="ltr">이러한&nbsp;유형의&nbsp;취약점은&nbsp;잘못&nbsp;구성된&nbsp;응용&nbsp;프로그램&nbsp;또는&nbsp;서비스에서&nbsp;비롯됩니다.&nbsp;예를&nbsp;들어&nbsp;고객&nbsp;세부&nbsp;정보를&nbsp;노출하는&nbsp;웹&nbsp;사이트입니다.</td>
+</tr>
+<tr>
+<td dir="ltr">취약하거나&nbsp;기본&nbsp;자격&nbsp;증명</td>
+<td dir="ltr">인증&nbsp;요소가&nbsp;있는&nbsp;응용&nbsp;프로그램&nbsp;및&nbsp;서비스는&nbsp;설치&nbsp;시&nbsp;기본&nbsp;자격&nbsp;증명과&nbsp;함께&nbsp;제공됩니다.&nbsp;예를&nbsp;들어&nbsp;관리자&nbsp;대시보드에는&nbsp;"admin"이라는&nbsp;사용자&nbsp;이름과&nbsp;암호가&nbsp;있을&nbsp;수&nbsp;있습니다.&nbsp;이들은&nbsp;공격자가&nbsp;쉽게&nbsp;추측할&nbsp;수&nbsp;있습니다.</td>
+</tr>
+<tr>
+<td dir="ltr">애플리케이션&nbsp;로직</td>
+<td dir="ltr">이러한&nbsp;취약점은&nbsp;잘못&nbsp;설계된&nbsp;응용&nbsp;프로그램의&nbsp;결과입니다.&nbsp;예를&nbsp;들어&nbsp;잘못&nbsp;구현된&nbsp;인증&nbsp;메커니즘으로&nbsp;인해&nbsp;공격자가&nbsp;사용자를&nbsp;위장할&nbsp;수&nbsp;있습니다.</td>
+</tr>
+<tr>
+<td dir="ltr">인적&nbsp;요소</td>
+<td dir="ltr">Human-Factor&nbsp;취약점은&nbsp;사람의&nbsp;행동이&nbsp;보안에&nbsp;영향을&nbsp;미치는&nbsp;취약점입니다.&nbsp;예를&nbsp;들어,&nbsp;피싱&nbsp;이메일은&nbsp;사람들이&nbsp;합법적이라고&nbsp;믿도록&nbsp;속이도록&nbsp;설계되었습니다.</td>
+</tr>
+</tbody>
+</table></div><div><blockquote dir="auto">
+<p>문제:</p>
+</blockquote></div><div><div data-callout-metadata="" data-callout-fold="" data-callout="question" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-help-circle"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></div><div class="callout-title-inner">공격자는&nbsp;시스템&nbsp;계정의&nbsp;권한을&nbsp;"사용자"에서&nbsp;"관리자"로&nbsp;업그레이드할&nbsp;수&nbsp;있었습니다.&nbsp;이것은&nbsp;어떤&nbsp;유형의&nbsp;취약점입니까?</div></div></div></div><div><p dir="auto">답: Operating System</p></div><div><div data-callout-metadata="" data-callout-fold="" data-callout="question" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-help-circle"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></div><div class="callout-title-inner">인증을&nbsp;위해&nbsp;쿠키를&nbsp;사용하여&nbsp;로그인&nbsp;패널을&nbsp;우회할&nbsp;수&nbsp;있습니다.&nbsp;이것은&nbsp;어떤&nbsp;유형의&nbsp;취약점입니까?</div></div></div></div><div><p dir="auto">답: Application Logic</p></div></div></div><div class="heading-wrapper"><h4 data-heading="2.&nbsp;&nbsp;채점 취약점(CVSS&nbsp;및&nbsp;VPR)" dir="auto" class="heading" id="2.&nbsp;&nbsp;채점_취약점(CVSS&nbsp;및&nbsp;VPR)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>2.&nbsp;&nbsp;채점 취약점(CVSS&nbsp;및&nbsp;VPR)</h4><div class="heading-children"><div><hr></div><div><p dir="auto">취약성 관리는 조직이 직면한 취약점을 평가,&nbsp;분류하고 궁극적으로 해결하는 과정입니다.&nbsp;이를 위해 프레임워크들을 사용하는데 대표적으로는&nbsp;CVSS가 있습니다.</p></div><div><blockquote dir="auto">
+<p>CVSS(Common Vulnerability Scoring System)</p>
+</blockquote></div><div><p dir="auto">2005년에 처음 도입된&nbsp;CVSS&nbsp;(Common Vulnerability Scoring System&nbsp;)는&nbsp;취약성&nbsp;점수&nbsp;산정을&nbsp;위한&nbsp;매우&nbsp;인기&nbsp;있는&nbsp;프레임워크이며&nbsp;세&nbsp;가지&nbsp;주요한&nbsp;기준이&nbsp;있습니다.</p></div><div><p dir="auto">1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;취약점을 악용하는 것이 얼마나 쉬운가?</p></div><div><p dir="auto">2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이에 대한 익스플로잇이 존재하는가?</p></div><div><p dir="auto">3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이 취약점은 보안의&nbsp;3요소를 어떻게 침해하는가?</p></div><div><p dir="auto">이 프레임워크를 통하려 점수를 계산하려면 계선기를 사용해야 할 정도로 변수가 많습니다.&nbsp;이에 대한 점수의 등급과 범위를 아래 표로 표현하겠습니다.</p></div><div dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th dir="auto"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>평가</strong></td>
+<td dir="ltr"><strong>점수</strong></td>
+</tr>
+<tr>
+<td dir="ltr"><strong>없음</strong></td>
+<td dir="auto">0</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>낮은</strong></td>
+<td dir="auto">0.1 - 3.9</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>중간</strong></td>
+<td dir="auto">4.0 - 6.9</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>높은</strong></td>
+<td dir="auto">7.0 - 8.9</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>비판적인</strong></td>
+<td dir="auto">9.0 - 10.0</td>
+</tr>
+</tbody>
+</table></div><div><p dir="auto">하지만&nbsp;CVSS가 완전 무결한 보안 프레임 워크는 아닙니다.&nbsp;장단점은 아래와 같습니다.</p></div><div dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th dir="auto"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>CVSS</strong>&nbsp;<strong>의</strong>&nbsp;<strong>장점</strong></td>
+<td dir="ltr"><strong>CVSS</strong>&nbsp;<strong>의</strong>&nbsp;<strong>단점</strong></td>
+</tr>
+<tr>
+<td dir="ltr">CVSS는&nbsp;오랫동안&nbsp;사용된&nbsp;프레임워크입니다.</td>
+<td dir="ltr">CVSS는&nbsp;취약점의&nbsp;우선&nbsp;순위를&nbsp;지정하도록&nbsp;설계되지&nbsp;않았으며&nbsp;대신&nbsp;심각도&nbsp;값을&nbsp;할당합니다.</td>
+</tr>
+<tr>
+<td dir="ltr">CVSS는&nbsp;조직에서&nbsp;널리&nbsp;사용됩니다.</td>
+<td dir="ltr">CVSS는&nbsp;이용&nbsp;가능한&nbsp;익스플로잇에&nbsp;대한&nbsp;취약점을&nbsp;집중적으로&nbsp;평가합니다.&nbsp;그러나&nbsp;모든&nbsp;취약점의&nbsp;20%만이&nbsp;익스플로잇이&nbsp;가능합니다(&nbsp;<a data-tooltip-position="top" aria-label="https://www.tenable.com/research" rel="noopener" class="external-link" href="https://www.tenable.com/research" target="_blank">Tenable., 2020</a>&nbsp;).</td>
+</tr>
+<tr>
+<td dir="ltr">CVSS는&nbsp;NIST와&nbsp;같은&nbsp;조직에서&nbsp;채택하고&nbsp;권장하는&nbsp;무료&nbsp;프레임워크입니다.</td>
+<td dir="ltr">익스플로잇과&nbsp;같은&nbsp;새로운&nbsp;개발이&nbsp;발견될&nbsp;수&nbsp;있음에도&nbsp;불구하고&nbsp;취약성은&nbsp;평가&nbsp;후&nbsp;점수를&nbsp;거의&nbsp;변경하지&nbsp;않습니다.</td>
+</tr>
+</tbody>
+</table></div><div><blockquote dir="auto">
+<p><strong>취약점</strong>&nbsp;<strong>우선순위</strong>&nbsp;<strong>등급**</strong>(&nbsp;VPR&nbsp;)</p>
+</blockquote></div><div><p dir="auto">VPR&nbsp;프레임워크&nbsp;는&nbsp;취약성&nbsp;관리를&nbsp;위한&nbsp;업계&nbsp;솔루션&nbsp;제공업체인&nbsp;Tenable에서&nbsp;개발한&nbsp;훨씬&nbsp;더&nbsp;현대적인&nbsp;취약성&nbsp;관리&nbsp;프레임워크입니다. .&nbsp;즉, CVSS와&nbsp;같은&nbsp;영향과&nbsp;같은&nbsp;요인보다는&nbsp;취약성이&nbsp;조직&nbsp;자체에&nbsp;가하는&nbsp;위험에&nbsp;중점을&nbsp;두고&nbsp;취약성에&nbsp;점수가&nbsp;부여됩니다.</p></div><div><p dir="auto">VPR&nbsp;점수는&nbsp;취약점의&nbsp;관련성을&nbsp;고려합니다.&nbsp;예를&nbsp;들어,&nbsp;해당&nbsp;취약성이&nbsp;조직에&nbsp;적용되지&nbsp;않는&nbsp;경우(즉,&nbsp;취약한&nbsp;소프트웨어를&nbsp;사용하지&nbsp;않는&nbsp;경우)&nbsp;취약성과&nbsp;관련된&nbsp;위험은&nbsp;고려되지&nbsp;않습니다.&nbsp;VPR은&nbsp;또한&nbsp;점수&nbsp;매기기에서&nbsp;상당히&nbsp;역동적입니다.&nbsp;취약성이&nbsp;제기할&nbsp;수&nbsp;있는&nbsp;위험은&nbsp;시간이&nbsp;지남에&nbsp;따라&nbsp;거의&nbsp;매일&nbsp;변할&nbsp;수&nbsp;있습니다.</p></div><div><p dir="auto">VPR의&nbsp;점수&nbsp;표는&nbsp;아래와&nbsp;같습니다.</p></div><div dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th dir="auto"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>평가</strong></td>
+<td dir="ltr"><strong>점수</strong></td>
+</tr>
+<tr>
+<td dir="ltr"><strong>낮은</strong></td>
+<td dir="auto">0.0 - 3.9</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>중간</strong></td>
+<td dir="auto">4.0 - 6.9</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>높은</strong></td>
+<td dir="auto">7.0 - 8.9</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>비판적인</strong></td>
+<td dir="auto">9.0 - 10.0</td>
+</tr>
+</tbody>
+</table></div><div><p dir="auto">장단점은 아래와 같습니다.</p></div><div dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th dir="auto"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>VPR</strong>&nbsp;<strong>의</strong>&nbsp;<strong>장점</strong></td>
+<td dir="ltr"><strong>VPR</strong>&nbsp;<strong>의</strong>&nbsp;<strong>단점</strong></td>
+</tr>
+<tr>
+<td dir="ltr">VPR&nbsp;은&nbsp;실세계의&nbsp;최신&nbsp;프레임워크입니다.</td>
+<td dir="ltr">VPR&nbsp;은&nbsp;다른&nbsp;취약성&nbsp;관리&nbsp;프레임워크처럼&nbsp;오픈&nbsp;소스가&nbsp;아닙니다.</td>
+</tr>
+<tr>
+<td dir="ltr">VPR은&nbsp;위험을&nbsp;계산할&nbsp;때&nbsp;150개&nbsp;이상의&nbsp;요소를&nbsp;고려합니다.</td>
+<td dir="ltr">VPR은&nbsp;상용&nbsp;플랫폼과&nbsp;별도로&nbsp;채택될&nbsp;수&nbsp;있습니다.</td>
+</tr>
+<tr>
+<td dir="ltr">VPR&nbsp;은&nbsp;위험&nbsp;기반이며&nbsp;조직에서&nbsp;패치&nbsp;취약점의&nbsp;우선&nbsp;순위를&nbsp;지정하는&nbsp;데&nbsp;사용됩니다.</td>
+<td dir="ltr">VPR은&nbsp;CVSS만큼&nbsp;CIA&nbsp;삼합체를&nbsp;고려하지&nbsp;않습니다.&nbsp;즉,&nbsp;데이터의&nbsp;기밀성,&nbsp;무결성&nbsp;및&nbsp;가용성에&nbsp;대한&nbsp;위험은&nbsp;VPR을&nbsp;사용할&nbsp;때&nbsp;취약점&nbsp;점수를&nbsp;매기는&nbsp;데&nbsp;큰&nbsp;요인이&nbsp;되지&nbsp;않습니다.</td>
+</tr>
+<tr>
+<td dir="ltr">점수는&nbsp;최종적인&nbsp;것이&nbsp;아니며&nbsp;매우&nbsp;역동적입니다.&nbsp;즉,&nbsp;취약성에&nbsp;부여해야&nbsp;하는&nbsp;우선&nbsp;순위는&nbsp;취약성이&nbsp;오래됨에&nbsp;따라&nbsp;변경될&nbsp;수&nbsp;있습니다.</td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div><div><blockquote dir="auto">
+<p>문제:</p>
+</blockquote></div><div><div data-callout-metadata="" data-callout-fold="" data-callout="question" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-help-circle"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></div><div class="callout-title-inner">CVSS의&nbsp;첫&nbsp;번째&nbsp;버전은&nbsp;몇&nbsp;년도에&nbsp;출판되었습니까?</div></div></div></div><div><p dir="auto">답: 2005</p></div><div><div data-callout-metadata="" data-callout-fold="" data-callout="question" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-help-circle"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></div><div class="callout-title-inner">취약성이&nbsp;조직에&nbsp;미치는&nbsp;위험을&nbsp;기반으로&nbsp;취약성을&nbsp;평가하려면&nbsp;어떤&nbsp;프레임워크를&nbsp;사용해야&nbsp;합니까?</div></div></div></div><div><p dir="auto"><strong>참고**</strong>:**&nbsp;여기에서&nbsp;약어를&nbsp;찾고&nbsp;있습니다.</p></div><div><p dir="auto">답: VPR</p></div><div><div data-callout-metadata="" data-callout-fold="" data-callout="question" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-help-circle"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></div><div class="callout-title-inner">무료&nbsp;오픈&nbsp;소스&nbsp;프레임워크를&nbsp;사용하고&nbsp;싶다면&nbsp;어떤&nbsp;프레임워크를&nbsp;사용하시겠습니까?</div></div></div></div><div><p dir="auto"><strong>참고**</strong>:**&nbsp;&nbsp;여기에서&nbsp;약어를&nbsp;찾고&nbsp;있습니다.</p></div><div><p dir="auto">답: CVSS</p></div></div></div><div class="heading-wrapper"><h4 data-heading="3.&nbsp;취약점 데이터 베이스" dir="auto" class="heading" id="3.&nbsp;취약점_데이터_베이스"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>3.&nbsp;취약점 데이터 베이스</h4><div class="heading-children"><div><hr></div><div><p dir="auto">&nbsp;사이버 보안을 접하게 되면서 다양한 애플리케이션과 서비스에 대해 접하게 될 것입니다.&nbsp;이 방대한 양의 서비스들에서 모든 취약점을 혼자 찾아내는 건 불가능에 가깝습니다.</p></div><div><p dir="auto">다행히 인터넷에는&nbsp;모든&nbsp;종류의&nbsp;소프트웨어,&nbsp;운영&nbsp;체제&nbsp;등에&nbsp;대한&nbsp;취약점을&nbsp;기술해&nbsp;놓은&nbsp;웹&nbsp;사이트가&nbsp;있습니다.&nbsp;대표적으로&nbsp;아래의&nbsp;두&nbsp;가지가&nbsp;있습니다.</p></div><div><p dir="auto">1.&nbsp;<a data-tooltip-position="top" aria-label="https://nvd.nist.gov/vuln/full-listing" rel="noopener" class="external-link" href="https://nvd.nist.gov/vuln/full-listing" target="_blank">NVD(국가&nbsp;취약성&nbsp;데이터베이스)</a></p></div><div><p dir="auto">2.&nbsp;<a data-tooltip-position="top" aria-label="http://exploit-db.com/" rel="noopener" class="external-link" href="http://exploit-db.com/" target="_blank">익스플로잇-DB</a></p></div><div><p dir="auto">이&nbsp;두&nbsp;리소스에&nbsp;대해&nbsp;알아보기&nbsp;전에&nbsp;몇&nbsp;가지&nbsp;기본&nbsp;핵심&nbsp;용어에&nbsp;대한&nbsp;이해가&nbsp;같은&nbsp;페이지에&nbsp;있는지&nbsp;확인하십시오.</p></div><div dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th dir="auto"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>용어</strong></td>
+<td dir="ltr"><strong>정의</strong></td>
+</tr>
+<tr>
+<td dir="ltr">취약점</td>
+<td dir="ltr">취약성은&nbsp;시스템이나&nbsp;응용&nbsp;프로그램의&nbsp;설계,&nbsp;구현&nbsp;또는&nbsp;동작의&nbsp;약점&nbsp;또는&nbsp;결함으로&nbsp;정의됩니다.</td>
+</tr>
+<tr>
+<td dir="ltr">악용하다</td>
+<td dir="ltr">익스플로잇은&nbsp;시스템&nbsp;또는&nbsp;애플리케이션의&nbsp;취약성을&nbsp;이용하는&nbsp;작업&nbsp;또는&nbsp;동작과&nbsp;같은&nbsp;것입니다.</td>
+</tr>
+<tr>
+<td dir="ltr">개념&nbsp;증명(&nbsp;PoC&nbsp;)</td>
+<td dir="ltr">PoC는&nbsp;종종&nbsp;취약점의&nbsp;악용을&nbsp;보여주는&nbsp;기술&nbsp;또는&nbsp;도구입니다.</td>
+</tr>
+</tbody>
+</table></div></div></div><div class="heading-wrapper"><h4 data-heading="**NVD –**&nbsp;**국가**&nbsp;**취약성**&nbsp;**데이터베이스**" dir="auto" class="heading" id="**NVD_–**&nbsp;**국가**&nbsp;**취약성**&nbsp;**데이터베이스**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>NVD –</strong>&nbsp;<strong>국가</strong>&nbsp;<strong>취약성</strong>&nbsp;<strong>데이터베이스</strong></h4><div class="heading-children"><div><hr></div><div><p dir="auto">National Vulnerability Database는&nbsp;공개적으로&nbsp;분류된&nbsp;모든&nbsp;취약점을&nbsp;나열하는&nbsp;웹&nbsp;사이트입니다.&nbsp;사이버&nbsp;보안에서&nbsp;취약성은&nbsp;"&nbsp;<strong>일반적인</strong>&nbsp;취약성&nbsp;및&nbsp;<strong>노출</strong>&nbsp;<strong>"</strong>&nbsp;(또는&nbsp;줄여서&nbsp;CVE&nbsp;)&nbsp;로&nbsp;정의됩니다.</p></div><div><p dir="auto">이러한&nbsp;CVE의&nbsp;형식은&nbsp;CVE-YEAR-IDNUMBER.&nbsp;예를&nbsp;들어&nbsp;유명한&nbsp;악성코드인&nbsp;WannaCry가&nbsp;사용한&nbsp;취약점은CVE-2017-0144.</p></div><div><p dir="auto">NVD를&nbsp;사용하면&nbsp;카테고리&nbsp;및&nbsp;제출&nbsp;월별로&nbsp;필터를&nbsp;사용하여&nbsp;확인된&nbsp;모든&nbsp;CVE를&nbsp;볼&nbsp;수&nbsp;있습니다.&nbsp;예를&nbsp;들어,&nbsp;지금은&nbsp;8월이&nbsp;3일째입니다.&nbsp;이미&nbsp;223개의&nbsp;새로운&nbsp;CVE가&nbsp;이&nbsp;데이터베이스에&nbsp;제출되었습니다.</p></div><div><p dir="auto"><img src="https://blog.kakaocdn.net/dn/bMe1ZT/btsplrf0Vyb/ZZ3TPeCxLJ1rHADK0jlmX0/img.png" referrerpolicy="no-referrer"></p></div><div><p dir="auto">이&nbsp;웹&nbsp;사이트는&nbsp;새로운&nbsp;취약점을&nbsp;추적하는&nbsp;데&nbsp;도움이&nbsp;되지만&nbsp;특정&nbsp;애플리케이션이나&nbsp;시나리오에&nbsp;대한&nbsp;취약점을&nbsp;검색할&nbsp;때는&nbsp;좋지&nbsp;않습니다.</p></div></div></div><div class="heading-wrapper"><h4 data-heading="**Exploit-DB**" dir="auto" class="heading" id="**Exploit-DB**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>Exploit-DB</strong></h4><div class="heading-children"><div><hr></div><div><p dir="auto"><a data-tooltip-position="top" aria-label="https://www.exploit-db.com/" rel="noopener" class="external-link" href="https://www.exploit-db.com/" target="_blank">Exploit-DB는</a>&nbsp;우리가&nbsp;해커로서&nbsp;평가&nbsp;중에&nbsp;훨씬&nbsp;더&nbsp;도움이&nbsp;되는&nbsp;리소스입니다.&nbsp;Exploit-DB는&nbsp;소프트웨어&nbsp;또는&nbsp;애플리케이션의&nbsp;이름,&nbsp;작성자&nbsp;및&nbsp;버전으로&nbsp;저장된&nbsp;소프트웨어&nbsp;및&nbsp;애플리케이션에&nbsp;대한&nbsp;익스플로잇을&nbsp;보유합니다.</p></div><div><p dir="auto">Exploit-DB를&nbsp;사용하여&nbsp;특정&nbsp;취약점을&nbsp;악용하는&nbsp;데&nbsp;사용되는&nbsp;코드&nbsp;조각(개념&nbsp;증명이라고&nbsp;함)을&nbsp;찾을&nbsp;수&nbsp;있습니다.</p></div><div><p dir="auto"><img src="https://blog.kakaocdn.net/dn/55EJr/btspBzXhiTb/5kY14D3AzEhklRIkzWNwK0/img.png" referrerpolicy="no-referrer"></p></div><div><blockquote dir="auto">
+<p>문제:</p>
+</blockquote></div><div><p dir="auto"><a data-tooltip-position="top" aria-label="https://nvd.nist.gov/vuln/full-listing" rel="noopener" class="external-link" href="https://nvd.nist.gov/vuln/full-listing" target="_blank"><br>
+NVD를</a>&nbsp;사용하여&nbsp;2021년&nbsp;7월에&nbsp;제출된&nbsp;CVE는&nbsp;몇&nbsp;개입니까?</p></div><div><p dir="auto">답: 1585</p></div><div><p dir="auto"><a data-tooltip-position="top" aria-label="https://www.exploit-db.com/" rel="noopener" class="external-link" href="https://www.exploit-db.com/" target="_blank"><br>
+Exploit-DB</a>&nbsp;의&nbsp;작성자는&nbsp;누구입니까&nbsp;?</p></div><div><p dir="auto">답: Offensive Security</p></div></div></div><div class="heading-wrapper"><h4 data-heading="4.&nbsp;&nbsp;취약점 찾기의 예" dir="auto" class="heading" id="4.&nbsp;&nbsp;취약점_찾기의_예"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>4.&nbsp;&nbsp;취약점 찾기의 예</h4><div class="heading-children"><div><hr></div><div><p dir="auto">여기서&nbsp;각&nbsp;프로그램&nbsp;버전에서&nbsp;사용할&nbsp;수&nbsp;있는&nbsp;익스플로잇을&nbsp;검색하는&nbsp;방법을&nbsp;알려드리겠습니다.</p></div><div><p dir="auto">평가&nbsp;전반에&nbsp;걸쳐&nbsp;여러&nbsp;취약점을&nbsp;결합하여&nbsp;결과를&nbsp;얻는&nbsp;경우가&nbsp;많습니다.&nbsp;예를&nbsp;들어,&nbsp;이&nbsp;작업에서는&nbsp;"&nbsp;<strong>버전</strong>&nbsp;<strong>공개**</strong>"**&nbsp;취약점을&nbsp;활용하여&nbsp;애플리케이션의&nbsp;버전을&nbsp;알아낼&nbsp;것입니다.&nbsp;이&nbsp;버전에서는&nbsp;<a data-tooltip-position="top" aria-label="https://www.exploit-db.com/" rel="noopener" class="external-link" href="https://www.exploit-db.com/" target="_blank">Exploit-DB를</a>&nbsp;사용하여&nbsp;특정&nbsp;버전에서&nbsp;작동하는&nbsp;익스플로잇을&nbsp;검색할&nbsp;수&nbsp;있습니다.&nbsp;</p></div><div><p dir="auto">예를&nbsp;들어&nbsp;아래&nbsp;스크린샷에서&nbsp;이&nbsp;애플리케이션의&nbsp;이름과&nbsp;버전&nbsp;번호가&nbsp;"&nbsp;<strong>Apache&nbsp;Tomcat 9.0.17</strong>&nbsp;"&nbsp;임을&nbsp;알&nbsp;수&nbsp;있습니다.</p></div><div><p dir="auto"><img src="https://blog.kakaocdn.net/dn/RhZ1K/btspxrkS2Ma/0G9cgqJWn90BOKHVmwneGk/img.png" referrerpolicy="no-referrer"></p></div><div><p dir="auto"><strong>이</strong>&nbsp;<strong>정보를</strong>&nbsp;<strong>가지고</strong>&nbsp;<strong>Exploit-DB**</strong>의**&nbsp;<strong>검색</strong>&nbsp;<strong>필터를</strong>&nbsp;<strong>사용하여</strong>&nbsp;<strong>" Apache&nbsp;Tomcat 9.0.17</strong>&nbsp;"&nbsp;에&nbsp;적용될&nbsp;수&nbsp;있는&nbsp;익스플로잇을&nbsp;찾아봅시다&nbsp;.</p></div><div><p dir="auto"><img src="https://blog.kakaocdn.net/dn/nj1kU/btsplbYeH1r/VQa2kTfkMmfVqlThWE51hk/img.png" referrerpolicy="no-referrer"></p></div><div><p dir="auto">&nbsp;Exploit-DB를&nbsp;검색한&nbsp;후&nbsp;확인한&nbsp;결과,&nbsp;이&nbsp;특정&nbsp;버전의&nbsp;애플리케이션에&nbsp;유용할&nbsp;수&nbsp;있는&nbsp;총&nbsp;5개의&nbsp;익스플로잇이&nbsp;있습니다.&nbsp;</p></div><div><blockquote dir="auto">
+<p>질문:</p>
+</blockquote></div><div><div data-callout-metadata="" data-callout-fold="" data-callout="question" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-help-circle"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></div><div class="callout-title-inner">이&nbsp;예제에서&nbsp;애플리케이션의&nbsp;이름과&nbsp;버전을&nbsp;찾기&nbsp;위해&nbsp;어떤&nbsp;유형의&nbsp;취약점을&nbsp;사용했습니까?</div></div></div></div><div><p dir="auto">답: Version Disclosure</p></div><div><p dir="auto">+)&nbsp;쇼케이스: Ackme의 애플리케이션 악용</p></div><div><div data-callout-metadata="" data-callout-fold="" data-callout="question" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-help-circle"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></div><div class="callout-title-inner">ACKme의&nbsp;애플리케이션을&nbsp;악용하는&nbsp;쇼케이스를&nbsp;끝까지&nbsp;따라가면&nbsp;플래그를&nbsp;검색할&nbsp;수&nbsp;있습니다.&nbsp;이&nbsp;깃발은&nbsp;무엇입니까?</div></div></div></div><div><p dir="auto">답: THM{ACKME_ENGAGEMENT}</p></div><div class="mod-footer"></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button is-collapsed" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="achive\tryhackme\jr-penetration-tester\취약점-연구\kor\1.-취약점-101.html#1. 취약점 101"><div class="tree-item-contents heading-link" heading-name="
+취약점 101
+"><span class="tree-item-title">취약점 101</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item mod-collapsible is-collapsed" data-depth="2"><a class="tree-link" href="achive\tryhackme\jr-penetration-tester\취약점-연구\kor\1.-취약점-101.html#취약점&nbsp;101"><div class="tree-item-contents heading-link" heading-name="취약점&nbsp;101"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">취약점&nbsp;101</span></div></a><div class="tree-item-children nav-folder-children" style="display: none;"><div class="tree-item" data-depth="4"><a class="tree-link" href="achive\tryhackme\jr-penetration-tester\취약점-연구\kor\1.-취약점-101.html#1.&nbsp;&nbsp;취약점_소개"><div class="tree-item-contents heading-link" heading-name="1.&nbsp;&nbsp;취약점 소개"><span class="tree-item-title">1.&nbsp;&nbsp;취약점 소개</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="achive\tryhackme\jr-penetration-tester\취약점-연구\kor\1.-취약점-101.html#2.&nbsp;&nbsp;채점_취약점(CVSS&nbsp;및&nbsp;VPR)"><div class="tree-item-contents heading-link" heading-name="2.&nbsp;&nbsp;채점 취약점(CVSS&nbsp;및&nbsp;VPR)"><span class="tree-item-title">2.&nbsp;&nbsp;채점 취약점(CVSS&nbsp;및&nbsp;VPR)</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="achive\tryhackme\jr-penetration-tester\취약점-연구\kor\1.-취약점-101.html#3.&nbsp;취약점_데이터_베이스"><div class="tree-item-contents heading-link" heading-name="3.&nbsp;취약점 데이터 베이스"><span class="tree-item-title">3.&nbsp;취약점 데이터 베이스</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="achive\tryhackme\jr-penetration-tester\취약점-연구\kor\1.-취약점-101.html#**NVD_–**&nbsp;**국가**&nbsp;**취약성**&nbsp;**데이터베이스**"><div class="tree-item-contents heading-link" heading-name="**NVD –**&nbsp;**국가**&nbsp;**취약성**&nbsp;**데이터베이스**"><span class="tree-item-title"><strong>NVD –</strong>&nbsp;<strong>국가</strong>&nbsp;<strong>취약성</strong>&nbsp;<strong>데이터베이스</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="achive\tryhackme\jr-penetration-tester\취약점-연구\kor\1.-취약점-101.html#**Exploit-DB**"><div class="tree-item-contents heading-link" heading-name="**Exploit-DB**"><span class="tree-item-title"><strong>Exploit-DB</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="achive\tryhackme\jr-penetration-tester\취약점-연구\kor\1.-취약점-101.html#4.&nbsp;&nbsp;취약점_찾기의_예"><div class="tree-item-contents heading-link" heading-name="4.&nbsp;&nbsp;취약점 찾기의 예"><span class="tree-item-title">4.&nbsp;&nbsp;취약점 찾기의 예</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>

@@ -1,6 +1,6 @@
 {
   "vaultName": "Obsidian Vault",
-  "lastExport": 1724398330528,
+  "lastExport": 1724736681244,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon ctp-latte ctp-mocha ctp-accent-rosewater anuppuccin-accent-toggle anp-h1-red anp-h2-peach anp-h3-green anp-h4-teal anp-h5-lavender anp-h6-mauve anp-bold-red anp-italic-green anp-highlight-yellow",
   "useCustomHeadContent": true,
@@ -47,9 +47,20 @@
     "Achive/CISA/Important Concept/Kor/중요한 개념.md",
     "Achive/CISA/Important Concept/Kor/Kor.md",
     "Achive/CISA/Important Concept/Important Concept.md",
+    "Achive/tryhackme/보고서  Report/Eng/Daily Bugle Report.md",
+    "Achive/tryhackme/보고서  Report/Eng/Eng.md",
+    "Achive/tryhackme/보고서  Report/Kor/네트워크 보안 - Net Sec 보고서.md",
+    "Achive/tryhackme/보고서  Report/Kor/Daily Bugle Report.md",
+    "Achive/tryhackme/보고서  Report/Kor/Kor.md",
+    "Achive/tryhackme/보고서  Report/Kor/TryHackme Relevant(Kor).md",
+    "Achive/tryhackme/보고서  Report/보고서  Report.md",
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/1. Summary.md",
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/2.  Active Reconnaissance.md",
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/Eng.md",
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/1. 수동 정찰.md",
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/2. 적극적 정찰.md",
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/3. Nmap 라이브 호스트 검색.md",
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/3. Nmap 라이브 호스트 검색1.md",
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/4. Nmap 기본 포트 스캔.md",
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/5. Nmap 포스트 포트 스캔.md",
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/6. 프로토콜 및 서버.md",
@@ -82,6 +93,10 @@
     "Achive/tryhackme/Jr Penetration Tester/웹 해킹 소개/Kor/Kor.md",
     "Achive/tryhackme/Jr Penetration Tester/웹 해킹 소개/무제 파일.md",
     "Achive/tryhackme/Jr Penetration Tester/웹 해킹 소개/웹 해킹 소개.md",
+    "Achive/tryhackme/Jr Penetration Tester/취약점 연구/Kor/1. 취약점 101.md",
+    "Achive/tryhackme/Jr Penetration Tester/취약점 연구/Kor/2. 취약점 악용.md",
+    "Achive/tryhackme/Jr Penetration Tester/취약점 연구/Kor/Kor.md",
+    "Achive/tryhackme/Jr Penetration Tester/취약점 연구/취약점 연구.md",
     "Achive/tryhackme/Jr Penetration Tester/침투 테스트/Eng/1..md",
     "Achive/tryhackme/Jr Penetration Tester/침투 테스트/Eng/2. Security Principles.md",
     "Achive/tryhackme/Jr Penetration Tester/침투 테스트/Eng/Eng.md",
@@ -154,8 +169,15 @@
     "Template/CISA 템플릿1.md",
     "Template/Normal Template.md",
     "Template/Template.md",
+    "~$CP relevant 1.docx",
     "index.md",
+    "OSCP relevant.docx",
+    "OSCP relevant 1.docx",
     "Pasted image 20240821095000.png",
+    "Pasted image 20240826095948.png",
+    "TryHackme Daily Bugle Report.docx",
+    "TryHackme Daily Bugle Report 1.docx",
+    "TryHackme Daily Bugle Report 2.docx",
     "Vault.md",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
@@ -173,28 +195,6 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
-    "lib/fonts/mathjax_zero.woff",
-    "lib/fonts/mathjax_main-regular.woff",
-    "lib/fonts/mathjax_main-bold.woff",
-    "lib/fonts/mathjax_math-italic.woff",
-    "lib/fonts/mathjax_main-italic.woff",
-    "lib/fonts/mathjax_math-bolditalic.woff",
-    "lib/fonts/mathjax_size1-regular.woff",
-    "lib/fonts/mathjax_size2-regular.woff",
-    "lib/fonts/mathjax_size3-regular.woff",
-    "lib/fonts/mathjax_size4-regular.woff",
-    "lib/fonts/mathjax_ams-regular.woff",
-    "lib/fonts/mathjax_calligraphic-regular.woff",
-    "lib/fonts/mathjax_calligraphic-bold.woff",
-    "lib/fonts/mathjax_fraktur-regular.woff",
-    "lib/fonts/mathjax_fraktur-bold.woff",
-    "lib/fonts/mathjax_sansserif-regular.woff",
-    "lib/fonts/mathjax_sansserif-bold.woff",
-    "lib/fonts/mathjax_sansserif-italic.woff",
-    "lib/fonts/mathjax_script-regular.woff",
-    "lib/fonts/mathjax_typewriter-regular.woff",
-    "lib/fonts/mathjax_vector-regular.woff",
-    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -212,6 +212,7 @@
     "lib/styles/global-variable-styles.css",
     "lib/styles/main-styles.css",
     "lib/styles/snippets.css",
+    "lib/media/pasted-image-20240826095948.png",
     "lib/media/pasted-image-20240816134824.png"
   ],
   "mainDependencies": [
@@ -231,28 +232,6 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
-    "lib/fonts/mathjax_zero.woff",
-    "lib/fonts/mathjax_main-regular.woff",
-    "lib/fonts/mathjax_main-bold.woff",
-    "lib/fonts/mathjax_math-italic.woff",
-    "lib/fonts/mathjax_main-italic.woff",
-    "lib/fonts/mathjax_math-bolditalic.woff",
-    "lib/fonts/mathjax_size1-regular.woff",
-    "lib/fonts/mathjax_size2-regular.woff",
-    "lib/fonts/mathjax_size3-regular.woff",
-    "lib/fonts/mathjax_size4-regular.woff",
-    "lib/fonts/mathjax_ams-regular.woff",
-    "lib/fonts/mathjax_calligraphic-regular.woff",
-    "lib/fonts/mathjax_calligraphic-bold.woff",
-    "lib/fonts/mathjax_fraktur-regular.woff",
-    "lib/fonts/mathjax_fraktur-bold.woff",
-    "lib/fonts/mathjax_sansserif-regular.woff",
-    "lib/fonts/mathjax_sansserif-bold.woff",
-    "lib/fonts/mathjax_sansserif-italic.woff",
-    "lib/fonts/mathjax_script-regular.woff",
-    "lib/fonts/mathjax_typewriter-regular.woff",
-    "lib/fonts/mathjax_vector-regular.woff",
-    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -901,193 +880,193 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1724398330528,
-      "sourceSize": 182014,
+      "modifiedTime": 1724736681244,
+      "sourceSize": 205009,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1724398330528,
-      "sourceSize": 12114,
+      "modifiedTime": 1724736681244,
+      "sourceSize": 13289,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 11716,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 272363,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 350,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 3139,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
@@ -1219,8 +1198,8 @@
       "dependencies": []
     },
     "lib/html/custom-head-content.html": {
-      "modifiedTime": 1724398330528,
-      "sourceSize": 171675,
+      "modifiedTime": 1724736681244,
+      "sourceSize": 200914,
       "exportedPath": "lib/html/custom-head-content.html",
       "dependencies": []
     },
@@ -1321,19 +1300,19 @@
       "dependencies": []
     },
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/1. 수동 정찰.md": {
-      "modifiedTime": 1724398330528,
-      "sourceSize": 9480,
+      "modifiedTime": 1724736681244,
+      "sourceSize": 9481,
       "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/kor/1.-수동-정찰.html",
       "dependencies": []
     },
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/2. 적극적 정찰.md": {
-      "modifiedTime": 1724398330528,
-      "sourceSize": 21953,
+      "modifiedTime": 1724736681244,
+      "sourceSize": 22212,
       "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/kor/2.-적극적-정찰.html",
       "dependencies": []
     },
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/3. Nmap 라이브 호스트 검색.md": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1724736681244,
       "sourceSize": 37245,
       "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/kor/3.-nmap-라이브-호스트-검색.html",
       "dependencies": []
@@ -1516,6 +1495,148 @@
       "modifiedTime": 1724398330528,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
+      "dependencies": []
+    },
+    "Achive/tryhackme/보고서  Report/Eng/Daily Bugle Report.md": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 27563,
+      "exportedPath": "achive/tryhackme/보고서-report/eng/daily-bugle-report.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240826095948.png"
+      ]
+    },
+    "Achive/tryhackme/보고서  Report/Eng/Eng.md": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 0,
+      "exportedPath": "achive/tryhackme/보고서-report/eng/eng.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/보고서  Report/Kor/네트워크 보안 - Net Sec 보고서.md": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 5809,
+      "exportedPath": "achive/tryhackme/보고서-report/kor/네트워크-보안-net-sec-보고서.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/보고서  Report/Kor/Daily Bugle Report.md": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 27620,
+      "exportedPath": "achive/tryhackme/보고서-report/kor/daily-bugle-report.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240826095948.png"
+      ]
+    },
+    "Achive/tryhackme/보고서  Report/Kor/Kor.md": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 0,
+      "exportedPath": "achive/tryhackme/보고서-report/kor/kor.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/보고서  Report/Kor/TryHackme Relevant(Kor).md": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 63987,
+      "exportedPath": "achive/tryhackme/보고서-report/kor/tryhackme-relevant(kor).html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/보고서  Report/보고서  Report.md": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 0,
+      "exportedPath": "achive/tryhackme/보고서-report/보고서-report.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/Jr Penetration Tester/취약점 연구/Kor/1. 취약점 101.md": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 12546,
+      "exportedPath": "achive/tryhackme/jr-penetration-tester/취약점-연구/kor/1.-취약점-101.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/Jr Penetration Tester/취약점 연구/Kor/2. 취약점 악용.md": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 10635,
+      "exportedPath": "achive/tryhackme/jr-penetration-tester/취약점-연구/kor/2.-취약점-악용.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/Jr Penetration Tester/취약점 연구/Kor/Kor.md": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 0,
+      "exportedPath": "achive/tryhackme/jr-penetration-tester/취약점-연구/kor/kor.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/Jr Penetration Tester/취약점 연구/취약점 연구.md": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 0,
+      "exportedPath": "achive/tryhackme/jr-penetration-tester/취약점-연구/취약점-연구.html",
+      "dependencies": []
+    },
+    "/Users/media$CP relevant 1.docx": {
+      "modifiedTime": 1724736681244,
+      "sourceSize": 162,
+      "exportedPath": "/users/media$cp-relevant-1.docx",
+      "dependencies": []
+    },
+    "OSCP relevant.docx": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 496394,
+      "exportedPath": "oscp-relevant.docx",
+      "dependencies": []
+    },
+    "OSCP relevant 1.docx": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 496394,
+      "exportedPath": "oscp-relevant-1.docx",
+      "dependencies": []
+    },
+    "Pasted image 20240826095948.png": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 237289,
+      "exportedPath": "pasted-image-20240826095948.png",
+      "dependencies": []
+    },
+    "TryHackme Daily Bugle Report.docx": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 1165733,
+      "exportedPath": "tryhackme-daily-bugle-report.docx",
+      "dependencies": []
+    },
+    "TryHackme Daily Bugle Report 1.docx": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 1165733,
+      "exportedPath": "tryhackme-daily-bugle-report-1.docx",
+      "dependencies": []
+    },
+    "TryHackme Daily Bugle Report 2.docx": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 1165733,
+      "exportedPath": "tryhackme-daily-bugle-report-2.docx",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240826095948.png": {
+      "modifiedTime": 1724634180403,
+      "sourceSize": 237289,
+      "exportedPath": "lib/media/pasted-image-20240826095948.png",
+      "dependencies": []
+    },
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/1. Summary.md": {
+      "modifiedTime": 1724736681244,
+      "sourceSize": 7456,
+      "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/eng/1.-summary.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/2.  Active Reconnaissance.md": {
+      "modifiedTime": 1724736681244,
+      "sourceSize": 17695,
+      "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/eng/2.-active-reconnaissance.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/Eng.md": {
+      "modifiedTime": 1724736681244,
+      "sourceSize": 0,
+      "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/eng/eng.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/3. Nmap 라이브 호스트 검색1.md": {
+      "modifiedTime": 1724736681244,
+      "sourceSize": 37246,
+      "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/kor/3.-nmap-라이브-호스트-검색1.html",
       "dependencies": []
     }
   }
