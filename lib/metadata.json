@@ -1,6 +1,6 @@
 {
   "vaultName": "Obsidian Vault",
-  "lastExport": 1724736681244,
+  "lastExport": 1725340051559,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon ctp-latte ctp-mocha ctp-accent-rosewater anuppuccin-accent-toggle anp-h1-red anp-h2-peach anp-h3-green anp-h4-teal anp-h5-lavender anp-h6-mauve anp-bold-red anp-italic-green anp-highlight-yellow",
   "useCustomHeadContent": true,
@@ -54,8 +54,13 @@
     "Achive/tryhackme/보고서  Report/Kor/Kor.md",
     "Achive/tryhackme/보고서  Report/Kor/TryHackme Relevant(Kor).md",
     "Achive/tryhackme/보고서  Report/보고서  Report.md",
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/ 6. Protocol and Server.md",
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/1. Summary.md",
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/2.  Active Reconnaissance.md",
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/3. Nmap Live Host Search.md",
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/4. Nmap Basic Port Scan.md",
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/5. Nmap Post Port Scan.md",
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/7. Protocol and Server 2.md",
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/Eng.md",
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/1. 수동 정찰.md",
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/2. 적극적 정찰.md",
@@ -93,6 +98,8 @@
     "Achive/tryhackme/Jr Penetration Tester/웹 해킹 소개/Kor/Kor.md",
     "Achive/tryhackme/Jr Penetration Tester/웹 해킹 소개/무제 파일.md",
     "Achive/tryhackme/Jr Penetration Tester/웹 해킹 소개/웹 해킹 소개.md",
+    "Achive/tryhackme/Jr Penetration Tester/취약점 연구/Eng/1. Vulnerability 101.md",
+    "Achive/tryhackme/Jr Penetration Tester/취약점 연구/Eng/2. Vulnerability Exploitation.md",
     "Achive/tryhackme/Jr Penetration Tester/취약점 연구/Kor/1. 취약점 101.md",
     "Achive/tryhackme/Jr Penetration Tester/취약점 연구/Kor/2. 취약점 악용.md",
     "Achive/tryhackme/Jr Penetration Tester/취약점 연구/Kor/Kor.md",
@@ -140,8 +147,10 @@
     "Project/서버 관리/MSSQL/MSSQL.md",
     "Project/서버 관리/서버 관리.md",
     "Project/해킹 및 보안 대응/해킹 대응/Eng/1st Hacking Response.md",
+    "Project/해킹 및 보안 대응/해킹 대응/Eng/2st Hacking Response.md",
     "Project/해킹 및 보안 대응/해킹 대응/Eng/Eng.md",
     "Project/해킹 및 보안 대응/해킹 대응/Kor/서버 1차 해킹 대응.md",
+    "Project/해킹 및 보안 대응/해킹 대응/Kor/서버 2차 해킹 대응.md",
     "Project/해킹 및 보안 대응/해킹 대응/Kor/Kor.md",
     "Project/해킹 및 보안 대응/해킹 대응/해킹 대응.md",
     "Project/해킹 및 보안 대응/해킹 및 보안 대응.md",
@@ -175,10 +184,15 @@
     "OSCP relevant 1.docx",
     "Pasted image 20240821095000.png",
     "Pasted image 20240826095948.png",
+    "Pasted image 20240829100537.png",
+    "Pasted image 20240829100556.png",
+    "Server Initial Hacking Response.md",
     "TryHackme Daily Bugle Report.docx",
     "TryHackme Daily Bugle Report 1.docx",
     "TryHackme Daily Bugle Report 2.docx",
     "Vault.md",
+    "lib/media/pasted-image-20240829100556.png",
+    "lib/media/pasted-image-20240829100537.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -195,6 +209,28 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -232,6 +268,28 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -880,193 +938,193 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1724736681244,
-      "sourceSize": 205009,
+      "modifiedTime": 1725340051559,
+      "sourceSize": 215426,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1724736681244,
-      "sourceSize": 13289,
+      "modifiedTime": 1725340051559,
+      "sourceSize": 14368,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 11716,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 272363,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 350,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 3139,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
@@ -1198,8 +1256,8 @@
       "dependencies": []
     },
     "lib/html/custom-head-content.html": {
-      "modifiedTime": 1724736681244,
-      "sourceSize": 200914,
+      "modifiedTime": 1725340051559,
+      "sourceSize": 208917,
       "exportedPath": "lib/html/custom-head-content.html",
       "dependencies": []
     },
@@ -1312,8 +1370,8 @@
       "dependencies": []
     },
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/3. Nmap 라이브 호스트 검색.md": {
-      "modifiedTime": 1724736681244,
-      "sourceSize": 37245,
+      "modifiedTime": 1725340051559,
+      "sourceSize": 37246,
       "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/kor/3.-nmap-라이브-호스트-검색.html",
       "dependencies": []
     },
@@ -1324,14 +1382,14 @@
       "dependencies": []
     },
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/5. Nmap 포스트 포트 스캔.md": {
-      "modifiedTime": 1724398330528,
-      "sourceSize": 29156,
+      "modifiedTime": 1725340051559,
+      "sourceSize": 29157,
       "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/kor/5.-nmap-포스트-포트-스캔.html",
       "dependencies": []
     },
     "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Kor/6. 프로토콜 및 서버.md": {
-      "modifiedTime": 1724398330528,
-      "sourceSize": 10473,
+      "modifiedTime": 1725340051559,
+      "sourceSize": 10474,
       "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/kor/6.-프로토콜-및-서버.html",
       "dependencies": []
     },
@@ -1366,133 +1424,133 @@
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1724398330528,
+      "modifiedTime": 1725340051559,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
@@ -1568,7 +1626,7 @@
       "dependencies": []
     },
     "/Users/media$CP relevant 1.docx": {
-      "modifiedTime": 1724736681244,
+      "modifiedTime": 1725340051559,
       "sourceSize": 162,
       "exportedPath": "/users/media$cp-relevant-1.docx",
       "dependencies": []
@@ -1638,6 +1696,96 @@
       "sourceSize": 37246,
       "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/kor/3.-nmap-라이브-호스트-검색1.html",
       "dependencies": []
+    },
+    "Project/해킹 및 보안 대응/해킹 대응/Kor/서버 2차 해킹 대응.md": {
+      "modifiedTime": 1724894851412,
+      "sourceSize": 4004,
+      "exportedPath": "project/해킹-및-보안-대응/해킹-대응/kor/서버-2차-해킹-대응.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240829100556.png",
+        "lib/media/pasted-image-20240829100537.png"
+      ]
+    },
+    "Pasted image 20240829100537.png": {
+      "modifiedTime": 1724894851412,
+      "sourceSize": 32385,
+      "exportedPath": "pasted-image-20240829100537.png",
+      "dependencies": []
+    },
+    "Pasted image 20240829100556.png": {
+      "modifiedTime": 1724894851412,
+      "sourceSize": 32385,
+      "exportedPath": "pasted-image-20240829100556.png",
+      "dependencies": []
+    },
+    "Server Initial Hacking Response.md": {
+      "modifiedTime": 1724894851412,
+      "sourceSize": 0,
+      "exportedPath": "server-initial-hacking-response.html",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240829100556.png": {
+      "modifiedTime": 1725340051559,
+      "sourceSize": 32385,
+      "exportedPath": "lib/media/pasted-image-20240829100556.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240829100537.png": {
+      "modifiedTime": 1725340051559,
+      "sourceSize": 32385,
+      "exportedPath": "lib/media/pasted-image-20240829100537.png",
+      "dependencies": []
+    },
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/ 6. Protocol and Server.md": {
+      "modifiedTime": 1725340051559,
+      "sourceSize": 8216,
+      "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/eng/-6.-protocol-and-server.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/3. Nmap Live Host Search.md": {
+      "modifiedTime": 1725340051559,
+      "sourceSize": 24011,
+      "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/eng/3.-nmap-live-host-search.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/4. Nmap Basic Port Scan.md": {
+      "modifiedTime": 1725340051559,
+      "sourceSize": 12824,
+      "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/eng/4.-nmap-basic-port-scan.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/5. Nmap Post Port Scan.md": {
+      "modifiedTime": 1725340051559,
+      "sourceSize": 24923,
+      "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/eng/5.-nmap-post-port-scan.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/Jr Penetration Tester/네트워크 보안/Eng/7. Protocol and Server 2.md": {
+      "modifiedTime": 1725340051559,
+      "sourceSize": 10538,
+      "exportedPath": "achive/tryhackme/jr-penetration-tester/네트워크-보안/eng/7.-protocol-and-server-2.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/Jr Penetration Tester/취약점 연구/Eng/1. Vulnerability 101.md": {
+      "modifiedTime": 1725340051559,
+      "sourceSize": 9768,
+      "exportedPath": "achive/tryhackme/jr-penetration-tester/취약점-연구/eng/1.-vulnerability-101.html",
+      "dependencies": []
+    },
+    "Achive/tryhackme/Jr Penetration Tester/취약점 연구/Eng/2. Vulnerability Exploitation.md": {
+      "modifiedTime": 1725340051559,
+      "sourceSize": 8224,
+      "exportedPath": "achive/tryhackme/jr-penetration-tester/취약점-연구/eng/2.-vulnerability-exploitation.html",
+      "dependencies": []
+    },
+    "Project/해킹 및 보안 대응/해킹 대응/Eng/2st Hacking Response.md": {
+      "modifiedTime": 1725340051559,
+      "sourceSize": 3637,
+      "exportedPath": "project/해킹-및-보안-대응/해킹-대응/eng/2st-hacking-response.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240829100556.png",
+        "lib/media/pasted-image-20240829100537.png"
+      ]
     }
   }
 }
