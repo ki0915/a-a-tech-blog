@@ -1,6 +1,6 @@
 {
   "vaultName": "Obsidian Vault",
-  "lastExport": 1727403349530,
+  "lastExport": 1727685313273,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon ctp-latte ctp-mocha ctp-accent-rosewater anuppuccin-accent-toggle anp-h1-red anp-h2-peach anp-h3-green anp-h4-teal anp-h5-lavender anp-h6-mauve anp-bold-red anp-italic-green anp-highlight-yellow",
   "useCustomHeadContent": true,
@@ -136,7 +136,9 @@
     "Excalidraw/Drawing 2024-08-16 13.42.08.excalidraw.md",
     "Excalidraw/Drawing 2024-08-16 13.46.22.excalidraw.md",
     "Excalidraw/Drawing 2024-08-16 13.46.56.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-30 11.02.58.excalidraw.md",
     "Excalidraw/Pasted image 20240816134824.png",
+    "Excalidraw/Untitled.md",
     "Project/서버 관리/Docker/Eng/Eng.md",
     "Project/서버 관리/Docker/Eng/Ubuntu Docker Capacity Management(Eng).md",
     "Project/서버 관리/Docker/kor/우분투 Docker 용량 관리.md",
@@ -175,6 +177,12 @@
     "Resource/Sever Manage/Zombie Process/Kor/Kor.md",
     "Resource/Sever Manage/Zombie Process/Zombie Process.md",
     "Resource/Sever Manage/Sever Manage.md",
+    "Resource/Web Hack/Blind SQL Injection.md",
+    "Resource/Web Hack/Cross-Origin Resource Sharing (cors).md",
+    "Resource/Web Hack/CSRF(교차 사이트 요청 위조).md",
+    "Resource/Web Hack/Same Origin Policy(Sop).md",
+    "Resource/Web Hack/Web Hack.md",
+    "Resource/Web Hack/XSS.md",
     "Resource/Resource.md",
     "Template/무제 파일.md",
     "Template/무제 파일 1.md",
@@ -201,18 +209,15 @@
     "Pasted image 20240927105919.png",
     "Pasted image 20240927110427.png",
     "Pasted image 20240927111529.png",
+    "Pasted image 20240930110625.png",
+    "Pasted image 20240930142735.png",
     "Server Initial Hacking Response.md",
     "TryHackme Daily Bugle Report.docx",
     "TryHackme Daily Bugle Report 1.docx",
     "TryHackme Daily Bugle Report 2.docx",
     "Vault.md",
-    "lib/media/pasted-image-20240927105105.png",
-    "lib/media/pasted-image-20240927105753.png",
-    "lib/media/pasted-image-20240927105919.png",
-    "lib/media/pasted-image-20240927110427.png",
-    "lib/media/pasted-image-20240927111529.png",
-    "lib/media/pasted-image-20240923102354.png",
-    "lib/media/pasted-image-20240923150626.png",
+    "lib/media/pasted-image-20240930110625.png",
+    "lib/media/pasted-image-20240930142735.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -246,6 +251,13 @@
     "lib/styles/global-variable-styles.css",
     "lib/styles/main-styles.css",
     "lib/styles/snippets.css",
+    "lib/media/pasted-image-20240927105105.png",
+    "lib/media/pasted-image-20240927105753.png",
+    "lib/media/pasted-image-20240927105919.png",
+    "lib/media/pasted-image-20240927110427.png",
+    "lib/media/pasted-image-20240927111529.png",
+    "lib/media/pasted-image-20240923102354.png",
+    "lib/media/pasted-image-20240923150626.png",
     "lib/media/pasted-image-20240826095948.png",
     "lib/media/pasted-image-20240829100556.png",
     "lib/media/pasted-image-20240829100537.png",
@@ -612,8 +624,8 @@
       "dependencies": []
     },
     "Excalidraw/Drawing 2024-08-16 13.46.56.excalidraw.md": {
-      "modifiedTime": 1724043773061,
-      "sourceSize": 12138,
+      "modifiedTime": 1727685313273,
+      "sourceSize": 9718,
       "exportedPath": "excalidraw/drawing-2024-08-16-13.46.56.excalidraw.html",
       "dependencies": []
     },
@@ -916,193 +928,193 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1727403349530,
-      "sourceSize": 230655,
+      "modifiedTime": 1727685313273,
+      "sourceSize": 239327,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1727403349530,
-      "sourceSize": 14799,
+      "modifiedTime": 1727685313273,
+      "sourceSize": 15368,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 11716,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 272363,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 350,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 3139,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
@@ -1234,8 +1246,8 @@
       "dependencies": []
     },
     "lib/html/custom-head-content.html": {
-      "modifiedTime": 1727403349530,
-      "sourceSize": 215426,
+      "modifiedTime": 1727685313273,
+      "sourceSize": 230655,
       "exportedPath": "lib/html/custom-head-content.html",
       "dependencies": []
     },
@@ -1604,7 +1616,7 @@
       "dependencies": []
     },
     "/Users/media$CP relevant 1.docx": {
-      "modifiedTime": 1727403349530,
+      "modifiedTime": 1727685313273,
       "sourceSize": 162,
       "exportedPath": "/users/media$cp-relevant-1.docx",
       "dependencies": []
@@ -1905,6 +1917,82 @@
       "modifiedTime": 1727403349530,
       "sourceSize": 109264,
       "exportedPath": "lib/media/pasted-image-20240923150626.png",
+      "dependencies": []
+    },
+    "Excalidraw/Drawing 2024-09-30 11.02.58.excalidraw.md": {
+      "modifiedTime": 1727685313273,
+      "sourceSize": 6302,
+      "exportedPath": "excalidraw/drawing-2024-09-30-11.02.58.excalidraw.html",
+      "dependencies": []
+    },
+    "Excalidraw/Untitled.md": {
+      "modifiedTime": 1727685313273,
+      "sourceSize": 0,
+      "exportedPath": "excalidraw/untitled.html",
+      "dependencies": []
+    },
+    "Resource/Web Hack/Blind SQL Injection.md": {
+      "modifiedTime": 1727685313273,
+      "sourceSize": 1150,
+      "exportedPath": "resource/web-hack/blind-sql-injection.html",
+      "dependencies": []
+    },
+    "Resource/Web Hack/Cross-Origin Resource Sharing (cors).md": {
+      "modifiedTime": 1727685313273,
+      "sourceSize": 1326,
+      "exportedPath": "resource/web-hack/cross-origin-resource-sharing-(cors).html",
+      "dependencies": []
+    },
+    "Resource/Web Hack/CSRF(교차 사이트 요청 위조).md": {
+      "modifiedTime": 1727685313273,
+      "sourceSize": 1012,
+      "exportedPath": "resource/web-hack/csrf(교차-사이트-요청-위조).html",
+      "dependencies": []
+    },
+    "Resource/Web Hack/Same Origin Policy(Sop).md": {
+      "modifiedTime": 1727685313273,
+      "sourceSize": 1443,
+      "exportedPath": "resource/web-hack/same-origin-policy(sop).html",
+      "dependencies": [
+        "lib/media/pasted-image-20240930110625.png"
+      ]
+    },
+    "Resource/Web Hack/Web Hack.md": {
+      "modifiedTime": 1727685313273,
+      "sourceSize": 0,
+      "exportedPath": "resource/web-hack/web-hack.html",
+      "dependencies": []
+    },
+    "Resource/Web Hack/XSS.md": {
+      "modifiedTime": 1727685313273,
+      "sourceSize": 1768,
+      "exportedPath": "resource/web-hack/xss.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240930142735.png"
+      ]
+    },
+    "Pasted image 20240930110625.png": {
+      "modifiedTime": 1727685313273,
+      "sourceSize": 13129,
+      "exportedPath": "pasted-image-20240930110625.png",
+      "dependencies": []
+    },
+    "Pasted image 20240930142735.png": {
+      "modifiedTime": 1727685313273,
+      "sourceSize": 19218,
+      "exportedPath": "pasted-image-20240930142735.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240930110625.png": {
+      "modifiedTime": 1727685313273,
+      "sourceSize": 13129,
+      "exportedPath": "lib/media/pasted-image-20240930110625.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240930142735.png": {
+      "modifiedTime": 1727685313273,
+      "sourceSize": 19218,
+      "exportedPath": "lib/media/pasted-image-20240930142735.png",
       "dependencies": []
     }
   }

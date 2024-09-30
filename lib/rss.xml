@@ -1,4 +1,88 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 27 Sep 2024 02:15:51 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 27 Sep 2024 02:15:49 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[드림핵 워게임]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 30 Sep 2024 08:35:15 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 30 Sep 2024 08:35:13 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Untitled]]></title><description><![CDATA[ 
+ ]]></description><link>excalidraw\untitled.html</link><guid isPermaLink="false">Excalidraw/Untitled.md</guid><pubDate>Mon, 30 Sep 2024 02:02:47 GMT</pubDate></item><item><title><![CDATA[Blind SQL Injection]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>해당 공격은 인증 우회 이회에도 데이터베이스의 데이터를 알아낼 수 있습니다. 이때 사용할 수 있는 Blind SQL Injection이 있습니다. 
+<br>해당 공격은 스무고개 게임과 유사한 방식으로 데이터를 알아낼 수 있습니다. 
+<br>ex)<br>
+<br>
+Question #1. dreamhack 계정의 비밀번호 첫 번째 글자는 'x' 인가요?
+
+<br>
+Answer. 아닙니다
+
+<br>
+Question #2. dreamhack 계정의 비밀번호 첫 번째 글자는 'p' 인가요?
+
+<br>
+Answer. 맞습니다 (첫 번째 글자 = p)
+
+<br>
+Question #3. dreamhack 계정의 비밀번호 두 번째 글자는 'y' 인가요?
+
+<br>
+Answer. 아닙니다.
+
+<br>
+Question #4. dreamhack 계정의 비밀번호 두 번째 글자는 'a'인가요?
+
+<br>
+Answer. 맞습니다. (두 번째 글자 = a)
+
+<br>위와 같은 형태로 DBMS가 답변 가능한 형태로 질문하면서 dreamhack 계정의 비밀번호인 password를 알아낼 수 있습니다. 이처럼 질의 결과를 이용자가 화면에서 직접 확인하지 못할 때 참/거짓 반환 결과로 데이터를 획득하는 공격 기법을 Blind SQL Injection이라고 합니다.]]></description><link>resource\web-hack\blind-sql-injection.html</link><guid isPermaLink="false">Resource/Web Hack/Blind SQL Injection.md</guid><pubDate>Mon, 30 Sep 2024 07:21:38 GMT</pubDate></item><item><title><![CDATA[Cross-Origin Resource Sharing (cors)]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>SOP<a data-href="Same Origin Policy(Sop)" href="resource\web-hack\same-origin-policy(sop).html" class="internal-link" target="_self" rel="noopener">Same Origin Policy(Sop)</a>는 "웹 보안"에서 중요하지만, 외부 출처가 허용되는 경우가 있음
+<br>예를 들자면 자바스크립트를 불러오는  script 태그, 이미지, CSS 불러오는 <img referrerpolicy="no-referrer">, img, style  태그등이 있다
+<br>그외에도 웹 서비스에서 다른  츌처의 데이터 처리해야 할 경우도 있다 네이버나 구글처럼 여러 서비스가 연결된 경우
+<br>외와 같은 상황에서 자원을 공유하기 위한 방법이 "교차 출처 리소스 공유(CORS)" 라고 한다. 방법은 CORS와 관련된 HTTP 헤더 추가하여 전송하는 것이다.<br>발신 <br>발신측 HTTP 요청<br>
+OPTIONS /whoami HTTP /1.1<br>
+Host: theroi.<br>
+Connection: keep-alive<br>
+Access-Control-Reqvest-method: POST<br>
+Access-control -Requers-Headersi Content-type<br>
+Origin: <a rel="noopener" class="external-link" href="https://desannact.:0" target="_blank">https://desannact.:0</a> Acceoti<br>
+Refers: inttosin dorearhack:.<br>
+서버 응답 <br>Http/1.1 200 ok<br>
+Access -Control -Allow- origin: <a rel="noopener" class="external-link" href="https://dreamhack.!o" target="_blank">https://dreamhack.!o</a> -)헤더값 해당하는 오리진 요청만<br>
+Access-Control-Allow-Mehod: Post,657, OPTBONS → 헤더값에 해당하는 메소드의 요청인가?! Access- control- Allow-credentislsi time -&gt; 쿠키 사용여부판단<br>
+Access. Control·Allon-Henders content -TYPE→ 헤더값에 해당하는 헤더의 사용 여부 나타냄]]></description><link>resource\web-hack\cross-origin-resource-sharing-(cors).html</link><guid isPermaLink="false">Resource/Web Hack/Cross-Origin Resource Sharing (cors).md</guid><pubDate>Mon, 30 Sep 2024 05:22:29 GMT</pubDate></item><item><title><![CDATA[CSRF(교차 사이트 요청 위조)]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>클라이언트 사이트 취약점
+<br>웹 서비스 상에서 우리는 "서명"과 같은 역할을 한다. 서명과 관련된 범죄가 서명된 위조조치를 만드는 것처럼 웹 해킹 기법에도 대응된다.
+<br>이를 CSRF는 위와 비슷하게 이용자를 속여서 "의도되지" 않은 요청에 용이하게 하는 공격이다.
+<br>
+XSS와 CSRF 차이
+<br>공통점:<br>
+<br>두 개의 취약점은 모두 클라이언트 대상으로 하는 공격이며 이용자가 악성 스크립트가 포함된 페이지에 접속하도록 유도해야 한다.
+<br>차이점:<br>
+<br>XSS는 인증 정보인 세션 및 쿠키 정보 탈취를 목적으로 삼으며 공격할 사이트의 "오리진"에서 스크립트를 실행시킨다.
+<br>CSRF는 "임의의 페이지" HTTP 요청을 보내는 것을 목적으로 공격입니다.
+<br>또한 공격자는 페이지에 접근한 이용자의 권한으로 웹서비스의 임의 기능을 사용할 수 있다.
+<br>
+]]></description><link>resource\web-hack\csrf(교차-사이트-요청-위조).html</link><guid isPermaLink="false">Resource/Web Hack/CSRF(교차 사이트 요청 위조).md</guid><pubDate>Mon, 30 Sep 2024 05:46:02 GMT</pubDate></item><item><title><![CDATA[Same Origin Policy(Sop)]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>이용자가 웹 서비스를 이용할 때 브라우저는 http 요청에 쿠키를 넣어서 보냄
+<br><img alt="Pasted image 20240930110625.png" src="lib\media\pasted-image-20240930110625.png"><br>
+<br>브라우저는 웹 리소스를 통해서 간접적으로  사이트에 접근할때 인증 정보인 쿠키를 같이 보냄
+<br>이때 쿠키나 세션 응답 기타 정보를 악의적인 페이지에서 읽거나 탈취하면 취약해짐
+<br>그래서 SOP는 동일한 출처에만 응답을 허용합니다. 
+<br>다른 사이트 참조하는 스크립트 만들고 쿠키 권한으로 실행하면 다른 참고 파일이나 스크립트가 악성 스크립트나 쉘이면 큰일<br>
+**좀 더 정확이 말하면 자기 자신과 같은 Origin으로부터만 접근 가능<br><br><br>구성: 프로토콜, 포트, 호스트<br>   프토토콜  호스트       경로             포트<br>
+ex) https://same-origin/frame.html:6060<br>htpps://same-origin.com/ -&gt; 이라는 오리진과 URL 비교<br>]]></description><link>resource\web-hack\same-origin-policy(sop).html</link><guid isPermaLink="false">Resource/Web Hack/Same Origin Policy(Sop).md</guid><pubDate>Mon, 30 Sep 2024 02:22:07 GMT</pubDate><enclosure url="lib\media\pasted-image-20240930110625.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240930110625.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Web Hack]]></title><description><![CDATA[ 
+ ]]></description><link>resource\web-hack\web-hack.html</link><guid isPermaLink="false">Resource/Web Hack/Web Hack.md</guid><pubDate>Mon, 30 Sep 2024 02:00:42 GMT</pubDate></item><item><title><![CDATA[XSS]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>클라이언트 단에 있는 대표적인 취약점
+<br>이를 통해 세션 및 쿠키 정보를 탈취하고 해당 버전으로 임의의 기능 수행 가능
+<br>이 취약점의 대표적인 문제는 클라이언트 단, 웹 브라우저에서 해커가 웹 리소스에 포함시킨 악성 스크립트 실행시켜서 그렇다
+<br><img alt="Pasted image 20240930142735.png" src="lib\media\pasted-image-20240930142735.png"><br>
+XSS의 형태
+<br><br>Stored XXS<br>
+<br>주로 게시물이나 댓글에 악성 스크립트를 포함해 업로드하는 방식
+<br>Reflected xss<br>
+<br>서버가 악성 스크립트가 담긴 요청을 "출력"할 때 발생 일부 서비스에서는 검색 결과를 상담에 포함하는데 검색 문자열에 포함하는데 검색 문자열에 악성 스크립트가 포함되어 있다면 Reflected XSS 발생할 수 있다
+<br>이런 Stored XSS와 다르게 URL과 같은 사용자 요청에 의해 발생
+<br>이용자에게 직접 링크 전달하는 것은 악성 스크립트 포함 여부를 이용자가 눈치챌 수 있기에 주로 Click 재킹 또는 Open Reired 등의 취약점과 연계
+<br>
+]]></description><link>resource\web-hack\xss.html</link><guid isPermaLink="false">Resource/Web Hack/XSS.md</guid><pubDate>Mon, 30 Sep 2024 05:37:24 GMT</pubDate><enclosure url="lib\media\pasted-image-20240930142735.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240930142735.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[드림핵 워게임]]></title><description><![CDATA[ 
  ]]></description><link>achive\dreamhack\드림핵-워게임\드림핵-워게임.html</link><guid isPermaLink="false">Achive/DreamHack/드림핵 워게임/드림핵 워게임.md</guid><pubDate>Fri, 27 Sep 2024 01:48:53 GMT</pubDate></item><item><title><![CDATA[ShellBasic]]></title><description><![CDATA[ 
  <br><br><br><br><img alt="Pasted image 20240927105105.png" src="lib\media\pasted-image-20240927105105.png"><br><br><br>저희는 파일의 위치가 /home/shell_basic/flag_name_is_loooooong 라는 것을 알아냈습니다. 이를 Shellcode 공부 때에 사용한 방법 그대로 공격에 사용이 가능합니다.<br>문제에서는 execve의 사용을 금지하였으니 저는 orw 쉘코드를 사용하여 문제를 해결하고자 합니다.<br>이때에 주의를 해야할 것은 그 위치가 리틀 엔디안 방식으로 입력해야하기 때문에 반대로 입력해야 한다는 것입니다. 그리고 반대시 가장 먼저 스택에 널 값을 입력하여 끝을 표시해야 합니다. 안 그러면 이상한 값까지 같이 딸려오기 때문입니다. 이를 어셈블리로 변환하면 아래와 같은 형태입니다.<br>    // 스택에 문자열을 위한 공간을 할당
     "push 0x0\n"               
