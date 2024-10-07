@@ -1,4 +1,113 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 30 Sep 2024 08:35:15 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 30 Sep 2024 08:35:13 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Untitled]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Obsidian Vault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 07 Oct 2024 02:37:02 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 07 Oct 2024 02:37:00 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[파일 업로드 취약점  ]]></title><description><![CDATA[ 
+ <br><br><br>웹 서비스를 통해 이용자의 파일을 서버의 파일 시스템에 업로드하는 과정에서 발생하는 보안 취약점이며, 이용자가 업로드될 파일의 이름을 임의로 정할 수 있을 때 발생  <br>이름에 이용자가 입력한 문자열을 그대로 사용하거나, 이용자의 이메일, 닉네임 등을 포함시키는 등의 소스 코드 패턴이 이러한 취약점을 발생시킬 수 있다.  파일 업로드 취약점은 크게 Path Traversal과 악성 파일 업로드로 분류  <br>Path Traversal 취약점은 업로드에 존재하는 이러한 제약을 우회하여, 임의 디렉터리에 파일을 업로드할 수 있는 취약점<br>
+예를 들어, 공격자가 ../와 같은 메타문자를 사용하면 uploads를 벗어나 상위 디렉터리에도 파일을 업로드할 수 있습니다.  <br><br><br>
+웹 셸  
+<br>웹 서버는 .php, .jsp, .asp와 같은 확장자의 파일을 Common Gateway Interface(CGI)로 실행하고, 그 결과를 이용자에게 반환합니다. 아래는 이용자가 요청한 파일의 확장자가 정규표현식 ".+.ph(p[3457]?|t|tml)$"를 만족하면, x-httpd-php로 핸들링하게 하는 Apache 설정 파일입니다. x-httpd-php는 PHP 엔진이며 요청한 파일을 실행하고, 그 결과를 반환합니다. .php, .php3, .phtml이 위의 정규표현식을 만족합니다.  <br>Apache 설정 파일<br>
+&lt;FilesMatch ".+.ph(p[3457]?|t|tml)$"&gt;<br>
+SetHandler application/x-httpd-php<br>
+  <br>많은 웹 서버들이 php파일에 대해 위와 같은 핸들링을 지원합니다. 따라서 공격자가 임의의 php 소스 파일을 .php 확장자로 업로드하고, GET 요청을 보낼 수 있다면 CGI에 의해 해당 코드가 실행되도록 할 수 있습니다.  <br>
+악의적인 웹 리소스  
+<br>웹 브라우저는 파일의 확장자나 응답의 Content-Type에 따라 요청을 다양하게 처리합니다. 만약 요청한 파일의 확장자가 .html 이거나, 반환된 Content-Type 헤더가 text/html일 경우 응답은 HTML 엔진으로 처리됩니다. 또, 파일의 확장자가 .png, .jpg등의 이미지 확장자이거나, Content-Type이 image/png일 경우에는 이미지로 렌더링됩니다.  <br>만약 공격자가 서버에 exploit.html을 업로드하고, 이에 접근하는 URL이&nbsp;<a rel="noopener" class="external-link" href="https://dreamhack.io/uploads/exploit.html" target="_blank">https://dreamhack.io/uploads/exploit.html</a>이라면, 브라우저는 이를 HTML로 해석됩니다. exploit.html에 악의적인 스크립트를 삽입하면, Cross-Site-Scripting (XSS) 공격으로 이어질 수 있습니다.  <br>
+파일 다운로드 취약점  
+<br>파일 다운로드 취약점은 웹 서비스를 통해 서버의 파일 시스템에존재하는 파일을 내려 받는 과정에 발생하는 취약점  <br>이용자가 다운로드할 파일을 임의로 정할 수 있을 때 발생합니다.  <br>웹 서비스는 이용자가 업로드한 파일을 다운로드 받거나 이미지를 불러올 때 특정 디렉토리만 다운로드 받도록 해야하는데 그러지<br>
+않은 경우 중요한 정보까지 다운받을 수 있다  <br>모든 페이지에서 일관되게 상위 디렉터리 이동 시도를 차단해야 합니다. ".." 외에도 파일 시스템에 대해 부적절한 접근을 시도할 수 있는 문자열은 다음과 같습니다.  <br>문자열  <br>역할 및 설명  <br>/  <br>파일 경로에서 디렉터리 구분자로 사용됩니다.  <br>\  <br>Windows 운영 체제에서 파일 경로에서 디렉터리 구분자로 사용됩니다.  <br>:  <br>Windows 운영 체제에서 드라이브와 파일 경로를 구분하는데 사용됩니다.  <br>~  <br>홈 디렉터리를 나타내는데 사용됩니다.저장해야 하는데이터가 많아지면 데이터베이스 용량의한계에 다다를 수 있는 단점이 있습니다 이를 해결하기 위해 등장한<br>
+것이 비관계형 데이터 베이스 즉 Non-Relational DBMS입니다.  <br>관계형 데이터 베이스에서는 문제점으로 SQL INJECTION이 발생했씁니다. 공격자는 이를 통해 데이터베이스의 정보를 알아내거나<br>
+임의의 결과를 반환해 인증을 우회하는 것이 가능했습니다. NoSQL 또한 이용자의 입력값을 통해 동적으로 쿼리를 생성해 데이터를 저장하기 때문에 이와 같은 문제점이 발생할 수 있습니다.  <br>NoSQL은 SQL을 사용하지 않고 복잡하지 않은 데이터를 저장해 단순검색 및 조회가 가능<br>
+이외에도 키-값을 사용해 데이터를 저장하는 차이점이 존재한다.]]></description><link>resource\web-hack\파일-업로드-취약점-.md\파일-업로드-취약점-.md.html</link><guid isPermaLink="false">Resource/Web Hack/파일 업로드 취약점  .md</guid><pubDate>Mon, 07 Oct 2024 02:05:35 GMT</pubDate></item><item><title><![CDATA[Command Injection]]></title><description><![CDATA[ 
+ <br><br><br>웹 애플리케이션 제작용언어는 시스템에 내장되어 있는 프로그래들을 호출할 수 있는 함수 지원한다.<br>
+PHP의 System, Node.js의 Child_process, 파이썬의 os.system이 있다. 이러한 특성을 이용하여 Command Injection이 수행 가능하다.<br>
+인젝션(Injection)은 악의적인 데이터를 프로그램에 입력하여 이를 시스템 명령어, 코드, 데이터베이스 쿼리 등으로 실행되게 하는 기법이다. 이 중, 이용자의 입력을 시스템 명령어로 실행하게 하는 취약점을 Command Injection이라고 부릅니다.  <br>
+지원하는 메타 문자들  
+<br>()안에 들어있는 명령어를 실행한 결과로 치환됩니다. 이 문자는 위와 다르게 중복 사용이 가능합니다. (echo $(echo $(echo theori)))  <br> echo $(echo theori)<br>
+theori  <br>&amp;&amp; - 명령어 연속 실행<br>
+한 줄에 여러 명령어를 사용하고 싶을 때 사용합니다. 앞 명령어에서 에러가 발생하지 않아야 뒷 명령어를 실행합니다. (Logical And)  <br>&amp;&amp; example<br>
+$ echo hello &amp;&amp; echo theori<br>
+hello<br>
+theori  <br>|| - 명령어 연속 실행<br>
+한 줄에 여러 명령어를 사용하고 싶을 때 사용합니다. 앞 명령어에서 에러가 발생해야 뒷 명령어를 실행합니다. (Logical Or)  <br>|| example<br>
+$ cat / || echo theori<br>
+cat: /: Is a directory<br>
+theori  <br>; - 명령어 구분자<br>
+한 줄에 여러 명령어를 사용하고 싶을 때 사용합니다. ;은 단순히 명령어를 구분하기 위해 사용하며, 앞 명령어의 에러 유무와 관계 없이 뒷 명령어를 실행합니다.  <br>; example<br>
+$ echo hello ; echo theori<br>
+hello<br>
+theori  <br>| - 파이프<br>
+앞 명령어의 결과가 뒷 명령어의 입력으로 들어갑니다.  <br>| example<br>
+$ echo id | /bin/sh<br>
+uid=1001(theori) gid=1001(theori) groups=1001(theori)]]></description><link>resource\web-hack\command-injection.html</link><guid isPermaLink="false">Resource/Web Hack/Command Injection.md</guid><pubDate>Mon, 07 Oct 2024 02:03:26 GMT</pubDate></item><item><title><![CDATA[NOSQL INJECTION]]></title><description><![CDATA[ 
+ <br><br><br>저장해야 하는데이터가 많아지면 데이터베이스 용량의한계에 다다를 수 있는 단점이 있습니다 이를 해결하기 위해 등장한  것이 비관계형 데이터 베이스 즉 Non-Relational DBMS이다.  <br>관계형 데이터 베이스에서는 문제점으로 SQL INJECTION이 발생했씁니다. 공격자는 이를 통해 데이터베이스의 정보를 알아내거나   임의의 결과를 반환해 인증을 우회하는 것이 가능했습니다. NoSQL 또한 이용자의 입력값을 통해 동적으로 쿼리를 생성해 데이터를 저장하기 때문에 이와 같은 문제점이 발생할 수 있다.  <br>NoSQL은 SQL을 사용하지 않고 복잡하지 않은 데이터를 저장해 단순검색 및 조회가 가능<br>
+이외에도 키-값을 사용해 데이터를 저장하는 차이점이 존재한다.  <br><br><br>
+public
+<br>eq : 지정된 값과 같은 값을 찾습니다.<br>
+in: 배열 안의 값들과 일치하는 값을 찾습니다.<br>
+ne: 지정된 값과 같지 않은 값을 찾습니다.<br>
+nin: 배열 안에 일치하지 않는 값을 찾습니다.  <br>
+Logical  
+<br>and: 논리적 and<br>
+not: 쿼리식의 효과를 반전시킵니다.<br>
+nor: 논리적 NOR<br>
+or: 논리적 or  <br>
+Element  
+<br>exits: 지정된 필드가 있는 문서를 찾습니다.  <br>type: 지정된 필드가 지정된 유형인 문서를 선택합니다.  <br>
+Evaluation  
+<br>expr: 쿼리 언어내에서 집계식을 사용할 수 있습니다.<br>
+regex: 지정된 정규식과 일치하는 문서를 선택합니다.<br>
+text: 지정된 텍스트를 검색합니다.  <br><br><br>// sql과 MongoDB 비교  <br>
+// SELECT  
+<br>
+<br>
+SELECT * FROM account;<br>
+= db.account.find()  
+
+<br>
+SELECT * FROM account WHERE user_id="admin";<br>
+= db.account.find({user_id: "admin"})  
+
+<br>
+SELECT user_idx FROM account WHERE user_id="admin";<br>
+= db.account.find(<br>
+{ user_id: "admin" },<br>
+{ user_idx:1, _id:0 }<br>
+)  
+
+<br>
+/// INSERT  
+<br>
+<br>INSERT INTO account(user_id,user_pw,) VALUES ("guest", "guest");<br>
+= db.account.insertOne({user_id:"guest", user_pw:"guest"});  
+<br>
+///Delete  
+<br>
+<br>
+DELETE FROM account;<br>
+= db.account.remove()  
+
+<br>
+DELETE FROM account WHERE user_id="guest";<br>
+= db.account.remove(<br>
+{user_id: "guest"}<br>
+)  
+
+<br>
+Update  
+<br>
+<br>UPDATE account SET user_id="guest2" WHERE user_idx=2;<br>
+= db.account.updateOne(<br>
+{ user_idx: 2 },<br>
+{ $set: { user_id: "guest2" } }<br>
+)  
+<br>
+Redis  
+<br>Redis는 키-값의 쌍을 가진 데이터를 저장합니다. 제일 큰 특징은 다른 데이터베이스와 다르게 메모리 기반의 DBMS입니다. 메모리에서 접근하기에 작업이 다른 DBMS보다 훨씬 빠르게 수행합니다. 따라서 다양한 서비스에서 임시 데이터를 캐싱하는 용도로 주로 사용하고 있습니다.  <br>$ redis-cli<br>
+<a data-tooltip-position="top" aria-label="http://127.0.0.1:6379/" rel="noopener" class="external-link" href="http://127.0.0.1:6379/" target="_blank">127.0.0.1:6379</a>&gt; SET test 1234 # SET key value<br>
+OK<br>
+<a data-tooltip-position="top" aria-label="http://127.0.0.1:6379/" rel="noopener" class="external-link" href="http://127.0.0.1:6379/" target="_blank">127.0.0.1:6379</a>&gt; GET test # GET key<br>
+"1234"  <br><img alt="📒" src="https://fonts.gstatic.com/s/e/notoemoji/15.1/1f4d2/32.png" referrerpolicy="no-referrer">&nbsp;&nbsp;Redis 명령어 공식 문서  <br><a rel="noopener" class="external-link" href="https://redis.io/commands" target="_blank">https://redis.io/commands</a>  <br><br><br>명령어  <br>구조  <br>설명  <br>GET  <br>GET key  <br>데이터 조회  <br>MGET  <br>MGET key [key ...]  <br>여러 데이터를 조회  <br>SET  <br>SET key value  <br>새로운 데이터 추가  <br>MSET  <br>MSET key value [key value ...]  <br>여러 데이터를 추가  <br>DEL  <br>DEL key [key ...]  <br>데이터 삭제  <br>EXISTS  <br>EXISTS key [key ...]  <br>데이터 유무 확인  <br>INCR  <br>INCR key  <br>데이터 값에 1 더함  <br>DECR  <br>DECR key  <br>데이터 값에 1 뺌  <br>관리 명령어<br>
+명령어  <br>구조  <br>설명  <br>INFO  <br>INFO [section]  <br>DBMS 정보 조회  <br>CONFIG GET  <br>CONFIG GET parameter  <br>설정 조회  <br>CONFIG SET  <br>CONFIG SET parameter value  <br>새로운 설정을 입력  <br><br><br>CouchDB 또한 MongoDB와 같이 JSON 형태인 도큐먼트(Document)를 저장합니다. 이는 웹 기반의 DBMS로, REST API 형식으로 요청을 처리합니다.  <br><br>아래 코드는 HTTP 요청으로 레코드를 업데이트하고, 조회하는 예시입니다.  <br>$ curl -X PUT http://{username}:{password}@localhost:5984/users/guest -d '{"upw":"guest"}'<br>
+{"ok":true,"id":"guest","rev":"1-22a458e50cf189b17d50eeb295231896"}  <br>$ curl http://{username}:{password}@localhost:5984/users/guest<br>
+{"_id":"guest","_rev":"1-22a458e50cf189b17d50eeb295231896","upw":"guest"}  <br>특수 구성 요소  <br>CouchDB에서는 서버 또는 데이터베이스를 위해 다양한 기능을 제공합니다. 그 중 _ 문자로 시작하는 URL, 필드는 특수 구성 요소를 나타냅니다. 다음은 각 구성 요소에 대한 설명입니다. 이 외 자세한 정보는 아래 첨부한 공식 문서를 통해 확인할 수 있습니다.  <br>SERVER<br>
+요소  <br>설명  <br>/  <br>인스턴스에 대한 메타 정보를 반환합니다.  <br>/_all_dbs  <br>인스턴스의 데이터베이스 목록을 반환합니다.  <br>/_utils  <br>관리자페이지로 이동합니다.  <br>Database<br>
+요소  <br>설명  <br>/db  <br>지정된 데이터베이스에 대한 정보를 반환합니다.  <br>/{db}/_all_docs  <br>지정된 데이터베이스에 포함된 모든 도큐먼트를 반환합니다.  <br>/{db}/_find  <br>지정된 데이터베이스에서 JSON 쿼리에 해당하는 모든 도큐먼트를 반환합니다.  <br><img alt="📒" src="https://fonts.gstatic.com/s/e/notoemoji/15.1/1f4d2/32.png" referrerpolicy="no-referrer">&nbsp;&nbsp;CouchDB API 공식 문서  <br><a rel="noopener" class="external-link" href="https://docs.couchdb.org/en/latest/api/index.html" target="_blank">https://docs.couchdb.org/en/latest/api/index.html</a>]]></description><link>resource\web-hack\nosql-injection.html</link><guid isPermaLink="false">Resource/Web Hack/NOSQL INJECTION.md</guid><pubDate>Mon, 07 Oct 2024 02:04:43 GMT</pubDate><enclosure url="https://fonts.gstatic.com/s/e/notoemoji/15.1/1f4d2/32.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://fonts.gstatic.com/s/e/notoemoji/15.1/1f4d2/32.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Untitled]]></title><description><![CDATA[ 
  ]]></description><link>excalidraw\untitled.html</link><guid isPermaLink="false">Excalidraw/Untitled.md</guid><pubDate>Mon, 30 Sep 2024 02:02:47 GMT</pubDate></item><item><title><![CDATA[Blind SQL Injection]]></title><description><![CDATA[ 
  <br><br><br>
 <br>해당 공격은 인증 우회 이회에도 데이터베이스의 데이터를 알아낼 수 있습니다. 이때 사용할 수 있는 Blind SQL Injection이 있습니다. 
